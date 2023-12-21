@@ -1,0 +1,74 @@
+{
+  "totalCount": 0,
+  "nextIndex": 0,
+  "emPolicyTemplates": [
+    {
+      "name": "Test template Deposit 1 - Credit Card",
+      "policyCode": "CC",
+      "status": "ACTIVE",
+      "policyLevel": "enterprise",
+      "policySetting": {
+        "depositRuleId": 1001,
+        "acceptedTender": 8,
+        "isInstallmentEnabled": false
+      },
+      "textList": [
+        {
+          "textType": "ONLINE_CALL_CENTER_MESSAGE",
+          "languageTexts": [
+            {
+              "languageId": 1,
+              "text": "English Test"
+            },
+            {
+              "languageId": 2,
+              "text": "Spainish Test"
+            }
+          ]
+        },
+        {
+          "textType": "POLICY_GDSLINE1_MSG",
+          "languageTexts": [
+            {
+              "languageId": 1,
+              "text": "gds line 1"
+            }
+          ]
+        },
+        {
+          "textType": "POLICY_GDSLINE2_MSG",
+          "languageTexts": [
+            {
+              "languageId": 1,
+              "text": "gds line 2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Test template Deposit 2 - IATA",
+      "policyCode": "IATA",
+      "status": "INACTIVE",
+      "policyLevel": "enterprise",
+      "policySetting": {
+        "acceptedTender": 1,
+        "isInstallmentEnabled": true
+      },
+      "textList": [
+        {
+          "textType": "ONLINE_CALL_CENTER_MESSAGE",
+          "languageTexts": []
+        },
+        {
+          "textType": "POLICY_GDSLINE1_MSG",
+          "languageTexts": []
+        },
+        {
+          "textType": "POLICY_GDSLINE2_MSG",
+          "languageTexts": []
+        }
+      ]
+    }
+  ]
+}

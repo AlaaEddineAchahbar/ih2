@@ -1,0 +1,84 @@
+{
+    "policies": [
+        {
+            "uxGroupName": "policy 1",
+            "uxPolicyLevel": "PROPERTY",
+            "uxPolicyStatus": "INACTIVE",
+            "uxDOW": null,
+            "uxPolicyDateRange": null,
+            "uxPolicyType": "DEFAULT",
+            "uxPolicyTemplateId": "80001",
+            "uxpolicyTemplateName": "policy template 1",
+            "rules": [
+                {
+                    "ruleName": "policy 1",
+                    "auxId": 1,
+                    "auxType": "CANCELLATION_POLICY",
+                    "ruleStartDate": "2021-07-30",
+                    "ruleEndDate": null,
+                    "rulePriority": "1"
+                }
+            ],
+            "uxRatePlanIds": null,
+            "uxRateCategoryIds": null,
+            "uxRateCatalogs": null,
+            "uxpolicyTemplateCode": "code 1"
+        },
+        {
+            "uxGroupName": "policy 2",
+            "uxPolicyLevel": "RATEPLAN",
+            "uxPolicyStatus": "EXPIRED",
+            "uxDOW": "2,3,4,5",
+            "uxPolicyDateRange": "2023-10-01/2023-10-02,2023-10-03/2023-10-04",
+            "uxPolicyType": "DATED",
+            "uxPolicyTemplateId": "80002",
+            "uxpolicyTemplateName": "policy template 2",
+            "rules": [
+                {
+                    "ruleName": "policy 1",
+                    "auxId": 2201,
+                    "auxType": "CANCELLATION_POLICY",
+                    "activeStatus": "Active",
+                    "ruleStartDate": "2022-08-08",
+                    "ruleEndDate": "2022-08-31",
+                    "rulePriority": "99"
+                }
+            ],
+            "uxRatePlanIds": [
+                "1001",
+                "2001"
+            ],
+            "uxRateCategoryIds": null,
+            "uxRateCatalogs": null,
+            "uxpolicyTemplateCode": null
+        },
+        {
+            "uxGroupName": "policy 3",
+            "uxPolicyLevel": "RATECATEGORY",
+            "uxPolicyStatus": "INACTIVE",
+            "uxDOW": "2,3,4,5,6,7,1",
+            "uxPolicyDateRange": "2023-10-26/",
+            "uxPolicyType": "DATED",
+            "uxPolicyTemplateId": "80003",
+            "uxpolicyTemplateName": "policy template 3",
+            "rules": [
+                {
+                    "ruleName": "policy 3",
+                    "auxId": 5647,
+                    "auxType": "CANCELLATION_POLICY",
+                    "ruleStartDate": "2023-10-26",
+                    "ruleEndDate": null,
+                    "rulePriority": "99"
+                }
+            ],
+            "uxRatePlanIds": null,
+            "uxRateCategoryIds": [
+                "1",
+                "2"
+            ],
+            "uxRateCatalogs": null,
+            "uxpolicyTemplateCode": null
+        }
+    ],
+    "totalRecordCount": 3
+}

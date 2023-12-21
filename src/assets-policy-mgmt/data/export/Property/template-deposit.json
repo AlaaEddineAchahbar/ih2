@@ -1,0 +1,32 @@
+{
+    "totalRecordCount": 2,
+    "policyTemplates": [
+        {
+            "name": "template deposit 1",
+            "status": "ACTIVE",
+            "hotelCode": 1001,
+            "ownerId": "1001",
+            "isEnterpriseLevel": false,
+            "id": 9001,
+            "policySetting": {
+                "depositRuleId": 8801,
+                "depositRuleName": "DC rule 1",
+                "acceptedTender": 8,
+                "isInstallmentEnabled": true
+            }
+        },
+        {
+            "name": "template deposit 2",
+            "status": "INACTIVE",
+            "hotelCode": 1001,
+            "ownerId": "AAA",
+            "isEnterpriseLevel": true,
+            "policySetting": {
+                "depositRuleId": 8002,
+                "depositRuleName": "DC rule 2",
+                "acceptedTender": 1,
+                "isInstallmentEnabled": false
+            }
+        }
+    ]
+}

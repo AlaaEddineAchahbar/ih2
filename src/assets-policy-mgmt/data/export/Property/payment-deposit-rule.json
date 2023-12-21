@@ -1,0 +1,53 @@
+{
+    "totalCount": 2,
+    "nextIndex": 0,
+    "paymentDepositRules": [
+        {
+            "depositRuleId": "10000",
+            "name": "DC - Property Owner",
+            "ownerType": "P",
+            "ruleInfo": [
+                {
+                    "status": "ACTIVE",
+                    "chargeDate": "999",
+                    "chargeType": "1",
+                    "chargeAmount": "100.05",
+                    "chargePercentage": "0",
+                    "percentOnEnhancement": "10"
+                },
+                {
+                    "status": "ACTIVE",
+                    "chargeDate": "999",
+                    "chargeType": "1",
+                    "chargeAmount": "0",
+                    "chargePercentage": "10.2",
+                    "percentOnEnhancement": "20"
+                },
+                {
+                    "status": "ACTIVE",
+                    "chargeDate": "999",
+                    "chargeType": "3",
+                    "chargeAmount": "0",
+                    "chargePercentage": "0",
+                    "percentOnEnhancement": "0"
+                }
+            ]
+        },
+        {
+            "depositRuleId": "10001",
+            "name": "DC - Enterprise Owner",
+            "ownerType": "E",
+            "ownerId": "AAM",
+            "ruleInfo": [
+                {
+                    "status": "ACTIVE",
+                    "chargeDate": "999",
+                    "chargeType": "3",
+                    "chargeAmount": "0",
+                    "chargePercentage": "0",
+                    "percentOnEnhancement": "11.1"
+                }
+            ]
+        }
+    ]
+}

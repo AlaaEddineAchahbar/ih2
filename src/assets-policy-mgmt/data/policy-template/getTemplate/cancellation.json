@@ -1,0 +1,47 @@
+{
+    "name": "Test PK Cancel Editable Template10",
+    "policyCode": "ED1210",
+    "status": "ACTIVE",
+    "policySetting": {
+      "cancellationRule": {
+        "chargeType": "ADVANCE_NOTICE",
+        "priorHours": 12,
+        "priorDays": 12
+      },
+      "otaSetting": {
+        "otaChargeType": "NIGHTS_ROOM_TAX",
+        "otaChargeAmount": 0,
+        "otaChargeNights": 12,
+        "otaChargePercentage": 0
+      }
+    },
+    "textList": [
+      {
+        "textType": "online_call_center_message",
+        "languageTexts": [
+          {
+            "languageId": 1,
+            "text": "Test PK Cancel Editable Template_English10"
+          }
+        ]
+      },
+      {
+        "textType": "policy_gdsline1_msg",
+        "languageTexts": [
+          {
+            "languageId": 1,
+            "text": "Test PK Cancel Editable Template English10"
+          }
+        ]
+      },
+      {
+        "textType": "policy_gdsline2_msg",
+        "languageTexts": [
+          {
+            "languageId": 1,
+            "text": "Test PK Cancel Editable Template English10"
+          }
+        ]
+      }
+    ]
+  }

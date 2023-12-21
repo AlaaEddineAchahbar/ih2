@@ -1,0 +1,60 @@
+<div class="create-policy-stepper">
+  <h1>{{flowHeading}}</h1>
+  <h3 class="sub-header">{{policyNameHeader}}</h3>
+
+  <ng-template #stepPolicyLevel>
+    <policy-mgmt-step-policy-level [continueFromStepper]="continuePolicyLevel" (validate)="onStepsValidated($event)">
+    </policy-mgmt-step-policy-level>
+  </ng-template>
+  <ng-template #stepPolicyDetails>
+    <policy-mgmt-step-policy-details [continueFromStepper]="continuePolicyDetails"
+      (validate)="onStepsValidated($event)">
+    </policy-mgmt-step-policy-details>
+  </ng-template>
+
+  <ng-template #stepperReview1>
+    <policy-mgmt-step-policy-level-preview></policy-mgmt-step-policy-level-preview>
+  </ng-template>
+  <ng-template #stepperReview2>
+    <policy-mgmt-step-policy-details-preview></policy-mgmt-step-policy-details-preview>
+  </ng-template>
+
+  <ng-container *ngIf="componentInitialized">
+    <div [ngClass]="{'no-edit-access': !hasEditAccess || levelOfPolicyIsHigherOfCurrentContextPolicyLevel()}">
+      <tc-stepper mytemplate=stepperReviewHtml class="tc-stepper-component"
+        [contentTemplate]="[stepPolicyLevel, stepPolicyDetails]" [reviewTemplate]="[stepperReview1, stepperReview2]"
+        [(steps)]="steps" [messages]="messages" [(activeStepIndex)]="activeStepIndex" [(editMode)]="editMode"
+        [(editing)]="editing" [(cancelled)]=cancelled (cancel)="onCancel($event)" (continue)="onContinue($event)"
+        [disableContinueButton]="disableContinueButton" [continueStepSubject]="continueStepSubject">
+      </tc-stepper>
+    </div>
+
+    <!-- buttons to make API calls and route-->
+    <div class="stepper-save-cancel-btn row">
+      <div class="ps-0 w-auto" *ngIf="hasEditAccess && !levelOfPolicyIsHigherOfCurrentContextPolicyLevel()">
+        <button class="btn tc-btn btn-primary tc-btn--primary" (click)="onSave('ACTIVE')"
+          [class.disabled]="disableSaveButton()">
+          {{ translationMap['SAVE_ACTIVE'] | translate }}
+        </button>
+        <button class="btn tc-btn btn-primary tc-btn--primary" (click)="onSave('INACTIVE')"
+          [class.disabled]="disableSaveButton()">
+          {{ translationMap['SAVE_INACTIVE'] | translate }}
+        </button>
+      </div>
+      <button class="btn tc-btn tc-btn--link ps-0  w-auto" (click)="onCancel($event)">
+        {{ translationMap['CANCEL'] | translate }}
+      </button>
+    </div>
+  </ng-container>
+
+  <!-- Confirmation modal for cancel -->
+  <policy-mgmt-confirmation-modal (modalOk)="onModalOk($event)" (modalCancel)="onModalCancel($event)">
+  </policy-mgmt-confirmation-modal>
+
+  <!-- show toast for error -->
+  <policy-mgmt-api-error-message [toastDetails]="apiErrorMessageDetails" *ngIf="showToastFlag">
+  </policy-mgmt-api-error-message>
+
+  <!-- Policy Overlap Modal Component -->
+  <policy-overlap></policy-overlap>
+</div>

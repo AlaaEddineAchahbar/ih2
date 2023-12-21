@@ -1,0 +1,157 @@
+{
+  "hotelID": "6938",
+  "type": "PolicyTemplate",
+  "selectType": "SingleSelect",
+  "uidataSet": {
+    "uiData": [
+      {
+        "id": "1229488",
+        "displayName": "Test cancel data 1530",
+        "displayOrder": 0,
+        "metaEnabled": 0,
+        "status": "INACTIVE",
+        "selected": false,
+        "devices": null
+      },
+      {
+        "id": "1229498",
+        "displayName": "Rate plan",
+        "displayOrder": 0,
+        "metaEnabled": 0,
+        "status": "INACTIVE",
+        "selected": false,
+        "devices": null
+      },
+      {
+        "id": "1229442",
+        "displayName": "Test Cancellation for dist msg",
+        "displayOrder": 0,
+        "metaEnabled": 0,
+        "status": "INACTIVE",
+        "selected": false,
+        "devices": null
+      },
+      {
+        "id": "1229505",
+        "displayName": "newDepo",
+        "displayOrder": 0,
+        "metaEnabled": 0,
+        "status": "INACTIVE",
+        "selected": false,
+        "devices": null
+      },
+      {
+        "id": "1229382",
+        "displayName": "testcreateflow",
+        "displayOrder": 0,
+        "metaEnabled": 0,
+        "status": "INACTIVE",
+        "selected": false,
+        "devices": null
+      },
+      {
+        "id": "1229479",
+        "displayName": "Test cancel data 1521",
+        "displayOrder": 0,
+        "metaEnabled": 0,
+        "status": "INACTIVE",
+        "selected": false,
+        "devices": null
+      },
+      {
+        "id": "1229444",
+        "displayName": "testcreateflow123",
+        "displayOrder": 0,
+        "metaEnabled": 0,
+        "status": "INACTIVE",
+        "selected": false,
+        "devices": null
+      },
+      {
+        "id": "1229445",
+        "displayName": "datarecord",
+        "displayOrder": 0,
+        "metaEnabled": 0,
+        "status": "INACTIVE",
+        "selected": false,
+        "devices": null
+      },
+      {
+        "id": "1229482",
+        "displayName": "Test cancel data 1524",
+        "displayOrder": 0,
+        "metaEnabled": 0,
+        "status": "INACTIVE",
+        "selected": false,
+        "devices": null
+      },
+      {
+        "id": "1229483",
+        "displayName": "Test cancel data 1525",
+        "displayOrder": 0,
+        "metaEnabled": 0,
+        "status": "INACTIVE",
+        "selected": false,
+        "devices": null
+      },
+      {
+        "id": "1229480",
+        "displayName": "Test cancel data 1522",
+        "displayOrder": 0,
+        "metaEnabled": 0,
+        "status": "ACTIVE",
+        "selected": false,
+        "devices": null
+      },
+      {
+        "id": "1229481",
+        "displayName": "Test cancel data 1523",
+        "displayOrder": 0,
+        "metaEnabled": 0,
+        "status": "INACTIVE",
+        "selected": false,
+        "devices": null
+      },
+      {
+        "id": "1229486",
+        "displayName": "Test cancel datas 1528",
+        "displayOrder": 0,
+        "metaEnabled": 0,
+        "status": "INACTIVE",
+        "selected": false,
+        "devices": null
+      },
+      {
+        "id": "1229487",
+        "displayName": "Test cancel data 1529",
+        "displayOrder": 0,
+        "metaEnabled": 0,
+        "status": "INACTIVE",
+        "selected": false,
+        "devices": null
+      },
+      {
+        "id": "1229484",
+        "displayName": "Test cancel data 1526",
+        "displayOrder": 0,
+        "metaEnabled": 0,
+        "status": "INACTIVE",
+        "selected": false,
+        "devices": null
+      },
+      {
+        "id": "1229485",
+        "displayName": "Test cancel data 1527",
+        "displayOrder": 0,
+        "metaEnabled": 0,
+        "status": "INACTIVE",
+        "selected": false,
+        "devices": null
+      }
+    ],
+    "countries": null,
+    "msaList": null,
+    "pmsaList": null,
+    "taxGroups": null
+  }
+}

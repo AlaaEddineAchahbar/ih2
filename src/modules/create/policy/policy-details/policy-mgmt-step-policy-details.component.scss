@@ -1,0 +1,51 @@
+@import '~tc-styles/dist/scss/helpers/_colors.scss';
+
+.policy-detail-container {
+    &__popover-icon {
+        [class*="tc-icon"].icon-lg {
+            font-size: 21px;
+            top: -8px;
+            position: relative;
+        }
+        .tc-popover ngb-popover-window {
+            padding: 5px;
+            top: 0px;
+            left: -84px;
+            min-width: 300px;
+            .popover-body {
+                .policy-popover-template {
+                    font-weight: bold;
+                }
+            }
+        }
+        .label-spacing {
+            margin-right: 5px;
+        }
+    }
+}
+
+.override-policies-container{
+    padding-top: 5px;
+}
+.policy-template-container{
+    width: 275px;
+}
+
+.policy-type-container {
+    .radio.tc-radio {
+        margin-top: 6px;
+        padding-left: 0px;
+    }
+    .policy-type-options{
+        label {
+            margin-right: 20px;
+        }
+    }
+}
+
+.policy-template-container-row {
+    margin-bottom: 1rem;
+    .create-new-policy-template{
+        align-self: flex-end;
+    }
+}

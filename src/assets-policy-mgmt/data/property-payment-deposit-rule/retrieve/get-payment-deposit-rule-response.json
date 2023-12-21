@@ -1,0 +1,37 @@
+{
+    "hotelId": 1098,
+    "depositRuleId": "84180",
+    "name": "nov new DC test UI 001",
+    "ruleInfo": [
+        {
+            "status": "ACTIVE",
+            "chargeDate": "TIME_OF_BOOKING",
+            "action": "CHARGE",
+            "chargeType": "ARRIVAL_DAY_CHARGE",
+            "chargeAmount": "0",
+            "chargePercentage": "0",
+            "percentOnEnhancement": "23",
+            "ownerType": "P"
+        },
+        {
+            "status": "ACTIVE",
+            "chargeDate": "TIME_OF_BOOKING",
+            "action": "CHARGE",
+            "chargeType": "PERCENTAGE",
+            "chargeAmount": "0",
+            "chargePercentage": "15",
+            "percentOnEnhancement": "45",
+            "ownerType": "P"
+        },
+        {
+            "status": "ACTIVE",
+            "chargeDate": "TIME_OF_BOOKING",
+            "action": "CHARGE",
+            "chargeType": "FLAT",
+            "chargeAmount": "22",
+            "chargePercentage": "0",
+            "percentOnEnhancement": "11",
+            "ownerType": "P"
+        }
+    ]
+}

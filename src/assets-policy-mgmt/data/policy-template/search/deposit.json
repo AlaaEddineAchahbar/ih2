@@ -1,0 +1,213 @@
+{
+    "totalRecordCount": 16,
+    "policyTemplates": [
+        {
+            "name": "yytttytyt",
+            "policyCode": "tytyty",
+            "status": "ACTIVE",
+            "isEnterpriseLevel": false,
+            "hotelCode": 6938,
+            "id": 1228989,
+            "lastModified": "2020-06-04",
+            "policySetting": {
+                "depositRuleId": 0,
+                "acceptedTender": 8
+            }
+        },
+        {
+            "name": "Test PK deposit tempate2",
+            "policyCode": "depo2",
+            "status": "ACTIVE",
+            "isEnterpriseLevel": false,
+            "hotelCode": 6938,
+            "id": 1228985,
+            "lastModified": "2020-06-04",
+            "policySetting": {
+                "depositRuleId": 66053,
+                "acceptedTender": 8
+            }
+        },
+        {
+            "name": "Test PK deposit tempate1",
+            "policyCode": "depo1",
+            "status": "ACTIVE",
+            "isEnterpriseLevel": false,
+            "hotelCode": 6938,
+            "id": 1228983,
+            "lastModified": "2020-06-04",
+            "policySetting": {
+                "depositRuleId": 66039,
+                "acceptedTender": 8
+            }
+        },
+        {
+            "name": "dfgfg",
+            "policyCode": "dfs",
+            "status": "ACTIVE",
+            "isEnterpriseLevel": false,
+            "hotelCode": 6938,
+            "id": 1228963,
+            "lastModified": "2020-06-03",
+            "policySetting": {
+                "depositRuleId": 0,
+                "acceptedTender": 8
+            }
+        },
+        {
+            "name": "sdfdsf",
+            "policyCode": "dsdsf",
+            "status": "ACTIVE",
+            "isEnterpriseLevel": false,
+            "hotelCode": 6938,
+            "id": 1228962,
+            "lastModified": "2020-06-03",
+            "policySetting": {
+                "depositRuleId": 0,
+                "acceptedTender": 8
+            }
+        },
+        {
+            "name": "fgdfg",
+            "policyCode": "sdfdf",
+            "status": "ACTIVE",
+            "isEnterpriseLevel": false,
+            "hotelCode": 6938,
+            "id": 1228882,
+            "lastModified": "2020-06-02",
+            "policySetting": {
+                "depositRuleId": 5611,
+                "acceptedTender": 8
+            }
+        },
+        {
+            "name": "nbxcnbv",
+            "policyCode": null,
+            "status": "ACTIVE",
+            "isEnterpriseLevel": false,
+            "hotelCode": 6938,
+            "id": 1228785,
+            "lastModified": "2020-05-29",
+            "policySetting": {
+                "depositRuleId": 50871,
+                "acceptedTender": 1
+            }
+        },
+        {
+            "name": "fdgfdgfdg",
+            "policyCode": "dsfdfg",
+            "status": "ACTIVE",
+            "isEnterpriseLevel": false,
+            "hotelCode": 6938,
+            "id": 1228771,
+            "lastModified": "2020-05-29",
+            "policySetting": {
+                "depositRuleId": 5611,
+                "acceptedTender": 8
+            }
+        },
+        {
+            "name": "vmxcnvm",
+            "policyCode": "mvmnxc",
+            "status": "ACTIVE",
+            "isEnterpriseLevel": false,
+            "hotelCode": 6938,
+            "id": 1228756,
+            "lastModified": "2020-05-29",
+            "policySetting": {
+                "depositRuleId": 5611,
+                "acceptedTender": 1
+            }
+        },
+        {
+            "name": "mmvcnm",
+            "policyCode": null,
+            "status": "ACTIVE",
+            "isEnterpriseLevel": false,
+            "hotelCode": 6938,
+            "id": 1228726,
+            "lastModified": "2020-05-28",
+            "policySetting": {
+                "depositRuleId": 5611,
+                "acceptedTender": 1
+            }
+        },
+        {
+            "name": "qweqweqweqweqweuyuyww",
+            "policyCode": "ww",
+            "status": "ACTIVE",
+            "isEnterpriseLevel": false,
+            "hotelCode": 6938,
+            "id": 1228675,
+            "lastModified": "2020-05-27",
+            "policySetting": {
+                "depositRuleId": 0,
+                "acceptedTender": 1
+            }
+        },
+        {
+            "name": "123123123",
+            "policyCode": "123123",
+            "status": "ACTIVE",
+            "isEnterpriseLevel": false,
+            "hotelCode": 6938,
+            "id": 1228583,
+            "lastModified": "2020-05-25",
+            "policySetting": {
+                "depositRuleId": 5611,
+                "acceptedTender": 8
+            }
+        },
+        {
+            "name": "yyyy",
+            "policyCode": "yyyy",
+            "status": "ACTIVE",
+            "isEnterpriseLevel": false,
+            "hotelCode": 6938,
+            "id": 1228574,
+            "lastModified": "2020-05-25",
+            "policySetting": {
+                "depositRuleId": 62680,
+                "acceptedTender": 8
+            }
+        },
+        {
+            "name": "qweewqpooo",
+            "policyCode": "ooi",
+            "status": "ACTIVE",
+            "isEnterpriseLevel": false,
+            "hotelCode": 6938,
+            "id": 1228572,
+            "lastModified": "2020-05-25",
+            "policySetting": {
+                "depositRuleId": 31811,
+                "acceptedTender": 8
+            }
+        },
+        {
+            "name": "33234",
+            "policyCode": null,
+            "status": "ACTIVE",
+            "isEnterpriseLevel": false,
+            "hotelCode": 6938,
+            "id": 1228571,
+            "lastModified": "2020-05-25",
+            "policySetting": {
+                "depositRuleId": 0,
+                "acceptedTender": 8
+            }
+        },
+        {
+            "name": "qweqweqweqweqweuyuy",
+            "policyCode": "tyrtyr",
+            "status": "ACTIVE",
+            "isEnterpriseLevel": false,
+            "hotelCode": 6938,
+            "id": 1228570,
+            "lastModified": "2020-05-25",
+            "policySetting": {
+                "depositRuleId": 53253,
+                "acceptedTender": 8
+            }
+        }
+    ]
+}

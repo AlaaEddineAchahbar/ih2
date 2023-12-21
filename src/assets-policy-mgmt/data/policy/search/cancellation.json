@@ -1,0 +1,4217 @@
+{
+  "policies": [
+    {
+      "uxGroupName": "Test Pk Cancel Policy 012",
+      "uxPolicyLevel": "PROPERTY",
+      "uxRatePlanIds": null,
+      "uxRateCategoryIds": null,
+      "uxPolicyStatus": "ACTIVE",
+      "uxDOW": null,
+      "uxPolicyDateRange": null,
+      "uxPolicyType": "DEFAULT",
+      "uxPolicyTemplateId": "1229488",
+      "uxpolicyTemplateName": "Test cancel data 1530",
+      "uxpolicyTemplateCode": "1530",
+      "rules": [
+        {
+          "ruleName": "Test Pk Cancel Policy 012",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": null,
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229488",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37432137"
+                },
+                {
+                  "modifierValue": "true",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37432137"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37432137",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "6938",
+          "uniqueTypeID": "1",
+          "ruleStartDate": "2020-07-14",
+          "ruleEndDate": null,
+          "rulePriority": "999",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5808220",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "1",
+          "lastUpdated": "2020-07-14T10:30:11Z"
+        },
+        {
+          "ruleName": "Test Pk Cancel Policy 012-2",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": null,
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "11",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37432137"
+                },
+                {
+                  "modifierValue": "true",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37432137"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37432137",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "6938",
+          "uniqueTypeID": "1",
+          "ruleStartDate": "2020-07-14",
+          "ruleEndDate": null,
+          "rulePriority": "999",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5808220",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "1",
+          "lastUpdated": "2020-07-14T10:30:11Z"
+        }
+      ]
+    },
+    {
+      "uxGroupName": "test property cancel policy 1121",
+      "uxPolicyLevel": "PROPERTY",
+      "uxRatePlanIds": null,
+      "uxRateCategoryIds": null,
+      "uxPolicyStatus": "ACTIVE",
+      "uxDOW": "1,2,3,4,5,6,7",
+      "uxPolicyDateRange": "2020-07-23/2020-08-22",
+      "uxPolicyType": "DATED",
+      "uxPolicyTemplateId": "1229498",
+      "uxpolicyTemplateName": "Rate plan",
+      "uxpolicyTemplateCode": null,
+      "rules": [
+        {
+          "ruleName": "test property cancel policy 1121",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": [
+            {
+              "ruleCriteriaParameterValue": "2020-07-23/2020-08-22",
+              "ruleCriteriaID": "1002",
+              "ruleCriteriaMemberID": "1002",
+              "operatorID": "1004",
+              "ruleCriteriaParameterID": "72252622"
+            },
+            {
+              "ruleCriteriaParameterValue": "1,2,3,4,5,6,7",
+              "ruleCriteriaID": "1020",
+              "ruleCriteriaMemberID": "1020",
+              "operatorID": "11",
+              "ruleCriteriaParameterID": "72252623"
+            }
+          ],
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229498",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37433211"
+                },
+                {
+                  "modifierValue": "false",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37433211"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37433211",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "6938",
+          "uniqueTypeID": "1",
+          "ruleStartDate": "2020-07-23",
+          "ruleEndDate": "2020-08-22",
+          "rulePriority": "99",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5808904",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "1",
+          "lastUpdated": "2020-07-23T07:54:18Z"
+        }
+      ]
+    },
+    {
+      "uxGroupName": "Test @130",
+      "uxPolicyLevel": "RATECATEGORY",
+      "uxRatePlanIds": null,
+      "uxRateCategoryIds": [
+        "693802",
+        "693806",
+        "693807"
+      ],
+      "uxPolicyStatus": "ACTIVE",
+      "uxDOW": "1,2,3,4,5,6,7",
+      "uxPolicyDateRange": "2020-07-19/2020-07-22,2020-07-23/2020-07-31",
+      "uxPolicyType": "DATED",
+      "uxPolicyTemplateId": "1229442",
+      "uxpolicyTemplateName": "Test Cancellation for dist msg",
+      "uxpolicyTemplateCode": "TestC",
+      "rules": [
+        {
+          "ruleName": "Test @130",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": [
+            {
+              "ruleCriteriaParameterValue": "2020-07-19/2020-07-22,2020-07-23/2020-07-31",
+              "ruleCriteriaID": "1002",
+              "ruleCriteriaMemberID": "1002",
+              "operatorID": "1004",
+              "ruleCriteriaParameterID": "72251892"
+            },
+            {
+              "ruleCriteriaParameterValue": "1,2,3,4,5,6,7",
+              "ruleCriteriaID": "1020",
+              "ruleCriteriaMemberID": "1020",
+              "operatorID": "11",
+              "ruleCriteriaParameterID": "72251893"
+            }
+          ],
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229442",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37432574"
+                },
+                {
+                  "modifierValue": "false",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37432574"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37432574",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "693802",
+          "uniqueTypeID": "7",
+          "ruleStartDate": "2020-07-19",
+          "ruleEndDate": "2020-07-31",
+          "rulePriority": "99",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5808563",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "1",
+          "lastUpdated": "2020-07-19T14:33:55Z"
+        },
+        {
+          "ruleName": "Test @130",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": [
+            {
+              "ruleCriteriaParameterValue": "2020-07-19/2020-07-22,2020-07-23/2020-07-31",
+              "ruleCriteriaID": "1002",
+              "ruleCriteriaMemberID": "1002",
+              "operatorID": "1004",
+              "ruleCriteriaParameterID": "72251894"
+            },
+            {
+              "ruleCriteriaParameterValue": "1,2,3,4,5,6,7",
+              "ruleCriteriaID": "1020",
+              "ruleCriteriaMemberID": "1020",
+              "operatorID": "11",
+              "ruleCriteriaParameterID": "72251895"
+            }
+          ],
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229442",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37432575"
+                },
+                {
+                  "modifierValue": "false",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37432575"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37432575",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "693806",
+          "uniqueTypeID": "7",
+          "ruleStartDate": "2020-07-19",
+          "ruleEndDate": "2020-07-31",
+          "rulePriority": "99",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5808564",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "1",
+          "lastUpdated": "2020-07-19T14:33:55Z"
+        },
+        {
+          "ruleName": "Test @130",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": [
+            {
+              "ruleCriteriaParameterValue": "2020-07-19/2020-07-22,2020-07-23/2020-07-31",
+              "ruleCriteriaID": "1002",
+              "ruleCriteriaMemberID": "1002",
+              "operatorID": "1004",
+              "ruleCriteriaParameterID": "72251896"
+            },
+            {
+              "ruleCriteriaParameterValue": "1,2,3,4,5,6,7",
+              "ruleCriteriaID": "1020",
+              "ruleCriteriaMemberID": "1020",
+              "operatorID": "11",
+              "ruleCriteriaParameterID": "72251897"
+            }
+          ],
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229442",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37432576"
+                },
+                {
+                  "modifierValue": "false",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37432576"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37432576",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "693807",
+          "uniqueTypeID": "7",
+          "ruleStartDate": "2020-07-19",
+          "ruleEndDate": "2020-07-31",
+          "rulePriority": "99",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5808565",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "1",
+          "lastUpdated": "2020-07-19T14:33:55Z"
+        }
+      ]
+    },
+    {
+      "uxGroupName": "Test @122",
+      "uxPolicyLevel": "RATEPLAN",
+      "uxRatePlanIds": [
+        "3601461",
+        "1246307",
+        "3988524",
+        "2823217"
+      ],
+      "uxRateCategoryIds": null,
+      "uxPolicyStatus": "ACTIVE",
+      "uxDOW": "1,2,3,4,5",
+      "uxPolicyDateRange": "2020-07-19/2020-07-22,2020-07-24/2020-07-25",
+      "uxPolicyType": "DATED",
+      "uxPolicyTemplateId": "1229488",
+      "uxpolicyTemplateName": "Test cancel data 1530",
+      "uxpolicyTemplateCode": "1530",
+      "uxLastUpdated": "2020-07-19T14:30:23",
+      "rules": [
+        {
+          "ruleName": "Test @122",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": [
+            {
+              "ruleCriteriaParameterValue": "2020-07-19/2020-07-22,2020-07-24/2020-07-25",
+              "ruleCriteriaID": "1002",
+              "ruleCriteriaMemberID": "1002",
+              "operatorID": "1004",
+              "ruleCriteriaParameterID": "72251842"
+            },
+            {
+              "ruleCriteriaParameterValue": "1,2,3,4,5",
+              "ruleCriteriaID": "1020",
+              "ruleCriteriaMemberID": "1020",
+              "operatorID": "11",
+              "ruleCriteriaParameterID": "72251843"
+            }
+          ],
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229488",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37432549"
+                },
+                {
+                  "modifierValue": "false",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37432549"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37432549",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "3601461",
+          "uniqueTypeID": "5",
+          "ruleStartDate": "2020-07-19",
+          "ruleEndDate": "2020-07-25",
+          "rulePriority": "1",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5808538",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "1",
+          "lastUpdated": "2020-07-19T14:30:23Z"
+        },
+        {
+          "ruleName": "Test @122",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": [
+            {
+              "ruleCriteriaParameterValue": "2020-07-19/2020-07-22,2020-07-24/2020-07-25",
+              "ruleCriteriaID": "1002",
+              "ruleCriteriaMemberID": "1002",
+              "operatorID": "1004",
+              "ruleCriteriaParameterID": "72251848"
+            },
+            {
+              "ruleCriteriaParameterValue": "1,2,3,4,5",
+              "ruleCriteriaID": "1020",
+              "ruleCriteriaMemberID": "1020",
+              "operatorID": "11",
+              "ruleCriteriaParameterID": "72251849"
+            }
+          ],
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229488",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37432552"
+                },
+                {
+                  "modifierValue": "false",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37432552"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37432552",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "1246307",
+          "uniqueTypeID": "5",
+          "ruleStartDate": "2020-07-19",
+          "ruleEndDate": "2020-07-25",
+          "rulePriority": "1",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5808541",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "1",
+          "lastUpdated": "2020-07-19T14:30:23Z"
+        },
+        {
+          "ruleName": "Test @122",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": [
+            {
+              "ruleCriteriaParameterValue": "2020-07-19/2020-07-22,2020-07-24/2020-07-25",
+              "ruleCriteriaID": "1002",
+              "ruleCriteriaMemberID": "1002",
+              "operatorID": "1004",
+              "ruleCriteriaParameterID": "72251844"
+            },
+            {
+              "ruleCriteriaParameterValue": "1,2,3,4,5",
+              "ruleCriteriaID": "1020",
+              "ruleCriteriaMemberID": "1020",
+              "operatorID": "11",
+              "ruleCriteriaParameterID": "72251845"
+            }
+          ],
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229488",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37432550"
+                },
+                {
+                  "modifierValue": "false",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37432550"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37432550",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "3988524",
+          "uniqueTypeID": "5",
+          "ruleStartDate": "2020-07-19",
+          "ruleEndDate": "2020-07-25",
+          "rulePriority": "1",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5808539",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "1",
+          "lastUpdated": "2020-07-19T14:30:23Z"
+        },
+        {
+          "ruleName": "Test @122",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": [
+            {
+              "ruleCriteriaParameterValue": "2020-07-19/2020-07-22,2020-07-24/2020-07-25",
+              "ruleCriteriaID": "1002",
+              "ruleCriteriaMemberID": "1002",
+              "operatorID": "1004",
+              "ruleCriteriaParameterID": "72251846"
+            },
+            {
+              "ruleCriteriaParameterValue": "1,2,3,4,5",
+              "ruleCriteriaID": "1020",
+              "ruleCriteriaMemberID": "1020",
+              "operatorID": "11",
+              "ruleCriteriaParameterID": "72251847"
+            }
+          ],
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229488",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37432551"
+                },
+                {
+                  "modifierValue": "false",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37432551"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37432551",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "2823217",
+          "uniqueTypeID": "5",
+          "ruleStartDate": "2020-07-19",
+          "ruleEndDate": "2020-07-25",
+          "rulePriority": "1",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5808540",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "1",
+          "lastUpdated": "2020-07-19T14:30:23Z"
+        }
+      ]
+    },
+    {
+      "uxGroupName": "Test Pk Cancel Policy 012",
+      "uxPolicyLevel": "PROPERTY",
+      "uxRatePlanIds": null,
+      "uxRateCategoryIds": null,
+      "uxPolicyStatus": "ACTIVE",
+      "uxDOW": null,
+      "uxPolicyDateRange": null,
+      "uxPolicyType": "DEFAULT",
+      "uxPolicyTemplateId": "1229488",
+      "uxpolicyTemplateName": "Test cancel data 1530",
+      "uxpolicyTemplateCode": "1530",
+      "rules": [
+        {
+          "ruleName": "Test Pk Cancel Policy 012",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": null,
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229488",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37432137"
+                },
+                {
+                  "modifierValue": "true",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37432137"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37432137",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "6938",
+          "uniqueTypeID": "1",
+          "ruleStartDate": "2020-07-14",
+          "ruleEndDate": null,
+          "rulePriority": "999",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5808220",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "1",
+          "lastUpdated": "2020-07-14T10:30:11Z"
+        }
+      ]
+    },
+    {
+      "uxGroupName": "Test pk policy %cancel 01%",
+      "uxPolicyLevel": "PROPERTY",
+      "uxRatePlanIds": null,
+      "uxRateCategoryIds": null,
+      "uxPolicyStatus": "ACTIVE",
+      "uxDOW": "3,1",
+      "uxPolicyDateRange": "2020-07-14/2020-07-31,2020-08-03/2020-09-04",
+      "uxPolicyType": "DATED",
+      "uxPolicyTemplateId": "1229488",
+      "uxpolicyTemplateName": "Test cancel data 1530",
+      "uxpolicyTemplateCode": "1530",
+      "uxLastUpdated": "2020-07-31T05:40",
+      "rules": [
+        {
+          "ruleName": "Test pk policy %cancel 01%",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": [
+            {
+              "ruleCriteriaParameterValue": "2020-07-14/2020-07-31,2020-08-03/2020-09-04",
+              "ruleCriteriaID": "1002",
+              "ruleCriteriaMemberID": "1002",
+              "operatorID": "1004",
+              "ruleCriteriaParameterID": "72254228"
+            },
+            {
+              "ruleCriteriaParameterValue": "3,1",
+              "ruleCriteriaID": "1020",
+              "ruleCriteriaMemberID": "1020",
+              "operatorID": "11",
+              "ruleCriteriaParameterID": "72254229"
+            }
+          ],
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229488",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37434341"
+                },
+                {
+                  "modifierValue": "false",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37434341"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37434341",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "6938",
+          "uniqueTypeID": "1",
+          "ruleStartDate": "2020-07-31",
+          "ruleEndDate": "2020-09-04",
+          "rulePriority": "99",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5808218",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "3",
+          "lastUpdated": "2020-07-31T05:40:00Z"
+        }
+      ]
+    },
+    {
+      "uxGroupName": "rate category level cancellation policy",
+      "uxPolicyLevel": "RATECATEGORY",
+      "uxRatePlanIds": null,
+      "uxRateCategoryIds": [
+        "693801",
+        "693807",
+        "693817"
+      ],
+      "uxPolicyStatus": "ACTIVE",
+      "uxDOW": "2,3,4,5,6,7,1",
+      "uxPolicyDateRange": "2020-07-30/",
+      "uxPolicyType": "DATED",
+      "uxPolicyTemplateId": "1229887",
+      "uxpolicyTemplateName": "CancelADVNight",
+      "uxpolicyTemplateCode": "Cancel",
+      "uxLastUpdated": "2020-07-30T15:49:43",
+      "rules": [
+        {
+          "ruleName": "rate category level cancellation policy",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": [
+            {
+              "ruleCriteriaParameterValue": "2020-07-30/",
+              "ruleCriteriaID": "1002",
+              "ruleCriteriaMemberID": "1002",
+              "operatorID": "1004",
+              "ruleCriteriaParameterID": "72254208"
+            },
+            {
+              "ruleCriteriaParameterValue": "2,3,4,5,6,7,1",
+              "ruleCriteriaID": "1020",
+              "ruleCriteriaMemberID": "1020",
+              "operatorID": "11",
+              "ruleCriteriaParameterID": "72254209"
+            }
+          ],
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229887",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37434330"
+                },
+                {
+                  "modifierValue": "false",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37434330"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37434330",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "693801",
+          "uniqueTypeID": "7",
+          "ruleStartDate": "2020-07-30",
+          "ruleEndDate": null,
+          "rulePriority": "99",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5809832",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "1",
+          "lastUpdated": "2020-07-30T15:49:42Z"
+        },
+        {
+          "ruleName": "rate category level cancellation policy",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": [
+            {
+              "ruleCriteriaParameterValue": "2020-07-30/",
+              "ruleCriteriaID": "1002",
+              "ruleCriteriaMemberID": "1002",
+              "operatorID": "1004",
+              "ruleCriteriaParameterID": "72254210"
+            },
+            {
+              "ruleCriteriaParameterValue": "2,3,4,5,6,7,1",
+              "ruleCriteriaID": "1020",
+              "ruleCriteriaMemberID": "1020",
+              "operatorID": "11",
+              "ruleCriteriaParameterID": "72254211"
+            }
+          ],
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229887",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37434331"
+                },
+                {
+                  "modifierValue": "false",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37434331"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37434331",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "693807",
+          "uniqueTypeID": "7",
+          "ruleStartDate": "2020-07-30",
+          "ruleEndDate": null,
+          "rulePriority": "99",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5809833",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "1",
+          "lastUpdated": "2020-07-30T15:49:43Z"
+        },
+        {
+          "ruleName": "rate category level cancellation policy",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": [
+            {
+              "ruleCriteriaParameterValue": "2020-07-30/",
+              "ruleCriteriaID": "1002",
+              "ruleCriteriaMemberID": "1002",
+              "operatorID": "1004",
+              "ruleCriteriaParameterID": "72254212"
+            },
+            {
+              "ruleCriteriaParameterValue": "2,3,4,5,6,7,1",
+              "ruleCriteriaID": "1020",
+              "ruleCriteriaMemberID": "1020",
+              "operatorID": "11",
+              "ruleCriteriaParameterID": "72254213"
+            }
+          ],
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229887",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37434332"
+                },
+                {
+                  "modifierValue": "false",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37434332"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37434332",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "693817",
+          "uniqueTypeID": "7",
+          "ruleStartDate": "2020-07-30",
+          "ruleEndDate": null,
+          "rulePriority": "99",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5809834",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "1",
+          "lastUpdated": "2020-07-30T15:49:43Z"
+        }
+      ]
+    },
+    {
+      "uxGroupName": "Test PK ratecategory cancellation policy 1",
+      "uxPolicyLevel": "RATECATEGORY",
+      "uxRatePlanIds": null,
+      "uxRateCategoryIds": [
+        "693814",
+        "693802",
+        "693819",
+        "693801",
+        "693806"
+      ],
+      "uxPolicyStatus": "ACTIVE",
+      "uxDOW": "2,3,4,5,6,7,1",
+      "uxPolicyDateRange": "2020-08-14/2020-08-20,2020-08-27/2020-08-30,2020-10-07/2020-10-22",
+      "uxPolicyType": "DATED",
+      "uxPolicyTemplateId": "1229486",
+      "uxpolicyTemplateName": "Test cancel datas 1528",
+      "uxpolicyTemplateCode": "1528",
+      "uxLastUpdated": "2020-07-30T10:07:24",
+      "rules": [
+        {
+          "ruleName": "Test PK ratecategory cancellation policy 1",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": [
+            {
+              "ruleCriteriaParameterValue": "2020-08-14/2020-08-20,2020-08-27/2020-08-30,2020-10-07/2020-10-22",
+              "ruleCriteriaID": "1002",
+              "ruleCriteriaMemberID": "1002",
+              "operatorID": "1004",
+              "ruleCriteriaParameterID": "72254035"
+            },
+            {
+              "ruleCriteriaParameterValue": "2,3,4,5,6,7,1",
+              "ruleCriteriaID": "1020",
+              "ruleCriteriaMemberID": "1020",
+              "operatorID": "11",
+              "ruleCriteriaParameterID": "72254036"
+            }
+          ],
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229486",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37434192"
+                },
+                {
+                  "modifierValue": "false",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37434192"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37434192",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "693814",
+          "uniqueTypeID": "7",
+          "ruleStartDate": "2020-07-30",
+          "ruleEndDate": "2020-10-22",
+          "rulePriority": "1",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5809714",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "3",
+          "lastUpdated": "2020-07-30T10:07:24Z"
+        },
+        {
+          "ruleName": "Test PK ratecategory cancellation policy 1",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": [
+            {
+              "ruleCriteriaParameterValue": "2020-08-14/2020-08-20,2020-08-27/2020-08-30,2020-10-07/2020-10-22",
+              "ruleCriteriaID": "1002",
+              "ruleCriteriaMemberID": "1002",
+              "operatorID": "1004",
+              "ruleCriteriaParameterID": "72254041"
+            },
+            {
+              "ruleCriteriaParameterValue": "2,3,4,5,6,7,1",
+              "ruleCriteriaID": "1020",
+              "ruleCriteriaMemberID": "1020",
+              "operatorID": "11",
+              "ruleCriteriaParameterID": "72254042"
+            }
+          ],
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229486",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37434195"
+                },
+                {
+                  "modifierValue": "false",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37434195"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37434195",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "693802",
+          "uniqueTypeID": "7",
+          "ruleStartDate": "2020-07-30",
+          "ruleEndDate": "2020-10-22",
+          "rulePriority": "1",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5809721",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "2",
+          "lastUpdated": "2020-07-30T10:07:24Z"
+        },
+        {
+          "ruleName": "Test PK ratecategory cancellation policy 1",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": [
+            {
+              "ruleCriteriaParameterValue": "2020-08-14/2020-08-20,2020-08-27/2020-08-30,2020-10-07/2020-10-22",
+              "ruleCriteriaID": "1002",
+              "ruleCriteriaMemberID": "1002",
+              "operatorID": "1004",
+              "ruleCriteriaParameterID": "72254037"
+            },
+            {
+              "ruleCriteriaParameterValue": "2,3,4,5,6,7,1",
+              "ruleCriteriaID": "1020",
+              "ruleCriteriaMemberID": "1020",
+              "operatorID": "11",
+              "ruleCriteriaParameterID": "72254038"
+            }
+          ],
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229486",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37434193"
+                },
+                {
+                  "modifierValue": "false",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37434193"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37434193",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "693819",
+          "uniqueTypeID": "7",
+          "ruleStartDate": "2020-07-30",
+          "ruleEndDate": "2020-10-22",
+          "rulePriority": "1",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5809715",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "3",
+          "lastUpdated": "2020-07-30T10:07:24Z"
+        },
+        {
+          "ruleName": "Test PK ratecategory cancellation policy 1",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": [
+            {
+              "ruleCriteriaParameterValue": "2020-08-14/2020-08-20,2020-08-27/2020-08-30,2020-10-07/2020-10-22",
+              "ruleCriteriaID": "1002",
+              "ruleCriteriaMemberID": "1002",
+              "operatorID": "1004",
+              "ruleCriteriaParameterID": "72254033"
+            },
+            {
+              "ruleCriteriaParameterValue": "2,3,4,5,6,7,1",
+              "ruleCriteriaID": "1020",
+              "ruleCriteriaMemberID": "1020",
+              "operatorID": "11",
+              "ruleCriteriaParameterID": "72254034"
+            }
+          ],
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229486",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37434191"
+                },
+                {
+                  "modifierValue": "false",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37434191"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37434191",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "693801",
+          "uniqueTypeID": "7",
+          "ruleStartDate": "2020-07-30",
+          "ruleEndDate": "2020-10-22",
+          "rulePriority": "1",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5809712",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "3",
+          "lastUpdated": "2020-07-30T10:07:24Z"
+        },
+        {
+          "ruleName": "Test PK ratecategory cancellation policy 1",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": [
+            {
+              "ruleCriteriaParameterValue": "2020-08-14/2020-08-20,2020-08-27/2020-08-30,2020-10-07/2020-10-22",
+              "ruleCriteriaID": "1002",
+              "ruleCriteriaMemberID": "1002",
+              "operatorID": "1004",
+              "ruleCriteriaParameterID": "72254039"
+            },
+            {
+              "ruleCriteriaParameterValue": "2,3,4,5,6,7,1",
+              "ruleCriteriaID": "1020",
+              "ruleCriteriaMemberID": "1020",
+              "operatorID": "11",
+              "ruleCriteriaParameterID": "72254040"
+            }
+          ],
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229486",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37434194"
+                },
+                {
+                  "modifierValue": "false",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37434194"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37434194",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "693806",
+          "uniqueTypeID": "7",
+          "ruleStartDate": "2020-07-30",
+          "ruleEndDate": "2020-10-22",
+          "rulePriority": "1",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5809720",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "2",
+          "lastUpdated": "2020-07-30T10:07:24Z"
+        }
+      ]
+    },
+    {
+      "uxGroupName": "Test cancellation policy PK 101141",
+      "uxPolicyLevel": "RATECATEGORY",
+      "uxRatePlanIds": null,
+      "uxRateCategoryIds": [
+        "693807",
+        "693801",
+        "693817"
+      ],
+      "uxPolicyStatus": "ACTIVE",
+      "uxDOW": "2,5,1",
+      "uxPolicyDateRange": "2020-07-29/",
+      "uxPolicyType": "DATED",
+      "uxPolicyTemplateId": "1229889",
+      "uxpolicyTemplateName": "CancelADVPer",
+      "uxpolicyTemplateCode": "Cancel",
+      "uxLastUpdated": "2020-07-29T08:53:55",
+      "rules": [
+        {
+          "ruleName": "Test cancellation policy PK 101141",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": [
+            {
+              "ruleCriteriaParameterValue": "2020-07-29/",
+              "ruleCriteriaID": "1002",
+              "ruleCriteriaMemberID": "1002",
+              "operatorID": "1004",
+              "ruleCriteriaParameterID": "72253688"
+            },
+            {
+              "ruleCriteriaParameterValue": "2,5,1",
+              "ruleCriteriaID": "1020",
+              "ruleCriteriaMemberID": "1020",
+              "operatorID": "11",
+              "ruleCriteriaParameterID": "72253689"
+            }
+          ],
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229889",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37433941"
+                },
+                {
+                  "modifierValue": "false",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37433941"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37433941",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "693807",
+          "uniqueTypeID": "7",
+          "ruleStartDate": "2020-07-29",
+          "ruleEndDate": null,
+          "rulePriority": "99",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5809542",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "1",
+          "lastUpdated": "2020-07-29T08:53:55Z"
+        },
+        {
+          "ruleName": "Test cancellation policy PK 101141",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": [
+            {
+              "ruleCriteriaParameterValue": "2020-07-29/",
+              "ruleCriteriaID": "1002",
+              "ruleCriteriaMemberID": "1002",
+              "operatorID": "1004",
+              "ruleCriteriaParameterID": "72253686"
+            },
+            {
+              "ruleCriteriaParameterValue": "2,5,1",
+              "ruleCriteriaID": "1020",
+              "ruleCriteriaMemberID": "1020",
+              "operatorID": "11",
+              "ruleCriteriaParameterID": "72253687"
+            }
+          ],
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229889",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37433940"
+                },
+                {
+                  "modifierValue": "false",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37433940"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37433940",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "693801",
+          "uniqueTypeID": "7",
+          "ruleStartDate": "2020-07-29",
+          "ruleEndDate": null,
+          "rulePriority": "99",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5809541",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "1",
+          "lastUpdated": "2020-07-29T08:53:55Z"
+        },
+        {
+          "ruleName": "Test cancellation policy PK 101141",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": [
+            {
+              "ruleCriteriaParameterValue": "2020-07-29/",
+              "ruleCriteriaID": "1002",
+              "ruleCriteriaMemberID": "1002",
+              "operatorID": "1004",
+              "ruleCriteriaParameterID": "72253690"
+            },
+            {
+              "ruleCriteriaParameterValue": "2,5,1",
+              "ruleCriteriaID": "1020",
+              "ruleCriteriaMemberID": "1020",
+              "operatorID": "11",
+              "ruleCriteriaParameterID": "72253691"
+            }
+          ],
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229889",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37433942"
+                },
+                {
+                  "modifierValue": "false",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37433942"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37433942",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "693817",
+          "uniqueTypeID": "7",
+          "ruleStartDate": "2020-07-29",
+          "ruleEndDate": null,
+          "rulePriority": "99",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5809543",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "1",
+          "lastUpdated": "2020-07-29T08:53:55Z"
+        }
+      ]
+    },
+    {
+      "uxGroupName": "Test pk cancellation Policy 271993",
+      "uxPolicyLevel": "PROPERTY",
+      "uxRatePlanIds": null,
+      "uxRateCategoryIds": null,
+      "uxPolicyStatus": "ACTIVE",
+      "uxDOW": "2,4,6,1",
+      "uxPolicyDateRange": "2020-09-08/2020-09-14",
+      "uxPolicyType": "DATED",
+      "uxPolicyTemplateId": "1229887",
+      "uxpolicyTemplateName": "CancelADVNight",
+      "uxpolicyTemplateCode": "Cancel",
+      "uxLastUpdated": "2020-07-29T05:58:12",
+      "rules": [
+        {
+          "ruleName": "Test pk cancellation Policy 271993",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": [
+            {
+              "ruleCriteriaParameterValue": "2020-09-08/2020-09-14",
+              "ruleCriteriaID": "1002",
+              "ruleCriteriaMemberID": "1002",
+              "operatorID": "1004",
+              "ruleCriteriaParameterID": "72253607"
+            },
+            {
+              "ruleCriteriaParameterValue": "2,4,6,1",
+              "ruleCriteriaID": "1020",
+              "ruleCriteriaMemberID": "1020",
+              "operatorID": "11",
+              "ruleCriteriaParameterID": "72253608"
+            }
+          ],
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229887",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37433893"
+                },
+                {
+                  "modifierValue": "false",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37433893"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37433893",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "6938",
+          "uniqueTypeID": "1",
+          "ruleStartDate": "2020-07-29",
+          "ruleEndDate": "2020-09-14",
+          "rulePriority": "99",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5809503",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "1",
+          "lastUpdated": "2020-07-29T05:58:12Z"
+        }
+      ]
+    },
+    {
+      "uxGroupName": "Test PK cancel my policy",
+      "uxPolicyLevel": "PROPERTY",
+      "uxRatePlanIds": null,
+      "uxRateCategoryIds": null,
+      "uxPolicyStatus": "ACTIVE",
+      "uxDOW": "2,3,5,7,1",
+      "uxPolicyDateRange": "2020-07-29/",
+      "uxPolicyType": "DATED",
+      "uxPolicyTemplateId": "1229887",
+      "uxpolicyTemplateName": "CancelADVNight",
+      "uxpolicyTemplateCode": "Cancel",
+      "uxLastUpdated": "2020-07-29T05:49:11",
+      "rules": [
+        {
+          "ruleName": "Test PK cancel my policy",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": [
+            {
+              "ruleCriteriaParameterValue": "2020-07-29/",
+              "ruleCriteriaID": "1002",
+              "ruleCriteriaMemberID": "1002",
+              "operatorID": "1004",
+              "ruleCriteriaParameterID": "72253605"
+            },
+            {
+              "ruleCriteriaParameterValue": "2,3,5,7,1",
+              "ruleCriteriaID": "1020",
+              "ruleCriteriaMemberID": "1020",
+              "operatorID": "11",
+              "ruleCriteriaParameterID": "72253606"
+            }
+          ],
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229887",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37433892"
+                },
+                {
+                  "modifierValue": "false",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37433892"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37433892",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "6938",
+          "uniqueTypeID": "1",
+          "ruleStartDate": "2020-07-29",
+          "ruleEndDate": null,
+          "rulePriority": "99",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5809502",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "1",
+          "lastUpdated": "2020-07-29T05:49:11Z"
+        }
+      ]
+    },
+    {
+      "uxGroupName": "Test cancellation policy PK011454111111",
+      "uxPolicyLevel": "RATECATEGORY",
+      "uxRatePlanIds": null,
+      "uxRateCategoryIds": [
+        "693806",
+        "693817"
+      ],
+      "uxPolicyStatus": "ACTIVE",
+      "uxDOW": "5,6,7",
+      "uxPolicyDateRange": "2020-07-27/2020-07-29,2020-07-31/2020-08-13,2020-08-14/2020-08-19",
+      "uxPolicyType": "DATED",
+      "uxPolicyTemplateId": "1229887",
+      "uxpolicyTemplateName": "CancelADVNight",
+      "uxpolicyTemplateCode": "Cancel",
+      "uxLastUpdated": "2020-07-28T15:57:36",
+      "rules": [
+        {
+          "ruleName": "Test cancellation policy PK011454111111",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": [
+            {
+              "ruleCriteriaParameterValue": "2020-07-27/2020-07-29,2020-07-31/2020-08-13,2020-08-14/2020-08-19",
+              "ruleCriteriaID": "1002",
+              "ruleCriteriaMemberID": "1002",
+              "operatorID": "1004",
+              "ruleCriteriaParameterID": "72253599"
+            },
+            {
+              "ruleCriteriaParameterValue": "5,6,7",
+              "ruleCriteriaID": "1020",
+              "ruleCriteriaMemberID": "1020",
+              "operatorID": "11",
+              "ruleCriteriaParameterID": "72253600"
+            }
+          ],
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229887",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37433889"
+                },
+                {
+                  "modifierValue": "false",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37433889"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37433889",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "693806",
+          "uniqueTypeID": "7",
+          "ruleStartDate": "2020-07-28",
+          "ruleEndDate": "2020-08-19",
+          "rulePriority": "1",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5809499",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "1",
+          "lastUpdated": "2020-07-28T15:57:36Z"
+        },
+        {
+          "ruleName": "Test cancellation policy PK011454111111",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": [
+            {
+              "ruleCriteriaParameterValue": "2020-07-27/2020-07-29,2020-07-31/2020-08-13,2020-08-14/2020-08-19",
+              "ruleCriteriaID": "1002",
+              "ruleCriteriaMemberID": "1002",
+              "operatorID": "1004",
+              "ruleCriteriaParameterID": "72253595"
+            },
+            {
+              "ruleCriteriaParameterValue": "5,6,7",
+              "ruleCriteriaID": "1020",
+              "ruleCriteriaMemberID": "1020",
+              "operatorID": "11",
+              "ruleCriteriaParameterID": "72253596"
+            }
+          ],
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229887",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37433887"
+                },
+                {
+                  "modifierValue": "false",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37433887"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37433887",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "693817",
+          "uniqueTypeID": "7",
+          "ruleStartDate": "2020-07-28",
+          "ruleEndDate": "2020-08-19",
+          "rulePriority": "1",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5809375",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "2",
+          "lastUpdated": "2020-07-28T15:57:35Z"
+        }
+      ]
+    },
+    {
+      "uxGroupName": "Test Cancel policy with s",
+      "uxPolicyLevel": "PROPERTY",
+      "uxRatePlanIds": null,
+      "uxRateCategoryIds": null,
+      "uxPolicyStatus": "ACTIVE",
+      "uxDOW": null,
+      "uxPolicyDateRange": null,
+      "uxPolicyType": "DEFAULT",
+      "uxPolicyTemplateId": "1229889",
+      "uxpolicyTemplateName": "CancelADVPer",
+      "uxpolicyTemplateCode": "Cancel",
+      "uxLastUpdated": "2020-07-28T12:27:04",
+      "rules": [
+        {
+          "ruleName": "Test Cancel policy with s",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": null,
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229889",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37433859"
+                },
+                {
+                  "modifierValue": "true",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37433859"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37433859",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "6938",
+          "uniqueTypeID": "1",
+          "ruleStartDate": "2020-07-28",
+          "ruleEndDate": null,
+          "rulePriority": "999",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5809483",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "1",
+          "lastUpdated": "2020-07-28T12:27:04Z"
+        }
+      ]
+    },
+    {
+      "uxGroupName": "Test cancellan policy PK01",
+      "uxPolicyLevel": "PROPERTY",
+      "uxRatePlanIds": null,
+      "uxRateCategoryIds": null,
+      "uxPolicyStatus": "ACTIVE",
+      "uxDOW": null,
+      "uxPolicyDateRange": null,
+      "uxPolicyType": "DEFAULT",
+      "uxPolicyTemplateId": "1229888",
+      "uxpolicyTemplateName": "CancelADVFlat",
+      "uxpolicyTemplateCode": "Cancel",
+      "uxLastUpdated": "2020-07-28T12:01:11",
+      "rules": [
+        {
+          "ruleName": "Test cancellan policy PK01",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": null,
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229888",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37433857"
+                },
+                {
+                  "modifierValue": "true",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37433857"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37433857",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "6938",
+          "uniqueTypeID": "1",
+          "ruleStartDate": "2020-07-28",
+          "ruleEndDate": null,
+          "rulePriority": "999",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5809481",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "1",
+          "lastUpdated": "2020-07-28T12:01:11Z"
+        }
+      ]
+    },
+    {
+      "uxGroupName": "Test pk 123123111",
+      "uxPolicyLevel": "PROPERTY",
+      "uxRatePlanIds": null,
+      "uxRateCategoryIds": null,
+      "uxPolicyStatus": "ACTIVE",
+      "uxDOW": null,
+      "uxPolicyDateRange": null,
+      "uxPolicyType": "DEFAULT",
+      "uxPolicyTemplateId": "1229887",
+      "uxpolicyTemplateName": "CancelADVNight",
+      "uxpolicyTemplateCode": "Cancel",
+      "uxLastUpdated": "2020-07-28T11:32:53",
+      "rules": [
+        {
+          "ruleName": "Test pk 123123111",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": null,
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229887",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37433853"
+                },
+                {
+                  "modifierValue": "true",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37433853"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37433853",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "6938",
+          "uniqueTypeID": "1",
+          "ruleStartDate": "2020-07-28",
+          "ruleEndDate": null,
+          "rulePriority": "999",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5809477",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "1",
+          "lastUpdated": "2020-07-28T11:32:53Z"
+        }
+      ]
+    },
+    {
+      "uxGroupName": "test rate plan SB",
+      "uxPolicyLevel": "RATEPLAN",
+      "uxRatePlanIds": [
+        "2752856"
+      ],
+      "uxRateCategoryIds": null,
+      "uxPolicyStatus": "ACTIVE",
+      "uxDOW": "1,2,3,4,5,6,7",
+      "uxPolicyDateRange": "2020-07-28/",
+      "uxPolicyType": "DATED",
+      "uxPolicyTemplateId": "1229888",
+      "uxpolicyTemplateName": "CancelADVFlat",
+      "uxpolicyTemplateCode": "Cancel",
+      "uxLastUpdated": "2020-07-28T05:50:17",
+      "rules": [
+        {
+          "ruleName": "test rate plan SB",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": [
+            {
+              "ruleCriteriaParameterValue": "2020-07-28/",
+              "ruleCriteriaID": "1002",
+              "ruleCriteriaMemberID": "1002",
+              "operatorID": "1004",
+              "ruleCriteriaParameterID": "72253473"
+            },
+            {
+              "ruleCriteriaParameterValue": "1,2,3,4,5,6,7",
+              "ruleCriteriaID": "1020",
+              "ruleCriteriaMemberID": "1020",
+              "operatorID": "11",
+              "ruleCriteriaParameterID": "72253474"
+            }
+          ],
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229888",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37433780"
+                },
+                {
+                  "modifierValue": "false",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37433780"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37433780",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "2752856",
+          "uniqueTypeID": "5",
+          "ruleStartDate": "2020-07-28",
+          "ruleEndDate": null,
+          "rulePriority": "99",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5809401",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "1",
+          "lastUpdated": "2020-07-28T05:50:17Z"
+        }
+      ]
+    },
+    {
+      "uxGroupName": "Test cancellation policy PK01 454444",
+      "uxPolicyLevel": "PROPERTY",
+      "uxRatePlanIds": null,
+      "uxRateCategoryIds": null,
+      "uxPolicyStatus": "ACTIVE",
+      "uxDOW": "1,3,5",
+      "uxPolicyDateRange": "2020-10-12/2020-10-16",
+      "uxPolicyType": "DATED",
+      "uxPolicyTemplateId": "1229887",
+      "uxpolicyTemplateName": "CancelADVNight",
+      "uxpolicyTemplateCode": "Cancel",
+      "uxLastUpdated": "2020-07-28T04:44:07",
+      "rules": [
+        {
+          "ruleName": "Test cancellation policy PK01 454444",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": [
+            {
+              "ruleCriteriaParameterValue": "2020-10-12/2020-10-16",
+              "ruleCriteriaID": "1002",
+              "ruleCriteriaMemberID": "1002",
+              "operatorID": "1004",
+              "ruleCriteriaParameterID": "72253420"
+            },
+            {
+              "ruleCriteriaParameterValue": "1,3,5",
+              "ruleCriteriaID": "1020",
+              "ruleCriteriaMemberID": "1020",
+              "operatorID": "11",
+              "ruleCriteriaParameterID": "72253421"
+            }
+          ],
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229887",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37433758"
+                },
+                {
+                  "modifierValue": "false",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37433758"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37433758",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihPrashantK",
+          "uniqueID": "6938",
+          "uniqueTypeID": "1",
+          "ruleStartDate": "2020-07-28",
+          "ruleEndDate": "2020-10-16",
+          "rulePriority": "99",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5809381",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "1",
+          "lastUpdated": "2020-07-28T04:44:07Z"
+        }
+      ]
+    },
+    {
+      "uxGroupName": "samplenewpolicycancel",
+      "uxPolicyLevel": "PROPERTY",
+      "uxRatePlanIds": null,
+      "uxRateCategoryIds": null,
+      "uxPolicyStatus": "ACTIVE",
+      "uxDOW": null,
+      "uxPolicyDateRange": null,
+      "uxPolicyType": "DEFAULT",
+      "uxPolicyTemplateId": "1229888",
+      "uxpolicyTemplateName": "CancelADVFlat",
+      "uxpolicyTemplateCode": "Cancel",
+      "uxLastUpdated": "2020-07-27T14:05:35",
+      "rules": [
+        {
+          "ruleName": "samplenewpolicycancel",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": null,
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229888",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37433727"
+                },
+                {
+                  "modifierValue": "true",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37433727"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37433727",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "6938",
+          "uniqueTypeID": "1",
+          "ruleStartDate": "2020-07-27",
+          "ruleEndDate": null,
+          "rulePriority": "999",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5809352",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "1",
+          "lastUpdated": "2020-07-27T14:05:35Z"
+        }
+      ]
+    },
+    {
+      "uxGroupName": "PK Test property 1256 policy",
+      "uxPolicyLevel": "PROPERTY",
+      "uxRatePlanIds": null,
+      "uxRateCategoryIds": null,
+      "uxPolicyStatus": "ACTIVE",
+      "uxDOW": "1,3,5,6,7",
+      "uxPolicyDateRange": "2020-07-27/",
+      "uxPolicyType": "DATED",
+      "uxPolicyTemplateId": "1229887",
+      "uxpolicyTemplateName": "CancelADVNight",
+      "uxpolicyTemplateCode": "Cancel",
+      "uxLastUpdated": "2020-07-27T10:54",
+      "rules": [
+        {
+          "ruleName": "PK Test property 1256 policy",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": [
+            {
+              "ruleCriteriaParameterValue": "2020-07-27/",
+              "ruleCriteriaID": "1002",
+              "ruleCriteriaMemberID": "1002",
+              "operatorID": "1004",
+              "ruleCriteriaParameterID": "72253208"
+            },
+            {
+              "ruleCriteriaParameterValue": "1,3,5,6,7",
+              "ruleCriteriaID": "1020",
+              "ruleCriteriaMemberID": "1020",
+              "operatorID": "11",
+              "ruleCriteriaParameterID": "72253209"
+            }
+          ],
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229887",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37433636"
+                },
+                {
+                  "modifierValue": "false",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37433636"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37433636",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihPrashantK",
+          "uniqueID": "6938",
+          "uniqueTypeID": "1",
+          "ruleStartDate": "2020-07-27",
+          "ruleEndDate": null,
+          "rulePriority": "99",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5809265",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "1",
+          "lastUpdated": "2020-07-27T10:54:00Z"
+        }
+      ]
+    },
+    {
+      "uxGroupName": "Cancel1",
+      "uxPolicyLevel": "PROPERTY",
+      "uxRatePlanIds": null,
+      "uxRateCategoryIds": null,
+      "uxPolicyStatus": "ACTIVE",
+      "uxDOW": null,
+      "uxPolicyDateRange": null,
+      "uxPolicyType": "DEFAULT",
+      "uxPolicyTemplateId": "1229885",
+      "uxpolicyTemplateName": "CancelSameDayFlat",
+      "uxpolicyTemplateCode": "Cancel",
+      "uxLastUpdated": "2020-07-24T18:38:45",
+      "rules": [
+        {
+          "ruleName": "Cancel1",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": null,
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229885",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37433397"
+                },
+                {
+                  "modifierValue": "true",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37433397"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37433397",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihabhay",
+          "uniqueID": "6938",
+          "uniqueTypeID": "1",
+          "ruleStartDate": "2020-07-25",
+          "ruleEndDate": null,
+          "rulePriority": "1",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5809052",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "1",
+          "lastUpdated": "2020-07-24T18:38:45Z"
+        }
+      ]
+    },
+    {
+      "uxGroupName": "sdf.msdf,msdf",
+      "uxPolicyLevel": "RATECATEGORY",
+      "uxRatePlanIds": null,
+      "uxRateCategoryIds": [
+        "693801",
+        "693802"
+      ],
+      "uxPolicyStatus": "ACTIVE",
+      "uxDOW": "1,2,3,4,5,6,7",
+      "uxPolicyDateRange": "2020-07-23/",
+      "uxPolicyType": "DATED",
+      "uxPolicyTemplateId": "1229498",
+      "uxpolicyTemplateName": "Rate plan",
+      "uxpolicyTemplateCode": null,
+      "uxLastUpdated": "2020-07-23T07:55:24",
+      "rules": [
+        {
+          "ruleName": "sdf.msdf,msdf",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": [
+            {
+              "ruleCriteriaParameterValue": "2020-07-23/",
+              "ruleCriteriaID": "1002",
+              "ruleCriteriaMemberID": "1002",
+              "operatorID": "1004",
+              "ruleCriteriaParameterID": "72252632"
+            },
+            {
+              "ruleCriteriaParameterValue": "1,2,3,4,5,6,7",
+              "ruleCriteriaID": "1020",
+              "ruleCriteriaMemberID": "1020",
+              "operatorID": "11",
+              "ruleCriteriaParameterID": "72252633"
+            }
+          ],
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229498",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37433217"
+                },
+                {
+                  "modifierValue": "false",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37433217"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37433217",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "693801",
+          "uniqueTypeID": "7",
+          "ruleStartDate": "2020-07-23",
+          "ruleEndDate": null,
+          "rulePriority": "99",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5808906",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "1",
+          "lastUpdated": "2020-07-23T07:55:24Z"
+        },
+        {
+          "ruleName": "sdf.msdf,msdf",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": [
+            {
+              "ruleCriteriaParameterValue": "2020-07-23/",
+              "ruleCriteriaID": "1002",
+              "ruleCriteriaMemberID": "1002",
+              "operatorID": "1004",
+              "ruleCriteriaParameterID": "72252634"
+            },
+            {
+              "ruleCriteriaParameterValue": "1,2,3,4,5,6,7",
+              "ruleCriteriaID": "1020",
+              "ruleCriteriaMemberID": "1020",
+              "operatorID": "11",
+              "ruleCriteriaParameterID": "72252635"
+            }
+          ],
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229498",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37433218"
+                },
+                {
+                  "modifierValue": "false",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37433218"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37433218",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "693802",
+          "uniqueTypeID": "7",
+          "ruleStartDate": "2020-07-23",
+          "ruleEndDate": null,
+          "rulePriority": "99",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5808907",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "1",
+          "lastUpdated": "2020-07-23T07:55:24Z"
+        }
+      ]
+    },
+    {
+      "uxGroupName": "PK test policy cancel 11215 rate plan",
+      "uxPolicyLevel": "RATEPLAN",
+      "uxRatePlanIds": [
+        "1246307",
+        "3988524",
+        "2823217",
+        "3601461"
+      ],
+      "uxRateCategoryIds": null,
+      "uxPolicyStatus": "ACTIVE",
+      "uxDOW": "1,2,3,4,5,6,7",
+      "uxPolicyDateRange": "2020-07-21/",
+      "uxPolicyType": "DATED",
+      "uxPolicyTemplateId": "1229498",
+      "uxpolicyTemplateName": "Rate plan",
+      "uxpolicyTemplateCode": null,
+      "uxLastUpdated": "2020-07-21T10:30:58",
+      "rules": [
+        {
+          "ruleName": "PK test policy cancel 11215 rate plan",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": [
+            {
+              "ruleCriteriaParameterValue": "2020-07-21/",
+              "ruleCriteriaID": "1002",
+              "ruleCriteriaMemberID": "1002",
+              "operatorID": "1004",
+              "ruleCriteriaParameterID": "72252358"
+            },
+            {
+              "ruleCriteriaParameterValue": "1,2,3,4,5,6,7",
+              "ruleCriteriaID": "1020",
+              "ruleCriteriaMemberID": "1020",
+              "operatorID": "11",
+              "ruleCriteriaParameterID": "72252359"
+            }
+          ],
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229498",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37432996"
+                },
+                {
+                  "modifierValue": "false",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37432996"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37432996",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "1246307",
+          "uniqueTypeID": "5",
+          "ruleStartDate": "2020-07-21",
+          "ruleEndDate": null,
+          "rulePriority": "99",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5808773",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "1",
+          "lastUpdated": "2020-07-21T10:30:58Z"
+        },
+        {
+          "ruleName": "PK test policy cancel 11215 rate plan",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": [
+            {
+              "ruleCriteriaParameterValue": "2020-07-21/",
+              "ruleCriteriaID": "1002",
+              "ruleCriteriaMemberID": "1002",
+              "operatorID": "1004",
+              "ruleCriteriaParameterID": "72252354"
+            },
+            {
+              "ruleCriteriaParameterValue": "1,2,3,4,5,6,7",
+              "ruleCriteriaID": "1020",
+              "ruleCriteriaMemberID": "1020",
+              "operatorID": "11",
+              "ruleCriteriaParameterID": "72252355"
+            }
+          ],
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229498",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37432994"
+                },
+                {
+                  "modifierValue": "false",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37432994"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37432994",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "3988524",
+          "uniqueTypeID": "5",
+          "ruleStartDate": "2020-07-21",
+          "ruleEndDate": null,
+          "rulePriority": "99",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5808771",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "1",
+          "lastUpdated": "2020-07-21T10:30:57Z"
+        },
+        {
+          "ruleName": "PK test policy cancel 11215 rate plan",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": [
+            {
+              "ruleCriteriaParameterValue": "2020-07-21/",
+              "ruleCriteriaID": "1002",
+              "ruleCriteriaMemberID": "1002",
+              "operatorID": "1004",
+              "ruleCriteriaParameterID": "72252356"
+            },
+            {
+              "ruleCriteriaParameterValue": "1,2,3,4,5,6,7",
+              "ruleCriteriaID": "1020",
+              "ruleCriteriaMemberID": "1020",
+              "operatorID": "11",
+              "ruleCriteriaParameterID": "72252357"
+            }
+          ],
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229498",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37432995"
+                },
+                {
+                  "modifierValue": "false",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37432995"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37432995",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "2823217",
+          "uniqueTypeID": "5",
+          "ruleStartDate": "2020-07-21",
+          "ruleEndDate": null,
+          "rulePriority": "99",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5808772",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "1",
+          "lastUpdated": "2020-07-21T10:30:57Z"
+        },
+        {
+          "ruleName": "PK test policy cancel 11215 rate plan",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": [
+            {
+              "ruleCriteriaParameterValue": "2020-07-21/",
+              "ruleCriteriaID": "1002",
+              "ruleCriteriaMemberID": "1002",
+              "operatorID": "1004",
+              "ruleCriteriaParameterID": "72252352"
+            },
+            {
+              "ruleCriteriaParameterValue": "1,2,3,4,5,6,7",
+              "ruleCriteriaID": "1020",
+              "ruleCriteriaMemberID": "1020",
+              "operatorID": "11",
+              "ruleCriteriaParameterID": "72252353"
+            }
+          ],
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229498",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37432993"
+                },
+                {
+                  "modifierValue": "false",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37432993"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37432993",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "3601461",
+          "uniqueTypeID": "5",
+          "ruleStartDate": "2020-07-21",
+          "ruleEndDate": null,
+          "rulePriority": "99",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5808770",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "1",
+          "lastUpdated": "2020-07-21T10:30:57Z"
+        }
+      ]
+    },
+    {
+      "uxGroupName": "PK test policy cancel 11215 category",
+      "uxPolicyLevel": "RATECATEGORY",
+      "uxRatePlanIds": null,
+      "uxRateCategoryIds": [
+        "693802",
+        "693806",
+        "693801",
+        "693812",
+        "693807"
+      ],
+      "uxPolicyStatus": "ACTIVE",
+      "uxDOW": "1,2,3,4,5,6,7",
+      "uxPolicyDateRange": "2020-07-21/",
+      "uxPolicyType": "DATED",
+      "uxPolicyTemplateId": "1229498",
+      "uxpolicyTemplateName": "Rate plan",
+      "uxpolicyTemplateCode": null,
+      "uxLastUpdated": "2020-07-21T10:30:24",
+      "rules": [
+        {
+          "ruleName": "PK test policy cancel 11215 category",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": [
+            {
+              "ruleCriteriaParameterValue": "2020-07-21/",
+              "ruleCriteriaID": "1002",
+              "ruleCriteriaMemberID": "1002",
+              "operatorID": "1004",
+              "ruleCriteriaParameterID": "72252334"
+            },
+            {
+              "ruleCriteriaParameterValue": "1,2,3,4,5,6,7",
+              "ruleCriteriaID": "1020",
+              "ruleCriteriaMemberID": "1020",
+              "operatorID": "11",
+              "ruleCriteriaParameterID": "72252335"
+            }
+          ],
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229498",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37432984"
+                },
+                {
+                  "modifierValue": "false",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37432984"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37432984",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "693802",
+          "uniqueTypeID": "7",
+          "ruleStartDate": "2020-07-21",
+          "ruleEndDate": null,
+          "rulePriority": "99",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5808761",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "1",
+          "lastUpdated": "2020-07-21T10:30:24Z"
+        },
+        {
+          "ruleName": "PK test policy cancel 11215 category",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": [
+            {
+              "ruleCriteriaParameterValue": "2020-07-21/",
+              "ruleCriteriaID": "1002",
+              "ruleCriteriaMemberID": "1002",
+              "operatorID": "1004",
+              "ruleCriteriaParameterID": "72252336"
+            },
+            {
+              "ruleCriteriaParameterValue": "1,2,3,4,5,6,7",
+              "ruleCriteriaID": "1020",
+              "ruleCriteriaMemberID": "1020",
+              "operatorID": "11",
+              "ruleCriteriaParameterID": "72252337"
+            }
+          ],
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229498",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37432985"
+                },
+                {
+                  "modifierValue": "false",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37432985"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37432985",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "693806",
+          "uniqueTypeID": "7",
+          "ruleStartDate": "2020-07-21",
+          "ruleEndDate": null,
+          "rulePriority": "99",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5808762",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "1",
+          "lastUpdated": "2020-07-21T10:30:24Z"
+        },
+        {
+          "ruleName": "PK test policy cancel 11215 category",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": [
+            {
+              "ruleCriteriaParameterValue": "2020-07-21/",
+              "ruleCriteriaID": "1002",
+              "ruleCriteriaMemberID": "1002",
+              "operatorID": "1004",
+              "ruleCriteriaParameterID": "72252332"
+            },
+            {
+              "ruleCriteriaParameterValue": "1,2,3,4,5,6,7",
+              "ruleCriteriaID": "1020",
+              "ruleCriteriaMemberID": "1020",
+              "operatorID": "11",
+              "ruleCriteriaParameterID": "72252333"
+            }
+          ],
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229498",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37432983"
+                },
+                {
+                  "modifierValue": "false",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37432983"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37432983",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "693801",
+          "uniqueTypeID": "7",
+          "ruleStartDate": "2020-07-21",
+          "ruleEndDate": null,
+          "rulePriority": "99",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5808760",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "1",
+          "lastUpdated": "2020-07-21T10:30:24Z"
+        },
+        {
+          "ruleName": "PK test policy cancel 11215 category",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": [
+            {
+              "ruleCriteriaParameterValue": "2020-07-21/",
+              "ruleCriteriaID": "1002",
+              "ruleCriteriaMemberID": "1002",
+              "operatorID": "1004",
+              "ruleCriteriaParameterID": "72252340"
+            },
+            {
+              "ruleCriteriaParameterValue": "1,2,3,4,5,6,7",
+              "ruleCriteriaID": "1020",
+              "ruleCriteriaMemberID": "1020",
+              "operatorID": "11",
+              "ruleCriteriaParameterID": "72252341"
+            }
+          ],
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229498",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37432987"
+                },
+                {
+                  "modifierValue": "false",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37432987"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37432987",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "693812",
+          "uniqueTypeID": "7",
+          "ruleStartDate": "2020-07-21",
+          "ruleEndDate": null,
+          "rulePriority": "99",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5808764",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "1",
+          "lastUpdated": "2020-07-21T10:30:24Z"
+        },
+        {
+          "ruleName": "PK test policy cancel 11215 category",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": [
+            {
+              "ruleCriteriaParameterValue": "2020-07-21/",
+              "ruleCriteriaID": "1002",
+              "ruleCriteriaMemberID": "1002",
+              "operatorID": "1004",
+              "ruleCriteriaParameterID": "72252338"
+            },
+            {
+              "ruleCriteriaParameterValue": "1,2,3,4,5,6,7",
+              "ruleCriteriaID": "1020",
+              "ruleCriteriaMemberID": "1020",
+              "operatorID": "11",
+              "ruleCriteriaParameterID": "72252339"
+            }
+          ],
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229498",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37432986"
+                },
+                {
+                  "modifierValue": "false",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37432986"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37432986",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "693807",
+          "uniqueTypeID": "7",
+          "ruleStartDate": "2020-07-21",
+          "ruleEndDate": null,
+          "rulePriority": "99",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5808763",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "1",
+          "lastUpdated": "2020-07-21T10:30:24Z"
+        }
+      ]
+    },
+    {
+      "uxGroupName": "multiple rate categories",
+      "uxPolicyLevel": "RATECATEGORY",
+      "uxRatePlanIds": null,
+      "uxRateCategoryIds": [
+        "693806",
+        "693801",
+        "693802"
+      ],
+      "uxPolicyStatus": "ACTIVE",
+      "uxDOW": "1,2,3,4,5,6,7",
+      "uxPolicyDateRange": "2020-07-20/",
+      "uxPolicyType": "DATED",
+      "uxPolicyTemplateId": "1229488",
+      "uxpolicyTemplateName": "Test cancel data 1530",
+      "uxpolicyTemplateCode": "1530",
+      "uxLastUpdated": "2020-07-20T15:26:39",
+      "rules": [
+        {
+          "ruleName": "multiple rate categories",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": [
+            {
+              "ruleCriteriaParameterValue": "2020-07-20/",
+              "ruleCriteriaID": "1002",
+              "ruleCriteriaMemberID": "1002",
+              "operatorID": "1004",
+              "ruleCriteriaParameterID": "72252219"
+            },
+            {
+              "ruleCriteriaParameterValue": "1,2,3,4,5,6,7",
+              "ruleCriteriaID": "1020",
+              "ruleCriteriaMemberID": "1020",
+              "operatorID": "11",
+              "ruleCriteriaParameterID": "72252220"
+            }
+          ],
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229488",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37432824"
+                },
+                {
+                  "modifierValue": "false",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37432824"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37432824",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "693806",
+          "uniqueTypeID": "7",
+          "ruleStartDate": "2020-07-20",
+          "ruleEndDate": null,
+          "rulePriority": "99",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5808700",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "1",
+          "lastUpdated": "2020-07-20T15:26:39Z"
+        },
+        {
+          "ruleName": "multiple rate categories",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": [
+            {
+              "ruleCriteriaParameterValue": "2020-07-20/",
+              "ruleCriteriaID": "1002",
+              "ruleCriteriaMemberID": "1002",
+              "operatorID": "1004",
+              "ruleCriteriaParameterID": "72252215"
+            },
+            {
+              "ruleCriteriaParameterValue": "1,2,3,4,5,6,7",
+              "ruleCriteriaID": "1020",
+              "ruleCriteriaMemberID": "1020",
+              "operatorID": "11",
+              "ruleCriteriaParameterID": "72252216"
+            }
+          ],
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229488",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37432822"
+                },
+                {
+                  "modifierValue": "false",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37432822"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37432822",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "693801",
+          "uniqueTypeID": "7",
+          "ruleStartDate": "2020-07-20",
+          "ruleEndDate": null,
+          "rulePriority": "99",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5808698",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "1",
+          "lastUpdated": "2020-07-20T15:26:39Z"
+        },
+        {
+          "ruleName": "multiple rate categories",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": [
+            {
+              "ruleCriteriaParameterValue": "2020-07-20/",
+              "ruleCriteriaID": "1002",
+              "ruleCriteriaMemberID": "1002",
+              "operatorID": "1004",
+              "ruleCriteriaParameterID": "72252217"
+            },
+            {
+              "ruleCriteriaParameterValue": "1,2,3,4,5,6,7",
+              "ruleCriteriaID": "1020",
+              "ruleCriteriaMemberID": "1020",
+              "operatorID": "11",
+              "ruleCriteriaParameterID": "72252218"
+            }
+          ],
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229488",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37432823"
+                },
+                {
+                  "modifierValue": "false",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37432823"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37432823",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "693802",
+          "uniqueTypeID": "7",
+          "ruleStartDate": "2020-07-20",
+          "ruleEndDate": null,
+          "rulePriority": "99",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5808699",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "1",
+          "lastUpdated": "2020-07-20T15:26:39Z"
+        }
+      ]
+    },
+    {
+      "uxGroupName": "assd",
+      "uxPolicyLevel": "RATECATEGORY",
+      "uxRatePlanIds": null,
+      "uxRateCategoryIds": [
+        "693801"
+      ],
+      "uxPolicyStatus": "ACTIVE",
+      "uxDOW": "1,2,3,4,5,6,7",
+      "uxPolicyDateRange": "2020-07-20/",
+      "uxPolicyType": "DATED",
+      "uxPolicyTemplateId": "1229740",
+      "uxpolicyTemplateName": "newTestInactivate",
+      "uxpolicyTemplateCode": "dfg",
+      "uxLastUpdated": "2020-07-20T13:21:36",
+      "rules": [
+        {
+          "ruleName": "assd",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": [
+            {
+              "ruleCriteriaParameterValue": "2020-07-20/",
+              "ruleCriteriaID": "1002",
+              "ruleCriteriaMemberID": "1002",
+              "operatorID": "1004",
+              "ruleCriteriaParameterID": "72252201"
+            },
+            {
+              "ruleCriteriaParameterValue": "1,2,3,4,5,6,7",
+              "ruleCriteriaID": "1020",
+              "ruleCriteriaMemberID": "1020",
+              "operatorID": "11",
+              "ruleCriteriaParameterID": "72252202"
+            }
+          ],
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229740",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37432815"
+                },
+                {
+                  "modifierValue": "false",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37432815"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37432815",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "693801",
+          "uniqueTypeID": "7",
+          "ruleStartDate": "2020-07-20",
+          "ruleEndDate": null,
+          "rulePriority": "99",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5808692",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "1",
+          "lastUpdated": "2020-07-20T13:21:36Z"
+        }
+      ]
+    },
+    {
+      "uxGroupName": "policy for single rate plan",
+      "uxPolicyLevel": "RATEPLAN",
+      "uxRatePlanIds": [
+        "3369023"
+      ],
+      "uxRateCategoryIds": null,
+      "uxPolicyStatus": "ACTIVE",
+      "uxDOW": "1,2,3,4,5,6,7",
+      "uxPolicyDateRange": "2020-07-20/",
+      "uxPolicyType": "DATED",
+      "uxPolicyTemplateId": "1229442",
+      "uxpolicyTemplateName": "Test Cancellation for dist msg",
+      "uxpolicyTemplateCode": "TestC",
+      "uxLastUpdated": "2020-07-20T13:18:40",
+      "rules": [
+        {
+          "ruleName": "policy for single rate plan",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": [
+            {
+              "ruleCriteriaParameterValue": "2020-07-20/",
+              "ruleCriteriaID": "1002",
+              "ruleCriteriaMemberID": "1002",
+              "operatorID": "1004",
+              "ruleCriteriaParameterID": "72252199"
+            },
+            {
+              "ruleCriteriaParameterValue": "1,2,3,4,5,6,7",
+              "ruleCriteriaID": "1020",
+              "ruleCriteriaMemberID": "1020",
+              "operatorID": "11",
+              "ruleCriteriaParameterID": "72252200"
+            }
+          ],
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229442",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37432814"
+                },
+                {
+                  "modifierValue": "false",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37432814"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37432814",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "3369023",
+          "uniqueTypeID": "5",
+          "ruleStartDate": "2020-07-20",
+          "ruleEndDate": null,
+          "rulePriority": "99",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5808691",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "1",
+          "lastUpdated": "2020-07-20T13:18:40Z"
+        }
+      ]
+    },
+    {
+      "uxGroupName": "policy for rate category",
+      "uxPolicyLevel": "RATECATEGORY",
+      "uxRatePlanIds": null,
+      "uxRateCategoryIds": [
+        "693801"
+      ],
+      "uxPolicyStatus": "ACTIVE",
+      "uxDOW": "1,2,3,4,5,6,7",
+      "uxPolicyDateRange": "2020-07-20/",
+      "uxPolicyType": "DATED",
+      "uxPolicyTemplateId": "1229488",
+      "uxpolicyTemplateName": "Test cancel data 1530",
+      "uxpolicyTemplateCode": "1530",
+      "uxLastUpdated": "2020-07-20T13:12:26",
+      "rules": [
+        {
+          "ruleName": "policy for rate category",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": [
+            {
+              "ruleCriteriaParameterValue": "2020-07-20/",
+              "ruleCriteriaID": "1002",
+              "ruleCriteriaMemberID": "1002",
+              "operatorID": "1004",
+              "ruleCriteriaParameterID": "72252197"
+            },
+            {
+              "ruleCriteriaParameterValue": "1,2,3,4,5,6,7",
+              "ruleCriteriaID": "1020",
+              "ruleCriteriaMemberID": "1020",
+              "operatorID": "11",
+              "ruleCriteriaParameterID": "72252198"
+            }
+          ],
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229488",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37432813"
+                },
+                {
+                  "modifierValue": "false",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37432813"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37432813",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "693801",
+          "uniqueTypeID": "7",
+          "ruleStartDate": "2020-07-20",
+          "ruleEndDate": null,
+          "rulePriority": "99",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5808690",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "1",
+          "lastUpdated": "2020-07-20T13:12:26Z"
+        }
+      ]
+    },
+    {
+      "uxGroupName": "sadasdlsad",
+      "uxPolicyLevel": "RATECATEGORY",
+      "uxRatePlanIds": null,
+      "uxRateCategoryIds": [
+        "693801"
+      ],
+      "uxPolicyStatus": "ACTIVE",
+      "uxDOW": "2",
+      "uxPolicyDateRange": "2020-07-20/",
+      "uxPolicyType": "DATED",
+      "uxPolicyTemplateId": "1229480",
+      "uxpolicyTemplateName": "Test cancel data 1522",
+      "uxpolicyTemplateCode": "1522",
+      "uxLastUpdated": "2020-07-20T12:23:45",
+      "rules": [
+        {
+          "ruleName": "sadasdlsad",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": [
+            {
+              "ruleCriteriaParameterValue": "2020-07-20/",
+              "ruleCriteriaID": "1002",
+              "ruleCriteriaMemberID": "1002",
+              "operatorID": "1004",
+              "ruleCriteriaParameterID": "72252184"
+            },
+            {
+              "ruleCriteriaParameterValue": "2",
+              "ruleCriteriaID": "1020",
+              "ruleCriteriaMemberID": "1020",
+              "operatorID": "11",
+              "ruleCriteriaParameterID": "72252185"
+            }
+          ],
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229480",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37432806"
+                },
+                {
+                  "modifierValue": "false",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37432806"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37432806",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "693801",
+          "uniqueTypeID": "7",
+          "ruleStartDate": "2020-07-20",
+          "ruleEndDate": null,
+          "rulePriority": "99",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5808683",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "1",
+          "lastUpdated": "2020-07-20T12:23:45Z"
+        }
+      ]
+    },
+    {
+      "uxGroupName": "Test @130",
+      "uxPolicyLevel": "RATECATEGORY",
+      "uxRatePlanIds": null,
+      "uxRateCategoryIds": [
+        "693802",
+        "693806",
+        "693807"
+      ],
+      "uxPolicyStatus": "ACTIVE",
+      "uxDOW": "1,2,3,4,5,6,7",
+      "uxPolicyDateRange": "2020-07-19/2020-07-22,2020-07-23/2020-07-31",
+      "uxPolicyType": "DATED",
+      "uxPolicyTemplateId": "1229442",
+      "uxpolicyTemplateName": "Test Cancellation for dist msg",
+      "uxpolicyTemplateCode": "TestC",
+      "uxLastUpdated": "2020-07-19T14:33:55",
+      "rules": [
+        {
+          "ruleName": "Test @130",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": [
+            {
+              "ruleCriteriaParameterValue": "2020-07-19/2020-07-22,2020-07-23/2020-07-31",
+              "ruleCriteriaID": "1002",
+              "ruleCriteriaMemberID": "1002",
+              "operatorID": "1004",
+              "ruleCriteriaParameterID": "72251892"
+            },
+            {
+              "ruleCriteriaParameterValue": "1,2,3,4,5,6,7",
+              "ruleCriteriaID": "1020",
+              "ruleCriteriaMemberID": "1020",
+              "operatorID": "11",
+              "ruleCriteriaParameterID": "72251893"
+            }
+          ],
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229442",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37432574"
+                },
+                {
+                  "modifierValue": "false",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37432574"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37432574",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "693802",
+          "uniqueTypeID": "7",
+          "ruleStartDate": "2020-07-19",
+          "ruleEndDate": "2020-07-31",
+          "rulePriority": "99",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5808563",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "1",
+          "lastUpdated": "2020-07-19T14:33:55Z"
+        },
+        {
+          "ruleName": "Test @130",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": [
+            {
+              "ruleCriteriaParameterValue": "2020-07-19/2020-07-22,2020-07-23/2020-07-31",
+              "ruleCriteriaID": "1002",
+              "ruleCriteriaMemberID": "1002",
+              "operatorID": "1004",
+              "ruleCriteriaParameterID": "72251894"
+            },
+            {
+              "ruleCriteriaParameterValue": "1,2,3,4,5,6,7",
+              "ruleCriteriaID": "1020",
+              "ruleCriteriaMemberID": "1020",
+              "operatorID": "11",
+              "ruleCriteriaParameterID": "72251895"
+            }
+          ],
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229442",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37432575"
+                },
+                {
+                  "modifierValue": "false",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37432575"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37432575",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "693806",
+          "uniqueTypeID": "7",
+          "ruleStartDate": "2020-07-19",
+          "ruleEndDate": "2020-07-31",
+          "rulePriority": "99",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5808564",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "1",
+          "lastUpdated": "2020-07-19T14:33:55Z"
+        },
+        {
+          "ruleName": "Test @130",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": [
+            {
+              "ruleCriteriaParameterValue": "2020-07-19/2020-07-22,2020-07-23/2020-07-31",
+              "ruleCriteriaID": "1002",
+              "ruleCriteriaMemberID": "1002",
+              "operatorID": "1004",
+              "ruleCriteriaParameterID": "72251896"
+            },
+            {
+              "ruleCriteriaParameterValue": "1,2,3,4,5,6,7",
+              "ruleCriteriaID": "1020",
+              "ruleCriteriaMemberID": "1020",
+              "operatorID": "11",
+              "ruleCriteriaParameterID": "72251897"
+            }
+          ],
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229442",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37432576"
+                },
+                {
+                  "modifierValue": "false",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37432576"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37432576",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "693807",
+          "uniqueTypeID": "7",
+          "ruleStartDate": "2020-07-19",
+          "ruleEndDate": "2020-07-31",
+          "rulePriority": "99",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5808565",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "1",
+          "lastUpdated": "2020-07-19T14:33:55Z"
+        }
+      ]
+    },
+    {
+      "uxGroupName": "Test @127",
+      "uxPolicyLevel": "RATECATEGORY",
+      "uxRatePlanIds": null,
+      "uxRateCategoryIds": [
+        "693806",
+        "693807",
+        "693801"
+      ],
+      "uxPolicyStatus": "ACTIVE",
+      "uxDOW": "1,2,3,4,5,6,7",
+      "uxPolicyDateRange": "2020-07-19/",
+      "uxPolicyType": "DATED",
+      "uxPolicyTemplateId": "1229442",
+      "uxpolicyTemplateName": "Test Cancellation for dist msg",
+      "uxpolicyTemplateCode": "TestC",
+      "uxLastUpdated": "2020-07-19T14:32:21",
+      "rules": [
+        {
+          "ruleName": "Test @127",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": [
+            {
+              "ruleCriteriaParameterValue": "2020-07-19/",
+              "ruleCriteriaID": "1002",
+              "ruleCriteriaMemberID": "1002",
+              "operatorID": "1004",
+              "ruleCriteriaParameterID": "72251886"
+            },
+            {
+              "ruleCriteriaParameterValue": "1,2,3,4,5,6,7",
+              "ruleCriteriaID": "1020",
+              "ruleCriteriaMemberID": "1020",
+              "operatorID": "11",
+              "ruleCriteriaParameterID": "72251887"
+            }
+          ],
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229442",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37432571"
+                },
+                {
+                  "modifierValue": "false",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37432571"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37432571",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "693806",
+          "uniqueTypeID": "7",
+          "ruleStartDate": "2020-07-19",
+          "ruleEndDate": null,
+          "rulePriority": "99",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5808560",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "1",
+          "lastUpdated": "2020-07-19T14:32:21Z"
+        },
+        {
+          "ruleName": "Test @127",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": [
+            {
+              "ruleCriteriaParameterValue": "2020-07-19/",
+              "ruleCriteriaID": "1002",
+              "ruleCriteriaMemberID": "1002",
+              "operatorID": "1004",
+              "ruleCriteriaParameterID": "72251884"
+            },
+            {
+              "ruleCriteriaParameterValue": "1,2,3,4,5,6,7",
+              "ruleCriteriaID": "1020",
+              "ruleCriteriaMemberID": "1020",
+              "operatorID": "11",
+              "ruleCriteriaParameterID": "72251885"
+            }
+          ],
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229442",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37432570"
+                },
+                {
+                  "modifierValue": "false",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37432570"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37432570",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "693807",
+          "uniqueTypeID": "7",
+          "ruleStartDate": "2020-07-19",
+          "ruleEndDate": null,
+          "rulePriority": "99",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5808559",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "1",
+          "lastUpdated": "2020-07-19T14:32:21Z"
+        },
+        {
+          "ruleName": "Test @127",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": [
+            {
+              "ruleCriteriaParameterValue": "2020-07-19/",
+              "ruleCriteriaID": "1002",
+              "ruleCriteriaMemberID": "1002",
+              "operatorID": "1004",
+              "ruleCriteriaParameterID": "72251882"
+            },
+            {
+              "ruleCriteriaParameterValue": "1,2,3,4,5,6,7",
+              "ruleCriteriaID": "1020",
+              "ruleCriteriaMemberID": "1020",
+              "operatorID": "11",
+              "ruleCriteriaParameterID": "72251883"
+            }
+          ],
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229442",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37432569"
+                },
+                {
+                  "modifierValue": "false",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37432569"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37432569",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "693801",
+          "uniqueTypeID": "7",
+          "ruleStartDate": "2020-07-19",
+          "ruleEndDate": null,
+          "rulePriority": "99",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5808558",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "1",
+          "lastUpdated": "2020-07-19T14:32:21Z"
+        }
+      ]
+    },
+    {
+      "uxGroupName": "Test @126",
+      "uxPolicyLevel": "RATECATEGORY",
+      "uxRatePlanIds": null,
+      "uxRateCategoryIds": [
+        "693802",
+        "693807",
+        "693801"
+      ],
+      "uxPolicyStatus": "ACTIVE",
+      "uxDOW": "1,2,3,4,5,6,7",
+      "uxPolicyDateRange": "2020-07-19/",
+      "uxPolicyType": "DATED",
+      "uxPolicyTemplateId": "1229505",
+      "uxpolicyTemplateName": "newDepo",
+      "uxpolicyTemplateCode": null,
+      "uxLastUpdated": "2020-07-19T14:31:53",
+      "rules": [
+        {
+          "ruleName": "Test @126",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": [
+            {
+              "ruleCriteriaParameterValue": "2020-07-19/",
+              "ruleCriteriaID": "1002",
+              "ruleCriteriaMemberID": "1002",
+              "operatorID": "1004",
+              "ruleCriteriaParameterID": "72251876"
+            },
+            {
+              "ruleCriteriaParameterValue": "1,2,3,4,5,6,7",
+              "ruleCriteriaID": "1020",
+              "ruleCriteriaMemberID": "1020",
+              "operatorID": "11",
+              "ruleCriteriaParameterID": "72251877"
+            }
+          ],
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229505",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37432566"
+                },
+                {
+                  "modifierValue": "false",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37432566"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37432566",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "693802",
+          "uniqueTypeID": "7",
+          "ruleStartDate": "2020-07-19",
+          "ruleEndDate": null,
+          "rulePriority": "99",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5808555",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "1",
+          "lastUpdated": "2020-07-19T14:31:53Z"
+        },
+        {
+          "ruleName": "Test @126",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": [
+            {
+              "ruleCriteriaParameterValue": "2020-07-19/",
+              "ruleCriteriaID": "1002",
+              "ruleCriteriaMemberID": "1002",
+              "operatorID": "1004",
+              "ruleCriteriaParameterID": "72251878"
+            },
+            {
+              "ruleCriteriaParameterValue": "1,2,3,4,5,6,7",
+              "ruleCriteriaID": "1020",
+              "ruleCriteriaMemberID": "1020",
+              "operatorID": "11",
+              "ruleCriteriaParameterID": "72251879"
+            }
+          ],
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229505",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37432567"
+                },
+                {
+                  "modifierValue": "false",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37432567"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37432567",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "693807",
+          "uniqueTypeID": "7",
+          "ruleStartDate": "2020-07-19",
+          "ruleEndDate": null,
+          "rulePriority": "99",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5808556",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "1",
+          "lastUpdated": "2020-07-19T14:31:53Z"
+        },
+        {
+          "ruleName": "Test @126",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": [
+            {
+              "ruleCriteriaParameterValue": "2020-07-19/",
+              "ruleCriteriaID": "1002",
+              "ruleCriteriaMemberID": "1002",
+              "operatorID": "1004",
+              "ruleCriteriaParameterID": "72251874"
+            },
+            {
+              "ruleCriteriaParameterValue": "1,2,3,4,5,6,7",
+              "ruleCriteriaID": "1020",
+              "ruleCriteriaMemberID": "1020",
+              "operatorID": "11",
+              "ruleCriteriaParameterID": "72251875"
+            }
+          ],
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229505",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37432565"
+                },
+                {
+                  "modifierValue": "false",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37432565"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37432565",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "693801",
+          "uniqueTypeID": "7",
+          "ruleStartDate": "2020-07-19",
+          "ruleEndDate": null,
+          "rulePriority": "99",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5808554",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "1",
+          "lastUpdated": "2020-07-19T14:31:53Z"
+        }
+      ]
+    },
+    {
+      "uxGroupName": "Test @124",
+      "uxPolicyLevel": "RATECATEGORY",
+      "uxRatePlanIds": null,
+      "uxRateCategoryIds": [
+        "693801",
+        "693806",
+        "693807",
+        "693812",
+        "693802"
+      ],
+      "uxPolicyStatus": "ACTIVE",
+      "uxDOW": "1,2,3,4,5,6,7",
+      "uxPolicyDateRange": "2020-07-19/",
+      "uxPolicyType": "DATED",
+      "uxPolicyTemplateId": "1229498",
+      "uxpolicyTemplateName": "Rate plan",
+      "uxpolicyTemplateCode": null,
+      "uxLastUpdated": "2020-07-19T14:30:52",
+      "rules": [
+        {
+          "ruleName": "Test @124",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": [
+            {
+              "ruleCriteriaParameterValue": "2020-07-19/",
+              "ruleCriteriaID": "1002",
+              "ruleCriteriaMemberID": "1002",
+              "operatorID": "1004",
+              "ruleCriteriaParameterID": "72251852"
+            },
+            {
+              "ruleCriteriaParameterValue": "1,2,3,4,5,6,7",
+              "ruleCriteriaID": "1020",
+              "ruleCriteriaMemberID": "1020",
+              "operatorID": "11",
+              "ruleCriteriaParameterID": "72251853"
+            }
+          ],
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229498",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37432554"
+                },
+                {
+                  "modifierValue": "false",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37432554"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37432554",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "693801",
+          "uniqueTypeID": "7",
+          "ruleStartDate": "2020-07-19",
+          "ruleEndDate": null,
+          "rulePriority": "99",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5808543",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "1",
+          "lastUpdated": "2020-07-19T14:30:51Z"
+        },
+        {
+          "ruleName": "Test @124",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": [
+            {
+              "ruleCriteriaParameterValue": "2020-07-19/",
+              "ruleCriteriaID": "1002",
+              "ruleCriteriaMemberID": "1002",
+              "operatorID": "1004",
+              "ruleCriteriaParameterID": "72251856"
+            },
+            {
+              "ruleCriteriaParameterValue": "1,2,3,4,5,6,7",
+              "ruleCriteriaID": "1020",
+              "ruleCriteriaMemberID": "1020",
+              "operatorID": "11",
+              "ruleCriteriaParameterID": "72251857"
+            }
+          ],
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229498",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37432556"
+                },
+                {
+                  "modifierValue": "false",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37432556"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37432556",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "693806",
+          "uniqueTypeID": "7",
+          "ruleStartDate": "2020-07-19",
+          "ruleEndDate": null,
+          "rulePriority": "99",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5808545",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "1",
+          "lastUpdated": "2020-07-19T14:30:51Z"
+        },
+        {
+          "ruleName": "Test @124",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": [
+            {
+              "ruleCriteriaParameterValue": "2020-07-19/",
+              "ruleCriteriaID": "1002",
+              "ruleCriteriaMemberID": "1002",
+              "operatorID": "1004",
+              "ruleCriteriaParameterID": "72251858"
+            },
+            {
+              "ruleCriteriaParameterValue": "1,2,3,4,5,6,7",
+              "ruleCriteriaID": "1020",
+              "ruleCriteriaMemberID": "1020",
+              "operatorID": "11",
+              "ruleCriteriaParameterID": "72251859"
+            }
+          ],
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229498",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37432557"
+                },
+                {
+                  "modifierValue": "false",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37432557"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37432557",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "693807",
+          "uniqueTypeID": "7",
+          "ruleStartDate": "2020-07-19",
+          "ruleEndDate": null,
+          "rulePriority": "99",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5808546",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "1",
+          "lastUpdated": "2020-07-19T14:30:52Z"
+        },
+        {
+          "ruleName": "Test @124",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": [
+            {
+              "ruleCriteriaParameterValue": "2020-07-19/",
+              "ruleCriteriaID": "1002",
+              "ruleCriteriaMemberID": "1002",
+              "operatorID": "1004",
+              "ruleCriteriaParameterID": "72251860"
+            },
+            {
+              "ruleCriteriaParameterValue": "1,2,3,4,5,6,7",
+              "ruleCriteriaID": "1020",
+              "ruleCriteriaMemberID": "1020",
+              "operatorID": "11",
+              "ruleCriteriaParameterID": "72251861"
+            }
+          ],
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229498",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37432558"
+                },
+                {
+                  "modifierValue": "false",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37432558"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37432558",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "693812",
+          "uniqueTypeID": "7",
+          "ruleStartDate": "2020-07-19",
+          "ruleEndDate": null,
+          "rulePriority": "99",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5808547",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "1",
+          "lastUpdated": "2020-07-19T14:30:52Z"
+        },
+        {
+          "ruleName": "Test @124",
+          "ruleDescription": null,
+          "activeStatus": "Active",
+          "ruleCriteriaParameters": [
+            {
+              "ruleCriteriaParameterValue": "2020-07-19/",
+              "ruleCriteriaID": "1002",
+              "ruleCriteriaMemberID": "1002",
+              "operatorID": "1004",
+              "ruleCriteriaParameterID": "72251854"
+            },
+            {
+              "ruleCriteriaParameterValue": "1,2,3,4,5,6,7",
+              "ruleCriteriaID": "1020",
+              "ruleCriteriaMemberID": "1020",
+              "operatorID": "11",
+              "ruleCriteriaParameterID": "72251855"
+            }
+          ],
+          "ruleDecisions": [
+            {
+              "ruleDecisionValue": "1229498",
+              "ruleDecisionModifiers": [
+                {
+                  "modifierValue": "PROPERTY",
+                  "ruleDecisionTypeModifierID": "1089",
+                  "ruleDecisionID": "37432555"
+                },
+                {
+                  "modifierValue": "false",
+                  "ruleDecisionTypeModifierID": "1091",
+                  "ruleDecisionID": "37432555"
+                }
+              ],
+              "ruleDecisionTypeID": "1024",
+              "ruleDecisionID": "37432555",
+              "ruleDecisionOrder": "1"
+            }
+          ],
+          "user": "ihsuryakant",
+          "uniqueID": "693802",
+          "uniqueTypeID": "7",
+          "ruleStartDate": "2020-07-19",
+          "ruleEndDate": null,
+          "rulePriority": "99",
+          "ruleLogic": "ALL",
+          "ruleTypeID": "14",
+          "ruleID": "5808544",
+          "resvCount": null,
+          "totalRoomNights": null,
+          "totalRoomRates": null,
+          "advertisementIds": null,
+          "version": "1",
+          "lastUpdated": "2020-07-19T14:30:51Z"
+        }
+      ]
+    }
+  ],
+  "totalRecordCount": 51
+}

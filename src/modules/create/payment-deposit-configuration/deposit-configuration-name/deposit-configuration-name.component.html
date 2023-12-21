@@ -1,0 +1,20 @@
+<div class="deposit-configuration-details-container">
+  <div class="basic-card z-depth-1">
+      <form>
+          <div class="template-panel-content" *ngIf="depositConfigurationDetailData">
+              <div class="form-group tc-form-group col-md-4 ps-0">
+                  <label for="paymentDepositConfigurationName">
+                      {{ translationMap['DEPOSIT_CONFIGURATION_NAME'] | translate }}
+                  </label>
+                  <input type="text" name="paymentDepositConfigurationName" maxlength="47"
+                      [(ngModel)]="depositConfigurationDetailData.paymentDepositConfigurationName"
+                      (ngModelChange)="paymentDepositConfigurationNameChange($event)"
+                      class="paymentDepositConfigurationName form-control tc-form-control" id="paymentDepositConfigurationName" placeholder="">
+
+                  <policy-mgmt-error-message [messageDetails]="errorObj.depositConfigurationNameErrorMessage">
+                  </policy-mgmt-error-message>
+              </div>
+          </div>
+      </form>
+  </div>
+</div>

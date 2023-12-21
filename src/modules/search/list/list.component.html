@@ -1,0 +1,205 @@
+<div class="pagination-container row">
+  <div class="col-md-5 px-0">
+    <div class="pagination-details">
+      <span *ngIf="listData.length === 0">{{translationMap['NO_RECORDS_FOUND'] | translate}}</span>
+      <span *ngIf="listData && listData.length">
+        {{ searchRecordInfo | translate : {startIndex: paginationConfig.startIndex, endIndex:
+        paginationConfig.endIndex, totalCount: paginationConfig.collectionSize} }}
+      </span>
+    </div>
+    <div *ngIf="listData && listData.length">
+      <ngb-pagination [collectionSize]="paginationConfig.collectionSize" [pageSize]="paginationConfig.pageSize"
+        [(page)]="paginationConfig.page" (pageChange)="loadPage($event)" [ellipses]="true" [maxSize]="10">
+      </ngb-pagination>
+    </div>
+  </div>
+</div>
+
+<div class="search-list-container row" *ngIf="listData && listData.length">
+  <ng-container *ngFor="let data of listData; let listIndex = index">
+
+    <ng-container *ngTemplateOutlet="templateCard; context:{$implicit: data}">
+    </ng-container>
+
+    <ng-template #templateCard let-row>
+      <div class="card tc-card panel-default tc-card--default col-md-12 px-0">
+        <div class="list-card-container">
+          <div class="template-card" [ngClass]="row['callOutListItem'] ? 'list-card-left-panel' : ''">
+
+            <div class="primary-row">
+              <!-- Card name -->
+              <!-- <div class="col-md-12 row p-0"> -->
+              <div class="primary-row-left">
+                <h3 class="mt-0 mt-8">{{row['name']}}</h3>
+              </div>
+
+              <div *ngIf="row.failed_hotels_count > 0" class="primary-row-center">
+                <!-- Type: 'link' -->
+                <button type="button" class="btn tc-btn tc-btn--inline-link padding-top-2"
+                  (click)="viewCoppyClonErrorDetails(row.jobId, row.failed_hotels_count, row.total_hotels_count)">
+                  <p>{{ getCopyCloneErrorDetailsRecord | translate :
+                    {failedCount: row['failed_hotels_count'],
+                    totalCount: row['total_hotels_count']} }}</p>
+                </button>
+              </div>
+
+              <!-- Type: 'button' -->
+              <div class="primary-row-right">
+                <div>
+                  <!-- Type: 'button' -->
+                  <button type="button" class="btn tc-btn btn-primary tc-btn--primary tc-tooltip-holder"
+                    [ngbTooltip]="displayViewOrEditButton(row['isCreatedAtEnterpriseLevel']) | translate"
+                    placement="bottom" (click)="editItem(row)">
+                    {{displayViewOrEditButton(row['isCreatedAtEnterpriseLevel']) |
+                    translate}}
+                  </button>
+                </div>
+
+                <div>
+                  <button type="button" class="btn tc-btn tc-btn--inline-link float-right tc-tooltip-holder"
+                    placement="bottom-right" [disabled]="!manageActionButton(row['isCreatedAtEnterpriseLevel'])"
+                    [ngbPopover]="actionsContent" #closePopover="ngbPopover" triggers="manual"
+                    [ngbTooltip]="translationMap['ACTIONS'] | translate" (click)="closePopover.toggle()">
+                    {{translationMap['ACTIONS'] | translate}}
+                    <i class="tc-icon">
+                      <svg id="icon-caret-arrowhead-facing-down" viewBox="0 0 50 50" width="100%" height="100%">
+                        <path d="M4 17l21 22 21-22z"></path>
+                      </svg>
+                    </i>
+                  </button>
+                </div>
+
+                <ng-template #actionsContent>
+                  <div class="action-list">
+                    <span
+                      *ngIf="hasEditAccess &&
+                                            (configType === 'template' && row['isCreatedAtEnterpriseLevel'] === false)">
+                      <button type="button" class="btn tc-btn tc-btn--link p-0 m-0" (click)="makeActiveInactive(row)">
+                        <p *ngIf="row['status'] === statusList.ACTIVE">
+                          {{translationMap['MAKE_INACTIVE'] | translate}}</p>
+                        <p *ngIf="row['status'] === statusList.INACTIVE || row['status'] === statusList.EXPIRED">
+                          {{translationMap['MAKE_ACTIVE'] | translate}}</p>
+                      </button>
+                    </span>
+                    <span *ngIf="configType === configTypeEnum.TEMPLATE &&
+                                        (configType === 'template' && row['isCreatedAtEnterpriseLevel'] === false)">
+                      <button type="button" class="btn tc-btn tc-btn--link p-0 m-0"
+                        *ngIf="row['status'] === statusList.ACTIVE" (click)="managePolicy()">
+                        <p>{{ managePolicyType }}</p>
+                      </button>
+                    </span>
+                    <span *ngIf="configType !== configTypeEnum.DEPOSIT_CONFIGURATION && displayHistoryLogButton(row['isCreatedAtEnterpriseLevel'])">
+                      <button type="button" class="btn tc-btn tc-btn--link p-0 m-0"
+                        (click)=" isEnterpriseLevel && configType === configTypeEnum.POLICY ?  viewVersionHistory(row['historyAuxId']) : viewVersionHistory(row['id'])">
+                        <p>{{translationMap['VIEW_VERSION_HISTORY'] | translate}}</p>
+                      </button>
+                    </span>
+                    <span *ngIf="displayDeleteButton(row['isCreatedAtEnterpriseLevel'])">
+                      <button type="button" class="btn tc-btn tc-btn--link p-0 m-0"
+                        (click)="deleteDepositConfiguration(listIndex)">
+                        <p>{{translationMap['DELETE'] | translate}}</p>
+                      </button>
+                    </span>
+                  </div>
+                </ng-template>
+              </div>
+            </div>
+
+            <ng-container *ngFor="let item of listRules.itemList">
+
+              <!-- For Type: 'text' and if any data present for field -->
+              <div class="ruleField" [ngClass]="item.divClasses" *ngIf="item.type === 'text' && row[item.key]">
+                <p *ngIf="item.type === 'text'" [ngClass]="item.elemClasses">
+                  {{item.text ? (translationMap[item.text] | translate) + ': ' : ''}}
+                  {{row[item.key]}}
+                </p>
+              </div>
+
+              <!-- For Type: 'status' -->
+              <div class="ruleField" [ngClass]="item.divClasses" *ngIf="item.type === 'status'">
+                <p [ngClass]="item.elemClasses">
+                  <span [ngClass]="row[item.key] === statusList.ACTIVE ? 'active' : 'inactive'">
+                  </span>
+                  <span> {{translationMap[row[item.key]] | translate }}</span>
+                </p>
+              </div>
+
+              <!-- For Type: 'installments' -->
+              <div class="ruleField" [ngClass]="item.divClasses"
+                *ngIf="item.type === 'installments' && enabledInstallmentFlag">
+                <p *ngIf="item.type === 'installments'" [ngClass]="item.elemClasses">
+                  {{item.text ? (translationMap[item.text] | translate) + ': ' : ''}}
+                  {{row[item.key]}}
+                </p>
+              </div>
+
+              <!-- For Type: 'Link' -->
+              <div class="ruleField" *ngIf="item.type === 'link'">
+                <div *ngIf="item.key === 'date'">
+                  <ng-container *ngIf="row.dateRangeList && row.dateRangeList.length > 1; else dateLabelTemplate">
+                    <button type="button" [ngClass]="item.elemClasses"
+                      class="btn tc-btn tc-btn--inline-link padding-top-2" (click)="viewDetails(row, item.key)">
+                      {{row[item.key]}}
+                    </button>
+                  </ng-container>
+                  <ng-template #dateLabelTemplate>
+                    <p [ngClass]="item.elemClasses">{{row[item.key]}}</p>
+                  </ng-template>
+                </div>
+
+                <div *ngIf="item.key === 'level'">
+                  <ng-container
+                    *ngIf="row.linkedMetaDataList && row.linkedMetaDataList.length; else categoryRateLabelTemplate">
+                    <button type="button" class="btn tc-btn tc-btn--inline-link padding-top-2"
+                      (click)="viewDetails(row, item.key)"> {{getPolicyLevelLabel(row[item.key])}}
+                    </button>
+                  </ng-container>
+
+                  <ng-template #categoryRateLabelTemplate>
+                    <p>{{item.text ? (translationMap[item.text] | translate) + ': ' : ''}}
+                      {{translationMap[row[item.key]] | translate}}
+                    </p>
+                  </ng-template>
+                </div>
+              </div>
+
+              <!-- line break -->
+              <ng-container *ngIf="item.styleAttr === listStyleAttr.BREAK_LINE">
+                <br />
+              </ng-container>
+            </ng-container>
+          </div>
+          <div *ngIf="row['callOutListItem']" class="call-out-section">
+            <div class="call-out-panel">
+              <div class="panel-heading">{{row['callOutListItem'].header}}</div>
+              <h2 class="mt-0 panel-body">{{row['callOutListItem'].body}}</h2>
+              <p>{{row['callOutListItem'].footer}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </ng-template>
+
+  </ng-container>
+
+</div>
+
+<!-- component to open List Details list in modal -->
+<policy-mgmt-list-details-modal></policy-mgmt-list-details-modal>
+
+<!-- Version History Modal Component -->
+<version-history></version-history>
+
+<!-- Copy clone error details Modal Component -->
+<copy-clone-error-details></copy-clone-error-details>
+
+<!-- Linked Policy Templates error details Modal Component -->
+<linked-policy-templates-error></linked-policy-templates-error>
+
+<!-- Component to show modal for expired policy -->
+<policy-mgmt-confirmation-modal (modalOk)="onModalOk($event)" (modalCancel)="onModalCancel($event)">
+</policy-mgmt-confirmation-modal>
+
+<!-- show toast for error -->
+<policy-mgmt-api-error-message [toastDetails]="apiErrorMessageDetails" *ngIf="showToastFlag">
+</policy-mgmt-api-error-message>

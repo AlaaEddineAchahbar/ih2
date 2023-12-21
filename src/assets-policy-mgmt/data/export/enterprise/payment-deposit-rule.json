@@ -1,0 +1,52 @@
+{
+    "totalCount": 1,
+    "nextIndex": 0,
+    "emPaymentDepositRules": [
+        {
+            "emPaymentDepositRuleTemplateId": 1001,
+            "emPaymentDepositRuleTemplateName": "Enterprise Test Deposit Configuration",
+            "chainInfo": {
+                "chainCode": "AAA",
+                "chainHotels": []
+            },
+            "paymentDepositRule": {
+                "status": "add",
+                "ruleName": "Enterprise Test Deposit Configuration",
+                "rules": [
+                    {
+                        "percentOnEnhancement": 5,
+                        "chargeType": "percentage",
+                        "chargeAmounts": [],
+                        "chargePercentage": 2
+                    },
+                    {
+                        "percentOnEnhancement": 5,
+                        "chargeType": "flat",
+                        "chargeAmounts": [
+                            {
+                                "chargeAmount": 15,
+                                "currency": [
+                                    "USD"
+                                ]
+                            },
+                            {
+                                "chargeAmount": 10,
+                                "currency": [
+                                    "EUR"
+                                ]
+                            }
+                        ],
+                        "chargePercentage": 0
+                    },
+                    {
+                        "status": "add",
+                        "percentOnEnhancement": 10,
+                        "chargeType": "arrivalDay",
+                        "chargeAmounts": [],
+                        "chargePercentage": 0
+                    }
+                ]
+            }
+        }
+    ]
+}

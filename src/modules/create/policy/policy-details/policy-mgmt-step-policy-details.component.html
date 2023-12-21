@@ -1,0 +1,103 @@
+<div class="policy-details-container">
+    <div class="basic-card z-depth-1">
+        <form>
+            <div class="stepper-panel-content" *ngIf="rulesData">
+                <!-- Policy name -->
+                <div class="form-group tc-form-group col-md-4 ps-0">
+                    <label for="policyName">
+                        {{ translationMap['POLICY_NAME'] | translate }}
+                    </label>
+                    <input type="text" name="policyName" maxlength="47" [(ngModel)]="rulesData.fields.policyName"
+                        class="policyName form-control tc-form-control" id="policyName"
+                        (ngModelChange)="policyNameChange($event)">
+
+                    <policy-mgmt-error-message [messageDetails]="errorObj.policyNameErrorMessage">
+                    </policy-mgmt-error-message>
+                </div>
+
+                <!-- Policy template list dropdown -->
+                <div class="form-group row policy-template-container-row tc-form-group ps-0">
+                    <div class="col-md-4 ps-0">
+                        <label for="policyTemplate">
+                            {{ translationMap['POLICY_TEMPLATE'] | translate }}
+                        </label>
+                        <div class="policy-template-container">
+                            <tc-dropdown dropdownType="filter"
+                                [defaultSelection]="policyTemplateDefaultIndex"
+                                [selectTextLabel]="translationMap['DROPDOWN_SELECT'] | translate"
+                                (selectionChange)="onPolicyTemplateSelectionChange($event)"
+                                dropdownId="policy-template-list" [listItemArr]="rulesData.data.policyTemplateList"
+                                placeholderText="{{translationMap['FILTER'] | translate}}">
+                            </tc-dropdown>
+                        </div>
+                        <policy-mgmt-error-message [messageDetails]="errorObj.policyTemplateErrorMessage">
+                        </policy-mgmt-error-message>
+                    </div>
+                    <div class="col-md-4 create-new-policy-template ps-0">
+                        <button placement="bottom" class="btn tc-btn btn-link tc-btn--link link-button pl-0 mb-0" type="button" (click)="onCreateTemplate()">{{ translationMap['CREATE_NEW_POLICY_TEMPLATE'] | translate }}</button>
+                    </div>
+                </div>
+
+                <!-- Policy Type -->
+                <ng-template #policyTypePopOver>
+                    <p class="policy-popover-template">{{ translationMap['POLICY_TYPE'] | translate }}</p>
+                    <p *ngFor="let item of rulesData.data.policyType">
+                        <span class="policy-popover-template">{{translationMap[item] | translate}} : </span>
+                        <span> {{ item === 'DATED' ? (translationMap['DATED_INFO_MSG'] | translate) : (translationMap[item + '_' +policyTypeInfoMsg] | translate) }}</span>
+                    </p>
+                </ng-template>
+                <div class="form-group tc-form-group col-md-4 ps-0  policy-detail-container__popover-icon"
+                    *ngIf="rulesData.fields.canBeDefaultPolicy">
+                    <label class="label-spacing" for="policyType">
+                        {{ translationMap['POLICY_TYPE'] | translate }}
+                    </label>
+                    <span class="tc-popover">
+                        <i class="icon-lg tc-icon">
+                            <img class="icon-info" src="{{publicPath}}assets-policy-mgmt/icons/icons-info.svg" placement="right"
+                                [ngbPopover]="policyTypePopOver" triggers="mouseenter:mouseleave" />
+                        </i>
+                    </span>
+                    <div class="row policy-type-container">
+                        <div class="radio tc-radio policy-type-options w-auto px-0" *ngFor="let item of rulesData.data.policyType">
+                            <input type="radio" class="radio-active" id="{{item}}" name="policyType" value="{{item}}"
+                                (change)="setPolicyType(item)" [checked]="rulesData.fields.policyType === item">
+                            <label for="{{item}}">{{translationMap[item] | translate}}</label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- If Policy type is Dated then only display below fields -->
+                <div class="dated-policy-container" *ngIf="rulesData.fields.policyType === defaultDatedPolicyType.dated">
+                    <!-- Date Selector and DOW -->
+                    <div class="form-group tc-form-group">
+                        <label for="dateRange">
+                            {{ translationMap['DATE_RANGE'] | translate }}
+                        </label>
+                        <policy-mgmt-date-selector [showDOWStrip]="true" [dateSelector]="dateSelector"
+                            [mondayCalendarStart]="false" [currentDate]="currentDate"
+                            (dateChanged)="onDateChanged($event)" [errorObj]="errorObj">
+                        </policy-mgmt-date-selector>
+                    </div>
+                    <!-- Override Other Policies-->
+                    <div class="form-group tc-form-group col-md-4 ps-0 override-policies-container policy-detail-container__popover-icon">
+                        <span class="checkbox tc-checkbox">
+                            <input type="checkbox" name="overridePolicies" [checked]="rulesData.fields.overridePolicies"
+                                id="overridePolicies" (change)="onOverridePoliciesChange()">
+                            <label class="label-spacing" for="overridePolicies">
+                                {{ translationMap['OVERRIDE_OTHER_POLICIES'] | translate }}
+                            </label>
+                        </span>
+                        <span class="tc-popover">
+                            <i class="icon-lg tc-icon">
+                                <img class="icon-info" src="{{publicPath}}assets-policy-mgmt/icons/icons-info.svg" placement="right"
+                                    [ngbPopover]="translationMap['OVERRIDE_OTHER_POLCIES_INFO_MSG'] | translate"
+                                    triggers="mouseenter:mouseleave" />
+                            </i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<policy-mgmt-create-template-modal (updateTemplateListItems)="updateTemplateList()"></policy-mgmt-create-template-modal>

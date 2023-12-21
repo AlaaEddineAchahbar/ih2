@@ -1,0 +1,42 @@
+[
+    {
+        "job_child_id": "fRJkhIoBrvYP_KdjF-oe-5020",
+        "parent_id": "fRJkhIoBrvYP_KdjF-oe",
+        "hotel_code": "5020",
+        "status": "Failed",
+        "errors": [
+            {
+                "code": "CORE_PROXY_ERROR",
+                "message": "Unable to send to core",
+                "field": null
+            }
+        ]
+    },
+    {
+        "job_child_id": "fRJkhIoBrvYP_KdjF-oe-1218",
+        "parent_id": "fRJkhIoBrvYP_KdjF-oe",
+        "hotel_code": "1218",
+        "status": "Failed",
+        "errors": [
+            {
+                "code": "CORE_PROXY_ERROR",
+                "message": "Unable to send to core",
+                "field": null
+            }
+        ]
+    },
+    {
+        "job_child_id": "fRJkhIoBrvYP_KdjF-oe-1206",
+        "parent_id": "fRJkhIoBrvYP_KdjF-oe",
+        "hotel_code": "1206",
+        "status": "Pending",
+        "errors": []
+    },
+    {
+        "job_child_id": "fRJkhIoBrvYP_KdjF-oe-1221",
+        "parent_id": "fRJkhIoBrvYP_KdjF-oe",
+        "hotel_code": "1221",
+        "status": "Pending",
+        "errors": []
+    }
+]

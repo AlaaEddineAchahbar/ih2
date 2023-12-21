@@ -1,0 +1,100 @@
+{
+    "paymentDepositRuleNames": [
+        {
+            "paymentDepositRuleName": "Create Test 5",
+            "paymentDepositRuleTemplateId": 622539
+        },
+        {
+            "paymentDepositRuleName": "Create Test 6",
+            "paymentDepositRuleTemplateId": 622541
+        },
+        {
+            "paymentDepositRuleName": "Create Test 1",
+            "paymentDepositRuleTemplateId": 622522
+        },
+        {
+            "paymentDepositRuleName": "MAT_Test_DPR_1",
+            "paymentDepositRuleTemplateId": 622232
+        },
+        {
+            "paymentDepositRuleName": "Create Test 3",
+            "paymentDepositRuleTemplateId": 622513
+        },
+        {
+            "paymentDepositRuleName": "Rule 6 flat and percent",
+            "paymentDepositRuleTemplateId": 622266
+        },
+        {
+            "paymentDepositRuleName": "Rule 3 flat and percent",
+            "paymentDepositRuleTemplateId": 622253
+        },
+        {
+            "paymentDepositRuleName": "Rule 4 flat and percent",
+            "paymentDepositRuleTemplateId": 622257
+        },
+        {
+            "paymentDepositRuleName": "Rule 7 flatperc",
+            "paymentDepositRuleTemplateId": 622371
+        },
+        {
+            "paymentDepositRuleName": "Create Test 7",
+            "paymentDepositRuleTemplateId": 622544
+        },
+        {
+            "paymentDepositRuleName": "Rule 1 flat and percent",
+            "paymentDepositRuleTemplateId": 622228
+        },
+        {
+            "paymentDepositRuleName": "Create Test 1",
+            "paymentDepositRuleTemplateId": 622517
+        },
+        {
+            "paymentDepositRuleName": "Create Test 1",
+            "paymentDepositRuleTemplateId": 622523
+        },
+        {
+            "paymentDepositRuleName": "Create Test 1",
+            "paymentDepositRuleTemplateId": 622503
+        },
+        {
+            "paymentDepositRuleName": "Create Test 4",
+            "paymentDepositRuleTemplateId": 622514
+        },
+        {
+            "paymentDepositRuleName": "Create Test 1",
+            "paymentDepositRuleTemplateId": 622507
+        },
+        {
+            "paymentDepositRuleName": "Francois Test 2",
+            "paymentDepositRuleTemplateId": 622490
+        },
+        {
+            "paymentDepositRuleName": "Create Test 2",
+            "paymentDepositRuleTemplateId": 622504
+        },
+        {
+            "paymentDepositRuleName": "Rule 2 flat and percent",
+            "paymentDepositRuleTemplateId": 622248
+        },
+        {
+            "paymentDepositRuleName": "Francois Test 1",
+            "paymentDepositRuleTemplateId": 622481
+        },
+        {
+            "paymentDepositRuleName": "Rule 5 flat and percent",
+            "paymentDepositRuleTemplateId": 622259
+        },
+        {
+            "paymentDepositRuleName": "MyName",
+            "paymentDepositRuleTemplateId": 621475
+        },
+        {
+            "paymentDepositRuleName": "AnotherName",
+            "paymentDepositRuleTemplateId": 621476
+        },
+        {
+            "paymentDepositRuleName": "Zack Test DC Template",
+            "paymentDepositRuleTemplateId": 622830
+        }
+    ]
+}

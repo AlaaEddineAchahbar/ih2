@@ -1,0 +1,65 @@
+<ng-template #policyOverlapModal let-c="close" let-d="dismiss" class="tc-normal-modal">
+    <div class="modal-header tc-modal__header">
+        <h1 class="modal-title tc-modal__header__title">{{ translationMap['POLICY_OVERLAP'] | translate }}</h1>
+        <button type="button" class="close" aria-label="Close"
+            (click)="d('Cross click');closePolicyOverlapModal(false)">X</button>
+    </div>
+
+    <div class="modal-body">
+        <div class="error-model-body__description export_row">
+            <span class="message tbody_mapping_table">
+                <p>{{translationMap['MSG_OVERLAP_POLICIES'] | translate}}</p>
+            </span>
+        </div>
+
+        <div class="functional-elements">
+            <input pInputText type="text" class="form-control tc-form-control"
+                (input)="policyOverlapListTable.filterGlobal($event.target.value, 'contains')" placeholder="Search" />
+            <div class="export-btn">
+                <button type="button" class="btn tc-btn btn-link tc-btn--inline-link custom-tooltip-holder"
+                    (click)="exportCsvData(policyOverlapListData)">
+                    <i class="tc-icon">
+                        <svg id="icon-microsoft-excel" viewBox="0 0 32 32" width="100%" height="100%">
+                            <path
+                                d="M15.875 4l-.094.03-11 2.44-.78.186v18.688l.78.187 11 2.44.095.03H18v-3h10V7H18V4zM16 6.03v19.94L6 23.78V8.22zM18 9h8v14h-8v-2h2v-2h-2v-1h2v-2h-2v-1h2v-2h-2v-1h2v-2h-2zm3 1v2h4v-2zm-6.844 1l-2.28.28-1.25 2.69c-.134.385-.23.678-.282.874h-.03c-.08-.324-.154-.606-.252-.844l-.624-2.313-2.126.25L7.22 12 9 16l-2 4 2.156.25.875-2.47c.107-.31.193-.565.22-.718h.03c.06.325.1.567.158.688l1.343 2.938 2.44.312-2.658-5.03zM21 13v2h4v-2zm0 3v2h4v-2zm0 3v2h4v-2z">
+                            </path>
+                        </svg>
+                    </i>
+                    {{ translationMap['EXPORT'] | translate }}
+                </button>
+            </div>
+        </div>
+
+        <p-table #policyOverlapListTable class="tc-grid" [columns]="overlapPolicyCols" [value]="policyOverlapListData"
+            [globalFilterFields]="['name', 'id', 'policyDateRange', 'policyName', 'issue']" [scrollable]="true"
+            sortMode="multiple" styleClass="p-datatable-striped">
+            <ng-template pTemplate="header">
+                <tr>
+                    <th *ngFor="let col of overlapPolicyCols" [pSortableColumn]="col.field" id="col">
+                        {{col.header}}
+                        <p-sortIcon [field]="col.field"></p-sortIcon>
+                    </th>
+                </tr>
+            </ng-template>
+            <ng-template pTemplate="body" let-rule>
+                <tr>
+                    <td>{{rule.name}}</td>
+                    <td>{{rule.id}}</td>
+                    <td [innerHTML]="rule.policyDateRange">{{rule.policyDateRange}}</td>
+                    <td>{{rule.policyName}}</td>
+                    <td>{{rule.issue}}</td>
+                </tr>
+            </ng-template>
+        </p-table>
+
+    </div>
+
+    <div class="modal-footer tc-modal__footer">
+        <button type="button" class="btn btn-primary tc-btn tc-btn--primary" (click)="closePolicyOverlapModal(true)">{{
+            translationMap['OK'] | translate }}</button>
+        <button type="button" class="btn btn-primary tc-btn tc-btn--secondary"
+            (click)="closePolicyOverlapModal(false)">{{
+            translationMap['CANCEL'] | translate }}</button>
+    </div>
+
+</ng-template>

@@ -1,0 +1,146 @@
+<div class="deposit-configuration-details-container" *ngIf="depositConfigurationRulesData && depositConfigurationRulesData.rules.length">
+    <div class="basic-card z-depth-1" *ngFor="let depositRule of depositConfigurationRulesData.rules; let ruleIndex = index">
+        <form>
+            <div class="template-panel-content">
+                <!-- Charge Date -->
+                <fieldset [disabled]="true">
+                    <legend></legend>
+                    <div class="form-group tc-form-group col-md-2 ps-0">
+                        <label for="chargeDate">
+                            {{ translationMap['CHARGE_DATE'] | translate }}
+                        </label>
+                        <input type="text" name="chargeDate" disabled
+                            class="paymentDepositConfigurationName form-control tc-form-control"
+                            id="chargeDate" placeholder="{{ translationMap['TIME_OF_BOOKING'] | translate }}">
+                    </div>
+                </fieldset>
+
+                <!-- Charge Type -->
+                <div class="form-group tc-form-group deposit-configuration-details-container__btn-radio">
+                    <label for="chargeType">
+                        {{ translationMap['ROOM_AND_PACKAGE_CHARGES'] | translate }}
+                    </label>
+                    <div class="row">
+                        <div class="col-md-2 radio tc-radio charge-type-options"
+                            *ngFor="let item of depositConfigurationRulesData.data.chargeType; let chargeIndex = index">
+                            <fieldset [disabled]="selectedChargeTypesMap[ruleIndex][chargeIndex]">
+                                <legend></legend>
+                                <input type="radio" class="radio-active" id="{{item}} + {{ruleIndex}}" name="chargeType" value="{{item}}"
+                                    (ngModelChange)="onChargeTypeChange(ruleIndex, item)" [(ngModel)]="depositRule.chargeType">
+                                <label for="{{item}} + {{ruleIndex}}">{{ translationMap[item] | translate }}</label>
+                            </fieldset>
+                        </div>
+                    </div>
+
+                    <!-- Charge Amounts & Currencies -->
+                    <div class="row deposit-configuration-details-container__charge-amount-container"
+                        [hidden]="depositRule.chargeType === 'ARRIVAL_DAY_CHARGE'">
+                        <div [hidden]="depositRule.chargeType !== 'FLAT'"
+                            *ngFor="let chargeAmount of depositRule.chargeAmounts; let innerIndex = index">
+                            <div class="row no-gutters">
+                                <div class="col-md-2 advance-notice-container">
+                                    <div class="ps-0 pe-5 w-auto form-group tc-form-group">
+                                        <label class="label-spacing"
+                                            for="chargeAmount.amount + innerIndex">{{ translationMap['AMOUNT'] | translate }}
+                                        </label>
+                                        <input type="text" [name]="chargeAmount.amount + innerIndex" maxlength="5"
+                                            id="chargeAmount.amount + innerIndex"
+                                            (ngModelChange)="onChargeAmountChange($event, innerIndex)" [(ngModel)]="chargeAmount.amount"
+                                            class="form-control tc-form-control hidden" [inputRestrict]="'numeric'">
+                                    </div>
+                                </div>
+                                <div class="col-md-2 form-group tc-form-group">
+                                    <label class="label-spacing" for="currency"> {{ translationMap['CURRENCY'] | translate }}
+                                    </label>
+                                    <tc-dropdown dropdownType="basic" [defaultSelection]="defaultSelection[innerIndex]"
+                                        (selectionChange)="onCurrencyChange($event, ruleIndex, innerIndex)"
+                                        dropdownId="currency" [listItemArr]="perAmountCurrencies[innerIndex]">
+                                    </tc-dropdown>
+                                </div>
+                                <div class="w-auto col-md-1 ps-0">
+                                    <button [hidden]="innerIndex === 0" class="btn tc-btn btn-link tc-btn--inline-link"
+                                        (click)="removeChargeAmountInput(ruleIndex, innerIndex)" type="button">
+                                    <img src="{{publicPath}}assets-policy-mgmt/icons/remove.svg" alt=""> {{ translationMap['REMOVE'] | translate }}
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group tc-form-group" [hidden]="depositRule.chargeType !== 'FLAT'">
+                            <policy-mgmt-error-message [messageDetails]="errorObj.emptyAmountErrorMessage">
+                            </policy-mgmt-error-message>
+                            <policy-mgmt-error-message [messageDetails]="errorObj.selectCurrencyErrorMessage">
+                            </policy-mgmt-error-message>
+                            <policy-mgmt-error-message [messageDetails]="errorObj.selectAllCurrenciesErrorMessage">
+                            </policy-mgmt-error-message>
+                        </div>
+
+                        <!-- Percentage -->
+                        <div class="col deposit-configuration-details-container__charge-amount-container"
+                            [hidden]="depositRule.chargeType !== 'PERCENTAGE'">
+                            <div class="ps-0 pe-5 w-auto">
+                                <div class="form-group tc-form-group">
+                                    <label class="label-spacing" for="percentage">{{ translationMap['AMOUNT'] | translate }}
+                                    </label>
+                                    <input type="text" name="percentage" maxlength="3"
+                                        id="percentage" (ngModelChange)="onPercentageChange($event)" [(ngModel)]="depositRule.chargePercentage"
+                                        class="form-control tc-form-control hidden" placeholder="" [inputRestrict]="'numeric'">
+                                </div>
+                            </div>
+                            <policy-mgmt-error-message [messageDetails]="errorObj.emptyPercentageErrorMessage">
+                            </policy-mgmt-error-message>
+                        </div>
+                    </div>
+                    <div class="ps-0 add-amount"
+                        [hidden]="(depositRule.chargeType !== 'FLAT' || depositRule.chargeAmounts.length === maxCurrencies)">
+                        <button class="btn tc-btn btn-link tc-btn--inline-link"
+                            (click)="addChargeAmountInput(ruleIndex)" type="button">
+                            <img src="{{publicPath}}assets-policy-mgmt/icons/add.svg" alt=""> {{ translationMap['ADD_AMOUNT'] | translate }}
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Percentage on Enhancement -->
+                <div class="form-group tc-form-group col-md-4 ps-0">
+                    <label for="percentOnEnhancement">
+                        {{ translationMap['CHARGE_ENHANCEMENT_AND_OPTION_WEB'] | translate }}
+                    </label>
+                    <div class="row">
+                        <div class="col-sm-3 ps-0">
+                            <input type="text" name="percentOnEnhancement" maxlength="3"
+                                [(ngModel)]="depositRule.percentOnEnhancement"
+                                (ngModelChange)="onPercentOnEnhancementChange($event, ruleIndex)"
+                                class="form-control tc-form-control"
+                                id="percentOnEnhancement" placeholder=""
+                                [inputRestrict]="'numeric'">
+                        </div>
+                        <div class="col ps-0 percent-on-enhancement-label">
+                            <label for="percentOnEnhancement">
+                                {{ translationMap['PERCENT_ON_ENHANCEMENTS'] | translate }}
+                            </label>
+                        </div>
+                    </div>
+                    <!-- Percentage on Enhancement Error Message-->
+                    <policy-mgmt-error-message [hidden]="!(percentOnEnhancementErrorFlags[ruleIndex])"
+                        [messageDetails]="errorObj.emptyPercentOnEnhancementErrorMessage">
+                    </policy-mgmt-error-message>
+                </div>
+
+                <!-- Add & Remove Deposit Rule -->
+                <div class="ps-0 add-another-configuration">
+                    <button [hidden]="(ruleIndex !== (depositConfigurationRulesData.rules.length - 1) || ruleIndex === 2)"
+                        class="btn tc-btn btn-link tc-btn--inline-link"
+                        (click)="addDepositRule()" type="button">
+                        <img src="{{publicPath}}assets-policy-mgmt/icons/add.svg" alt=""> {{ translationMap['ADD_ANOTHER_DEPOSIT_CONFIGURATION'] | translate }}
+                    </button>
+                </div>
+                <div class="ps-0 remove-configuration">
+                    <button [hidden]="(ruleIndex === 0 && depositConfigurationRulesData.rules.length === 1)"
+                        class="btn tc-btn btn-link tc-btn--inline-link"
+                        (click)="removeDepositRule(ruleIndex)" type="button">
+                        <img src="{{publicPath}}assets-policy-mgmt/icons/remove.svg" alt=""> {{ translationMap['REMOVE_DEPOSIT_CONFIGURATION'] | translate }}
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

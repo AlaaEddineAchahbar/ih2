@@ -1,0 +1,89 @@
+{
+    "emPaymentDepositRuleTemplateId": 622539,
+    "emPaymentDepositRuleTemplateName": "Create Test 5",
+    "chainInfo": {
+        "chainCode": "AAM",
+        "chainHotels": [
+            {
+                "hotelId": 12328,
+                "hotelName": "Aspen Hotel Soldotna 156sqfd",
+                "status": "add"
+            }
+        ]
+    },
+    "paymentDepositRule": {
+        "status": "add",
+        "ruleName": "Create Test 5",
+        "rules": [
+            {
+                "status": "add",
+                "percentOnEnhancement": 21,
+                "chargeType": "flat",
+                "chargeAmounts": [
+                    {
+                        "chargeAmount": 152,
+                        "currency": [
+                            "EUR",
+                            "CAD"
+                        ],
+                        "properties": [
+                            "12328"
+                        ]
+                    },
+                    {
+                        "chargeAmount": 203,
+                        "currency": [
+                            "EUR",
+                            "CAD"
+                        ],
+                        "properties": [
+                            "1212",
+                            "1213"
+                        ]
+                    }
+                ],
+                "chargePercentage": 10
+            },
+            {
+                "status": "add",
+                "percentOnEnhancement": 21,
+                "chargeType": "percentage",
+                "chargeAmounts": [
+                    {
+                        "chargeAmount": 122,
+                        "currency": [
+                            "EUR",
+                            "CAD"
+                        ],
+                        "properties": [
+                            "12328"
+                        ]
+                    }
+                ],
+                "chargePercentage": 10
+            },
+            {
+                "status": "add",
+                "percentOnEnhancement": 21,
+                "chargeType": "arrivalDay",
+                "chargeAmounts": [
+                    {
+                        "chargeAmount": 125,
+                        "currency": [
+                            "EUR",
+                            "CAD"
+                        ],
+                        "properties": [
+                            "12328"
+                        ]
+                    }
+                ],
+                "chargePercentage": 10
+            }
+        ]
+    },
+    "creationDateTime": "2023-08-14T10:14:23.000+0000",
+    "creationBy": "ihrolando",
+    "lastUpdateDateTime": "2023-08-14T10:14:23.000+0000",
+    "lastUpdateBy": "ihrolando"
+}

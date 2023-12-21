@@ -1,0 +1,48 @@
+<div class="preview-label">
+  <p>
+    <span class="previewLabel">{{translationMap['POLICY_TEMPLATE_NAME'] | translate}}:</span>
+    <span class="previewValue">{{previewStepData.fields.policyTemplateName}}</span>
+  </p>
+  <p>
+    <span class="previewLabel">{{translationMap['POLICY_TEMPLATE_CODE'] | translate}}:</span>
+    <span class="previewValue">{{previewStepData.fields.policyTemplateCode}}</span>
+  </p>
+  <p *ngIf="checkVisibility('acceptedTender')">
+    <span class="previewLabel">{{translationMap['ACCEPTED_TENDER'] | translate}}:</span>
+    <span class="previewValue">{{previewStepData.fields.acceptedTender}}</span>
+  </p>
+  <p *ngIf="checkVisibility('lateArrivalTime')">
+    <span class="previewLabel">{{translationMap['LATE_ARRIVAL'] | translate}}:</span>
+    <span class="hold-until-label">{{ translationMap['HOLD_UNTIL_PREVIEW'] | translate }}</span>
+    <span class="previewValue">{{previewStepData.fields.lateArrivalTime}}</span>
+    <span class="hold-time-label">{{ translationMap['WITHOUT_PAYMENT'] | translate }}</span>
+  </p>
+  <p *ngIf="checkVisibility('cancellationNotice')">
+    <span class="previewLabel">{{translationMap['CANCELLATION_NOTICE'] | translate}}:</span>
+    <span class="previewValue">{{translationMap[previewStepData.fields.cancellationNotice] | translate}}</span>
+    <span class="cancel-notice-label">{{cancellationNoticeTime}}</span>
+  </p>
+  <p *ngIf="checkVisibility('isFreeCancellation')">
+    <span class="previewLabel">{{translationMap['FREE_CANCELLATION_CHECKBOX_MSG'] | translate}}:</span>
+    <span class="previewValue">{{translationMap[previewStepData.fields.isFreeCancellation ? 'SELECTED' :
+      'NOT_SELECTED'] | translate}}</span>
+  </p>
+  <!-- Fix for US179068 -->
+  <!-- <p *ngIf="checkVisibility('otaCancellationChargeNotification')">
+        <span class="previewLabel">{{translationMap['OTA_CANCELLATION_CHARGE_NOTIFICATION'] | translate}}:</span>
+        <span class="ota-cancellation-label" *ngIf="previewStepData.fields.otaCancellationChargeNotification === nightsRoomTax">
+            {{ otaCancellationCharge }}</span>
+        <span class="previewValue">{{translationMap[previewStepData.fields.otaCancellationChargeNotification]  | translate}}</span>
+        <span class="ota-cancellation-label" *ngIf="previewStepData.fields.otaCancellationChargeNotification !== nightsRoomTax">
+            {{ otaCancellationCharge }}</span>
+    </p> -->
+  <p *ngIf="checkVisibility('depositRule')">
+    <span class="previewLabel">{{translationMap['DEPOSIT_CONFIGURATION_LABEL'] | translate}}:</span>
+    <span class="previewValue">{{previewStepData.fields.depositRule}}</span>
+  </p>
+
+  <p *ngIf="checkVisibility('depositRule')">
+    <span class="previewLabel">{{ translationMap['ENABLED_INSTALLMENTS'] | translate }}:</span>
+    <span class="previewValue">{{previewStepData.fields.isInstallmentEnabled}}</span>
+  </p>
+</div>

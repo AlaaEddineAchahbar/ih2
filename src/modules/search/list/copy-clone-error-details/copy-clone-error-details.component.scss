@@ -1,0 +1,43 @@
+.copy-clone-error-details {
+    .P-dropdown-panel {
+        z-index: 1052 !important;
+        top: 176.6px !important;
+        position: absolute !important;
+    }
+    .p-table-scrollable-body {
+        overflow-y: scroll;
+    }
+    .p-table-scrollable-header-box {
+        margin-right: 17px !important;
+    }
+
+    .p-datatable table {
+        font-size: 14px;
+    }
+
+    .p-datatable-scrollable .p-datatable-tbody > tr > td {
+        display: grid;
+    }
+
+    .p-datatable-wrapper {
+        max-height: 490px;
+    }
+}
+
+#exportCopyCloneErrorDetailsList {
+    display: none;
+}
+
+.tbody_mapping_table {
+    margin-left: 5px;
+}
+
+.export_row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.export_link {
+    color: #0093e0;
+    cursor: pointer;
+}

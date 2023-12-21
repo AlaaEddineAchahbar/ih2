@@ -1,0 +1,80 @@
+{
+    "policyTemplateId": "1229118",
+    "policyTemplateHistory": [
+        {
+            "policyTemplate": {
+                "operation": "UPDATE",
+                "revisions": []
+            },
+            "metadata": {
+                "modifiedByUserId": "580582",
+                "modifiedByUsername": "ihsuryakant",
+                "policyTemplateHistoryId": "6771357",
+                "versionDate": "2020-12-23T04:19:54",
+                "version": 5
+            }
+        },
+        {
+            "policyTemplate": {
+                "operation": "ADD",
+                "revisions": [
+                    {
+                        "field": "acceptedTender",
+                        "operation": "ADD",
+                        "oldValue": null,
+                        "newValue": "8"
+                    },
+                    {
+                        "field": "depositRuleId",
+                        "operation": "ADD",
+                        "oldValue": null,
+                        "newValue": "69805"
+                    },
+                    {
+                        "field": "gds_message",
+                        "operation": "ADD",
+                        "oldValue": null,
+                        "newValue": "PKs Ent Rate plan level deposit policy "
+                    },
+                    {
+                        "field": "isPrePay",
+                        "operation": "ADD",
+                        "oldValue": null,
+                        "newValue": "true"
+                    },
+                    {
+                        "field": "name",
+                        "operation": "ADD",
+                        "oldValue": null,
+                        "newValue": "Test Deposit Template"
+                    },
+                    {
+                        "field": "online_call_center_message_1",
+                        "operation": "ADD",
+                        "oldValue": null,
+                        "newValue": "PK's Ent Rate plan level deposit policy PK's Ent Rate plan level deposit policy PK's Ent Rate plan level deposit policy"
+                    },
+                    {
+                        "field": "policyCode",
+                        "operation": "ADD",
+                        "oldValue": null,
+                        "newValue": "Depo12"
+                    },
+                    {
+                        "field": "status",
+                        "operation": "ADD",
+                        "oldValue": null,
+                        "newValue": "ACTIVE"
+                    }
+                ]
+            },
+            "metadata": {
+                "modifiedByUserId": "580582",
+                "modifiedByUsername": "ihsuryakant",
+                "policyTemplateHistoryId": "6771235",
+                "versionDate": "2020-12-21T06:48:53",
+                "version": 1
+            }
+        }
+    ]
+}

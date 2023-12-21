@@ -1,0 +1,44 @@
+[
+  {
+     "id":2418,
+     "name":"11 Sept Category",
+     "status":"ACTIVE",
+     "list":[
+        {
+           "id":5173,
+           "name":"usd",
+           "list":[
+              
+           ]
+        }
+     ]
+  },
+  {
+     "id":2929,
+     "name":"AAM 11.0 testing",
+     "status":"ACTIVE",
+     "list":[
+        {
+           "id":5824,
+           "name":"Luxury",
+           "list":[
+              
+           ]
+        }
+     ]
+  },
+  {
+     "id":920,
+     "name":"AAM sfs",
+     "status":"ACTIVE",
+     "list":[
+        {
+           "id":2462,
+           "name":"AP Test sdf",
+           "list":[
+              
+           ]
+        }
+     ]
+  }
+]

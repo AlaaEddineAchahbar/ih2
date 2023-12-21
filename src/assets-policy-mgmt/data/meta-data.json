@@ -1,0 +1,96 @@
+{
+    "acceptedTenderDeposit": [
+        {
+            "id": 1,
+            "name": "IATA"
+        },
+        {
+            "id": 8,
+            "name": "Credit Card, Alternate Payments"
+        }
+    ],
+    "acceptedTenderGuarantee": [
+        {
+            "id": 9,
+            "name": "IATA"
+        },
+        {
+            "id": 14,
+            "name": "Corporate Id"
+        },
+        {
+            "id": 16,
+            "name": "Credit Card"
+        },
+        {
+            "id": 17,
+            "name": "Accept All"
+        },
+        {
+            "id": 18,
+            "name": "Rate Access Code"
+        },
+        {
+            "id": 20,
+            "name": "Hotel Billing"
+        }
+    ],
+    "rateCategories": [
+        {
+            "id": 1,
+            "name": "RACK"
+        },
+        {
+            "id": 2,
+            "name": "CORPORATE"
+        },
+        {
+            "id": 6,
+            "name": "PACKAGE"
+        },
+        {
+            "id": 12,
+            "name": "NEGOTIATED"
+        },
+        {
+            "id": 7,
+            "name": "PROMOTIONAL"
+        },
+        {
+            "id": 13,
+            "name": "CONSORTIA"
+        },
+        {
+            "id": 14,
+            "name": "IN HOUSE"
+        },
+        {
+            "id": 17,
+            "name": "DISCOUNT"
+        },
+        {
+            "id": 18,
+            "name": "GROUP/CONVENTION"
+        },
+        {
+            "id": 19,
+            "name": "TOUR/WHSL-FREESL"
+        },
+        {
+            "id": 20,
+            "name": "TOUR/WHSL-ALLOT"
+        },
+        {
+            "id": 21,
+            "name": "OTA MERCHANT"
+        },
+        {
+            "id": 22,
+            "name": "CHANNEL MANAGEMENT"
+        },
+        {
+            "id": 23,
+            "name": "GROUP BLOCK"
+        }
+    ]
+}

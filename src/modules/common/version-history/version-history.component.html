@@ -1,0 +1,53 @@
+<ng-template #versionHistoryModal let-c="close" let-d="dismiss" class="tc-normal-modal">
+	<div class="modal-header tc-modal__header">
+		<h1 class="modal-title tc-modal__header__title">{{ modalHeading }}</h1>
+		<button type="button" class="close" aria-label="Close" (click)="d('Cross click');close()">X</button>
+	</div>
+	<div class="modal-body">
+		<p-table #datatable class="tc-grid" [value]="historyList" [scrollable]="true"
+			sortMode="multiple" styleClass="p-datatable-striped">
+			<ng-template pTemplate="header">
+				<tr>
+					<th *ngFor="let col of columns" [pSortableColumn]="col.field">
+						{{col.header}}
+						<p-sortIcon [field]="col.field"></p-sortIcon>
+					</th>
+				</tr>
+				<tr>
+					<th *ngFor="let col of columns" [ngSwitch]="col.field">
+						<input *ngSwitchCase="'date'" pInputText type="text" placeholder="filter"
+							(input)="datatable.filter($event.target.value, col.field, col.filterMatchMode)">
+						<input *ngSwitchCase="'userName'" pInputText [pKeyFilter]="alphaNumRegex" type="text"
+							placeholder="filter"
+							(input)="datatable.filter($event.target.value, col.field, col.filterMatchMode)">
+						<p-dropdown *ngSwitchCase="'field'" appendTo="body" placeholder="Select"
+							[options]="historyFields" [style]="{'width':'100%'}" class="w-100"
+							(onChange)="datatable.filter($event.value, col.field, col.filterMatchMode)">
+						</p-dropdown>
+					</th>
+				</tr>
+			</ng-template>
+			<ng-template pTemplate="body" let-filteredRecords>
+				<tr>
+					<td *ngFor="let col of columns">
+						<ng-container
+							*ngIf="(col.field === 'oldValue' || col.field === 'newValue'); else displayValueTemplate">
+							<div *ngFor="let item of filteredRecords[col.field]" class="tc-tooltip-holder historyValues"
+								placement="bottom" (mouseenter)="tooltipCondition($event)">
+								{{item}}
+							</div>
+						</ng-container>
+						<ng-template #displayValueTemplate>
+							<div class="tc-tooltip-holder" placement="bottom" (mouseenter)="tooltipCondition($event)">
+								{{filteredRecords[col.field]}}
+							</div>
+						</ng-template>
+					</td>
+				</tr>
+			</ng-template>
+		</p-table>
+	</div>
+</ng-template>
+<!-- show toast for error -->
+<policy-mgmt-api-error-message [toastDetails]="apiErrorMessageDetails" *ngIf="showToastFlag">
+</policy-mgmt-api-error-message>

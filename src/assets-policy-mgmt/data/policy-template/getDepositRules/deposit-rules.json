@@ -1,0 +1,38 @@
+[
+    {
+        "depositRuleId": "5611",
+        "name": "Test"
+    },
+    {
+        "depositRuleId": "33312",
+        "name": "Arrival"
+    },
+    {
+        "depositRuleId": "50871",
+        "name": "prod dep rul"
+    },
+    {
+        "depositRuleId": "33311",
+        "name": "50%"
+    },
+    {
+        "depositRuleId": "56691",
+        "name": "flat"
+    },
+    {
+        "depositRuleId": "58885",
+        "name": "flat test"
+    },
+    {
+        "depositRuleId": "63420",
+        "name": "t"
+    },
+    {
+        "depositRuleId": "66039",
+        "name": "Deposit 10$"
+    },
+    {
+        "depositRuleId": "66047",
+        "name": "Sample Rule"
+    }
+]

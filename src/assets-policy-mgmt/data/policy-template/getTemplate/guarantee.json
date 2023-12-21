@@ -1,0 +1,49 @@
+{
+    "hotelcode": 1010,
+    "type": "Guarantee",
+    "name": "My first policy template",
+    "id": 12345,
+    "status": "ACTIVE",
+    "policyCode": "A234B2",
+    "policySetting": {
+        "acceptedTender": 17,
+        "holdTime": 0
+    },
+    "textList": [
+        {
+            "textType": "online_call_center_message",
+            "languageTexts": [
+                {
+                    "languageId": 1,
+                    "languageName": "English (US)",
+                    "text": "Test English description"
+                },
+                {
+                    "languageId": 11,
+                    "languageName": "English (UK)",
+                    "text": "Test French description"
+                }
+            ]
+        },
+        {
+            "textType": "policy_gdsline1_msg",
+            "languageTexts": [
+                {
+                    "languageId": 1,
+                    "languageName": "English (US)",
+                    "text": "GDS line1 Test English description"
+                }
+            ]
+        },
+        {
+            "textType": "policy_gdsline2_msg",
+            "languageTexts": [
+                {
+                    "languageId": 1,
+                    "languageName": "English (US)",
+                    "text": "GDS line 2Test English description"
+                }
+            ]
+        }
+    ]
+}

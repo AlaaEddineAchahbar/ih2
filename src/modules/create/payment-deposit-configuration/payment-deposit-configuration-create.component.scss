@@ -1,0 +1,47 @@
+@import '~tc-styles/dist/scss/helpers/_colors.scss';
+
+.create-payment-deposit-configuration-stepper {
+    margin-left: 25px;
+    .sub-header {
+        margin-top: 10px;
+    }
+}
+
+.tc-stepper__step__content__body {
+    padding-left: 30px;
+    padding-top: 8px;
+    padding-bottom: 15px;
+    margin-left: -30px;
+    margin-right: 30px;
+}
+
+.error {
+    margin-top: 10px;
+}
+.tc-btn {
+    margin: 0 10px 10px 0;
+}
+
+.margin-right-10 {
+    margin-right: 10px;
+}
+
+.margin-left-30 {
+    margin-left: 30px;
+}
+
+.margin-bottom-25 {
+    margin-bottom: 25px;
+}
+.preview-label {
+    .previewLabel, .hold-until-label {
+        margin-right: 5px;
+    }
+}
+.preview-margin {
+    padding-top: 8px;
+}
+
+.no-edit-access .tc-stepper__step__content__header > button {
+    display: none;
+}

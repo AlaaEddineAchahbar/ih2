@@ -1,0 +1,77 @@
+<div class="policy-mgmt-date-selector" *ngIf="dateSelector && dateSelector.dateRanges.length">
+
+  <!-- Date ranges -->
+  <div class="policy-mgmt-row" *ngFor="let daterange of dateSelector.dateRanges; let i = index">
+    <tc-date-picker
+      class="policy-mgmt-date-picker"
+      id="date-picker-{{i}}"
+      [startDate]="daterange.startDate"
+      [endDate]="daterange.endDate"
+      [firstDayOfWeek]="mondayCalendarStart ? 1 : 7"
+      [i18nValues]="datePickeri18nValues"
+      [showEndDateCheckbox]="dateSelector.dateRanges.length === 1"
+      [minSelectableDate]="daterange.minSelectableDate"
+      [maxSelectableDate]="daterange.maxSelectableDate"
+      [dateFormat]="dateFormat"
+      [noEndDateChecked]="daterange.noEndDateCheckedFlag"
+      (startDateChange)="onStartDateChange($event, i)"
+      (endDateChange)="onEndDateChange($event, i)"
+      (noEndDateChange)="onNoEndDateChange($event, i)">
+    </tc-date-picker>
+
+    <!-- Show the remove button only for latest date range, not for first range though-->
+    <button [hidden]="i === 0" class="btn tc-btn btn-link tc-btn--link link-button no-padding"
+      (click)="removeDateRangeInput(i)" type="button">
+      <img src="{{publicPath}}assets-policy-mgmt/icons/remove.svg"> {{ translateMap['REMOVE'] | translate }}
+    </button>
+  </div>
+
+  <!-- Start Date Error Message-->
+    <div class="error tc-error-box__error tc-error-inline__error" [hidden]="!errorObj.startDateErrorMessage.show">
+      <p class="message tc-error-box__error__message tc-error-inline__error__message">
+        {{translateMap['ENTER_VALID_START_DATE'] | translate }}
+      </p>
+    </div>
+
+  <!-- End Date Error Message-->
+    <div class="error tc-error-box__error tc-error-inline__error" [hidden]="!errorObj.endDateErrorMessage.show">
+      <p class="message tc-error-box__error__message tc-error-inline__error__message">
+        {{translateMap['ENTER_VALID_END_DATE'] | translate }}
+      </p>
+    </div>
+
+    <!-- Errors for date range-->
+    <div class="error tc-error-box__error tc-error-inline__error" [hidden]="!errorObj.dateRangeErrorMessage.show">
+      <p class="message tc-error-box__error__message tc-error-inline__error__message">
+        {{ translateMap['DATE_RANGE_MUST_BE_UNIQUE'] | translate }}
+      </p>
+    </div>
+  
+  <div class="form-group tc-form-group add-another-date-range">
+    <button class="btn tc-btn btn-link tc-btn--link link-button no-padding" (click)="addDateRangeInput()" type="button">
+      <img src="{{publicPath}}assets-policy-mgmt/icons/add.svg"> {{ translateMap['ADD_ANOTHER_DATE_RANGE'] | translate }}
+    </button>
+  </div>
+
+  <!-- Weekdays -->
+  <div class="form-group tc-form-group dow" *ngIf="showDOWStrip">
+    <p>{{ translateMap['DAY_OF_WEEK'] | translate }}</p>
+    <span class="checkbox tc-checkbox" *ngFor="let dow of shortDays; let i = index">
+      <input name="dow-{{i}}" type="checkbox" [checked]="false" id="check-{{i}}"
+        [(ngModel)]="this.dateSelector.dows[dow]" (change)="selectDow()">
+      <label class="dow-label" for="check-{{i}}"> {{ translateMap[dow] | translate }} </label>
+    </span>
+
+    <span class="checkbox tc-checkbox">
+      <input name="dow-ALL" type="checkbox" [checked]="toggleDaySelection" id="check-ALL" (change)="selectAllDOW()">
+      <label class="dow-label dow-all" for="check-ALL">{{ translateMap['ALL'] | translate }}</label>
+    </span>
+
+    <!-- Errors for DOW -->
+    <div class="error tc-error-box__error tc-error-inline__error" [hidden]="!errorObj.dowErrorMessage.show">
+      <p class="message tc-error-box__error__message tc-error-inline__error__message">
+        {{ translateMap['SELECT_ONE_DOW'] | translate }}
+      </p>
+    </div>
+  </div>
+</div>

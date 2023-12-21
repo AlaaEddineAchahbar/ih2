@@ -1,0 +1,56 @@
+{
+    "emPaymentDepositRuleTemplateId": 123456,
+    "emPaymentDepositRuleTemplateName": "Test Rule",
+    "chainInfo": {
+        "chainCode": "AAA",
+        "chainHotels": [
+            {
+                "hotelId": 1000,
+                "hotelName": "Test hotel",
+                "status": "add"
+            }
+        ]
+    },
+    "paymentDepositRule": {
+        "status": "add",
+        "ruleName": "Test Rule",
+        "rules": [
+            {
+                "status": "add",
+                "percentOnEnhancement": 10,
+                "chargeType": "flat",
+                "chargeAmounts": [
+                    {
+                        "chargeAmount": 100,
+                        "currency": [
+                            "EUR"
+                        ],
+                        "properties": [
+                            "1000"
+                        ]
+                    },
+                    {
+                        "chargeAmount": 200,
+                        "currency": [
+                            "USD"
+                        ],
+                        "properties": [
+                            "1001"
+                        ]
+                    }
+                ],
+                "chargePercentage": 10
+            },
+            {
+                "status": "add",
+                "percentOnEnhancement": 11,
+                "chargeType": "percentage",
+                "chargePercentage": 10
+            },
+            {
+                "status": "add",
+                "chargeType": "arrivalDay"
+            }
+        ]
+    }
+}

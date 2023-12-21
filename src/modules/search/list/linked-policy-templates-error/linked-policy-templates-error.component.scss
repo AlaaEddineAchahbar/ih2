@@ -1,0 +1,57 @@
+.p-dropdown-panel {
+  z-index: 1102 !important;
+}
+
+.linked-policy-templates-modal {
+  .P-dropdown-panel {
+      z-index: 1052 !important;
+      top: 176.6px !important;
+      position: absolute !important;
+  }
+  .errorListValues {
+      padding-bottom: 5px;
+      word-break: break-word;
+  }
+  .p-table-scrollable-body {
+      overflow-y: scroll;
+  }
+  .p-table-scrollable-header-box {
+      margin-right: 17px !important;
+  }
+
+  .p-datatable .p-sortable-column .p-sortable-column-badge {
+      display: none;
+  }
+
+  .p-datatable table {
+      font-size: 14px;
+  }
+
+  .p-dropdown .p-dropdown-label {
+      font-size: 14px;
+  }
+
+  .p-datatable-scrollable .p-datatable-tbody>tr>td {
+      display: grid;
+  }
+
+  .p-datatable-wrapper {
+      max-height: 490px;
+  }
+
+  .functional-elements {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+
+  input{
+    width: 200px;
+    display: inline;
+  }
+}
+li.p-ripple.p-element.p-dropdown-item {
+  font-size: 14px;
+  font-weight: normal;
+}

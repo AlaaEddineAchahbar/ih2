@@ -1,0 +1,30 @@
+{
+    "IPaymentDepositConfigurationRuleDetailParams": [
+      {
+        "chargeType": "flat",
+        "chargeAmounts": [
+          {
+            "amount": 100,
+            "currency": "EUR"
+          },
+          {
+            "amount": 200,
+            "currency": "USD"
+          }
+        ],
+        "chargePercentage": 0,
+        "percentOnEnhancement": 15
+      }
+    ],
+    "IPaymentDepositConfigurationRuleDetailDataFields": [
+      {
+        "chargeType": "ARRIVAL_DAY_CHARGE"
+      },
+      {
+        "chargeType": "FLAT"
+      },
+      {
+        "chargeType": "PERCENTAGE"
+      }
+    ]
+}

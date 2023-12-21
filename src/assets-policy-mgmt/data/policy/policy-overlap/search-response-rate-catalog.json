@@ -1,0 +1,81 @@
+{
+    "policies": [
+        {
+            "groupName": "ENT_Level_Can_RP_Policy",
+            "policyLevel": "RATECATALOG",
+            "policyStatus": "ACTIVE",
+            "dow": "2,3,4,5,6,7,1",
+            "policyDateRange": "2023-11-28/2024-08-07",
+            "policyType": "DATED",
+            "policyTemplateId": "837408",
+            "policyTemplateName": "ENT_Level_Policy One Can Chain TEMP",
+            "lastUpdated": "2023-11-28T12:07:44",
+            "rateCatalogIds": [
+                "40040"
+            ],
+            "emRateCategoryIds": null,
+            "chainCategoryIds": null,
+            "rules": [
+                {
+                    "ruleName": "ENT_Level_Can_RP_Policy",
+                    "auxId": null,
+                    "auxType": null,
+                    "ruleDescription": null,
+                    "activeStatus": "Active",
+                    "ruleCriteriaParameters": [
+                        {
+                            "ruleCriteriaParameterValue": "2023-11-28/2024-08-07",
+                            "ruleCriteriaID": "1002",
+                            "ruleCriteriaMemberID": "1002",
+                            "operatorID": "1004",
+                            "ruleCriteriaParameterID": "115192767"
+                        },
+                        {
+                            "ruleCriteriaParameterValue": "2,3,4,5,6,7,1",
+                            "ruleCriteriaID": "1020",
+                            "ruleCriteriaMemberID": "1020",
+                            "operatorID": "11",
+                            "ruleCriteriaParameterID": "115192768"
+                        }
+                    ],
+                    "ruleDecisions": [
+                        {
+                            "ruleDecisionValue": "837408",
+                            "ruleDecisionModifiers": [
+                                {
+                                    "modifierValue": "ENTERPRISE",
+                                    "ruleDecisionTypeModifierID": "1079",
+                                    "ruleDecisionID": "59972594"
+                                },
+                                {
+                                    "modifierValue": "false",
+                                    "ruleDecisionTypeModifierID": "1080",
+                                    "ruleDecisionID": "59972594"
+                                }
+                            ],
+                            "ruleDecisionTypeID": "1017",
+                            "ruleDecisionID": "59972594",
+                            "ruleDecisionOrder": "1"
+                        }
+                    ],
+                    "user": "ihrajdeep",
+                    "uniqueID": "40040",
+                    "uniqueTypeID": "6",
+                    "ruleStartDate": "2023-11-28",
+                    "ruleEndDate": "2024-08-07",
+                    "rulePriority": "1",
+                    "ruleLogic": "ALL",
+                    "ruleTypeID": "14",
+                    "ruleID": "10752131",
+                    "resvCount": null,
+                    "totalRoomNights": null,
+                    "totalRoomRates": null,
+                    "advertisementIds": null,
+                    "version": "2",
+                    "lastUpdated": "2023-11-28T12:07:44Z"
+                }
+            ]
+        }
+    ],
+    "totalRecordCount": 3
+}

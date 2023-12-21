@@ -1,0 +1,101 @@
+{
+    "policyTemplateId": "1229117",
+    "policyTemplateHistory": [
+        {
+            "policyTemplate": {
+                "operation": "UPDATE",
+                "revisions": []
+            },
+            "metadata": {
+                "modifiedByUserId": "647429",
+                "modifiedByUsername": "prashantk",
+                "policyTemplateHistoryId": "6771247",
+                "versionDate": "2020-12-21T23:45:25",
+                "version": 4
+            }
+        },
+        {
+            "policyTemplate": {
+                "operation": "UPDATE",
+                "revisions": [
+                    {
+                        "field": "acceptedTender",
+                        "operation": "UPDATE",
+                        "oldValue": "17",
+                        "newValue": "20"
+                    }
+                ]
+            },
+            "metadata": {
+                "modifiedByUserId": "580582",
+                "modifiedByUsername": "ihsuryakant",
+                "policyTemplateHistoryId": "6771234",
+                "versionDate": "2020-12-21T06:43:42",
+                "version": 3
+            }
+        },
+        {
+            "policyTemplate": {
+                "operation": "UPDATE",
+                "revisions": []
+            },
+            "metadata": {
+                "modifiedByUserId": "580582",
+                "modifiedByUsername": "ihsuryakant",
+                "policyTemplateHistoryId": "6771231",
+                "versionDate": "2020-12-21T02:58:48",
+                "version": 2
+            }
+        },
+        {
+            "policyTemplate": {
+                "operation": "ADD",
+                "revisions": [
+                    {
+                        "field": "acceptedTender",
+                        "operation": "ADD",
+                        "oldValue": null,
+                        "newValue": "17"
+                    },
+                    {
+                        "field": "gds_message",
+                        "operation": "ADD",
+                        "oldValue": null,
+                        "newValue": "GDS Message English only GDS Message English "
+                    },
+                    {
+                        "field": "name",
+                        "operation": "ADD",
+                        "oldValue": null,
+                        "newValue": "Test Template guarantee"
+                    },
+                    {
+                        "field": "online_call_center_message_1",
+                        "operation": "ADD",
+                        "oldValue": null,
+                        "newValue": "Online/Call Center Message Online/Call Center Message Online/Call Center Message Online/Call Center Message Online/Call Center Message"
+                    },
+                    {
+                        "field": "policyCode",
+                        "operation": "ADD",
+                        "oldValue": null,
+                        "newValue": "12gpt"
+                    },
+                    {
+                        "field": "status",
+                        "operation": "ADD",
+                        "oldValue": null,
+                        "newValue": "ACTIVE"
+                    }
+                ]
+            },
+            "metadata": {
+                "modifiedByUserId": "580582",
+                "modifiedByUsername": "ihsuryakant",
+                "policyTemplateHistoryId": "6771230",
+                "versionDate": "2020-12-21T02:48:23",
+                "version": 1
+            }
+        }
+    ]
+}

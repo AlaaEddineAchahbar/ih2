@@ -1,0 +1,42 @@
+{
+    "totalRecordCount": 3,
+    "policyTemplates": [
+        {
+            "name": "template - guarantee 1",
+            "status": "ACTIVE",
+            "hotelCode": 1001,
+            "ownerId": "1001",
+            "isEnterpriseLevel": false,
+            "id": 9001,
+            "policySetting": {
+                "acceptedTender": 14,
+                "holdTime": 0
+            }
+        },
+        {
+            "name": "template - guarantee 2",
+            "status": "ACTIVE",
+            "hotelCode": 1001,
+            "ownerId": "AAA",
+            "isEnterpriseLevel": true,
+            "id": 9002,
+            "policySetting": {
+                "acceptedTender": 17,
+                "holdTime": 14
+            }
+        },
+        {
+            "name": "template - guarantee 3",
+            "status": "INACTIVE",
+            "hotelCode": 1001,
+            "ownerId": "1001",
+            "isEnterpriseLevel": false,
+            "id": 9003,
+            "lastModified": "2023-10-17",
+            "policySetting": {
+                "acceptedTender": 16,
+                "holdTime": 14
+            }
+        }
+    ]
+}

@@ -1,0 +1,179 @@
+{
+    "groupname": "HP_POLICY_21211",
+    "level": "RATECATEGORY",
+    "operation": "UPDATE",
+    "rules": [
+        {
+            "activeStatus": "Active",
+            "ruleLogic": "ALL",
+            "rulePriority": 80,
+            "uniqueTypeID": 7,
+            "ruleTypeID": 14,
+            "ruleDecisions": [
+                {
+                    "ruleDecisionModifiers": [
+                        {
+                            "ruleDecisionTypeModifierID": 1089,
+                            "modifierValue": "PROPERTY"
+                        },
+                        {
+                            "ruleDecisionTypeModifierID": 1091,
+                            "modifierValue": false
+                        }
+                    ],
+                    "ruleDecisionOrder": 1,
+                    "ruleDecisionTypeID": 1024,
+                    "ruleDecisionValue": 1228388
+                }
+            ],
+            "ruleCriteriaParameters": [
+                {
+                    "ruleCriteriaID": 1002,
+                    "ruleCriteriaMemberID": 1002,
+                    "ruleCriteriaParameterValue": "2020-06-15/2020-06-30",
+                    "operatorID": 1004
+                },
+                {
+                    "ruleCriteriaID": 1020,
+                    "ruleCriteriaMemberID": 1020,
+                    "ruleCriteriaParameterValue": "1,2,3,4,5,6,7",
+                    "operatorID": 11
+                }
+            ],
+            "ruleEndDate": "2020-06-30",
+            "ruleName": "HP_POLICY_21211",
+            "ruleStartDate": "2020-06-10",
+            "uniqueID": 693801,
+            "ruleID": "5807736"
+        },
+        {
+            "activeStatus": "Active",
+            "ruleLogic": "ALL",
+            "rulePriority": 80,
+            "uniqueTypeID": 7,
+            "ruleTypeID": 14,
+            "ruleDecisions": [
+                {
+                    "ruleDecisionModifiers": [
+                        {
+                            "ruleDecisionTypeModifierID": 1089,
+                            "modifierValue": "PROPERTY"
+                        },
+                        {
+                            "ruleDecisionTypeModifierID": 1091,
+                            "modifierValue": false
+                        }
+                    ],
+                    "ruleDecisionOrder": 1,
+                    "ruleDecisionTypeID": 1024,
+                    "ruleDecisionValue": 1228388
+                }
+            ],
+            "ruleCriteriaParameters": [
+                {
+                    "ruleCriteriaID": 1002,
+                    "ruleCriteriaMemberID": 1002,
+                    "ruleCriteriaParameterValue": "2020-06-15/2020-06-30",
+                    "operatorID": 1004
+                },
+                {
+                    "ruleCriteriaID": 1020,
+                    "ruleCriteriaMemberID": 1020,
+                    "ruleCriteriaParameterValue": "1,2,3,4,5,6,7",
+                    "operatorID": 11
+                }
+            ],
+            "ruleEndDate": "2020-06-30",
+            "ruleName": "HP_POLICY_21211",
+            "ruleStartDate": "2020-06-10",
+            "uniqueID": 693802,
+            "ruleID": "5807736"
+        },
+        {
+            "activeStatus": "Active",
+            "ruleLogic": "ALL",
+            "rulePriority": 80,
+            "uniqueTypeID": 7,
+            "ruleTypeID": 14,
+            "ruleDecisions": [
+                {
+                    "ruleDecisionModifiers": [
+                        {
+                            "ruleDecisionTypeModifierID": 1089,
+                            "modifierValue": "PROPERTY"
+                        },
+                        {
+                            "ruleDecisionTypeModifierID": 1091,
+                            "modifierValue": false
+                        }
+                    ],
+                    "ruleDecisionOrder": 1,
+                    "ruleDecisionTypeID": 1024,
+                    "ruleDecisionValue": 1228388
+                }
+            ],
+            "ruleCriteriaParameters": [
+                {
+                    "ruleCriteriaID": 1002,
+                    "ruleCriteriaMemberID": 1002,
+                    "ruleCriteriaParameterValue": "2020-06-15/2020-06-30",
+                    "operatorID": 1004
+                },
+                {
+                    "ruleCriteriaID": 1020,
+                    "ruleCriteriaMemberID": 1020,
+                    "ruleCriteriaParameterValue": "1,2,3,4,5,6,7",
+                    "operatorID": 11
+                }
+            ],
+            "ruleEndDate": "2020-06-30",
+            "ruleName": "HP_POLICY_21211",
+            "ruleStartDate": "2020-06-10",
+            "uniqueID": 693806,
+            "ruleID": "5807736"
+        },
+        {
+            "activeStatus": "Active",
+            "ruleLogic": "ALL",
+            "rulePriority": 80,
+            "uniqueTypeID": 7,
+            "ruleTypeID": 14,
+            "ruleDecisions": [
+                {
+                    "ruleDecisionModifiers": [
+                        {
+                            "ruleDecisionTypeModifierID": 1089,
+                            "modifierValue": "PROPERTY"
+                        },
+                        {
+                            "ruleDecisionTypeModifierID": 1091,
+                            "modifierValue": false
+                        }
+                    ],
+                    "ruleDecisionOrder": 1,
+                    "ruleDecisionTypeID": 1024,
+                    "ruleDecisionValue": 1228388
+                }
+            ],
+            "ruleCriteriaParameters": [
+                {
+                    "ruleCriteriaID": 1002,
+                    "ruleCriteriaMemberID": 1002,
+                    "ruleCriteriaParameterValue": "2020-06-15/2020-06-30",
+                    "operatorID": 1004
+                },
+                {
+                    "ruleCriteriaID": 1020,
+                    "ruleCriteriaMemberID": 1020,
+                    "ruleCriteriaParameterValue": "1,2,3,4,5,6,7",
+                    "operatorID": 11
+                }
+            ],
+            "ruleEndDate": "2020-06-30",
+            "ruleName": "HP_POLICY_21211",
+            "ruleStartDate": "2020-06-10",
+            "uniqueID": 693807,
+            "ruleID": "5807736"
+        }
+    ]
+}

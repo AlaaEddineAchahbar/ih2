@@ -1,0 +1,55 @@
+<div class="preview-label preview-margin">
+    <ng-container *ngFor="let ruleDetail of depositRulesData.rules; last as isLast">
+        <ng-container *ngIf="isEnterpriseLevel && ruleDetail.chargeType === CHARGE_TYPE.FLAT">
+            <p>
+                <span class="previewLabel">{{translationMap['CHARGE_TYPE'] | translate}}: </span>
+                <span class="previewValue">{{translationMap['FLAT_AMOUNT'] | translate}}</span>
+            </p>
+
+            <p *ngFor="let chargeAmount of ruleDetail.chargeAmounts">
+                <span class="previewLabel">{{translationMap['CHARGE_AMOUNT_AND_CURRENCY'] | translate}}: </span>
+                <span class="previewValue">{{chargeAmount.amount}} {{chargeAmount.currency.toUpperCase()}}</span>
+            </p>
+
+        </ng-container>
+
+        <ng-container *ngIf="!isEnterpriseLevel && ruleDetail.chargeType === CHARGE_TYPE.FLAT">
+            <p>
+                <span class="previewLabel">{{translationMap['CHARGE_TYPE'] | translate}}: </span>
+                <span class="previewValue">{{translationMap['FLAT_AMOUNT'] | translate}}</span>
+            </p>
+
+            <p>
+                <span class="previewLabel">{{translationMap['CHARGE_AMOUNT_AND_CURRENCY'] | translate}}: </span>
+                <span class="previewValue">{{ruleDetail.chargeAmount}} {{depositConfigurationDefaultCurrency}}</span>
+            </p>
+
+        </ng-container>
+
+        <ng-container *ngIf="ruleDetail.chargeType === CHARGE_TYPE.PERCENTAGE">
+            <p>
+                <span class="previewLabel">{{translationMap['CHARGE_TYPE'] | translate}}: </span>
+                <span class="previewValue">{{translationMap['PERCENTAGE_AMOUNT'] | translate}}</span>
+            </p>
+            <p>
+                <span class="previewLabel">{{translationMap['CHARGE_PERCENTAGE'] | translate}}: </span>
+                <span class="previewValue">{{ruleDetail.chargePercentage}}</span>
+            </p>
+        </ng-container>
+
+        <ng-container *ngIf="ruleDetail.chargeType === CHARGE_TYPE.ARRIVAL_DAY_CHARGE">
+            <p>
+                <span class="preview-label">{{translationMap['CHARGE_TYPE'] | translate}}: </span>
+                <span class="previewValue">{{translationMap['ARRIVAL_DAY'] | translate}}</span>
+            </p>
+        </ng-container>
+
+        <p>
+            <span class="preview-label">{{translationMap['CHARGE_ENHANCEMENT_AND_OPTION'] | translate}}: </span>
+            <span class="previewValue">{{ruleDetail.percentOnEnhancement}}</span>
+        </p>
+
+        <br *ngIf="!isLast" />
+
+    </ng-container>
+</div>

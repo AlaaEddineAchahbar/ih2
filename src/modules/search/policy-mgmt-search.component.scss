@@ -1,0 +1,66 @@
+@import '../styles/policy-mgmt-common.scss';
+
+.policy-list-container {
+    .card-body {
+        padding: 0rem;
+    }
+    .section-header {
+        display: inline-block;
+        margin-top: 0px;
+    }
+
+    &__header {
+        &__btn-section {
+            margin: 20px 0 10px 0;
+            display: flex;
+            justify-content: space-between;
+
+            .tc-btn {
+                margin: 0 10px 10px 0;
+            }
+
+            .create-btn {
+                padding-left: 10px;
+                .tc-btn--inline-link {
+                    margin-left: 40px;
+                }
+            }
+
+            .sort-n-show-hide-filter-section {
+                display: flex;
+                .sort-dropdown {
+                    width: 330px;
+                    padding-right: 20px;
+                }
+                .sort-dropdown-enterprise-policy {
+                    width: 350px;
+                    padding-right: 20px;
+                }
+                .filter-btn {
+                    padding-right: 10px;
+                }
+            }
+        }
+    }
+    
+    .search-panel {
+        border: 1px solid $gray-light-200;
+        .filter-panel {
+            padding: 15px;
+            &.hide-filters {
+                max-width: 50px;
+                flex: 0 0 50px;
+            }
+        }
+        .list-panel {
+            border-left: 1px solid $gray-light-200;
+            &.expand-list-panel {
+                max-width: calc(100% - 50px);
+                flex: 0 0 auto;
+            }
+        }
+    }
+    .active {
+        font-weight: normal !important;
+    }
+}

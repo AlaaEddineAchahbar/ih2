@@ -1,0 +1,64 @@
+<div class="create-payment-deposit-configuration-stepper">
+    <h1>{{flowHeading}}</h1>
+    <h3 class="sub-header">{{depositConfigurationNameHeader}}</h3>
+    <ng-container *ngIf="componentInitialized">
+
+        <ng-template #stepDepositConfigurationName>
+            <deposit-configuration-name-edit [continueFromStepper]="continueDepositConfigurationName"
+                (validate)="onDepositConfigurationStepsValidated($event)">
+            </deposit-configuration-name-edit>
+        </ng-template>
+        <ng-template #stepDepositConfigurationDetails>
+            <deposit-configuration-details-edit [continueFromStepper]="continueDepositConfigurationDetails"
+                (validate)="onDepositConfigurationStepsValidated($event)">
+            </deposit-configuration-details-edit>
+        </ng-template>
+        <ng-template #stepPropertyDepositConfigurationDetails>
+            <property-deposit-configuration-details-edit
+                [continueFromStepper]="continuePropertyDepositConfigurationDetails"
+                (validate)="onDepositConfigurationStepsValidated($event)">
+            </property-deposit-configuration-details-edit>
+        </ng-template>
+
+        <ng-template #stepperNameReview>
+            <span class="previewLabel">{{translationMap['DEPOSIT_CONFIGURATION_NAME'] | translate}}: </span>
+            <span
+                class="previewValue">{{stepperDataService.getDepositConfigurationDetailData().paymentDepositConfigurationName}}</span>
+        </ng-template>
+        <ng-template #stepperDetailsReview>
+            <payment-deposit-configuration-rules-preview></payment-deposit-configuration-rules-preview>
+        </ng-template>
+
+        <div [ngClass]="{'no-edit-access': !hasEditAccess || isDepositConfigurationCreatedAtEnterpriseLevel()}">
+            <tc-stepper mytemplate=stepperReviewHtml class="tc-stepper-component"
+                [contentTemplate]="isEnterpriseLevel ? [stepDepositConfigurationName, stepDepositConfigurationDetails] : [stepDepositConfigurationName, stepPropertyDepositConfigurationDetails]"
+                [reviewTemplate]="[stepperNameReview, stepperDetailsReview]" [(steps)]="steps" [messages]="messages"
+                [(activeStepIndex)]="activeStepIndex" [(editMode)]="editMode" [(editing)]="editing"
+                [(cancelled)]=cancelled (cancel)="onCancel($event)" (continue)="onContinue($event)"
+                (edit)="onEdit($event)" [disableContinueButton]="disableContinueButton"
+                [continueStepSubject]="continueStepSubject">
+            </tc-stepper>
+        </div>
+
+        <div class="stepperButtonWrapper margin-left-30 margin-bottom-25 row">
+            <div class="ps-0  w-auto" *ngIf="displaySaveButton()">
+                <button class="btn tc-btn btn-primary tc-btn--primary margin-right-10"
+                    [class.disabled]="disableSaveButton()" (click)="onSave('SAVE')">
+                    {{ translationMap['SAVE'] | translate }}
+                </button>
+            </div>
+            <button class="btn tc-btn tc-btn--link ps-0  w-auto" (click)="onCancel($event)">
+                {{ translationMap['CANCEL'] | translate }}
+            </button>
+        </div>
+    </ng-container>
+
+    <!-- Confirmation modal for cancel -->
+    <policy-mgmt-confirmation-modal (modalOk)="onModalOk($event)" (modalCancel)="onModalCancel($event)">
+    </policy-mgmt-confirmation-modal>
+
+    <!-- show toast for error -->
+    <policy-mgmt-api-error-message [toastDetails]="apiErrorMessageDetails" *ngIf="showToastFlag">
+    </policy-mgmt-api-error-message>
+
+</div>

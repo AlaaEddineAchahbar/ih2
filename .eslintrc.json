@@ -1,0 +1,101 @@
+{
+  "root": true,
+  "ignorePatterns": [
+    "projects/**/*",
+    "dist/*",
+    "cypress/*"
+  ],
+  "overrides": [
+    {
+      "files": [
+        "*.ts"
+      ],
+      "parserOptions": {
+        "project": [
+          "tsconfig.json"
+        ],
+        "createDefaultProgram": true
+      },
+      "extends": [
+        "plugin:@angular-eslint/recommended",
+        "plugin:@angular-eslint/template/process-inline-templates"
+      ],
+      "rules": {
+        "@angular-eslint/directive-selector": [
+          "error",
+          {
+            "type": "attribute",
+            "style": "camelCase"
+          }
+        ],
+        "@angular-eslint/component-selector": [
+          "error",
+          {
+            "type": "element",
+            "style": "kebab-case"
+          }
+        ],
+        "@typescript-eslint/typedef": "off",
+        "@typescript-eslint/explicit-function-return-type": "off",
+        "quotes": [
+          2,
+          "single",
+          {
+            "avoidEscape": true,
+            "allowTemplateLiterals": true
+          }
+        ],
+        "array-type": [
+          0
+        ],
+        "max-len": [
+          "error",
+          {
+            "code": 140
+          }
+        ],
+        "no-fallthrough": "error",
+        "no-case-declarations": "off",
+        "no-use-before-define": "error",
+        "quote-props": [
+          "error",
+          "as-needed"
+        ],
+        "eqeqeq": [
+          "error",
+          "always"
+        ],
+        "block-spacing": [
+          "error",
+          "always"
+        ],
+        "semi": [
+          "error",
+          "always"
+        ],
+        "no-trailing-spaces": [
+          "error",
+          {
+            "skipBlankLines": true,
+            "ignoreComments": true
+          }
+        ],
+        "no-empty-function": "off",
+        "@typescript-eslint/no-empty-function": "off",
+        "@angular-eslint/no-empty-lifecycle-method": "off",
+        "semi-spacing": "error",
+        "key-spacing": ["error", { "afterColon": true, "mode": "strict" }],
+        "space-infix-ops": "error"
+      }
+    },
+    {
+      "files": [
+        "*.html"
+      ],
+      "extends": [
+        "plugin:@angular-eslint/template/recommended"
+      ],
+      "rules": {}
+    }
+  ]
+}
