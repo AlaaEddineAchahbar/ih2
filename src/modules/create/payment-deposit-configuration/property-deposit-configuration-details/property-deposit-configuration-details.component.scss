@@ -1,0 +1,94 @@
+@import "~tc-styles/dist/scss/helpers/_colors.scss";
+
+.property-deposit-configuration-details-container {
+    &__charge-amount-container {
+        display: flex;
+        input {
+            width: 110px;
+            display: inline;
+        }
+        label {
+            vertical-align: middle;
+        }
+        .radio-button-content {
+            -webkit-box-flex: 0;
+            margin-top: 5px;
+            -ms-flex: 0 0 19.333333%;
+            flex: 1 0 12.333333%;
+            max-width: 280px;
+            width: 25%;
+            padding: 0px;
+        }
+        .advance-notice-container {
+            max-width: 300px;
+        }
+    }
+
+    &__btn-radio {
+        section {
+            width: 42%;
+        }
+        .tc-radio label {
+            padding-left: 25px;
+            padding-right: 15px;
+        }
+        .radio.tc-radio {
+            margin-top: 6px;
+            display: inline-block;
+            padding: 0px;
+        }
+        .radio.tc-radio.charge-type-options {
+            width: auto;
+            margin-right: 10px;
+            margin-bottom: 15px;
+        }
+        [class*="tc-icon"].icon-lg {
+            font-size: 21px;
+            top: -8px;
+            position: relative;
+        }
+        .tc-popover ngb-popover-window {
+            padding: 5px;
+            top: 0px;
+            left: -84px;
+            min-width: 250px;
+        }
+    }
+}
+.template-panel-content {
+    padding-left: 15px;
+    background: $white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.label-spacing {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.percent-on-enhancement-label {
+    margin-top: 5px;
+    padding: 0px;
+}
+
+.add-another-configuration {
+    width: 120px;
+    padding: 0px;
+}
+
+.remove-configuration {
+    width: 120px;
+    margin-left: -1px;
+    padding: 0px;
+}
+
+.defaultCurrency {
+    background: #eee;
+    color: #aaa;
+    border-color: #eee;
+    cursor: default;
+    text-shadow: none;
+    position: static;
+    box-shadow: none;
+}

@@ -1,0 +1,50 @@
+@import '~tc-styles/dist/scss/helpers/_colors.scss';
+
+.deposit-configuration-name-container {
+  &__cancellation-policy-option-container {
+      display: flex;
+      fieldset {
+          display: inline-block;
+      }
+      input{
+          width: 50px;
+          display: inline;
+      }
+      .tc-dropdown {
+          width: 60%;
+      }
+      label{
+          vertical-align: middle;
+      }
+      .radio-button-content {
+          -webkit-box-flex: 0;
+          margin-top: 5px;
+          -ms-flex: 0 0 19.333333%;
+          flex: 1 0 12.333333%;
+          max-width: 280px;
+          width: 25%;
+          padding: 0px;
+          &.tc-dropdown {
+              width: 60%;
+          }
+      }
+      .advance-notice-container{
+          max-width: none;
+      }
+  }
+}
+.template-panel-content {
+    padding-left: 15px;
+    padding-right: 15px;
+    background: $white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.label-spacing {
+  margin-left: 5px;
+}
+
+.tc-popover ngb-popover-window{
+  padding: 5px;
+}

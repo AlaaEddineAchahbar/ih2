@@ -1,0 +1,62 @@
+<div class="create-policy-template-stepper">
+    <h1>{{flowHeading}}</h1>
+    <h3 class="sub-header">{{templateNameHeader}}</h3>
+    <ng-container *ngIf="componentInitialized">
+        <ng-template #stepTemplateDetails>
+            <policy-mgmt-step-template-details [continueFromStepper]="continueTemplateDetails"
+                (validate)="onStepsValidated($event)">
+            </policy-mgmt-step-template-details>
+        </ng-template>
+        <ng-template #stepDistributionMessages>
+            <policy-mgmt-step-distribution-messages [continueFromStepper]="continueDistributionMessages"
+                (validate)="onStepsValidated($event)">
+            </policy-mgmt-step-distribution-messages>
+        </ng-template>
+
+        <ng-template #stepperReview1>
+            <policy-mgmt-template-details-preview>
+            </policy-mgmt-template-details-preview>
+        </ng-template>
+        <ng-template #stepperReview2>
+            <policy-mgmt-distribution-messages-preview>
+            </policy-mgmt-distribution-messages-preview>
+        </ng-template>
+        <div [ngClass]="{'no-edit-access': !hasEditAccess || isPropertyTemplateCreatedAtEnterpriseLevel()}">
+            <tc-stepper mytemplate=stepperReviewHtml class="tc-stepper-component"
+                [contentTemplate]="[stepTemplateDetails, stepDistributionMessages]"
+                [reviewTemplate]="[stepperReview1, stepperReview2]" [(steps)]="steps" [messages]="messages"
+                [(activeStepIndex)]="activeStepIndex" [(editMode)]="editMode" [(editing)]="editing"
+                [(cancelled)]=cancelled (cancel)="onCancel($event)" (continue)="onContinue($event)"
+                (edit)="onEdit($event)" [disableContinueButton]="disableContinueButton"
+                [continueStepSubject]="continueStepSubject">
+            </tc-stepper>
+        </div>
+
+        <!-- buttons to make API calls and route-->
+        <div class="stepperButtonWrapper margin-left-30 margin-bottom-25 row">
+            <div class="ps-0  w-auto" *ngIf="displaySaveButtons()">
+                <button class="btn tc-btn btn-primary tc-btn--primary margin-right-10"
+                    [class.disabled]="disableSaveButton()" (click)="onSave('ACTIVE')">
+                    {{ translationMap['SAVE_ACTIVE'] | translate }}
+                </button>
+                <button class="btn tc-btn btn-primary tc-btn--primary margin-right-10 save-as-inactive"
+                    [class.disabled]="disableSaveButton()" (click)="onSave('INACTIVE')">
+                    {{ translationMap['SAVE_INACTIVE'] | translate }}
+                </button>
+            </div>
+            <button class="btn tc-btn tc-btn--link ps-0  w-auto" (click)="onCancel($event)">
+                {{ translationMap['CANCEL'] | translate }}
+            </button>
+        </div>
+
+    </ng-container>
+
+    <!-- Confirmation modal for cancel -->
+    <policy-mgmt-confirmation-modal (modalOk)="onModalOk($event)" (modalCancel)="onModalCancel($event)">
+    </policy-mgmt-confirmation-modal>
+
+    <!-- show toast for error -->
+    <policy-mgmt-api-error-message [toastDetails]="apiErrorMessageDetails" *ngIf="showToastFlag">
+    </policy-mgmt-api-error-message>
+
+</div>

@@ -1,0 +1,57 @@
+
+  [{
+    "name": "RACK",
+    "id": "693801"
+  },
+  {
+    "name": "CORPORATE",
+    "id": "693802"
+  },
+  {
+    "name": "PACKAGE",
+    "id": "693806"
+  },
+  {
+    "name": "PROMOTIONAL",
+    "id": "693807"
+  },
+  {
+    "name": "NEGOTIATED",
+    "id": "693812"
+  },
+  {
+    "name": "CONSORTIA",
+    "id": "693813"
+  },
+  {
+    "name": "IN HOUSE",
+    "id": "693814"
+  },
+  {
+    "name": "DISCOUNT",
+    "id": "693817"
+  },
+  {
+    "name": "GROUP/CONVENTION",
+    "id": "693818"
+  },
+  {
+    "name": "TOUR/WHSL-FREESL",
+    "id": "693819"
+  },
+  {
+    "name": "TOUR/WHSL-ALLOT",
+    "id": "693820"
+  },
+  {
+    "name": "OTA MERCHANT",
+    "id": "693821"
+  },
+  {
+    "name": "CHANNEL MANAGEMENT",
+    "id": "693822"
+  },
+  {
+    "name": "GROUP BLOCK",
+    "id": "693823"
+  }]

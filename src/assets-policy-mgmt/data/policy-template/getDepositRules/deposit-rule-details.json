@@ -1,0 +1,34 @@
+{
+    "depositRuleId": "64217",
+    "hotelId": "6938",
+    "name": "Sample Rule",
+    "ruleInfo": [
+        {
+            "action": "CHARGE",
+            "chargeAmount": "100",
+            "chargeDate": "TIME_OF_BOOKING",
+            "chargePercentage": "0",
+            "chargeType": "FLAT",
+            "percentOnEnhancement": "5",
+            "status": "INACTIVE"
+        },
+        {
+            "action": "CHARGE",
+            "chargeAmount": "10",
+            "chargeDate": "TIME_OF_BOOKING",
+            "chargePercentage": "10",
+            "chargeType": "PERCENTAGE",
+            "percentOnEnhancement": "",
+            "status": "ACTIVE"
+        },
+        {
+            "action": "CHARGE",
+            "chargeAmount": "",
+            "chargeDate": "TIME_OF_BOOKING",
+            "chargePercentage": "0",
+            "chargeType": "ARRIVAL_DAY_CHARGE",
+            "percentOnEnhancement": "5",
+            "status": "ACTIVE"
+        }
+    ]
+}

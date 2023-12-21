@@ -1,0 +1,82 @@
+<div class="policy-level-container">
+    <div class="basic-card z-depth-1">
+        <form>
+            <div class="stepper-panel-content" *ngIf="rulesData">
+
+                <!-- Policy-Level -->
+                <div class="form-group tc-form-group">
+                    <div class="policy-level-header">
+                        <div class="radio tc-radio policy-level" *ngFor="let item of rulesData.data.policyLevelList">
+                            <input type="radio" id="{{item}}" name="policy-level" value="{{item}}"
+                                (change)="setPolicyLevel(item)" [checked]="isChecked(item)"
+                                [disabled]="policyFlow === policyFlowEnum.EDIT">
+                            <label [ngClass]="policyFlow === policyFlowEnum.EDIT ? 'disabled' : ''"
+                                for="{{item}}">{{translationMap[item] | translate}}</label>
+                        </div>
+                    </div>
+
+                    <div class="policy-level-dropdowns"
+                        *ngIf="rulesData.fields.policyLevel === policyLevelEnum.RATE_PLAN || rulesData.fields.policyLevel === policyLevelEnum.RATE_CATEGORY ||
+                        emSelectedLevel === enterprisePolicyLevelEnum.RATE_PLANS || emSelectedLevel === enterprisePolicyLevelEnum.RATE_CATEGORIES ||
+                        emSelectedLevel === enterprisePolicyLevelEnum.CHAIN_CATEGORIES">
+
+                        <!-- Chain Category Multi Select Dropdown -->
+                        <div class="chain-category-dropdown"
+                            *ngIf="emSelectedLevel === enterprisePolicyLevelEnum.CHAIN_CATEGORIES">
+                            <tc-multilevel-dropdown [i18nLabel]="dropdownLabels.customLabels"
+                                [placeholderText]="dropdownLabels.placeholderText" [multiSelectionControl]="'button'"
+                                [i18Selection]="dropdownLabels.defaultChainCategoryText" dropdownType="multi"
+                                dropdownId="chain-category-dropdown" [listItemArr]="policyFlow !== policyFlowEnum.EDIT ? rulesData.data.chainCategoryList : []"
+                                (selectionChange)="onSelectionChange($event)">
+                            </tc-multilevel-dropdown>
+                        </div>
+
+                        <!-- Rate Plan Multi Level Dropdown -->
+                        <div class="rate-plan-dropdown-section"
+                            *ngIf="emSelectedLevel === enterprisePolicyLevelEnum.RATE_PLANS|| rulesData.fields.policyLevel === policyLevelEnum.RATE_PLAN">
+                            <div class="rate-plan-dropdown">
+                                <tc-multilevel-dropdown
+                                    *ngIf="rulesData.fields.policyLevel === policyLevelEnum.RATE_PLAN"
+                                    [i18nLabel]="dropdownLabels.customLabels"
+                                    [placeholderText]="dropdownLabels.placeholderText"
+                                    [multiSelectionControl]="'button'" (selectionChange)="onSelectionChange($event)"
+                                    dropdownType="multi" dropdownId="rate-plan-dropdown"
+                                    [listItemArr]="rulesData.data.ratePlanList"
+                                    [selectedCountLabel]="dropdownLabels.defaultRatePlanText"></tc-multilevel-dropdown>
+                                <tc-dropdown
+                                    *ngIf="emSelectedLevel === enterprisePolicyLevelEnum.RATE_PLANS"
+                                    [i18nLabel]="dropdownLabels.customLabels"
+                                    [placeholderText]="dropdownLabels.placeholderText"
+                                    [multiSelectionControl]="'button'" (selectionChange)="onSelectionChange($event)"
+                                    dropdownType="multi" dropdownId="rate-plan-dropdown"
+                                    [listItemArr]="rulesData.data.ratePlanList"
+                                    [selectedCountLabel]="dropdownLabels.defaultRatePlanText" [disabled]="policyFlow === policyFlowEnum.EDIT"></tc-dropdown>
+                            </div>
+                            <span class="tc-popover rateplan-limit-info-icon">
+                                <i class="icon-lg tc-icon">
+                                    <img class="icon-info" src="{{publicPath}}assets-policy-mgmt/icons/icons-info.svg"
+                                        [ngbPopover]="translationMap['INFO_RATEPLAN_LEVEL_ALLOWS_MAX_20_RATEPLANS'] | translate"
+                                        placement="right" triggers="mouseenter:mouseleave" />
+                                </i>
+                            </span>
+                        </div>
+
+                        <!-- Rate Category Multi Select Dropdown -->
+                        <div class="rate-category-dropdown"
+                            *ngIf="emSelectedLevel === enterprisePolicyLevelEnum.RATE_CATEGORIES || rulesData.fields.policyLevel === policyLevelEnum.RATE_CATEGORY">
+                            <tc-dropdown [i18nLabel]="dropdownLabels.customLabels"
+                                [placeholderText]="dropdownLabels.placeholderText" [multiSelectionControl]="'button'"
+                                [i18Selection]="dropdownLabels.defaultRateCategoryText" dropdownType="multi"
+                                dropdownId="rate-category-dropdown" [listItemArr]="rulesData.data.rateCategoryList"
+                                (selectionChange)="onSelectionChange($event)" [disabled]="policyFlow === policyFlowEnum.EDIT && emSelectedLevel === enterprisePolicyLevelEnum.RATE_CATEGORIES">
+                            </tc-dropdown>
+                        </div>
+                    </div>
+
+                    <policy-mgmt-error-message [messageDetails]="errorObj.policyLevelErrorMessage">
+                    </policy-mgmt-error-message>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

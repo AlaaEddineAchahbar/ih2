@@ -1,0 +1,59 @@
+{
+    "name": "Create Test 5",
+    "ruleInfo": [
+        {
+            "status": "add",
+            "chargeDate": "TIME_OF_BOOKING",
+            "action": "CHARGE",
+            "chargeType": "FLAT",
+            "chargeAmount": "152 EUR",
+            "chargePercentage": 10,
+            "percentOnEnhancement": 21
+        },
+        {
+            "status": "add",
+            "chargeDate": "TIME_OF_BOOKING",
+            "action": "CHARGE",
+            "chargeType": "FLAT",
+            "chargeAmount": "152 CAD",
+            "chargePercentage": 10,
+            "percentOnEnhancement": 21
+        },
+        {
+            "status": "add",
+            "chargeDate": "TIME_OF_BOOKING",
+            "action": "CHARGE",
+            "chargeType": "FLAT",
+            "chargeAmount": "203 EUR",
+            "chargePercentage": 10,
+            "percentOnEnhancement": 21
+        },
+        {
+            "status": "add",
+            "chargeDate": "TIME_OF_BOOKING",
+            "action": "CHARGE",
+            "chargeType": "FLAT",
+            "chargeAmount": "203 CAD",
+            "chargePercentage": 10,
+            "percentOnEnhancement": 21
+        },
+        {
+            "status": "add",
+            "chargeDate": "TIME_OF_BOOKING",
+            "action": "CHARGE",
+            "chargeType": "PERCENTAGE",
+            "chargeAmount": "",
+            "chargePercentage": 10,
+            "percentOnEnhancement": 21
+        },
+        {
+            "status": "add",
+            "chargeDate": "TIME_OF_BOOKING",
+            "action": "CHARGE",
+            "chargeType": "ARRIVAL_DAY_CHARGE",
+            "chargeAmount": "",
+            "chargePercentage": 10,
+            "percentOnEnhancement": 21
+        }
+    ]
+}

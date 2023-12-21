@@ -1,0 +1,43 @@
+{
+  "hotelID":null,
+  "type":"EnterprisePolicyTemplate",
+  "selectType":"SingleSelect",
+  "uidataSet":{
+     "uiData":[
+        {
+           "id":"622219",
+           "displayName":"Test swagger",
+           "displayOrder":0,
+           "isDefault":null,
+           "metaEnabled":0,
+           "status":"ACTIVE",
+           "selected":false,
+           "devices":null
+        },
+        {
+           "id":"621965",
+           "displayName":"test ihonboarding bug",
+           "displayOrder":0,
+           "isDefault":null,
+           "metaEnabled":0,
+           "status":"ACTIVE",
+           "selected":false,
+           "devices":null
+        },
+        {
+           "id":"621964",
+           "displayName":"Cancel test for Jeremy",
+           "displayOrder":0,
+           "isDefault":null,
+           "metaEnabled":0,
+           "status":"ACTIVE",
+           "selected":false,
+           "devices":null
+        }
+     ],
+     "countries":null,
+     "msaList":null,
+     "pmsaList":null,
+     "taxGroups":null
+  }
+}

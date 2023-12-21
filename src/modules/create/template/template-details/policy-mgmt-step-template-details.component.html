@@ -1,0 +1,241 @@
+<div class="policy-template-detail-container">
+  <div class="basic-card z-depth-1">
+    <form>
+      <div class="template-panel-content" *ngIf="rulesData">
+        <div class="form-group tc-form-group col-md-4 ps-0">
+          <label for="policyTemplateName">
+            {{ translationMap['POLICY_TEMPLATE_NAME'] | translate }}
+          </label>
+          <input type="text" name="policyTemplateName" maxlength="47" [(ngModel)]="rulesData.fields.policyTemplateName"
+            (ngModelChange)="policyTemplateNameChange($event)" class="policyTemplateName form-control tc-form-control"
+            id="policyTemplateName" placeholder="">
+
+          <policy-mgmt-error-message [messageDetails]="errorObj.templateNameErrorMessage">
+          </policy-mgmt-error-message>
+        </div>
+
+        <div class="form-group tc-form-group col-md-4 ps-0">
+          <label for="policyTemplateCode">
+            {{ translationMap['POLICY_TEMPLATE_CODE'] | translate }}
+          </label>
+          <input type="text" name="policyTemplateCode" maxlength="6" [inputRestrict]="'alphanumeric'"
+            [(ngModel)]="rulesData.fields.policyTemplateCode" class="policyTemplateCode form-control tc-form-control"
+            id="policyTemplateCode" inputRestrict>
+        </div>
+
+        <div class="form-group tc-form-group col-md-4 ps-0" *ngIf="checkVisibility('acceptedTender')">
+          <label for="acceptedTender">
+            {{ translationMap['ACCEPTED_TENDER'] | translate }}
+          </label>
+          <tc-dropdown dropdownType="basic" [defaultSelection]="acceptedTenderDefaultIndex"
+            (selectionChange)="onAcceptedTenderChange($event)" dropdownId="acceptedTender-list"
+            [listItemArr]="rulesData.data.acceptedTender">
+          </tc-dropdown>
+        </div>
+
+        <div class="form-group tc-form-group late-arrival-container col-md-4 ps-0"
+          *ngIf="checkVisibility('lateArrivalTime')">
+          <label class="late-arrival-time" for="lateArrivalTime">
+            {{ translationMap['LATE_ARRIVAL'] | translate }}&nbsp;
+          </label>
+          <span class="tc-popover">
+            <i class="icon-lg tc-icon">
+              <img class="icon-info" src="{{publicPath}}assets-policy-mgmt/icons/icons-info.svg" placement="right"
+                [ngbPopover]="lateArrivalPopoverInfo | translate" triggers="mouseenter:mouseleave" />
+            </i>
+          </span>
+          <div class="late-arrival-list">
+            <span class="hold-until">{{ translationMap['HOLD_UNTIL'] | translate }}</span>
+            <tc-dropdown dropdownType="basic" selectTextLabel="{{ translationMap['HH'] | translate }}"
+              dropdownId="late-arrival-list" [defaultSelection]="lateArrivalDefaultIndex"
+              [listItemArr]="rulesData.data.lateArrivalTime"
+              (selectionChange)="onLateArrivalChange($event)"></tc-dropdown>
+            <span>&nbsp;{{ translationMap['WITHOUT_PAYMENT'] | translate }}</span>
+          </div>
+          <policy-mgmt-error-message [messageDetails]="errorObj.lateArrivalErrorMessage">
+          </policy-mgmt-error-message>
+        </div>
+        <div class=" form-group tc-form-group ps-0" *ngIf="checkVisibility('depositRule')">
+          <label for="depositRule">
+            {{ translationMap.DEPOSIT_CONFIGURATION_LABEL | translate }}
+          </label>
+          <div class="row deposit-rule">
+            <tc-dropdown class="col-md-4" dropdownType="basic" [defaultSelection]="depositRuleDefaultIndex"
+              [selectTextLabel]="translationMap.DEFAULT_DEPOSIT_CONFIGURATION_DROPDOWN_TEXT | translate"
+              showSelect="true" (selectionChange)="onDepositRuleSelectionChange($event)" dropdownId="deposit-rule-list"
+              [listItemArr]="uniqueDepositsList">
+            </tc-dropdown>
+            <button type="button" class="col-md-4 btn tc-btn btn-link tc-btn--inline-link"
+              [disabled]="depositRuleDefaultIndex === -1" (click)="showDepositRuleDetails()">
+              {{ translationMap.VIEW_DEPOSIT_CONFIGURATION | translate }}
+            </button>
+          </div>
+        </div>
+        <div class=" form-group tc-form-group ps-0" *ngIf="checkVisibility('depositRule')">
+          <span class="checkbox tc-checkbox">
+            <input [disabled]="setEnabledInstallment" type="checkbox" name="enabledInstallments"
+              id="enabledInstallments" [checked]="rulesData.fields.isInstallmentEnabled"
+              (change)="setEnabledInstallmentChange()">
+
+            <label class="label-spacing" for="enabledInstallments">
+              {{ translationMap['ENABLED_INSTALLMENTS'] | translate }}
+            </label>
+          </span>
+
+          <span class="tc-popover enabledInstallmentContainer">
+            <i class="icon-lg tc-icon">
+              <img class="icon-info" src="{{publicPath}}assets-policy-mgmt/icons/icons-info.svg" placement="right"
+                [ngbPopover]="enabledInstallmentPopOver" triggers="mouseenter: mouseleave" />
+            </i>
+          </span>
+        </div>
+
+        <!-- EnabledInstallmentPopOver content -->
+        <ng-template #enabledInstallmentPopOver>
+          <p><span class="enabledInstallment-popover-template">{{ getEnableInstallmentTooltipText() | translate
+              }}</span></p>
+          <span class="enabledInstallment-popover-template">{{translationMap['ENABLED_INSTALLMENTS_AVAILABLE_OPTIONS'] |
+            translate}} </span>
+        </ng-template>
+
+        <div class="form-group tc-form-group ps-0 policy-template-detail-container__btn-radio"
+          *ngIf="checkVisibility('cancellationNotice')">
+          <label for="cancellationNotice">
+            {{ translationMap['CANCELLATION_NOTICE'] | translate }}
+          </label>
+          <div class="row">
+            <div class="radio tc-radio cancellation-notice-options"
+              *ngFor="let item of rulesData.data.cancellationNotice">
+              <input type="radio" class="radio-active" id="{{item}}" name="cancellationNotice" value="{{item}}"
+                (change)="setCancellationNotice(item)" [checked]="rulesData.fields.cancellationNotice === item">
+              <label for="{{item}}">{{translationMap[item] | translate}}</label>
+            </div>
+          </div>
+          <div class="row policy-template-detail-container__cancellation-policy-option-container">
+            <div class="form-group tc-form-group radio-button-content">
+              <tc-dropdown [disabled]="!(rulesData.fields.cancellationNotice === 'SAME_DAY')"
+                defaultSelection="{{hoursDefaultIndex}}" selectTextLabel="{{ translationMap['HH'] | translate }}"
+                dropdownType="basic" dropdownId="hourdropdown" [listItemArr]="rulesData.data.sameDayNoticeList"
+                (selectionChange)="onSameDayHoursChange($event)">
+              </tc-dropdown>
+              <label class="label-spacing">:00</label>
+            </div>
+            <div class="row advance-notice-container radio-button-content">
+              <div class="ps-0 pe-5 w-auto">
+                <fieldset [disabled]="!(rulesData.fields.cancellationNotice === 'ADVANCE_NOTICE')">
+                  <div class="form-group tc-form-group">
+                    <input type="text" name="advanceNoticeDays" maxlength="3"
+                      [(ngModel)]="rulesData.fields.advanceNotice.days" id="days"
+                      class="form-control tc-form-control disable" [inputRestrict]="'numeric'" inputRestrict>
+                    <label class="label-spacing">{{ translationMap['DAYS_PLUS'] | translate
+                      }}</label>
+                  </div>
+                </fieldset>
+              </div>
+              <div class="w-auto">
+                <fieldset [disabled]="!(rulesData.fields.cancellationNotice === 'ADVANCE_NOTICE')">
+                  <div class="form-group tc-form-group">
+                    <input type="text" name="advanceNoticehours" maxlength="3"
+                      [(ngModel)]="rulesData.fields.advanceNotice.hours" id="hours"
+                      class="form-control tc-form-control disable" [inputRestrict]="'numeric'" inputRestrict>
+                    <label class="label-spacing">{{ translationMap['HOURS'] | translate }}</label>
+                  </div>
+                </fieldset>
+              </div>
+            </div>
+          </div>
+          <policy-mgmt-error-message [messageDetails]="errorObj.cancellationNoticeErrorMessage">
+          </policy-mgmt-error-message>
+        </div>
+
+        <!-- Free Cancellation field -->
+        <div class="form-group tc-form-group ps-0 policy-template-detail-container__btn-radio"
+          *ngIf="checkVisibility('isFreeCancellation')">
+          <div class="checkbox tc-checkbox activate-checkbox">
+            <input type="checkbox" name="freeCancellationMsg" [checked]="rulesData.fields.isFreeCancellation"
+              id="freeCancellationMsg" (change)="onFreeCancellationChange()"
+              [disabled]="rulesData.fields.cancellationNotice === 'NON_REFUNDABLE'">
+            <label for="freeCancellationMsg"
+              [ngClass]="{'disabled': rulesData.fields.cancellationNotice === 'NON_REFUNDABLE'}"
+              class="free-cancellation">
+              {{ translationMap['FREE_CANCELLATION_CHECKBOX_MSG'] | translate }}
+            </label>
+            <span class="tc-popover">
+              <i class="icon-lg tc-icon">
+                <img class="icon-info" src="{{publicPath}}assets-policy-mgmt/icons/icons-info.svg" placement="right"
+                  [ngbPopover]="translationMap['FREE_CANCELLATION_CHECKBOX_ICON_MSG'] | translate"
+                  triggers="mouseenter:mouseleave" />
+              </i>
+            </span>
+          </div>
+        </div>
+        <!-- Fix for US179068 -->
+        <!-- <div class="form-group tc-form-group ps-0 policy-template-detail-container__btn-radio"
+                    *ngIf="checkVisibility('otaCancellationChargeNotification')">
+                    <label class="ota-cancellation-notification" for="otaCancellationChargeNotification">
+                        {{ translationMap['OTA_CANCELLATION_CHARGE_NOTIFICATION'] | translate }}
+                    </label>
+                    <span class="tc-popover">
+                        <i class="icon-lg tc-icon">
+                            <img class="icon-info" src="{{publicPath}}assets-policy-mgmt/icons/icons-info.svg" placement="right"
+                                [ngbPopover]="translationMap['OTA_INFO_MSG'] | translate"
+                                triggers="mouseenter:mouseleave" />
+                        </i>
+                    </span>
+                    <div class="row">
+                        <div class="radio tc-radio ota-cancellation-options"
+                            *ngFor="let item of rulesData.data.otaCancellationChargeNotification">
+                            <input type="radio" class="radio-active" id="{{item}}"
+                                name="otaCancellationChargeNotification" value="{{item}}"
+                                (change)="setOtaCancellationNotice(item)"
+                                [checked]="rulesData.fields.otaCancellationChargeNotification === item">
+                            <label for="{{item}}">{{translationMap[item] | translate}}</label>
+                        </div>
+                    </div>
+                    <div class="row policy-template-detail-container__cancellation-policy-option-container">
+                        <div class="form-group tc-form-group radio-button-content">
+                            <fieldset
+                                [disabled]="!(rulesData.fields.otaCancellationChargeNotification === 'NIGHTS_ROOM_TAX')">
+                                <div class="form-group tc-form-group">
+                                    <input type="text" name="otaNightRoomNTaxAmt" maxlength="3"
+                                        [(ngModel)]="rulesData.fields.otaNightRoomNTaxAmt" id="otaNightRoomNTaxAmt"
+                                        class="form-control tc-form-control disable" [inputRestrict]="'numeric'"
+                                        inputRestrict>
+                                    <label class="label-spacing">{{ translationMap['NIGHTS'] | translate }}</label>
+                                </div>
+                            </fieldset>
+                        </div>
+                        <div class="form-group tc-form-group radio-button-content">
+                            <fieldset [disabled]="!(rulesData.fields.otaCancellationChargeNotification === 'FLAT')">
+                                <div class="form-group tc-form-group">
+                                    <input type="text" name="otaFlatAmt" [(ngModel)]="rulesData.fields.otaFlatAmt"
+                                        maxlength="15" id="otaFlatAmt" class="form-control tc-form-control disable"
+                                        [inputRestrict]="'numeric'" inputRestrict>
+                                    <label class="label-spacing">{{ translationMap['AMOUNT'] | translate }}</label>
+                                </div>
+                            </fieldset>
+                        </div>
+                        <div class="form-group tc-form-group radio-button-content">
+                            <fieldset
+                                [disabled]="!(rulesData.fields.otaCancellationChargeNotification === 'PERCENTAGE')">
+                                <div class="form-group tc-form-group">
+                                    <input type="text" name="otaPercentageAmt" maxlength="3"
+                                        [(ngModel)]="rulesData.fields.otaPercentageAmt" id="otaPercentageAmt"
+                                        class="form-control tc-form-control disable" [inputRestrict]="'numeric'"
+                                        inputRestrict>
+                                    <label class="label-spacing">{{ translationMap['AMOUNT'] | translate }}</label>
+                                </div>
+                            </fieldset>
+                        </div>
+                    </div>
+                </div> -->
+
+      </div>
+    </form>
+  </div>
+  <!-- component to open Deposit Rule Details list in modal -->
+  <deposit-rule-details-modal></deposit-rule-details-modal>
+  <!-- show toast for error -->
+  <policy-mgmt-api-error-message [toastDetails]="apiDepositRuleDetailsErrorMessage" *ngIf="showToastFlag">
+  </policy-mgmt-api-error-message>
+</div>

@@ -1,0 +1,103 @@
+{
+    "policies": [
+        {
+            "groupName": "Test Enterprise Policy 1",
+            "policyLevel": "ENTERPRISE",
+            "policyStatus": "INACTIVE",
+            "dow": null,
+            "policyDateRange": null,
+            "policyType": "DEFAULT",
+            "policyTemplateId": "99999",
+            "policyTemplateName": "Test Template",
+            "rateCatalogIds": null,
+            "emRateCategoryIds": null,
+            "chainCategoryIds": null,
+            "rules": [
+                {
+                    "ruleName": "Test Enterprise Policy 1",
+                    "activeStatus": "Unpublished",
+                    "ruleStartDate": "2023-11-07",
+                    "ruleEndDate": null,
+                    "rulePriority": "999",
+                    "ruleID": "300001"
+                }
+            ]
+        },
+        {
+            "groupName": "Test Enterprise Policy 2",
+            "policyLevel": "ENTERPRISE",
+            "policyStatus": "ACTIVE",
+            "dow": "2,3,4,5,6,7,1",
+            "policyDateRange": "2023-11-02/",
+            "policyType": "DATED",
+            "policyTemplateId": "99999",
+            "policyTemplateName": "Test Template",
+            "rateCatalogIds": null,
+            "emRateCategoryIds": null,
+            "chainCategoryIds": [
+                "1001"
+            ],
+            "rules": [
+                {
+                    "ruleName": "Test Enterprise Policy 2",
+                    "activeStatus": "Active",
+                    "ruleStartDate": "2023-11-02",
+                    "ruleEndDate": null,
+                    "rulePriority": "1",
+                    "ruleID": "300002"
+                }
+            ]
+        },
+        {
+            "groupName": "Test Enterprise Policy 3",
+            "policyLevel": "RATECATALOG",
+            "policyStatus": "INACTIVE",
+            "dow": "2,3,4,5,6,7,1",
+            "policyDateRange": "2023-10-01/2023-10-02,2023-10-10/2023-10-11",
+            "policyType": "DATED",
+            "policyTemplateId": "99999",
+            "policyTemplateName": "Test Template",
+            "rateCatalogIds": [
+                "2"
+            ],
+            "emRateCategoryIds": null,
+            "chainCategoryIds": null,
+            "rules": [
+                {
+                    "ruleName": "Test Enterprise Policy 3",
+                    "activeStatus": "Active",
+                    "ruleStartDate": "2023-11-02",
+                    "ruleEndDate": null,
+                    "ruleID": "300003"
+                }
+            ]
+        },
+        {
+            "groupName": "Test Enterprise Policy 4",
+            "policyLevel": "EMRATECATEGORY",
+            "policyStatus": "EXPIRED",
+            "dow": "2,3,4,5",
+            "policyDateRange": "2023-11-02/",
+            "policyType": "DATED",
+            "policyTemplateId": "99999",
+            "policyTemplateName": "Test Template",
+            "rateCatalogIds": null,
+            "emRateCategoryIds": [
+                "1",
+                "2"
+            ],
+            "chainCategoryIds": null,
+            "rules": [
+                {
+                    "ruleName": "Test Enterprise Policy 4",
+                    "activeStatus": "Active",
+                    "ruleStartDate": "2023-11-02",
+                    "ruleEndDate": null,
+                    "rulePriority": "99",
+                    "ruleID": "300004"
+                }
+            ]
+        }
+    ],
+    "totalRecordCount": 4
+}

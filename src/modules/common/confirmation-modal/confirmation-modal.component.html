@@ -1,0 +1,16 @@
+<ng-template #confirmationPopup let-c="close" let-d="dismiss" class="tc-normal-modal">
+    <div class="modal-header tc-modal__header">
+        <h4 class="modal-title tc-modal__header__title">{{ translationMap[modalTitle] | translate }}</h4>
+        <button type="button" class="close" aria-label="Close" (click)="c('Close click'); clickCancel()"
+            [hidden]="isHideCloseButton">X</button>
+    </div>
+    <div class="modal-body">
+        <p class="mb-0">{{ translationMap[messageContent] | translate }}</p>
+    </div>
+    <div class="modal-footer tc-modal__footer">
+        <button type="button" class="btn btn-primary tc-btn tc-btn--primary" (click)="c('Close click'); clickOk()">
+            {{ translationMap[buttonLabels.ok] | translate }} </button>
+        <button type="button" class="btn btn-primary tc-btn tc-btn--secondary"
+            (click)="c('Close click'); clickCancel()">{{ translationMap[buttonLabels.cancel] | translate }}</button>
+    </div>
+</ng-template>

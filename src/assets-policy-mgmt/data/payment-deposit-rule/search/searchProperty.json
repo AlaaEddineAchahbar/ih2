@@ -1,0 +1,52 @@
+{
+    "totalCount": 98,
+    "nextIndex": 26,
+    "paymentDepositRules": [
+        {
+            "depositRuleId": "60820",
+            "name": "10% Deposit",
+            "ownerType": "P",
+            "ruleInfo": [
+                {
+                    "status": "ACTIVE",
+                    "chargeDate": "999",
+                    "chargeType": "1",
+                    "chargeAmount": "0",
+                    "chargePercentage": "10",
+                    "percentOnEnhancement": "0"
+                }
+            ]
+        },
+        {
+            "depositRuleId": "80760",
+            "name": "10% instant ",
+            "ownerType": "E",
+            "ruleInfo": [
+                {
+                    "status": "ACTIVE",
+                    "chargeDate": "999",
+                    "chargeType": "1",
+                    "chargeAmount": "0",
+                    "chargePercentage": "5",
+                    "percentOnEnhancement": "0"
+                },
+                {
+                    "status": "ACTIVE",
+                    "chargeDate": "999",
+                    "chargeType": "1",
+                    "chargeAmount": "50",
+                    "chargePercentage": "0",
+                    "percentOnEnhancement": "0"
+                },
+                {
+                    "status": "ACTIVE",
+                    "chargeDate": "999",
+                    "chargeType": "3",
+                    "chargeAmount": "0",
+                    "chargePercentage": "0",
+                    "percentOnEnhancement": "0"
+                }
+            ]
+        }
+    ]
+}

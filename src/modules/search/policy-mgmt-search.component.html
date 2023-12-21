@@ -1,0 +1,92 @@
+<div class="container-fluid policy-list-container">
+    <div class="policy-list-container__header row">
+        <h1 class="h1 display--1">{{ pageHeader | translate }}</h1>
+    </div>
+    <div class="px-3 pb-3 tc-tabs">
+        <button type="button" class="btn tc-btn tc-btn--inline-link pb-0 float-right mb-n5"
+            *ngIf="isRedirectedFromGroups" (click)="redirectToUeModule(postMessage.GROUPS)">
+            {{ translationMap.BACK_TO_GROUPS | translate }}
+        </button>
+        <div *ngIf="isPolicyTypeAvailable(); else policyManagementContainer">
+            <ul ngbNav #tabSet="ngbNav" class="nav nav-tabs" (navChange)="onTabChange($event)" >
+                <li [ngbNavItem]="tab.id" *ngFor="let tab of tabList" id="{{tab.id}}">
+                    <a class="nav-link" ngbNavLink>{{ tab.name }}</a>
+                    <ng-template ngbNavContent >
+                        <ng-container *ngIf="!componentInitialized; else policyContainer"></ng-container>
+                    </ng-template>
+                </li>
+            </ul>
+            <div [ngbNavOutlet]="tabSet" class="mt-2"></div>
+        </div>
+    </div>
+</div>
+
+<ng-template #policyManagementContainer>
+    <ng-container *ngIf="!componentInitialized; else policyContainer"></ng-container>
+</ng-template>
+
+<ng-template #policyContainer>
+    <div class="policy-list-container__header__btn-section">
+        <div class="create-btn">
+              <ng-container *ngIf="hasEditAccess">
+                  <button type="button" class="btn tc-btn btn-primary tc-btn--primary"
+                      (click)="goToSpecifiedRoute(getConfigType(), policyFlow.CREATE)">
+                      {{ getCreateButtonName() | translate }}
+                  </button>
+              </ng-container>
+                  <button type="button" class="btn tc-btn tc-btn--inline-link"
+                      (click)="goToSpecifiedRoute(getNextConfigType(), policyFlow.SEARCH)"
+                      *ngIf="isEnabledNewPolicies">
+                      {{ getViewButtonName() | translate }}
+                  </button>
+                  <button type="button" class="btn tc-btn tc-btn--inline-link"
+                      (click)="goToSpecifiedRoute(configType.DEPOSIT_CONFIGURATION, policyFlow.SEARCH)">
+                      {{ getViewDepositButtonName() | translate }}
+                  </button>
+        </div>
+        <div class="sort-n-show-hide-filter-section">
+            <div
+                [ngClass]="(this.isEnterpriseLevel && !this.isConfigTypeDepositConfiguration)
+                    ? 'sort-dropdown-enterprise-policy' : 'sort-dropdown'">
+                <tc-dropdown dropdownType="basic" dropdownId="sortListDropdown" [listItemArr]="sortDropdown"
+                    defaultSelection="0" (selectionChange)="onSortSelectionChange($event)">;
+                </tc-dropdown>
+            </div>
+            <div class="filter-btn">
+                <button type="button" class="btn tc-btn tc-btn--inline-link custom-tooltip-holder"
+                    [ngbTooltip]="isToolTipEnabled ? (translationMap[hideFilterPanel ? 'SHOW_FILTERS' : 'HIDE_FILTERS'] | translate) : null"
+                    placement="bottom" (mouseenter)="setToolTip($event)" (click)="toggleFilters()">
+                    {{ translationMap[hideFilterPanel ? 'SHOW_FILTERS' : 'HIDE_FILTERS'] | translate }}
+                </button>
+            </div>
+            <div class="export-btn">
+                <button type="button" class="btn tc-btn btn-link tc-btn--inline-link custom-tooltip-holder"
+                    [ngbTooltip]="isToolTipEnabled ? (translationMap['EXPORT'] | translate) : null" placement="bottom"
+                    (mouseenter)="setToolTip($event)" (click)="onClickExport()">
+                    <i class="tc-icon">
+                        <svg id="icon-microsoft-excel" viewBox="0 0 32 32" width="100%" height="100%">
+                            <path d="M15.875 4l-.094.03-11 2.44-.78.186v18.688l.78.187 11 2.44.095.03H18v-3h10V7H18V4zM16 6.03v19.94L6 23.78V8.22zM18 9h8v14h-8v-2h2v-2h-2v-1h2v-2h-2v-1h2v-2h-2v-1h2v-2h-2zm3 1v2h4v-2zm-6.844 1l-2.28.28-1.25 2.69c-.134.385-.23.678-.282.874h-.03c-.08-.324-.154-.606-.252-.844l-.624-2.313-2.126.25L7.22 12 9 16l-2 4 2.156.25.875-2.47c.107-.31.193-.565.22-.718h.03c.06.325.1.567.158.688l1.343 2.938 2.44.312-2.658-5.03zM21 13v2h4v-2zm0 3v2h4v-2zm0 3v2h4v-2z"></path>
+                        </svg>
+                    </i>
+                    {{ translationMap['EXPORT'] | translate }}
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="row search-panel">
+        <div class="col-4 filter-panel" [ngClass]="{'hide-filters': hideFilterPanel}">
+            <policy-filter (search)="isEnterpriseLevel && isConfigTypeTemplate ? onSearchEMClicked($event) : onSearchClicked($event)"
+                (filter)="isEnterpriseLevel && isConfigTypeTemplate ? onFilterEMClicked($event) : onFilterClicked($event)"
+                [isInitialSearchPoliciesLoaded]="isInitialSearchPoliciesLoaded"
+                [isTemplateDropdownAPIDataLoaded]="isTemplateDropdownAPIDataLoaded"
+                [isDepositConfigurationLoaded]="isDepositConfigurationLoaded"></policy-filter>
+        </div>
+
+        <div class="col list-panel" [ngClass]="{'expand-list-panel' : hideFilterPanel}">
+            <policy-list-component [searchListData]="searchListData" [paginationConfig]="paginationObj"
+                (search)="isEnterpriseLevel && isConfigTypeTemplate ? onSearchEMClicked($event) : onSearchClicked($event)"
+                (filter)="onFilterClicked($event)"></policy-list-component>
+        </div>
+    </div>
+</ng-template>

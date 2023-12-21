@@ -1,0 +1,185 @@
+{
+    "totalRecordCount": 15,
+    "policyTemplates": [
+        {
+            "name": "mmncxmcvn",
+            "status": "ACTIVE",
+            "isEnterpriseLevel": false,
+            "hotelCode": 6938,
+            "id": 1228784,
+            "lastModified": "2020-05-29",
+            "policySetting": {
+                "acceptedTender": 17,
+                "holdTime": 13
+            }
+        },
+        {
+            "name": "vx,cmv,cx",
+            "status": "ACTIVE",
+            "isEnterpriseLevel": false,
+            "hotelCode": 6938,
+            "id": 1228757,
+            "lastModified": "2020-05-29",
+            "policySetting": {
+                "acceptedTender": 17,
+                "holdTime": 14
+            }
+        },
+        {
+            "name": "das",
+            "status": "ACTIVE",
+            "isEnterpriseLevel": false,
+            "hotelCode": 6938,
+            "id": 1228688,
+            "lastModified": "2020-05-27",
+            "policySetting": {
+                "acceptedTender": 17,
+                "holdTime": 17
+            }
+        },
+        {
+            "name": "qq",
+            "status": "ACTIVE",
+            "isEnterpriseLevel": false,
+            "hotelCode": 6938,
+            "id": 1228593,
+            "lastModified": "2020-05-26",
+            "policySetting": {
+                "acceptedTender": 17,
+                "holdTime": 17
+            }
+        },
+        {
+            "name": "test_guaranteekj",
+            "status": "ACTIVE",
+            "isEnterpriseLevel": false,
+            "hotelCode": 6938,
+            "id": 1228584,
+            "lastModified": "2020-05-25",
+            "policySetting": {
+                "acceptedTender": 17,
+                "holdTime": 0
+            }
+        },
+        {
+            "name": "qweewq9999",
+            "status": "ACTIVE",
+            "isEnterpriseLevel": false,
+            "hotelCode": 6938,
+            "id": 1228579,
+            "lastModified": "2020-05-25",
+            "policySetting": {
+                "acceptedTender": 17,
+                "holdTime": 0
+            }
+        },
+        {
+            "name": "yyyy",
+            "status": "ACTIVE",
+            "isEnterpriseLevel": false,
+            "hotelCode": 6938,
+            "id": 1228573,
+            "lastModified": "2020-05-25",
+            "policySetting": {
+                "acceptedTender": 17,
+                "holdTime": 15
+            }
+        },
+        {
+            "name": "qweewq////////",
+            "status": "ACTIVE",
+            "isEnterpriseLevel": false,
+            "hotelCode": 6938,
+            "id": 1228555,
+            "lastModified": "2020-05-22",
+            "policySetting": {
+                "acceptedTender": 17,
+                "holdTime": 14
+            }
+        },
+        {
+            "name": "gdfg",
+            "status": "ACTIVE",
+            "isEnterpriseLevel": false,
+            "hotelCode": 6938,
+            "id": 1228547,
+            "lastModified": "2020-05-21",
+            "policySetting": {
+                "acceptedTender": 17,
+                "holdTime": 0
+            }
+        },
+        {
+            "name": "dfgfg",
+            "status": "ACTIVE",
+            "isEnterpriseLevel": false,
+            "hotelCode": 6938,
+            "id": 1228546,
+            "lastModified": "2020-05-21",
+            "policySetting": {
+                "acceptedTender": 17,
+                "holdTime": 13
+            }
+        },
+        {
+            "name": "kjkjk",
+            "status": "ACTIVE",
+            "isEnterpriseLevel": false,
+            "hotelCode": 6938,
+            "id": 1228533,
+            "lastModified": "2020-05-19",
+            "policySetting": {
+                "acceptedTender": 17,
+                "holdTime": 13
+            }
+        },
+        {
+            "name": "cxmvnmcxv",
+            "status": "ACTIVE",
+            "isEnterpriseLevel": false,
+            "hotelCode": 6938,
+            "id": 1228532,
+            "lastModified": "2020-05-19",
+            "policySetting": {
+                "acceptedTender": 17,
+                "holdTime": 13
+            }
+        },
+        {
+            "name": "mncvmmcmcnv",
+            "status": "ACTIVE",
+            "isEnterpriseLevel": false,
+            "hotelCode": 6938,
+            "id": 1228531,
+            "lastModified": "2020-05-19",
+            "policySetting": {
+                "acceptedTender": 17,
+                "holdTime": 13
+            }
+        },
+        {
+            "name": "asdsadsad",
+            "status": "ACTIVE",
+            "isEnterpriseLevel": false,
+            "hotelCode": 6938,
+            "id": 1228412,
+            "lastModified": "2020-05-17",
+            "policySetting": {
+                "acceptedTender": 17,
+                "holdTime": 14
+            }
+        },
+        {
+            "name": "@@@@@@",
+            "status": "ACTIVE",
+            "isEnterpriseLevel": false,
+            "hotelCode": 6938,
+            "id": 1228411,
+            "lastModified": "2020-05-17",
+            "policySetting": {
+                "acceptedTender": 17,
+                "holdTime": 14
+            }
+        }
+    ]
+}

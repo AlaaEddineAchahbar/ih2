@@ -1,0 +1,54 @@
+<div class="policy-template-distribution-container">
+    <div class="basic-card z-depth-1">
+        <form>
+            <div class="distribution-panel-content" *ngIf="rulesData">
+                <div class="form-group tc-form-group col-md-4" *ngIf="checkVisibility('messageLanguage')">
+                    <label for="messageLanguage">
+                        {{ translationMap['MESSAGE_LANGUAGE'] | translate }}
+                    </label>
+                    <tc-dropdown dropdownType="basic" [defaultSelection]="languageDefaultIndex"
+                        dropdownId="distMsgLanguageId" (selectionChange)="onLanguageChange($event)"
+                        [listItemArr]="rulesData.data.messageLanguage" [selectTextLabel]="translationMap['DROPDOWN_SELECT'] | translate">
+                    </tc-dropdown>
+                </div>
+                <div class="row">
+                    <!--Online/CC Message -->
+                    <div class="form-group tc-form-group col-md-6" *ngIf="checkVisibility('onlineCCMessage', 'textList')">
+                        <label for="onlineCCMessage">
+                            {{ translationMap['ONLINE_CC_MESSAGE'] | translate }}
+                        </label>
+                        <textarea [disabled]="languageDefaultIndex === -1" rows="6" cols="25" maxlength="4000"
+                            name="onlineCCMessage"
+                            [(ngModel)]="rulesData.fields.textList.onlineCCMessage[selectedLangId]"
+                            class="onlineCCMessage form-control tc-form-control h-auto" id="onlineCCMessage"
+                            placeholder=""></textarea>
+                    </div>
+
+                    <!--GDS Message and Rate Notification Container-->
+                    <div class="form-group tc-form-group col-md-6">
+                        <!--GDS Message-->
+                        <div class="form-group tc-form-group" *ngIf="checkVisibility('gdsMessage', 'textList')">
+                            <label for="gdsMessage">
+                                {{ translationMap['GDS_MESSAGE'] | translate }}
+                            </label>
+                            <div class="form-group tc-form-group">
+                                <input type="text" [disabled]="selectedLangId !== 1 || languageDefaultIndex === -1"
+                                    [(ngModel)]="rulesData.fields.textList.gdsMessage.gdsLine1[selectedLangId]"
+                                    name="gdsLine1" class="form-control tc-form-control" id="gdsLine1" maxlength="47"
+                                    [inputRestrict]="'alphanumericwithspace'" inputRestrict>
+                            </div>
+                            <div class="form-group tc-form-group">
+                                <input type="text" [disabled]="selectedLangId !== 1 || languageDefaultIndex === -1"
+                                    [(ngModel)]="rulesData.fields.textList.gdsMessage.gdsLine2[selectedLangId]"
+                                    name="gdsLine2" class="form-control tc-form-control" id="gdsLine2" maxlength="47"
+                                    [inputRestrict]="'alphanumericwithspace'" inputRestrict>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

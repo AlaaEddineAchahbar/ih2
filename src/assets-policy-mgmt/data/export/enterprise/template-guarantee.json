@@ -1,0 +1,91 @@
+{
+  "totalCount": 0,
+  "nextIndex": 0,
+  "emPolicyTemplates": [
+    {
+      "name": "Test Template Guarantee 1",
+      "policyCode": "TST 1",
+      "status": "ACTIVE",
+      "policySetting": {
+        "acceptedTender": 16,
+        "isInstallmentEnabled": false
+      },
+      "textList": [
+        {
+          "textType": "ONLINE_CALL_CENTER_MESSAGE",
+          "languageTexts": []
+        },
+        {
+          "textType": "POLICY_GDSLINE1_MSG",
+          "languageTexts": []
+        },
+        {
+          "textType": "POLICY_GDSLINE2_MSG",
+          "languageTexts": []
+        }
+      ]
+    },
+    {
+      "name": "Test Template Guarantee 2",
+      "policyCode": "TST2",
+      "status": "ACTIVE",
+      "policySetting": {
+        "acceptedTender": 17,
+        "holdTime": 13,
+        "isInstallmentEnabled": false
+      },
+      "textList": [
+        {
+          "textType": "ONLINE_CALL_CENTER_MESSAGE",
+          "languageTexts": [
+            {
+              "languageId": 1,
+              "text": "Testing message"
+            }
+          ]
+        },
+        {
+          "textType": "POLICY_GDSLINE1_MSG",
+          "languageTexts": [
+            {
+              "languageId": 1,
+              "text": "test gds message"
+            }
+          ]
+        },
+        {
+          "textType": "POLICY_GDSLINE2_MSG",
+          "languageTexts": []
+        }
+      ]
+    },
+    {
+      "name": "Test Template Guarantee 3",
+      "policyCode": "",
+      "status": "INACTIVE",
+      "policySetting": {
+        "acceptedTender": 9,
+        "isInstallmentEnabled": false
+      },
+      "textList": [
+        {
+          "textType": "ONLINE_CALL_CENTER_MESSAGE",
+          "languageTexts": [
+            {
+              "languageId": 1,
+              "text": "Guarantee Test"
+            }
+          ]
+        },
+        {
+          "textType": "POLICY_GDSLINE1_MSG",
+          "languageTexts": []
+        },
+        {
+          "textType": "POLICY_GDSLINE2_MSG",
+          "languageTexts": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,447 @@
+{
+    "chainId": 560,
+    "chainCode": "AAM",
+    "chainName": "AAM",
+    "status": "ACTIVE",
+    "creationDateTime": "2018-10-08",
+    "creationBy": "590228",
+    "lastUpdateDateTime": "2023-08-25",
+    "lastUpdateBy": "649182",
+    "chainHotels": [
+        {
+            "hotelCode": 71125,
+            "bid": 332211,
+            "hotelName": "TRAVELCLICK-Stephanie's PMS  - TEST HOTEL",
+            "currencyCode": "COP",
+            "status": "ACTIVE",
+            "defaultLanguageId": 1,
+            "supportedLanguages": [
+                1,
+                2,
+                3,
+                8,
+                28,
+                29
+            ],
+            "rewardType": null,
+            "earn": false,
+            "burn": false
+        },
+        {
+            "hotelCode": 1098,
+            "bid": 767666,
+            "hotelName": "TRAVELCLICK 1098_English TOMEE UPG TEST",
+            "currencyCode": "COP",
+            "status": "ACTIVE",
+            "defaultLanguageId": 1,
+            "supportedLanguages": [
+                1,
+                2,
+                3,
+                7,
+                8,
+                20,
+                26,
+                38
+            ],
+            "rewardType": null,
+            "earn": false,
+            "burn": false
+        },
+        {
+            "hotelCode": 1218,
+            "bid": 1028126,
+            "hotelName": "TRAVELCLICK - PMSC Test Property 2(Platform)",
+            "currencyCode": "USD",
+            "status": "ACTIVE",
+            "defaultLanguageId": 1,
+            "supportedLanguages": [
+                1
+            ],
+            "rewardType": null,
+            "earn": false,
+            "burn": false
+        },
+        {
+            "hotelCode": 4561,
+            "bid": 10166421,
+            "hotelName": "TRAVELCLICK - KYLE'S TEST HOTEL",
+            "currencyCode": "GBP",
+            "status": "ACTIVE",
+            "defaultLanguageId": 1,
+            "supportedLanguages": [
+                1,
+                3,
+                5,
+                7,
+                8,
+                10
+            ],
+            "rewardType": null,
+            "earn": false,
+            "burn": false
+        },
+        {
+            "hotelCode": 1206,
+            "bid": 1031843,
+            "hotelName": "TRAVELCLICK - BE Test Property 6",
+            "currencyCode": "SGD",
+            "status": "ACTIVE",
+            "defaultLanguageId": 1,
+            "supportedLanguages": [
+                1,
+                3
+            ],
+            "rewardType": null,
+            "earn": false,
+            "burn": false
+        },
+        {
+            "hotelCode": 1213,
+            "bid": 1034704,
+            "hotelName": "CC2",
+            "currencyCode": "CAD",
+            "status": "ACTIVE",
+            "defaultLanguageId": 2,
+            "supportedLanguages": [
+                1,
+                2,
+                6
+            ],
+            "rewardType": null,
+            "earn": false,
+            "burn": false
+        },
+        {
+            "hotelCode": 11258,
+            "bid": 648079,
+            "hotelName": "TRAVELCLICK - PMSC_iHotelier OTA Test Property",
+            "currencyCode": "EUR",
+            "status": "ACTIVE",
+            "defaultLanguageId": 1,
+            "supportedLanguages": [
+                1,
+                2,
+                3,
+                5,
+                10,
+                23,
+                38
+            ],
+            "rewardType": null,
+            "earn": false,
+            "burn": false
+        },
+        {
+            "hotelCode": 11277,
+            "bid": 648244,
+            "hotelName": "TRAVELCLICK - PMSC_Roommaster Test Property",
+            "currencyCode": "EUR",
+            "status": "ACTIVE",
+            "defaultLanguageId": 1,
+            "supportedLanguages": [
+                1,
+                2,
+                3
+            ],
+            "rewardType": null,
+            "earn": false,
+            "burn": false
+        },
+        {
+            "hotelCode": 100192,
+            "bid": 592595,
+            "hotelName": "Bay View Suites Paradise Island",
+            "currencyCode": "EUR",
+            "status": "ACTIVE",
+            "defaultLanguageId": 1,
+            "supportedLanguages": [
+                1
+            ],
+            "rewardType": null,
+            "earn": false,
+            "burn": false
+        },
+        {
+            "hotelCode": 11244,
+            "bid": 648077,
+            "hotelName": "TRAVELCLICK - PMSC_HTNG Test Property 2 Tome",
+            "currencyCode": "EUR",
+            "status": "ACTIVE",
+            "defaultLanguageId": 1,
+            "supportedLanguages": [
+                1,
+                3,
+                7,
+                11
+            ],
+            "rewardType": null,
+            "earn": false,
+            "burn": false
+        },
+        {
+            "hotelCode": 110102,
+            "bid": 251018,
+            "hotelName": "Beach Park Hotel",
+            "currencyCode": "EUR",
+            "status": "ACTIVE",
+            "defaultLanguageId": 1,
+            "supportedLanguages": [
+                1
+            ],
+            "rewardType": null,
+            "earn": false,
+            "burn": false
+        },
+        {
+            "hotelCode": 1221,
+            "bid": 1034863,
+            "hotelName": "TRAVELCLICK - Icebox Test Property 1",
+            "currencyCode": "EUR",
+            "status": "ACTIVE",
+            "defaultLanguageId": 1,
+            "supportedLanguages": [
+                1,
+                2,
+                3,
+                5,
+                6,
+                7,
+                8,
+                10,
+                34
+            ],
+            "rewardType": null,
+            "earn": false,
+            "burn": false
+        },
+        {
+            "hotelCode": 5020,
+            "bid": 8092,
+            "hotelName": "JDV TEST PROPERTY",
+            "currencyCode": "EUR",
+            "status": "ACTIVE",
+            "defaultLanguageId": 1,
+            "supportedLanguages": [
+                1,
+                2
+            ],
+            "rewardType": null,
+            "earn": false,
+            "burn": false
+        },
+        {
+            "hotelCode": 9876914,
+            "bid": 0,
+            "hotelName": "Inter-Hotel Albi Cantepau-Test Property",
+            "currencyCode": "EUR",
+            "status": "ACTIVE",
+            "defaultLanguageId": 1,
+            "supportedLanguages": [
+                1,
+                2
+            ],
+            "rewardType": null,
+            "earn": false,
+            "burn": false
+        },
+        {
+            "hotelCode": 12328,
+            "bid": 236420,
+            "hotelName": "Aspen Hotel Soldotna",
+            "currencyCode": "EUR",
+            "status": "ACTIVE",
+            "defaultLanguageId": 1,
+            "supportedLanguages": [
+                1
+            ],
+            "rewardType": null,
+            "earn": false,
+            "burn": false
+        },
+        {
+            "hotelCode": 1222,
+            "bid": 1034865,
+            "hotelName": "TRAVELCLICK - Icebox Test Property 2",
+            "currencyCode": "EUR",
+            "status": "ACTIVE",
+            "defaultLanguageId": 1,
+            "supportedLanguages": [
+                1,
+                5,
+                12,
+                34
+            ],
+            "rewardType": null,
+            "earn": false,
+            "burn": false
+        },
+        {
+            "hotelCode": 72704,
+            "bid": 80921,
+            "hotelName": "TRAVELCLICK - New Indian Pride VAMPIRE RESORT",
+            "currencyCode": "EUR",
+            "status": "ACTIVE",
+            "defaultLanguageId": 1,
+            "supportedLanguages": [
+                1,
+                2,
+                3,
+                5,
+                7,
+                9,
+                10,
+                11,
+                12,
+                15,
+                18,
+                21,
+                27,
+                38
+            ],
+            "rewardType": null,
+            "earn": false,
+            "burn": false
+        },
+        {
+            "hotelCode": 1099,
+            "bid": 767667,
+            "hotelName": "TRAVELCLICK - Axel Bay Resort",
+            "currencyCode": "EUR",
+            "status": "ACTIVE",
+            "defaultLanguageId": 1,
+            "supportedLanguages": [
+                1,
+                2,
+                3,
+                7,
+                11,
+                37
+            ],
+            "rewardType": null,
+            "earn": false,
+            "burn": false
+        },
+        {
+            "hotelCode": 1201,
+            "bid": 1016642,
+            "hotelName": "TRAVELCLICK - BE Test Property 1",
+            "currencyCode": "EUR",
+            "status": "ACTIVE",
+            "defaultLanguageId": 1,
+            "supportedLanguages": [
+                1,
+                2,
+                11,
+                34
+            ],
+            "rewardType": null,
+            "earn": false,
+            "burn": false
+        },
+        {
+            "hotelCode": 1210,
+            "bid": 1034698,
+            "hotelName": "TRAVELCLICK - BE Test Property 10",
+            "currencyCode": "EUR",
+            "status": "ACTIVE",
+            "defaultLanguageId": 3,
+            "supportedLanguages": [
+                1,
+                3,
+                5,
+                7,
+                8,
+                10,
+                12,
+                13,
+                14,
+                15,
+                26,
+                29,
+                30,
+                33,
+                36,
+                38
+            ],
+            "rewardType": null,
+            "earn": false,
+            "burn": false
+        },
+        {
+            "hotelCode": 1212,
+            "bid": 1034702,
+            "hotelName": "CC1",
+            "currencyCode": "EUR",
+            "status": "ACTIVE",
+            "defaultLanguageId": 1,
+            "supportedLanguages": [
+                1,
+                2,
+                3,
+                4,
+                6,
+                7,
+                8,
+                15
+            ],
+            "rewardType": null,
+            "earn": false,
+            "burn": false
+        },
+        {
+            "hotelCode": 1214,
+            "bid": 1034708,
+            "hotelName": "CC3",
+            "currencyCode": "EUR",
+            "status": "ACTIVE",
+            "defaultLanguageId": 1,
+            "supportedLanguages": [
+                1,
+                3,
+                7
+            ],
+            "rewardType": null,
+            "earn": false,
+            "burn": false
+        },
+        {
+            "hotelCode": 97704,
+            "bid": 605803,
+            "hotelName": "Riverside Hot Springs Inn",
+            "currencyCode": "EUR",
+            "status": "ACTIVE",
+            "defaultLanguageId": 1,
+            "supportedLanguages": [
+                1,
+                3
+            ],
+            "rewardType": null,
+            "earn": false,
+            "burn": false
+        },
+        {
+            "hotelCode": 1207,
+            "bid": 1031845,
+            "hotelName": "TRAVELCLICK - BE Test Property 7",
+            "currencyCode": "EUR",
+            "status": "ACTIVE",
+            "defaultLanguageId": 1,
+            "supportedLanguages": [
+                1,
+                2,
+                3,
+                4,
+                7,
+                8,
+                14
+            ],
+            "rewardType": null,
+            "earn": false,
+            "burn": false
+        }
+    ],
+    "adminUsers": [],
+    "settings": null,
+    "categories": null
+}

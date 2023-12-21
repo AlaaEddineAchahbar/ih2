@@ -1,0 +1,62 @@
+@import '../../styles/policy-mgmt-common.scss';
+
+.create-policy-stepper {
+  margin: 0 25px;
+
+  .sub-header {
+    margin-top: 10px;
+  }
+
+  .tc-stepper__step__content__header {
+    .step-edit {
+      margin: 0 10px 10px 0;
+    }
+  }
+
+  .tc-stepper__step__content__body {
+    padding-top: 8px;
+    padding-bottom: 15px;
+  }
+
+  .error {
+    margin-top: 10px;
+  }
+
+  .stepper-save-cancel-btn {
+    margin: 25px 30px;
+
+    .tc-btn {
+      margin: 0 10px 10px 0;
+    }
+  }
+
+  .preview-label {
+    &.preview-margin {
+      margin-top: 8px;
+    }
+
+    .previewLabel {
+      margin-right: 5px;
+    }
+  }
+
+
+  .dateRangeLabel {
+    vertical-align: top;
+  }
+
+  .preview-dated-list {
+    display: inline-block;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    list-style-type: none;
+  }
+
+  .tc-dropdown__menu.dropdown-menu.show {
+    overflow: inherit;
+  }
+}
+
+.no-edit-access .tc-stepper__step__content__header>button {
+  display: none;
+}

@@ -1,0 +1,240 @@
+<form>
+  <div class="filter-container pl-0 pb-0">
+    <div class="toggle-button-left" [ngClass]="{'align-left': hideFilterPanel}" (click)="toggleFilters()">
+      <div class="toggle-button-act">
+        <i class="tc-icon icon-25">
+          <svg height="50" style=" fill:#000000;" viewBox="0 0 192 192" width="50" x="0px"
+            xmlns="http://www.w3.org/2000/svg" y="0px">
+            <g fill="none" fill-rule="nonzero" font-family="none" font-size="none" font-weight="none" stroke="none"
+              stroke-dasharray="" stroke-dashoffset="0" stroke-linecap="butt" stroke-linejoin="miter"
+              stroke-miterlimit="10" stroke-width="1" style="mix-blend-mode: normal" text-anchor="none">
+              <path d="M0,192v-192h192v192z" fill="none"></path>
+              <g fill="#0093e0">
+                <g id="surface1">
+                  <path
+                    d="M7.68,11.52v15.36h176.64v-15.36zM7.68,49.92v15.36h111.36v-15.36zM141.72,53.76c-0.375,0.03 -0.72,0.09 -1.08,0.24c-1.44,0.6 -2.4,2.055 -2.4,3.6v76.8c0,1.545 0.96,3.015 2.4,3.6c0.48,0.195 0.945,0.24 1.44,0.24c1.005,0 2.025,-0.345 2.76,-1.08l38.4,-38.4c1.5,-1.5 1.5,-4.02 0,-5.52l-38.4,-38.4c-0.825,-0.825 -1.995,-1.185 -3.12,-1.08zM7.68,88.32v15.36h111.36v-15.36zM7.68,126.72v15.36h111.36v-15.36zM7.68,165.12v15.36h176.64v-15.36z">
+                  </path>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </i>
+      </div>
+    </div>
+
+    <div class="filter-panel-content" *ngIf="rulesData" [ngClass]="{'hide-filters' : hideFilterPanel}">
+      <h3 class="section-header">{{ translationMap['FILTER'] | translate }}</h3>
+
+      <button type="button" class="btn tc-btn tc-btn--link clear-btn" (click)="resetFilter()">{{
+        translationMap['CLEAR_ALL'] | translate }}</button>
+
+      <!-- Policy Assignment Level -->
+      <div class="form-group tc-form-group" *ngIf="checkPropertyPolicyLevel()">
+        <p>{{ translationMap['POLICY_DISTRIBUTION'] | translate }}</p>
+        <div class="checkbox tc-checkbox filter-form-container__checkbox-btn-options">
+          <ng-container *ngFor="let levelItem of rulesData.data.policyAssignmentLevel; let i = index">
+            <input type="checkbox" id="policyLevelItem-{{i}}" [(ngModel)]="rulesData.fields.policyLevel[levelItem]"
+              name="levelItem-{{i}}" [checked]="false" (change)="onPolicyLevelChange()">
+            <label for="policyLevelItem-{{i}}" class="label-spacing">
+              {{ translationMap[levelItem] | translate}}
+            </label>
+          </ng-container>
+        </div>
+        <policy-mgmt-error-message [messageDetails]="errorObj.policyAssignmentLevelErrorMessage">
+        </policy-mgmt-error-message>
+      </div>
+
+      <div *ngIf="checkEnterprisePolicyLevel()">
+        <div class="form-group tc-form-group">
+          <p>{{ translationMap['POLICY_DISTRIBUTION'] | translate }}</p>
+          <div class="radio tc-radio filter-form-container__checkbox-btn-options">
+            <ng-container *ngFor="let levelItem of rulesData.data.policyAssignmentLevel; let i = index">
+              <input type="radio" id="policyLevelItem-{{i}}" name="enterprise-policy-level" [value]="levelItem"
+                [checked]="rulesData.fields.enterprisePolicyLevel[levelItem]"
+                (change)="onEnterprisePolicyLevelChange(levelItem)">
+              <label for="policyLevelItem-{{i}}" class="label-spacing">
+                {{ translationMap[levelItem] | translate}}
+              </label>
+            </ng-container>
+          </div>
+          <policy-mgmt-error-message [messageDetails]="errorObj.policyAssignmentLevelErrorMessage">
+          </policy-mgmt-error-message>
+        </div>
+
+        <div class="form-group tc-form-group"
+          [hidden]="!checkVisibility('chainCategory') || !rulesData.fields.enterprisePolicyLevel.CHAIN_CATEGORIES">
+          <tc-multilevel-dropdown [i18nLabel]="dropdownLabels.customLabels"
+            [placeholderText]="dropdownLabels.placeholderText" [multiSelectionControl]="'button'"
+            [selectedCountLabel]="dropdownLabels.defaultChainCategoryText" dropdownType="multi"
+            dropdownId="filterEnterpriseChainCategoryId" [listItemArr]="rulesData.data.chainCategories"
+            (selectionChange)="onEnterpriseChainCategorySelectionChange($event)">
+          </tc-multilevel-dropdown>
+        </div>
+
+        <div class="form-group tc-form-group"
+          [hidden]="!checkVisibility('rateCategory') || !rulesData.fields.enterprisePolicyLevel.RATE_CATEGORIES">
+          <tc-dropdown [i18nLabel]="dropdownLabels.customLabels" [placeholderText]="dropdownLabels.placeholderText"
+            [multiSelectionControl]="'button'" [i18Selection]="dropdownLabels.defaultRateCategoryText"
+            dropdownType="multi" dropdownId="filterEnterpriseRateCategoryId"
+            [listItemArr]="rulesData.data.rateCategories"
+            (selectionChange)="onEnterpriseRateCategorySelectionChange($event)">
+          </tc-dropdown>
+        </div>
+
+        <div class="form-group tc-form-group"
+          [hidden]="!checkVisibility('ratePlan') || !rulesData.fields.enterprisePolicyLevel.RATE_PLANS">
+          <tc-dropdown [i18nLabel]="dropdownLabels.customLabels" [placeholderText]="dropdownLabels.placeholderText"
+            [multiSelectionControl]="'button'" [i18Selection]="dropdownLabels.defaultRatePlanText" dropdownType="multi"
+            dropdownId="filterEnterpriseRatePlanId" [listItemArr]="rulesData.data.ratePlans"
+            (selectionChange)="onEnterpriseRatePlanSelectionChange($event)">
+          </tc-dropdown>
+        </div>
+      </div>
+
+      <!-- Policy Name -->
+      <div class="form-group tc-form-group" *ngIf="checkVisibility('policyName')">
+        <label for="policyName">
+          {{ translationMap['POLICY_NAME'] | translate }}
+        </label>
+        <input type="text" name="policyName" [(ngModel)]="rulesData.fields.policyName"
+          class="policyName form-control tc-form-control" id="policyName">
+      </div>
+
+      <!-- Policy Template Name -->
+      <div class="form-group tc-form-group" *ngIf="checkVisibility('policyTemplateName')">
+        <label for="policyTemplateName">
+          {{ translationMap['POLICY_TEMPLATE_NAME'] | translate }}
+        </label>
+        <input type="text" name="policyTemplateName" [(ngModel)]="rulesData.fields.policyTemplateName"
+          class="policyName form-control tc-form-control" id="policyTemplateName" maxlength="47">
+      </div>
+
+      <!-- Deposit Configuration Name -->
+      <div class="form-group tc-form-group" *ngIf="checkVisibility('depositConfigurationName')">
+        <label for="depositConfigurationName">
+          {{ translationMap['DEPOSIT_CONFIGURATION_NAME'] | translate }}
+        </label>
+        <input type="text" name="depositConfigurationName" [(ngModel)]="rulesData.fields.depositConfigurationName"
+          class="policyName form-control tc-form-control" id="depositConfigurationName" maxlength="47">
+      </div>
+
+      <!-- Rate Category Multi Select With Filter Dropdown -->
+      <div class="form-group tc-form-group"
+        *ngIf="checkVisibility('rateCategory') && rulesData.fields.policyLevel.RATECATEGORY">
+        <label>{{ translationMap['RATECATEGORY'] | translate }}</label>
+        <tc-dropdown [i18nLabel]="dropdownLabels.customLabels" [placeholderText]="dropdownLabels.placeholderText"
+          [multiSelectionControl]="'button'" [i18Selection]="dropdownLabels.defaultRateCategoryText"
+          dropdownType="multi" dropdownId="filterRateCategoryId" [listItemArr]="rulesData.data.rateCategories"
+          (selectionChange)="onRateCategorySelectionChange($event)" [disabled]="rateCategoryDisable">
+        </tc-dropdown>
+      </div>
+
+      <!-- Rate Plan Multi Level With Filter Dropdown -->
+      <div class="form-group tc-form-group"
+        *ngIf="checkVisibility('ratePlan') && rulesData.fields.policyLevel.RATEPLAN">
+        <label>{{ translationMap['RATEPLAN'] | translate }}</label>
+        <ng-container *ngIf="rulesData.data.ratePlans.length">
+          <tc-multilevel-dropdown [i18nLabel]="dropdownLabels.customLabels"
+            [placeholderText]="dropdownLabels.placeholderText" [multiSelectionControl]="'button'"
+            (selectionChange)="onRatePlanSelectionChange($event)" dropdownType="multi" dropdownId="filterRatePlanId"
+            [listItemArr]="rulesData.data.ratePlans" [selectedCountLabel]="dropdownLabels.defaultRatePlanText">
+          </tc-multilevel-dropdown>
+        </ng-container>
+
+        <!-- Adding this check as dropdown default labels are not correctly reflecting when List is empty -->
+        <!-- This "ngIF" check can be removed when styleguide Component works on this issue -->
+        <ng-container *ngIf="rulesData.data.ratePlans.length === 0">
+          <tc-multilevel-dropdown [i18nLabel]="dropdownLabels.customLabels" dropdownType="multi"
+            dropdownId="filterRatePlanIdDisabled" [listItemArr]="[]"
+            [selectedCountLabel]="dropdownLabels.defaultRatePlanText">
+          </tc-multilevel-dropdown>
+        </ng-container>
+      </div>
+
+      <!-- Policy Template Single Select With Filter Dropdown -->
+      <div class="form-group tc-form-group" *ngIf="checkVisibility('policyTemplateId')">
+        <label for="policyTemplate">
+          {{ translationMap['POLICY_TEMPLATE'] | translate }}
+        </label>
+        <tc-dropdown dropdownType="filter" [selectTextLabel]="translationMap['DROPDOWN_SELECT'] | translate"
+          (selectionChange)="onPolicyTemplateSelectionChange($event)" dropdownId="policy-template-list"
+          [listItemArr]="rulesData.data.policyTemplateList" placeholderText="{{translationMap['FILTER'] | translate}}">
+        </tc-dropdown>
+      </div>
+
+      <!-- Policy Date Range -->
+      <div class="form-group tc-form-group filter-date-range mb-0" *ngIf="checkVisibility('dateRange')">
+        <label for="policyTemplate">
+          {{ translationMap['DATE_RANGE'] | translate }}
+        </label>
+        <tc-date-picker [startDate]="startDate" [endDate]="endDate" [i18nValues]="datePickeri18nValues"
+          name="policyDate" [showEndDateCheckbox]="false" [dateFormat]="dateFormat"
+          (startDateChange)="onStartDateChange($event)" (endDateChange)="onEndDateChange($event)"
+          [i18nValues]="datePickeri18nValues" [noEndDateChecked]="false" (clearDate)="onClearDate()">
+        </tc-date-picker>
+      </div>
+
+      <!-- Status Filter Options -->
+      <div class="form-group tc-form-group" *ngIf="checkVisibility('status')">
+        <p>
+          {{(configType === configTypeEnum.TEMPLATE
+          ? translationMap['POLICY_TEMPLATE_STATUS']
+          : translationMap['POLICY_STATUS']) | translate}}
+        </p>
+        <div class="radio tc-radio filter-form-container__radio-btn-options">
+          <ng-container *ngFor="let item of rulesData.data.statusList">
+            <input type="radio" class="radio-active" id="{{item}}" name="status" [value]="item"
+              [checked]="rulesData.fields.status === item" (change)="filterChanges($event, 'status')">
+            <label for="{{item}}" class="label-spacing">{{translationMap[item] | translate}}</label>
+          </ng-container>
+        </div>
+      </div>
+
+
+      <!-- Cancellation Notice Filter Options -->
+      <div class="form-group tc-form-group" *ngIf="checkVisibility('cancellationNotice')">
+        <p>{{ translationMap['CANCELLATION_NOTICE'] | translate }}</p>
+        <div class="radio tc-radio filter-form-container__radio-btn-options row">
+          <ng-container *ngFor="let item of rulesData.data.cancellationNotice">
+            <input type="radio" class="radio-active" id="{{item}}" name="cancellationNotice" [value]="item"
+              [checked]="rulesData.fields.cancellationNotice === item"
+              (change)="filterChanges($event,'cancellationNotice')">
+            <label for="{{item}}" class="label-spacing w-auto">
+              {{translationMap[item] | translate}}
+            </label>
+          </ng-container>
+        </div>
+      </div>
+
+      <!-- Installments Filter Options -->
+      <div class="form-group tc-form-group" *ngIf="checkVisibility('installments') && enabledInstallmentFlag">
+        <p>{{ translationMap['INSTALLMENTS_LABEL'] | translate }}</p>
+        <div class="radio tc-radio filter-form-container__radio-btn-options">
+          <ng-container *ngFor="let item of rulesData.data.installmentsList">
+            <input type="radio" class="radio-active" id="{{item}}" name="installments" [value]="item"
+              [checked]="rulesData.fields.installments === item" (change)="filterChanges($event, 'installments')">
+            <label for="{{item}}" class="label-spacing">{{translationMap[item] | translate}}</label>
+          </ng-container>
+        </div>
+      </div>
+
+      <!-- Accepted Tender Filter Options -->
+      <div class="form-group tc-form-group" *ngIf="checkVisibility('acceptedTender')">
+        <p>{{translationMap['ACCEPTED_TENDER'] | translate}}</p>
+        <div class="radio tc-radio filter-form-container__radio-btn-options row">
+          <ng-container *ngFor="let item of rulesData.data.acceptedTender">
+            <input type="radio" class="radio-active" id="{{item.name}}" name="acceptedTender" [value]="item.id"
+              [checked]="rulesData.fields.acceptedTender === item.id"
+              (change)="filterChanges($event, 'acceptedTender')">
+            <label for="{{item.name}}" class="label-spacing w-auto"> {{item.name}} </label>
+          </ng-container>
+        </div>
+      </div>
+      <div class="form-group tc-form-group">
+        <button type="button" class="btn tc-btn btn-primary tc-btn--primary" (click)="callFilterAction()">
+          {{translationMap['FILTER'] | translate}}
+        </button>
+      </div>
+    </div>
+  </div>
+</form>

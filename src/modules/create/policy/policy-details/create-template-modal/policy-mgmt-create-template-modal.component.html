@@ -1,0 +1,10 @@
+<ng-template #templateCreationPopup let-c="close" let-d="dismiss" class="tc-normal-modal">
+    <div class="modal-header tc-modal__header">
+        <h4 class="modal-title tc-modal__header__title">{{modalTitle}}</h4>
+        <button type="button" class="close" aria-label="Close" (click)="c('Close click'); clickCancel()"
+            [hidden]="isHideCloseButton">X</button>
+    </div>
+    <div class="modal-body">
+        <policy-mgmt-create-template (closePopUp)="closeTemplatePopUp($event)"></policy-mgmt-create-template>
+    </div>
+</ng-template>

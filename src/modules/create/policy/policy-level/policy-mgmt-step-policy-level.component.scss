@@ -1,0 +1,47 @@
+.policy-level-container {
+    .policy-level-header {
+        display: flex;
+        padding-top: 10px;
+        .policy-level {
+            margin-right: 50px;
+        }
+    }
+
+    .policy-level-dropdowns {
+        .rate-plan-dropdown-section {
+            display: flex;
+
+            .tc-popover ngb-popover-window {
+                padding: 5px;
+            }
+        }
+        .rate-plan-dropdown, .rate-category-dropdown, .chain-category-dropdown {
+            padding-top: 10px;
+            width: 275px;
+        }
+        .rateplan-limit-info-icon {
+            margin-left: 15px;
+            margin-top: 7px;
+            [class*="tc-icon"].icon-lg {
+                font-size: 21px;
+            }
+        }
+        tc-multilevel-dropdown, tc-dropdown {
+            .tc-dropdown__menu {
+                .dropdown-filters {
+                    padding: 0 11px 0px;
+                    .tc-btn {
+                        margin: 0px 10px 0px 0px;
+                    }
+                    button[name='select'] {
+                        display: none !important;
+                    }
+                    button[name='clear'] {
+                        display: inline-block !important;
+                        padding-left: 0;
+                    }
+                }
+            }
+        }
+    }
+}

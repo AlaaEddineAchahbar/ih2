@@ -1,0 +1,123 @@
+{
+  "totalCount": 0,
+  "nextIndex": 0,
+  "emPolicyTemplates": [
+    {
+      "name": "Test Canncellation 1 - SAME_DAY",
+      "policyCode": "",
+      "status": "ACTIVE",
+      "policySetting": {
+        "isFreeCancellation": false,
+        "isInstallmentEnabled": false,
+        "cancellationRule": {
+          "chargeType": "SAME_DAY",
+          "priorHours": 10,
+          "priorDays": 0
+        },
+        "otaSetting": {
+          "otaChargeType": ""
+        }
+      },
+      "textList": [
+        {
+          "textType": "ONLINE_CALL_CENTER_MESSAGE",
+          "languageTexts": [
+            {
+              "languageId": 1,
+              "text": "English Message"
+            },
+            {
+              "languageId": 2,
+              "text": "SPANISH Message"
+            }
+          ]
+        },
+        {
+          "textType": "POLICY_GDSLINE1_MSG",
+          "languageTexts": [
+            {
+              "languageId": 1,
+              "text": "GDS Line 1"
+            }
+          ]
+        },
+        {
+          "textType": "POLICY_GDSLINE2_MSG",
+          "languageTexts": [
+            {
+              "languageId": 1,
+              "text": "GDS Line 2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Test Canncellation 2 - ADVANCE_NOTICE",
+      "policyCode": "",
+      "status": "INACTIVE",
+      "policySetting": {
+        "isFreeCancellation": true,
+        "isInstallmentEnabled": false,
+        "cancellationRule": {
+          "chargeType": "ADVANCE_NOTICE",
+          "priorHours": 0,
+          "priorDays": 1
+        },
+        "otaSetting": {
+          "otaChargeType": ""
+        }
+      },
+      "textList": [
+        {
+          "textType": "ONLINE_CALL_CENTER_MESSAGE",
+          "languageTexts": []
+        },
+        {
+          "textType": "POLICY_GDSLINE1_MSG",
+          "languageTexts": []
+        },
+        {
+          "textType": "POLICY_GDSLINE2_MSG",
+          "languageTexts": []
+        }
+      ]
+    },
+    {
+      "name": "Test Canncellation 3 - NON_REFUNDABLE",
+      "policyCode": "TA",
+      "status": "ACTIVE",
+      "policySetting": {
+        "isFreeCancellation": true,
+        "isInstallmentEnabled": false,
+        "cancellationRule": {
+          "chargeType": "NON_REFUNDABLE",
+          "priorHours": 0,
+          "priorDays": 0
+        },
+        "otaSetting": {
+          "otaChargeType": ""
+        }
+      },
+      "textList": [
+        {
+          "textType": "ONLINE_CALL_CENTER_MESSAGE",
+          "languageTexts": [
+            {
+              "languageId": 1,
+              "text": "Just a test message"
+            }
+          ]
+        },
+        {
+          "textType": "POLICY_GDSLINE1_MSG",
+          "languageTexts": []
+        },
+        {
+          "textType": "POLICY_GDSLINE2_MSG",
+          "languageTexts": []
+        }
+      ]
+    }
+  ]
+}

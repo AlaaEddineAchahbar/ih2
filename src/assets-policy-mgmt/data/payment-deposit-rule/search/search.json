@@ -1,0 +1,104 @@
+{
+  "totalCount": 21,
+  "nextIndex": 0,
+  "emPaymentDepositRules": [
+    {
+      "emPaymentDepositRuleTemplateId": 111,
+      "emPaymentDepositRuleTemplateName": "Rule 1",
+      "chainInfo": {
+        "chainCode": "AAM",
+        "chainHotels": []
+      },
+      "paymentDepositRule": {
+        "status": "add",
+        "ruleName": "Rule 1",
+        "rules": [
+          {
+            "status": "add",
+            "chargeType": "flat",
+            "chargeAmounts": [
+              {
+                "chargeAmount": 123,
+                "currency": [
+                  "USD",
+                  "CUR"
+                ],
+                "properties": [
+                  "112",
+                  "123",
+                  "421"
+                ]
+              }
+            ],
+            "chargePercentage": 10,
+            "percentOnEnhancement": 21
+          }
+        ]
+      },
+      "jobId": "1",
+      "jobInfo": {
+        "status": "",
+        "total_hotels_count": 1,
+        "failed_hotels_count": 0,
+        "pending_hotels_count": 0,
+        "success_hotels_count": 1
+      },
+      "creationDateTime": "2023-06-26T14:50:20Z",
+      "creationBy": "ihstefand",
+      "lastUpdateDateTime": "2023-06-26T14:50:20Z",
+      "lastUpdateBy": "ihstefand"
+    },
+    {
+      "emPaymentDepositRuleTemplateId": 622504,
+      "emPaymentDepositRuleTemplateName": "Create Test 2",
+      "chainInfo": {
+        "chainCode": "AAM",
+        "chainHotels": [
+          {
+            "hotelId": 12328,
+            "hotelName": "rolandos Hotel",
+            "status": "delete"
+          }
+        ]
+      },
+      "paymentDepositRule": {
+        "status": "update",
+        "ruleName": "Create Test 2",
+        "rules": [
+          {
+            "status": "delete",
+            "percentOnEnhancement": 28,
+            "chargeType": "flat",
+            "chargeAmounts": [
+              {
+                "chargeAmount": 230,
+                "currency": [
+                  "EUR",
+                  "CAD"
+                ],
+                "properties": [
+                  "12328"
+                ]
+              },
+              {
+                "chargeAmount": 230,
+                "currency": [
+                  "EUR",
+                  "CAD"
+                ],
+                "properties": [
+                  "10002"
+                ]
+              }
+            ],
+            "chargePercentage": 15
+          }
+        ]
+      },
+      "creationDateTime": "2023-08-22T09:53:39.000+0000",
+      "creationBy": "ihrolando",
+      "lastUpdateDateTime": "2023-08-22T09:53:39.000+0000",
+      "lastUpdateBy": "ihrolando"
+    }
+  ]
+}

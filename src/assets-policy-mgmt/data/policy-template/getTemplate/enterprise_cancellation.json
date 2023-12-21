@@ -1,0 +1,76 @@
+{
+  "name": "Enterprise Template CANCEL",
+  "policyCode": "ct1",
+  "emPolicyTemplateId": 622448,
+  "status": "INACTIVE",
+  "policySetting": {
+  "cancellationRule": {
+	"chargeType": "ADVANCE_NOTICE",
+	"priorHours": 12,
+	"priorDays": 12
+  },
+  "otaSetting": {
+	"otaChargeType": "NIGHTS_ROOM_TAX",
+	"otaChargeAmount": 0,
+	"otaChargeNights": 12,
+	"otaChargePercentage": 0
+  }
+},
+  "policyLevel": "enterprise",
+  "chainInfo": {
+    "chainCode": "AAM",
+    "chainHotels": [
+      {
+        "hotelId": 11277,
+        "hotelName": "TRAVELCLICK - PMSC_Roommaster Test Property",
+        "status": "add"
+      },
+      {
+        "hotelId": 4561,
+        "hotelName": "TRAVELCLICK - KYLE'S TEST HOTEL",
+        "status": "add"
+      }
+    ]
+  },
+  "jobId": "JPUHA4oBtSFadePyjgxN",
+  "jobInfo": {
+    "status": "Failed",
+    "total_hotels_count": 24,
+    "failed_hotels_count": 24,
+    "pending_hotels_count": 0,
+    "success_hotels_count": 0
+  },
+  "creationDateTime": "2023-08-17T05:25:41.000+0000",
+  "creationBy": "ihpradhan",
+  "lastUpdateDateTime": "2023-08-17T05:25:41.000+0000",
+  "lastUpdateBy": "ihpradhan",
+  "textList": [
+    {
+      "textType": "ONLINE_CALL_CENTER_MESSAGE",
+      "languageTexts": [
+        {
+          "languageId": 1,
+          "text": "ABC"
+        }
+      ]
+    },
+    {
+      "textType": "POLICY_GDSLINE1_MSG",
+      "languageTexts": [
+        {
+          "languageId": 1,
+          "text": "ABC GDS"
+        }
+      ]
+    },
+    {
+      "textType": "POLICY_GDSLINE2_MSG",
+      "languageTexts": [
+        {
+          "languageId": 1,
+          "text": "ABC GDS 2"
+        }
+      ]
+    }
+  ]
+}

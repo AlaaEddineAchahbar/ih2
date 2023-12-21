@@ -1,0 +1,366 @@
+{
+    "policies": [
+        {
+            "groupName": "chain hl test yy 7",
+            "policyLevel": "ENTERPRISE",
+            "policyStatus": "ACTIVE",
+            "dow": null,
+            "policyDateRange": null,
+            "policyType": "DEFAULT",
+            "policyTemplateId": "834369",
+            "policyTemplateName": "Bibiana test Error 1",
+            "lastUpdated": "2023-11-30T16:30:57",
+            "rateCatalogIds": null,
+            "emRateCategoryIds": null,
+            "chainCategoryIds": null,
+            "rules": [
+                {
+                    "ruleName": "chain hl test yy 7",
+                    "auxId": 19694,
+                    "auxType": "CANCELLATION_POLICY",
+                    "ruleDescription": null,
+                    "activeStatus": "Active",
+                    "ruleCriteriaParameters": null,
+                    "ruleDecisions": [
+                        {
+                            "ruleDecisionValue": "834369",
+                            "ruleDecisionModifiers": [
+                                {
+                                    "modifierValue": "ENTERPRISE",
+                                    "ruleDecisionTypeModifierID": "1079",
+                                    "ruleDecisionID": "59972942"
+                                },
+                                {
+                                    "modifierValue": "true",
+                                    "ruleDecisionTypeModifierID": "1080",
+                                    "ruleDecisionID": "59972942"
+                                }
+                            ],
+                            "ruleDecisionTypeID": "1017",
+                            "ruleDecisionID": "59972942",
+                            "ruleDecisionOrder": "1"
+                        }
+                    ],
+                    "user": "ihyannis",
+                    "uniqueID": "560",
+                    "uniqueTypeID": "3",
+                    "ruleStartDate": "2023-11-30",
+                    "ruleEndDate": null,
+                    "rulePriority": "999",
+                    "ruleLogic": "ALL",
+                    "ruleTypeID": "14",
+                    "ruleID": "10752249",
+                    "resvCount": null,
+                    "totalRoomNights": null,
+                    "totalRoomRates": null,
+                    "advertisementIds": null,
+                    "version": "1",
+                    "lastUpdated": "2023-11-30T16:30:57Z"
+                }
+            ]
+        },
+        {
+            "groupName": "chain hl test yy 5",
+            "policyLevel": "ENTERPRISE",
+            "policyStatus": "ACTIVE",
+            "dow": null,
+            "policyDateRange": null,
+            "policyType": "DEFAULT",
+            "policyTemplateId": "834369",
+            "policyTemplateName": "Bibiana test Error 1",
+            "lastUpdated": "2023-11-30T16:30:08",
+            "rateCatalogIds": null,
+            "emRateCategoryIds": null,
+            "chainCategoryIds": null,
+            "rules": [
+                {
+                    "ruleName": "chain hl test yy 5",
+                    "auxId": null,
+                    "auxType": null,
+                    "ruleDescription": null,
+                    "activeStatus": "Active",
+                    "ruleCriteriaParameters": null,
+                    "ruleDecisions": [
+                        {
+                            "ruleDecisionValue": "834369",
+                            "ruleDecisionModifiers": [
+                                {
+                                    "modifierValue": "ENTERPRISE",
+                                    "ruleDecisionTypeModifierID": "1079",
+                                    "ruleDecisionID": "59972941"
+                                },
+                                {
+                                    "modifierValue": "true",
+                                    "ruleDecisionTypeModifierID": "1080",
+                                    "ruleDecisionID": "59972941"
+                                }
+                            ],
+                            "ruleDecisionTypeID": "1017",
+                            "ruleDecisionID": "59972941",
+                            "ruleDecisionOrder": "1"
+                        }
+                    ],
+                    "user": "ihyannis",
+                    "uniqueID": "560",
+                    "uniqueTypeID": "3",
+                    "ruleStartDate": "2023-11-30",
+                    "ruleEndDate": null,
+                    "rulePriority": "999",
+                    "ruleLogic": "ALL",
+                    "ruleTypeID": "14",
+                    "ruleID": "10752248",
+                    "resvCount": null,
+                    "totalRoomNights": null,
+                    "totalRoomRates": null,
+                    "advertisementIds": null,
+                    "version": "1",
+                    "lastUpdated": "2023-11-30T16:30:08Z"
+                }
+            ]
+        },
+        {
+            "groupName": "policy rule name test",
+            "policyLevel": "ENTERPRISE",
+            "policyStatus": "ACTIVE",
+            "dow": "2,3,4,5,6,7,1",
+            "policyDateRange": "2024-09-01/2024-09-14",
+            "policyType": "DATED",
+            "policyTemplateId": "837408",
+            "policyTemplateName": "ENT_Level_Policy One Can Chain TEMP",
+            "lastUpdated": "2023-11-28T06:36:15",
+            "rateCatalogIds": null,
+            "emRateCategoryIds": null,
+            "chainCategoryIds": null,
+            "rules": [
+                {
+                    "ruleName": "policy rule name test",
+                    "auxId": null,
+                    "auxType": null,
+                    "ruleDescription": null,
+                    "activeStatus": "Active",
+                    "ruleCriteriaParameters": [
+                        {
+                            "ruleCriteriaParameterValue": "11258,11277,1211,72704,1454,1230,11233,1250,11244,1221,1247,1213,1010,4561,1212,9877126,72692,1235,1215,71125,1233,1229,1239,1219,131317,1222,12220,9877136,1226,1228,1201,1098,1206,1214,1209,1210",
+                            "ruleCriteriaID": "1059",
+                            "ruleCriteriaMemberID": "1063",
+                            "operatorID": "18",
+                            "ruleCriteriaParameterID": "115192403"
+                        },
+                        {
+                            "ruleCriteriaParameterValue": "2024-09-01/2024-09-14",
+                            "ruleCriteriaID": "1002",
+                            "ruleCriteriaMemberID": "1002",
+                            "operatorID": "1004",
+                            "ruleCriteriaParameterID": "115192404"
+                        },
+                        {
+                            "ruleCriteriaParameterValue": "2,3,4,5,6,7,1",
+                            "ruleCriteriaID": "1020",
+                            "ruleCriteriaMemberID": "1020",
+                            "operatorID": "11",
+                            "ruleCriteriaParameterID": "115192405"
+                        }
+                    ],
+                    "ruleDecisions": [
+                        {
+                            "ruleDecisionValue": "837408",
+                            "ruleDecisionModifiers": [
+                                {
+                                    "modifierValue": "ENTERPRISE",
+                                    "ruleDecisionTypeModifierID": "1079",
+                                    "ruleDecisionID": "59972372"
+                                },
+                                {
+                                    "modifierValue": "false",
+                                    "ruleDecisionTypeModifierID": "1080",
+                                    "ruleDecisionID": "59972372"
+                                }
+                            ],
+                            "ruleDecisionTypeID": "1017",
+                            "ruleDecisionID": "59972372",
+                            "ruleDecisionOrder": "1"
+                        }
+                    ],
+                    "user": "ihRushikesh",
+                    "uniqueID": "560",
+                    "uniqueTypeID": "3",
+                    "ruleStartDate": "2023-11-28",
+                    "ruleEndDate": "2024-09-14",
+                    "rulePriority": "99",
+                    "ruleLogic": "ALL",
+                    "ruleTypeID": "14",
+                    "ruleID": "10752075",
+                    "resvCount": null,
+                    "totalRoomNights": null,
+                    "totalRoomRates": null,
+                    "advertisementIds": null,
+                    "version": "1",
+                    "lastUpdated": "2023-11-28T06:36:15Z"
+                }
+            ]
+        },
+        {
+            "groupName": "ENT_Level_Policy One Can Chain POLICY",
+            "policyLevel": "ENTERPRISE",
+            "policyStatus": "ACTIVE",
+            "dow": "2,3,4,5,6,7,1",
+            "policyDateRange": "2024-08-01/2024-08-31",
+            "policyType": "DATED",
+            "policyTemplateId": "837408",
+            "policyTemplateName": "ENT_Level_Policy One Can Chain TEMP",
+            "lastUpdated": "2023-11-22T10:35:34",
+            "rateCatalogIds": null,
+            "emRateCategoryIds": null,
+            "chainCategoryIds": null,
+            "rules": [
+                {
+                    "ruleName": "ENT_Level_Policy One Can Chain POLICY",
+                    "auxId": null,
+                    "auxType": null,
+                    "ruleDescription": null,
+                    "activeStatus": "Active",
+                    "ruleCriteriaParameters": [
+                        {
+                            "ruleCriteriaParameterValue": "11258,11277,1211,72704,1454,1230,1011,1098,11233,1250,11244,1221,1247,1213,1010,4561,1212,9877126,72692,1235,1215,71125,6938,1233,1229,1239,1219,131317,1222,12220,1208,9877136,1226,1228,1201",
+                            "ruleCriteriaID": "1059",
+                            "ruleCriteriaMemberID": "1063",
+                            "operatorID": "18",
+                            "ruleCriteriaParameterID": "115189734"
+                        },
+                        {
+                            "ruleCriteriaParameterValue": "2024-08-01/2024-08-31",
+                            "ruleCriteriaID": "1002",
+                            "ruleCriteriaMemberID": "1002",
+                            "operatorID": "1004",
+                            "ruleCriteriaParameterID": "115189735"
+                        },
+                        {
+                            "ruleCriteriaParameterValue": "2,3,4,5,6,7,1",
+                            "ruleCriteriaID": "1020",
+                            "ruleCriteriaMemberID": "1020",
+                            "operatorID": "11",
+                            "ruleCriteriaParameterID": "115189736"
+                        }
+                    ],
+                    "ruleDecisions": [
+                        {
+                            "ruleDecisionValue": "837408",
+                            "ruleDecisionModifiers": [
+                                {
+                                    "modifierValue": "ENTERPRISE",
+                                    "ruleDecisionTypeModifierID": "1079",
+                                    "ruleDecisionID": "59970522"
+                                },
+                                {
+                                    "modifierValue": "false",
+                                    "ruleDecisionTypeModifierID": "1080",
+                                    "ruleDecisionID": "59970522"
+                                }
+                            ],
+                            "ruleDecisionTypeID": "1017",
+                            "ruleDecisionID": "59970522",
+                            "ruleDecisionOrder": "1"
+                        }
+                    ],
+                    "user": "ihrajdeep",
+                    "uniqueID": "560",
+                    "uniqueTypeID": "3",
+                    "ruleStartDate": "2023-11-22",
+                    "ruleEndDate": "2024-08-31",
+                    "rulePriority": "99",
+                    "ruleLogic": "ALL",
+                    "ruleTypeID": "14",
+                    "ruleID": "10751057",
+                    "resvCount": null,
+                    "totalRoomNights": null,
+                    "totalRoomRates": null,
+                    "advertisementIds": null,
+                    "version": "10",
+                    "lastUpdated": "2023-11-22T10:35:34Z"
+                }
+            ]
+        },
+        {
+            "groupName": "Ent Chain Canc Sep month",
+            "policyLevel": "ENTERPRISE",
+            "policyStatus": "ACTIVE",
+            "dow": "2,3,4,5,6,7,1",
+            "policyDateRange": "2024-09-01/2024-09-30",
+            "policyType": "DATED",
+            "policyTemplateId": "833926",
+            "policyTemplateName": "CANCEL ENT PT ADVANCE NOTICE iHONBOARD TEST001",
+            "lastUpdated": "2023-11-20T08:48:39",
+            "rateCatalogIds": null,
+            "emRateCategoryIds": null,
+            "chainCategoryIds": null,
+            "rules": [
+                {
+                    "ruleName": "Ent Chain Canc Sep month",
+                    "auxId": null,
+                    "auxType": null,
+                    "ruleDescription": null,
+                    "activeStatus": "Active",
+                    "ruleCriteriaParameters": [
+                        {
+                            "ruleCriteriaParameterValue": "11258,11277,1211,72704,1454,1230,1011,1098,11233,1250,11244,1221,1247,1213,1010,4561,1212,9877126,72692,1235,1215,71125,6938,1233,1229,1239,1219,131317,1201,1222,12220,1208,9877136,1226,1228",
+                            "ruleCriteriaID": "1059",
+                            "ruleCriteriaMemberID": "1063",
+                            "operatorID": "18",
+                            "ruleCriteriaParameterID": "115188391"
+                        },
+                        {
+                            "ruleCriteriaParameterValue": "2024-09-01/2024-09-30",
+                            "ruleCriteriaID": "1002",
+                            "ruleCriteriaMemberID": "1002",
+                            "operatorID": "1004",
+                            "ruleCriteriaParameterID": "115188392"
+                        },
+                        {
+                            "ruleCriteriaParameterValue": "2,3,4,5,6,7,1",
+                            "ruleCriteriaID": "1020",
+                            "ruleCriteriaMemberID": "1020",
+                            "operatorID": "11",
+                            "ruleCriteriaParameterID": "115188393"
+                        }
+                    ],
+                    "ruleDecisions": [
+                        {
+                            "ruleDecisionValue": "833926",
+                            "ruleDecisionModifiers": [
+                                {
+                                    "modifierValue": "ENTERPRISE",
+                                    "ruleDecisionTypeModifierID": "1079",
+                                    "ruleDecisionID": "59969478"
+                                },
+                                {
+                                    "modifierValue": "false",
+                                    "ruleDecisionTypeModifierID": "1080",
+                                    "ruleDecisionID": "59969478"
+                                }
+                            ],
+                            "ruleDecisionTypeID": "1017",
+                            "ruleDecisionID": "59969478",
+                            "ruleDecisionOrder": "1"
+                        }
+                    ],
+                    "user": "ihdheerajs",
+                    "uniqueID": "560",
+                    "uniqueTypeID": "3",
+                    "ruleStartDate": "2023-11-20",
+                    "ruleEndDate": "2024-09-30",
+                    "rulePriority": "99",
+                    "ruleLogic": "ALL",
+                    "ruleTypeID": "14",
+                    "ruleID": "10751077",
+                    "resvCount": null,
+                    "totalRoomNights": null,
+                    "totalRoomRates": null,
+                    "advertisementIds": null,
+                    "version": "1",
+                    "lastUpdated": "2023-11-20T08:48:39Z"
+                }
+            ]
+        }
+    ],
+    "totalRecordCount": 5
+}

@@ -1,0 +1,157 @@
+[
+    {
+        "name": "$$%$#%$##%",
+        "id": "1230038",
+        "status": "INACTIVE"
+    },
+    {
+        "name": "12333434",
+        "id": "1230039",
+        "status": "INACTIVE"
+    },
+    {
+        "name": "cancel policy template",
+        "id": "1230037",
+        "status": "INACTIVE"
+    },
+    {
+        "name": "CANCEL TEMPLATE",
+        "id": "1230040",
+        "status": "INACTIVE"
+    },
+    {
+        "name": "Test Cancellation for dist msg",
+        "id": "1229442",
+        "status": "INACTIVE"
+    },
+    {
+        "name": "Cancelnonnight",
+        "id": "1229890",
+        "status": "INACTIVE"
+    },
+    {
+        "name": "Cancelnonflat",
+        "id": "1229891",
+        "status": "ACTIVE"
+    },
+    {
+        "name": "CancelADVFlat",
+        "id": "1229888",
+        "status": "ACTIVE"
+    },
+    {
+        "name": "newDepo",
+        "id": "1229505",
+        "status": "INACTIVE"
+    },
+    {
+        "name": "CancelADVPer",
+        "id": "1229889",
+        "status": "ACTIVE"
+    },
+    {
+        "name": "testcreateflow",
+        "id": "1229382",
+        "status": "ACTIVE"
+    },
+    {
+        "name": "testcreateflow123",
+        "id": "1229444",
+        "status": "INACTIVE"
+    },
+    {
+        "name": "Cancelnonper",
+        "id": "1229892",
+        "status": "ACTIVE"
+    },
+    {
+        "name": "sample create cancecl",
+        "id": "1229700",
+        "status": "ACTIVE"
+    },
+    {
+        "name": "datarecord",
+        "id": "1229445",
+        "status": "INACTIVE"
+    },
+    {
+        "name": "Test cancel data 1530",
+        "id": "1229488",
+        "status": "INACTIVE"
+    },
+    {
+        "name": "Rate plan",
+        "id": "1229498",
+        "status": "INACTIVE"
+    },
+    {
+        "name": "CancelSameDayPer",
+        "id": "1229886",
+        "status": "ACTIVE"
+    },
+    {
+        "name": "CancelADVNight",
+        "id": "1229887",
+        "status": "ACTIVE"
+    },
+    {
+        "name": "CancelSameDayNight",
+        "id": "1229884",
+        "status": "ACTIVE"
+    },
+    {
+        "name": "CancelSameDayFlat",
+        "id": "1229885",
+        "status": "ACTIVE"
+    },
+    {
+        "name": "Test cancel data 1521",
+        "id": "1229479",
+        "status": "INACTIVE"
+    },
+    {
+        "name": "Test cancel data 1524",
+        "id": "1229482",
+        "status": "INACTIVE"
+    },
+    {
+        "name": "Test cancel data 1525",
+        "id": "1229483",
+        "status": "INACTIVE"
+    },
+    {
+        "name": "Test cancel data 1522",
+        "id": "1229480",
+        "status": "ACTIVE"
+    },
+    {
+        "name": "Test cancel data 1523",
+        "id": "1229481",
+        "status": "INACTIVE"
+    },
+    {
+        "name": "Test cancel datas 1528",
+        "id": "1229486",
+        "status": "ACTIVE"
+    },
+    {
+        "name": "Test cancel data 1529",
+        "id": "1229487",
+        "status": "INACTIVE"
+    },
+    {
+        "name": "newTestInactivate",
+        "id": "1229740",
+        "status": "ACTIVE"
+    },
+    {
+        "name": "Test cancel data 1526",
+        "id": "1229484",
+        "status": "INACTIVE"
+    },
+    {
+        "name": "Test cancel data 1527",
+        "id": "1229485",
+        "status": "INACTIVE"
+    }
+]

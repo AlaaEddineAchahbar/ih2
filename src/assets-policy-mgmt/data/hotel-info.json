@@ -1,0 +1,425 @@
+{
+    "hotelCode": 1098,
+    "hotelName": "Test English ",
+    "chainCode": "AAM",
+    "bid": 767666,
+    "timezone": "Pacific/Kwajalein",
+    "gmtOffset": -12,
+    "unitOfMeasurement": "Imperial",
+    "latitude": "18.542862",
+    "longitude": "73.907091",
+    "languages": [
+      {
+        "languageId": 15,
+        "languageCode": "AR_EG",
+        "languageName": "Arabic",
+        "nativeLanguageName": "العربيّة",
+        "isDefault": false
+      },
+      {
+        "languageId": 38,
+        "languageCode": "BG_BG",
+        "languageName": "Bulgarian",
+        "nativeLanguageName": "Bulgarian",
+        "isDefault": false
+      },
+      {
+        "languageId": 20,
+        "languageCode": "CA_CA",
+        "languageName": "Catalan",
+        "nativeLanguageName": "Català",
+        "isDefault": false
+      },
+      {
+        "languageId": 5,
+        "languageCode": "ZH_CH",
+        "languageName": "Chinese (simplified)",
+        "nativeLanguageName": "简体中文",
+        "isDefault": false
+      },
+      {
+        "languageId": 12,
+        "languageCode": "ZH_TW",
+        "languageName": "Chinese (traditional)",
+        "nativeLanguageName": "繁體中文",
+        "isDefault": false
+      },
+      {
+        "languageId": 23,
+        "languageCode": "HR_HR",
+        "languageName": "Croatian",
+        "nativeLanguageName": "Hrvatski",
+        "isDefault": false
+      },
+      {
+        "languageId": 18,
+        "languageCode": "CS_CS",
+        "languageName": "Czech",
+        "nativeLanguageName": "Česky",
+        "isDefault": false
+      },
+      {
+        "languageId": 21,
+        "languageCode": "DA_DA",
+        "languageName": "Danish",
+        "nativeLanguageName": "Dansk",
+        "isDefault": false
+      },
+      {
+        "languageId": 10,
+        "languageCode": "NL_NL",
+        "languageName": "Dutch",
+        "nativeLanguageName": "Nederlands",
+        "isDefault": false
+      },
+      {
+        "languageId": 11,
+        "languageCode": "EN_UK",
+        "languageName": "English (UK)",
+        "nativeLanguageName": "English (UK)",
+        "isDefault": false
+      },
+      {
+        "languageId": 1,
+        "languageCode": "EN_US",
+        "languageName": "English (US)",
+        "nativeLanguageName": "English (US)",
+        "isDefault": true
+      },
+      {
+        "languageId": 30,
+        "languageCode": "ET_ET",
+        "languageName": "Estonian",
+        "nativeLanguageName": "Eesti",
+        "isDefault": false
+      },
+      {
+        "languageId": 34,
+        "languageCode": "FI_FI",
+        "languageName": "Finnish",
+        "nativeLanguageName": "Suomi",
+        "isDefault": false
+      },
+      {
+        "languageId": 3,
+        "languageCode": "FR_FR",
+        "languageName": "French",
+        "nativeLanguageName": "Français",
+        "isDefault": false
+      },
+      {
+        "languageId": 7,
+        "languageCode": "DE_DE",
+        "languageName": "German",
+        "nativeLanguageName": "Deutsch",
+        "isDefault": false
+      },
+      {
+        "languageId": 14,
+        "languageCode": "EL_EL",
+        "languageName": "Greek",
+        "nativeLanguageName": "Ελληνικά",
+        "isDefault": false
+      },
+      {
+        "languageId": 29,
+        "languageCode": "HEB_IL",
+        "languageName": "Hebrew",
+        "nativeLanguageName": "עברית",
+        "isDefault": false
+      },
+      {
+        "languageId": 13,
+        "languageCode": "HU_HU",
+        "languageName": "Hungarian",
+        "nativeLanguageName": "Magyarul",
+        "isDefault": false
+      },
+      {
+        "languageId": 33,
+        "languageCode": "IS_IS",
+        "languageName": "Icelandic",
+        "nativeLanguageName": "íslenska",
+        "isDefault": false
+      },
+      {
+        "languageId": 28,
+        "languageCode": "IND_ID",
+        "languageName": "Indonesian",
+        "nativeLanguageName": "Indonesia",
+        "isDefault": false
+      },
+      {
+        "languageId": 8,
+        "languageCode": "IT_IT",
+        "languageName": "Italian",
+        "nativeLanguageName": "Italiano",
+        "isDefault": false
+      },
+      {
+        "languageId": 6,
+        "languageCode": "JA_JP",
+        "languageName": "Japanese",
+        "nativeLanguageName": "日本語",
+        "isDefault": false
+      },
+      {
+        "languageId": 26,
+        "languageCode": "KR_KR",
+        "languageName": "Korean",
+        "nativeLanguageName": "한국어",
+        "isDefault": false
+      },
+      {
+        "languageId": 31,
+        "languageCode": "LV_LV",
+        "languageName": "Latvian",
+        "nativeLanguageName": "Latviešu",
+        "isDefault": false
+      },
+      {
+        "languageId": 25,
+        "languageCode": "LT_LT",
+        "languageName": "Lithuanian",
+        "nativeLanguageName": "Lietuviu",
+        "isDefault": false
+      },
+      {
+        "languageId": 17,
+        "languageCode": "NO_NO",
+        "languageName": "Norwegian",
+        "nativeLanguageName": "Norsk",
+        "isDefault": false
+      },
+      {
+        "languageId": 27,
+        "languageCode": "PL_PL",
+        "languageName": "Polish",
+        "nativeLanguageName": "Polski",
+        "isDefault": false
+      },
+      {
+        "languageId": 4,
+        "languageCode": "PT_PT",
+        "languageName": "Portuguese",
+        "nativeLanguageName": "Português",
+        "isDefault": false
+      },
+      {
+        "languageId": 40,
+        "languageCode": "PT_BR",
+        "languageName": "Portuguese (Brazilian)",
+        "nativeLanguageName": "Português",
+        "isDefault": false
+      },
+      {
+        "languageId": 32,
+        "languageCode": "RO_RO",
+        "languageName": "Romanian",
+        "nativeLanguageName": "Romana",
+        "isDefault": false
+      },
+      {
+        "languageId": 9,
+        "languageCode": "RU_RU",
+        "languageName": "Russian",
+        "nativeLanguageName": "Русский",
+        "isDefault": false
+      },
+      {
+        "languageId": 39,
+        "languageCode": "SR_RS",
+        "languageName": "Serbian",
+        "nativeLanguageName": "Serbian",
+        "isDefault": false
+      },
+      {
+        "languageId": 24,
+        "languageCode": "SK_SK",
+        "languageName": "Slovakian",
+        "nativeLanguageName": "Slovenský",
+        "isDefault": false
+      },
+      {
+        "languageId": 35,
+        "languageCode": "SI_SI",
+        "languageName": "Slovenian ",
+        "nativeLanguageName": "Slovenščina",
+        "isDefault": false
+      },
+      {
+        "languageId": 2,
+        "languageCode": "ES_ES",
+        "languageName": "Spanish",
+        "nativeLanguageName": "Español",
+        "isDefault": false
+      },
+      {
+        "languageId": 16,
+        "languageCode": "SE_SE",
+        "languageName": "Swedish",
+        "nativeLanguageName": "Svenska",
+        "isDefault": false
+      },
+      {
+        "languageId": 36,
+        "languageCode": "TH_TH",
+        "languageName": "Thai",
+        "nativeLanguageName": "ภาษาไทย",
+        "isDefault": false
+      },
+      {
+        "languageId": 19,
+        "languageCode": "TR_TR",
+        "languageName": "Turkish",
+        "nativeLanguageName": "Türkçe",
+        "isDefault": false
+      },
+      {
+        "languageId": 37,
+        "languageCode": "UK_UK",
+        "languageName": "Ukrainian",
+        "nativeLanguageName": "український",
+        "isDefault": false
+      },
+      {
+        "languageId": 22,
+        "languageCode": "VI_VN",
+        "languageName": "Vietnamese",
+        "nativeLanguageName": "Tiếng Việt",
+        "isDefault": false
+      }
+    ],
+    "currencies": [
+      {
+        "currencyId": 19,
+        "currencyCode": "AED",
+        "isDefault": false,
+        "displayFormat": {
+          "format": "############.##",
+          "decimalSeparator": ".",
+          "unitSeparator": "",
+          "scale": 3,
+          "precision": 2
+        }
+      },
+      {
+        "currencyId": 33,
+        "currencyCode": "AFA",
+        "isDefault": false,
+        "displayFormat": {
+          "format": "############.##",
+          "decimalSeparator": ".",
+          "unitSeparator": "",
+          "scale": 3,
+          "precision": 2
+        }
+      },
+      {
+        "currencyId": 4,
+        "currencyCode": "EUR",
+        "isDefault": true,
+        "displayFormat": {
+          "format": "############,##",
+          "decimalSeparator": ",",
+          "unitSeparator": "",
+          "scale": 0,
+          "precision": 2
+        }
+      }
+    ],
+    "hotelSettings": {
+      "rateplanSettings": {
+        "isRateOverrideAllowed": true,
+        "isRmsEnabled": false,
+        "isSubRateplanEnabled": false,
+        "isMarketSegmentEnabled": true,
+        "isUrmUpdatesDisabled": false,
+        "isUrmEnabled": true,
+        "isManageRatesDisabled": true
+      },
+      "occupancySettings": {
+        "familyPricingEnabled": true,
+        "allowChildren": true,
+        "allowInfants": false,
+        "maxAdultPricingCount": 8,
+        "minChildAge": 5,
+        "maxChildAge": 15,
+        "childAgeBuckets": [
+          {
+            "bucketName": "5 to 7",
+            "childAgeFrom": 5,
+            "childAgeTo": 7
+          },
+          {
+            "bucketName": "8 to 10",
+            "childAgeFrom": 8,
+            "childAgeTo": 10
+          },
+          {
+            "bucketName": "11 to 15",
+            "childAgeFrom": 11,
+            "childAgeTo": 15
+          }
+        ],
+        "pmscfamilyPricingEnabled": false,
+        "isAdditionalChildrenBucketEnabled": true
+      },
+      "bookingEngineSettings": {
+        "isWeb4Enabled": true,
+        "isWeb4Live": false,
+        "isWeb3Disabled": false
+      },
+      "defaultCorporateId": 0,
+      "isStopSellEnabled": false,
+      "isPmsEnabled": true,
+      "isWebEnabled": true,
+      "isGdsEnabled": true,
+      "gdsChainCode": "WV",
+      "isPromotionEnabled": false,
+      "isRulesGroupProperty": true,
+      "propertyGroupCode": "CCRG",
+      "isHoldRoomsEnabled": true,
+      "isRoomCategoriesEnabled": true,
+      "isOverbookingAllowed": false,
+      "isTripConnectEnabled": false,
+      "isTaxRuleEnabled": false,
+      "disableGuestEmailForOta": false,
+      "customRateDisplayAllowed": false,
+      "isBiWidgetEnabled": true,
+      "isSecondaryCurrencyEnabled": false,
+      "isHurdleRateIgnoreEnabled": false,
+      "isRmtUserAccessAllowed": false,
+      "isCmUserAccessAllowed": false,
+      "bestAvailableRateId": 0,
+      "isNewTaxRuleEnabled": false,
+      "lengthOfStayPricingEnabled": 0
+    },
+    "categories": {
+      "roomCategories": [
+        {
+          "categoryId": 7320,
+          "categoryName": "Category 1",
+          "sortorder": 0
+        },
+        {
+          "categoryId": 7321,
+          "categoryName": "Category 2",
+          "sortorder": 0
+        },
+        {
+          "categoryId": 7322,
+          "categoryName": "Category 3",
+          "sortorder": 0
+        },
+        {
+          "categoryId": 10745,
+          "categoryName": "Category10",
+          "sortorder": 0
+        }
+      ]
+    },
+    "paymentInfo": {
+      "processingMode": "Deposit"
+    }
+  }

@@ -1,0 +1,16 @@
+@import '~tc-styles/dist/scss/helpers/_colors.scss';
+@import '~tc-styles/dist/scss/helpers/_helpers.scss';
+
+.custom-tooltip-holder {
+    max-width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.stepper-panel-content {
+    padding-left: 15px;
+    background: $white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}

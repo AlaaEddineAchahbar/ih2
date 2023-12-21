@@ -1,0 +1,29 @@
+{
+    "hotelId": 1098,
+    "paymentDepositRuleName": "demo DC with DC-Flat Percenttage",
+    "ownerType": "P",
+    "status": "create",
+    "active": 1,
+    "rules": [
+        {
+            "chargeType": "Flat",
+            "chargeDate": 999,
+            "chargeAmount": 25,
+            "chargePercentage": 0,
+            "percentOnEnhancement": 14
+        },
+        {
+            "chargeType": "Percentage",
+            "chargePercentage": 35,
+            "chargeDate": 999,
+            "chargeAmount": 0,
+            "percentOnEnhancement": 31
+        },
+        {
+            "chargeType": "ArrivalDay",
+            "chargePercentage": 0,
+            "chargeDate": 999,
+            "percentOnEnhancement": 15
+        }
+    ]
+}

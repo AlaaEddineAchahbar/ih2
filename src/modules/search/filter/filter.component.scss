@@ -1,0 +1,98 @@
+.filter-container {
+    .toggle-button-left {
+        cursor: pointer;
+        float: right;
+        margin: 2px 0 12px 12px;
+
+        .toggle-button-act {
+            transform: rotate(180deg);
+        }
+
+        &.align-left {
+            float: left;
+            margin-left: -3px;
+            margin-top: 2px;
+
+            svg {
+                transform: rotate(180deg);
+            }
+        }
+
+        svg {
+            height: 32px;
+        }
+
+        @media screen and (-ms-high-contrast: active),
+        (-ms-high-contrast: none) {
+            svg {
+                height: 27px;
+            }
+        }
+    }
+
+    .filter-panel-content {
+        &.hide-filters {
+            display: none;
+        }
+
+        tc-multilevel-dropdown,
+        tc-dropdown {
+            .tc-dropdown__menu {
+                .dropdown-filters {
+                    padding: 0 11px 0px;
+
+                    button {
+                        padding-left: 0;
+                    }
+                }
+            }
+        }
+
+        .error {
+            margin-top: 10px;
+        }
+    }
+
+    .form-group {
+        margin-bottom: 2rem;
+    }
+
+    .clear-btn {
+        vertical-align: top;
+    }
+
+    .label-spacing {
+        padding-right: 22px;
+    }
+
+    .tc-dropdown.tc-multilevel-dropdown {
+        .tc-dropdown__menu {
+            >ul {
+                >li {
+                    .checkbox.tc-checkbox {
+                        .btn-link.tc-btn--link {
+                            .icon-expand-arrow.tc-icon {
+                                left: 9px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .btn-link {
+        text-decoration: none;
+    }
+
+    .tc-dropdown__menu>.dropdown-scroll.overflow-visible,
+    .btn-group__menu>.dropdown-scroll.overflow-visible {
+        overflow: auto !important;
+    }
+
+    .filter-date-range {
+        .tc-date-selector .form-group {
+            margin-right: 9px;
+        }
+    }
+}

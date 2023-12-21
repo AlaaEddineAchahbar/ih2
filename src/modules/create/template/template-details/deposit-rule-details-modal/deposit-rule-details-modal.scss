@@ -1,0 +1,23 @@
+.modal-body {
+    .table {
+        font-size: 1.5rem;
+    }
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 0.75rem; // Added because table th td class removed this padding
+    }
+    .table thead th {
+        vertical-align: middle;
+        border-bottom: none;
+        padding: 0.75rem; // Added because table th td class removed this padding
+    }
+    
+    .label-name {
+        font-weight: bold;
+        padding-bottom: 10px;
+        .label-margin {
+            margin-right: 5px;
+        }
+    }
+}

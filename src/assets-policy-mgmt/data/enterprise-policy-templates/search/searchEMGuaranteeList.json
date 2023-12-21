@@ -1,0 +1,3329 @@
+{
+    "totalCount": 24,
+    "nextIndex": 0,
+    "emPolicyTemplates": [
+        {
+            "name": "Test guarantee theo",
+            "policyCode": "",
+            "emPolicyTemplateId": 623177,
+            "status": "ACTIVE",
+            "policyLevel": "enterprise",
+            "chainInfo": {
+                "chainCode": "AAM",
+                "chainHotels": [
+                    {
+                        "hotelId": 1206,
+                        "hotelName": "TRAVELCLICK - BE Test Property 6"
+                    },
+                    {
+                        "hotelId": 71125,
+                        "hotelName": "TRAVELCLICK-Stephanie's PMS  - TEST HOTEL"
+                    },
+                    {
+                        "hotelId": 1098,
+                        "hotelName": "TRAVELCLICK 1098_English TOMEE UPG TEST"
+                    },
+                    {
+                        "hotelId": 1213,
+                        "hotelName": "CC2"
+                    },
+                    {
+                        "hotelId": 11258,
+                        "hotelName": "TRAVELCLICK - PMSC_iHotelier OTA Test Property"
+                    },
+                    {
+                        "hotelId": 11277,
+                        "hotelName": "TRAVELCLICK - PMSC_Roommaster Test Property"
+                    },
+                    {
+                        "hotelId": 100192,
+                        "hotelName": "Bay View Suites Paradise Island"
+                    },
+                    {
+                        "hotelId": 11244,
+                        "hotelName": "TRAVELCLICK - PMSC_HTNG Test Property 2 Tome"
+                    },
+                    {
+                        "hotelId": 110102,
+                        "hotelName": "Beach Park Hotel"
+                    },
+                    {
+                        "hotelId": 1221,
+                        "hotelName": "TRAVELCLICK - Icebox Test Property 1"
+                    },
+                    {
+                        "hotelId": 5020,
+                        "hotelName": "JDV TEST PROPERTY"
+                    },
+                    {
+                        "hotelId": 9876914,
+                        "hotelName": "Inter-Hotel Albi Cantepau-Test Property"
+                    },
+                    {
+                        "hotelId": 12328,
+                        "hotelName": "Aspen Hotel Soldotna"
+                    },
+                    {
+                        "hotelId": 1222,
+                        "hotelName": "TRAVELCLICK - Icebox Test Property 2"
+                    },
+                    {
+                        "hotelId": 72704,
+                        "hotelName": "TRAVELCLICK - New Indian Pride VAMPIRE RESORT"
+                    },
+                    {
+                        "hotelId": 1099,
+                        "hotelName": "TRAVELCLICK - Axel Bay Resort"
+                    },
+                    {
+                        "hotelId": 1201,
+                        "hotelName": "TRAVELCLICK - BE Test Property 1"
+                    },
+                    {
+                        "hotelId": 1210,
+                        "hotelName": "TRAVELCLICK - BE Test Property 10"
+                    },
+                    {
+                        "hotelId": 1212,
+                        "hotelName": "CC1"
+                    },
+                    {
+                        "hotelId": 1214,
+                        "hotelName": "CC3"
+                    },
+                    {
+                        "hotelId": 97704,
+                        "hotelName": "Riverside Hot Springs Inn"
+                    },
+                    {
+                        "hotelId": 1207,
+                        "hotelName": "TRAVELCLICK - BE Test Property 7"
+                    },
+                    {
+                        "hotelId": 1218,
+                        "hotelName": "TRAVELCLICK - PMSC Test Property 2(Platform)"
+                    },
+                    {
+                        "hotelId": 4561,
+                        "hotelName": "TRAVELCLICK - KYLE'S TEST HOTEL"
+                    }
+                ]
+            },
+            "jobId": "SPd4QYoBtSFadePyCjvl",
+            "jobInfo": {
+                "status": "Pending",
+                "total_hotels_count": 24,
+                "failed_hotels_count": 0,
+                "pending_hotels_count": 24,
+                "success_hotels_count": 0
+            },
+            "creationDateTime": "2023-08-29T08:25:00.000+0000",
+            "creationBy": "ihsuryakant",
+            "lastUpdateDateTime": "2023-08-29T08:25:00.000+0000",
+            "lastUpdateBy": "ihsuryakant",
+            "policySetting": {
+                "acceptedTender": 17,
+                "holdTime": 21,
+                "isInstallmentEnabled": false
+            },
+            "textList": [
+                {
+                    "textType": "ONLINE_CALL_CENTER_MESSAGE",
+                    "languageTexts": []
+                },
+                {
+                    "textType": "POLICY_GDSLINE1_MSG",
+                    "languageTexts": []
+                },
+                {
+                    "textType": "POLICY_GDSLINE2_MSG",
+                    "languageTexts": []
+                }
+            ]
+        },
+        {
+            "name": "Test Tjep",
+            "policyCode": "",
+            "emPolicyTemplateId": 623172,
+            "status": "ACTIVE",
+            "policyLevel": "enterprise",
+            "chainInfo": {
+                "chainCode": "AAM",
+                "chainHotels": [
+                    {
+                        "hotelId": 71125,
+                        "hotelName": "TRAVELCLICK-Stephanie's PMS  - TEST HOTEL"
+                    },
+                    {
+                        "hotelId": 1098,
+                        "hotelName": "TRAVELCLICK 1098_English TOMEE UPG TEST"
+                    },
+                    {
+                        "hotelId": 1213,
+                        "hotelName": "CC2"
+                    },
+                    {
+                        "hotelId": 1206,
+                        "hotelName": "TRAVELCLICK - BE Test Property 6"
+                    },
+                    {
+                        "hotelId": 11258,
+                        "hotelName": "TRAVELCLICK - PMSC_iHotelier OTA Test Property"
+                    },
+                    {
+                        "hotelId": 11277,
+                        "hotelName": "TRAVELCLICK - PMSC_Roommaster Test Property"
+                    },
+                    {
+                        "hotelId": 100192,
+                        "hotelName": "Bay View Suites Paradise Island"
+                    },
+                    {
+                        "hotelId": 11244,
+                        "hotelName": "TRAVELCLICK - PMSC_HTNG Test Property 2 Tome"
+                    },
+                    {
+                        "hotelId": 110102,
+                        "hotelName": "Beach Park Hotel"
+                    },
+                    {
+                        "hotelId": 1221,
+                        "hotelName": "TRAVELCLICK - Icebox Test Property 1"
+                    },
+                    {
+                        "hotelId": 5020,
+                        "hotelName": "JDV TEST PROPERTY"
+                    },
+                    {
+                        "hotelId": 9876914,
+                        "hotelName": "Inter-Hotel Albi Cantepau-Test Property"
+                    },
+                    {
+                        "hotelId": 12328,
+                        "hotelName": "Aspen Hotel Soldotna"
+                    },
+                    {
+                        "hotelId": 1222,
+                        "hotelName": "TRAVELCLICK - Icebox Test Property 2"
+                    },
+                    {
+                        "hotelId": 72704,
+                        "hotelName": "TRAVELCLICK - New Indian Pride VAMPIRE RESORT"
+                    },
+                    {
+                        "hotelId": 1099,
+                        "hotelName": "TRAVELCLICK - Axel Bay Resort"
+                    },
+                    {
+                        "hotelId": 1201,
+                        "hotelName": "TRAVELCLICK - BE Test Property 1"
+                    },
+                    {
+                        "hotelId": 1210,
+                        "hotelName": "TRAVELCLICK - BE Test Property 10"
+                    },
+                    {
+                        "hotelId": 1212,
+                        "hotelName": "CC1"
+                    },
+                    {
+                        "hotelId": 1214,
+                        "hotelName": "CC3"
+                    },
+                    {
+                        "hotelId": 97704,
+                        "hotelName": "Riverside Hot Springs Inn"
+                    },
+                    {
+                        "hotelId": 1207,
+                        "hotelName": "TRAVELCLICK - BE Test Property 7"
+                    },
+                    {
+                        "hotelId": 1218,
+                        "hotelName": "TRAVELCLICK - PMSC Test Property 2(Platform)"
+                    },
+                    {
+                        "hotelId": 4561,
+                        "hotelName": "TRAVELCLICK - KYLE'S TEST HOTEL"
+                    }
+                ]
+            },
+            "jobId": "NJVDQYoBb4DRKhjlCl3f",
+            "jobInfo": {
+                "status": "Pending",
+                "total_hotels_count": 24,
+                "failed_hotels_count": 0,
+                "pending_hotels_count": 24,
+                "success_hotels_count": 0
+            },
+            "creationDateTime": "2023-08-29T07:27:07.000+0000",
+            "creationBy": "ihsuryakant",
+            "lastUpdateDateTime": "2023-08-29T07:27:07.000+0000",
+            "lastUpdateBy": "ihsuryakant",
+            "policySetting": {
+                "acceptedTender": 16,
+                "isInstallmentEnabled": false
+            },
+            "textList": [
+                {
+                    "textType": "ONLINE_CALL_CENTER_MESSAGE",
+                    "languageTexts": []
+                },
+                {
+                    "textType": "POLICY_GDSLINE1_MSG",
+                    "languageTexts": []
+                },
+                {
+                    "textType": "POLICY_GDSLINE2_MSG",
+                    "languageTexts": []
+                }
+            ]
+        },
+        {
+            "name": "test PT Create FE local 5",
+            "policyCode": "",
+            "emPolicyTemplateId": 623052,
+            "status": "ACTIVE",
+            "policyLevel": "enterprise",
+            "chainInfo": {
+                "chainCode": "AAM",
+                "chainHotels": [
+                    {
+                        "hotelId": 1206,
+                        "hotelName": "TRAVELCLICK - BE Test Property 6"
+                    },
+                    {
+                        "hotelId": 71125,
+                        "hotelName": "TRAVELCLICK-Stephanie's PMS  - TEST HOTEL"
+                    },
+                    {
+                        "hotelId": 1098,
+                        "hotelName": "TRAVELCLICK 1098_English TOMEE UPG TEST"
+                    },
+                    {
+                        "hotelId": 1213,
+                        "hotelName": "CC2"
+                    },
+                    {
+                        "hotelId": 11258,
+                        "hotelName": "TRAVELCLICK - PMSC_iHotelier OTA Test Property"
+                    },
+                    {
+                        "hotelId": 11277,
+                        "hotelName": "TRAVELCLICK - PMSC_Roommaster Test Property"
+                    },
+                    {
+                        "hotelId": 100192,
+                        "hotelName": "Bay View Suites Paradise Island"
+                    },
+                    {
+                        "hotelId": 11244,
+                        "hotelName": "TRAVELCLICK - PMSC_HTNG Test Property 2 Tome"
+                    },
+                    {
+                        "hotelId": 110102,
+                        "hotelName": "Beach Park Hotel"
+                    },
+                    {
+                        "hotelId": 1221,
+                        "hotelName": "TRAVELCLICK - Icebox Test Property 1"
+                    },
+                    {
+                        "hotelId": 5020,
+                        "hotelName": "JDV TEST PROPERTY"
+                    },
+                    {
+                        "hotelId": 9876914,
+                        "hotelName": "Inter-Hotel Albi Cantepau-Test Property"
+                    },
+                    {
+                        "hotelId": 12328,
+                        "hotelName": "Aspen Hotel Soldotna"
+                    },
+                    {
+                        "hotelId": 1222,
+                        "hotelName": "TRAVELCLICK - Icebox Test Property 2"
+                    },
+                    {
+                        "hotelId": 72704,
+                        "hotelName": "TRAVELCLICK - New Indian Pride VAMPIRE RESORT"
+                    },
+                    {
+                        "hotelId": 1099,
+                        "hotelName": "TRAVELCLICK - Axel Bay Resort"
+                    },
+                    {
+                        "hotelId": 1201,
+                        "hotelName": "TRAVELCLICK - BE Test Property 1"
+                    },
+                    {
+                        "hotelId": 1210,
+                        "hotelName": "TRAVELCLICK - BE Test Property 10"
+                    },
+                    {
+                        "hotelId": 1212,
+                        "hotelName": "CC1"
+                    },
+                    {
+                        "hotelId": 1214,
+                        "hotelName": "CC3"
+                    },
+                    {
+                        "hotelId": 97704,
+                        "hotelName": "Riverside Hot Springs Inn"
+                    },
+                    {
+                        "hotelId": 1207,
+                        "hotelName": "TRAVELCLICK - BE Test Property 7"
+                    },
+                    {
+                        "hotelId": 1218,
+                        "hotelName": "TRAVELCLICK - PMSC Test Property 2(Platform)"
+                    },
+                    {
+                        "hotelId": 4561,
+                        "hotelName": "TRAVELCLICK - KYLE'S TEST HOTEL"
+                    }
+                ]
+            },
+            "jobId": "5QQeLYoBrvYP_KdjxI_Y",
+            "jobInfo": {
+                "status": "Pending",
+                "total_hotels_count": 24,
+                "failed_hotels_count": 0,
+                "pending_hotels_count": 24,
+                "success_hotels_count": 0
+            },
+            "creationDateTime": "2023-08-25T09:35:05.000+0000",
+            "creationBy": "ihsuryakant",
+            "lastUpdateDateTime": "2023-08-25T09:35:05.000+0000",
+            "lastUpdateBy": "ihsuryakant",
+            "policySetting": {
+                "acceptedTender": 14,
+                "isInstallmentEnabled": false
+            },
+            "textList": [
+                {
+                    "textType": "ONLINE_CALL_CENTER_MESSAGE",
+                    "languageTexts": [
+                        {
+                            "languageId": 1,
+                            "text": "test"
+                        }
+                    ]
+                },
+                {
+                    "textType": "POLICY_GDSLINE1_MSG",
+                    "languageTexts": [
+                        {
+                            "languageId": 1,
+                            "text": "test"
+                        }
+                    ]
+                },
+                {
+                    "textType": "POLICY_GDSLINE2_MSG",
+                    "languageTexts": []
+                }
+            ]
+        },
+        {
+            "name": "test Michel holdtime1",
+            "policyCode": "",
+            "emPolicyTemplateId": 622501,
+            "status": "ACTIVE",
+            "policyLevel": "enterprise",
+            "chainInfo": {
+                "chainCode": "AAM",
+                "chainHotels": [
+                    {
+                        "hotelId": 11258,
+                        "hotelName": "TRAVELCLICK - PMSC_iHotelier OTA Test Property",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 11277,
+                        "hotelName": "TRAVELCLICK - PMSC_Roommaster Test Property",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1235,
+                        "hotelName": "Michel Hotel's",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 100192,
+                        "hotelName": "Bay View Suites Paradise Island",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 11244,
+                        "hotelName": "TRAVELCLICK - PMSC_HTNG Test Property 2 Tome",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 110102,
+                        "hotelName": "Beach Park Hotel",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1221,
+                        "hotelName": "TRAVELCLICK - Icebox Test Property 1",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 5020,
+                        "hotelName": "JDV TEST PROPERTY",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 9876914,
+                        "hotelName": "Inter-Hotel Albi Cantepau-Test Property",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 12328,
+                        "hotelName": "Aspen Hotel Soldotna",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1222,
+                        "hotelName": "TRAVELCLICK - Icebox Test Property 2",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 72704,
+                        "hotelName": "TRAVELCLICK - New Indian Pride VAMPIRE RESORT",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1219,
+                        "hotelName": "TRAVELCLICK - PMSC Test Property 3",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1099,
+                        "hotelName": "TRAVELCLICK - Axel Bay Resort",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 71125,
+                        "hotelName": "TRAVELCLICK-Stephanie's PMS  - TEST HOTEL",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1201,
+                        "hotelName": "TRAVELCLICK - BE Test Property 1",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1010,
+                        "hotelName": "TRAVELCLICK - Dodson Hotel",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1206,
+                        "hotelName": "TRAVELCLICK - BE Test Property 6",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1208,
+                        "hotelName": "TRAVELCLICK - BE Test Property 8",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1210,
+                        "hotelName": "TRAVELCLICK - BE Test Property 10",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1212,
+                        "hotelName": "CC1",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1213,
+                        "hotelName": "CC2",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1214,
+                        "hotelName": "CC3",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 97704,
+                        "hotelName": "Riverside Hot Springs Inn",
+                        "status": "add"
+                    }
+                ]
+            },
+            "jobId": "apPl5IkBb4DRKhjlIBtd",
+            "jobInfo": {
+                "status": "Pending",
+                "total_hotels_count": 24,
+                "failed_hotels_count": 0,
+                "pending_hotels_count": 24,
+                "success_hotels_count": 0
+            },
+            "creationDateTime": "2023-08-11T08:59:28.000+0000",
+            "creationBy": "ihmichel",
+            "lastUpdateDateTime": "2023-08-11T08:59:28.000+0000",
+            "lastUpdateBy": "ihmichel",
+            "policySetting": {
+                "acceptedTender": 17,
+                "holdTime": 15,
+                "isInstallmentEnabled": false
+            },
+            "textList": [
+                {
+                    "textType": "ONLINE_CALL_CENTER_MESSAGE",
+                    "languageTexts": [
+                        {
+                            "languageId": 1,
+                            "text": "Test Message "
+                        }
+                    ]
+                },
+                {
+                    "textType": "POLICY_GDSLINE1_MSG",
+                    "languageTexts": []
+                },
+                {
+                    "textType": "POLICY_GDSLINE2_MSG",
+                    "languageTexts": []
+                }
+            ]
+        },
+        {
+            "name": "test Michel copy clone",
+            "policyCode": "",
+            "emPolicyTemplateId": 622476,
+            "status": "ACTIVE",
+            "policyLevel": "enterprise",
+            "chainInfo": {
+                "chainCode": "AAM",
+                "chainHotels": [
+                    {
+                        "hotelId": 11258,
+                        "hotelName": "TRAVELCLICK - PMSC_iHotelier OTA Test Property",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 11277,
+                        "hotelName": "TRAVELCLICK - PMSC_Roommaster Test Property",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1235,
+                        "hotelName": "Michel Hotel's",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 100192,
+                        "hotelName": "Bay View Suites Paradise Island",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 11244,
+                        "hotelName": "TRAVELCLICK - PMSC_HTNG Test Property 2 Tome",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 110102,
+                        "hotelName": "Beach Park Hotel",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1221,
+                        "hotelName": "TRAVELCLICK - Icebox Test Property 1",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 5020,
+                        "hotelName": "JDV TEST PROPERTY",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 9876914,
+                        "hotelName": "Inter-Hotel Albi Cantepau-Test Property",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 12328,
+                        "hotelName": "Aspen Hotel Soldotna",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1222,
+                        "hotelName": "TRAVELCLICK - Icebox Test Property 2",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 72704,
+                        "hotelName": "TRAVELCLICK - New Indian Pride VAMPIRE RESORT",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1219,
+                        "hotelName": "TRAVELCLICK - PMSC Test Property 3",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1099,
+                        "hotelName": "TRAVELCLICK - Axel Bay Resort",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 71125,
+                        "hotelName": "TRAVELCLICK-Stephanie's PMS  - TEST HOTEL",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1201,
+                        "hotelName": "TRAVELCLICK - BE Test Property 1",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1010,
+                        "hotelName": "TRAVELCLICK - Dodson Hotel",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1206,
+                        "hotelName": "TRAVELCLICK - BE Test Property 6",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1208,
+                        "hotelName": "TRAVELCLICK - BE Test Property 8",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1210,
+                        "hotelName": "TRAVELCLICK - BE Test Property 10",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1212,
+                        "hotelName": "CC1",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1213,
+                        "hotelName": "CC2",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1214,
+                        "hotelName": "CC3",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 97704,
+                        "hotelName": "Riverside Hot Springs Inn",
+                        "status": "add"
+                    }
+                ]
+            },
+            "jobId": "bQOw44kBrvYP_KdjnG_b",
+            "jobInfo": {
+                "status": "Pending",
+                "total_hotels_count": 24,
+                "failed_hotels_count": 0,
+                "pending_hotels_count": 24,
+                "success_hotels_count": 0
+            },
+            "creationDateTime": "2023-08-11T03:22:29.000+0000",
+            "creationBy": "ihmichel",
+            "lastUpdateDateTime": "2023-08-11T03:22:29.000+0000",
+            "lastUpdateBy": "ihmichel",
+            "policySetting": {
+                "acceptedTender": 17,
+                "holdTime": 15,
+                "isInstallmentEnabled": false
+            },
+            "textList": [
+                {
+                    "textType": "ONLINE_CALL_CENTER_MESSAGE",
+                    "languageTexts": [
+                        {
+                            "languageId": 1,
+                            "text": "Test Message "
+                        }
+                    ]
+                },
+                {
+                    "textType": "POLICY_GDSLINE1_MSG",
+                    "languageTexts": []
+                },
+                {
+                    "textType": "POLICY_GDSLINE2_MSG",
+                    "languageTexts": []
+                }
+            ]
+        },
+        {
+            "name": "Test Guarantee {{$randomAlphaNumeric}}",
+            "policyCode": "ct1",
+            "emPolicyTemplateId": 622454,
+            "status": "ACTIVE",
+            "policyLevel": "enterprise",
+            "chainInfo": {
+                "chainCode": "AAM",
+                "chainHotels": [
+                    {
+                        "hotelId": 11258,
+                        "hotelName": "TRAVELCLICK - PMSC_iHotelier OTA Test Property",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 11277,
+                        "hotelName": "TRAVELCLICK - PMSC_Roommaster Test Property",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 4561,
+                        "hotelName": "TRAVELCLICK - KYLE'S TEST HOTEL",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 100192,
+                        "hotelName": "Bay View Suites Paradise Island",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 11244,
+                        "hotelName": "TRAVELCLICK - PMSC_HTNG Test Property 2 Tome",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 110102,
+                        "hotelName": "Beach Park Hotel",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1221,
+                        "hotelName": "TRAVELCLICK - Icebox Test Property 1",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 5020,
+                        "hotelName": "JDV TEST PROPERTY",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 9876914,
+                        "hotelName": "Inter-Hotel Albi Cantepau-Test Property",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 12328,
+                        "hotelName": "Aspen Hotel Soldotna",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1222,
+                        "hotelName": "TRAVELCLICK - Icebox Test Property 2",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 72704,
+                        "hotelName": "TRAVELCLICK - New Indian Pride VAMPIRE RESORT",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1219,
+                        "hotelName": "TRAVELCLICK - PMSC Test Property 3",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1099,
+                        "hotelName": "TRAVELCLICK - Axel Bay Resort",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 71125,
+                        "hotelName": "TRAVELCLICK-Stephanie's PMS  - TEST HOTEL",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1201,
+                        "hotelName": "TRAVELCLICK - BE Test Property 1",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1010,
+                        "hotelName": "TRAVELCLICK - Dodson Hotel",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1206,
+                        "hotelName": "TRAVELCLICK - BE Test Property 6",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1208,
+                        "hotelName": "TRAVELCLICK - BE Test Property 8",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1210,
+                        "hotelName": "TRAVELCLICK - BE Test Property 10",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1212,
+                        "hotelName": "CC1",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1213,
+                        "hotelName": "CC2",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1214,
+                        "hotelName": "CC3",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 97704,
+                        "hotelName": "Riverside Hot Springs Inn",
+                        "status": "add"
+                    }
+                ]
+            },
+            "jobId": "0wMt44kBrvYP_KdjWG6X",
+            "jobInfo": {
+                "status": "Failed",
+                "total_hotels_count": 24,
+                "failed_hotels_count": 24,
+                "pending_hotels_count": 0,
+                "success_hotels_count": 0
+            },
+            "creationDateTime": "2023-08-11T00:59:07.000+0000",
+            "creationBy": "ihpradhan",
+            "lastUpdateDateTime": "2023-08-11T00:59:07.000+0000",
+            "lastUpdateBy": "ihpradhan",
+            "policySetting": {
+                "acceptedTender": 18,
+                "isFreeCancellation": true,
+                "isInstallmentEnabled": false,
+                "otaSetting": {
+                    "otaChargeType": ""
+                }
+            },
+            "textList": [
+                {
+                    "textType": "ONLINE_CALL_CENTER_MESSAGE",
+                    "languageTexts": [
+                        {
+                            "languageId": 1,
+                            "text": "ABC"
+                        }
+                    ]
+                },
+                {
+                    "textType": "POLICY_GDSLINE1_MSG",
+                    "languageTexts": [
+                        {
+                            "languageId": 1,
+                            "text": "ABC GDS"
+                        }
+                    ]
+                },
+                {
+                    "textType": "POLICY_GDSLINE2_MSG",
+                    "languageTexts": [
+                        {
+                            "languageId": 1,
+                            "text": "ABC GDS 2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Test Guarantee {{$randomAlphaNumeric}}",
+            "policyCode": "ct1",
+            "emPolicyTemplateId": 622394,
+            "status": "ACTIVE",
+            "policyLevel": "enterprise",
+            "chainInfo": {
+                "chainCode": "AAM",
+                "chainHotels": [
+                    {
+                        "hotelId": 11258,
+                        "hotelName": "TRAVELCLICK - PMSC_iHotelier OTA Test Property",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 11277,
+                        "hotelName": "TRAVELCLICK - PMSC_Roommaster Test Property",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 4561,
+                        "hotelName": "TRAVELCLICK - KYLE'S TEST HOTEL",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 100192,
+                        "hotelName": "Bay View Suites Paradise Island",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 11244,
+                        "hotelName": "TRAVELCLICK - PMSC_HTNG Test Property 2 Tome",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 110102,
+                        "hotelName": "Beach Park Hotel",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1221,
+                        "hotelName": "TRAVELCLICK - Icebox Test Property 1",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 5020,
+                        "hotelName": "JDV TEST PROPERTY",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 9876914,
+                        "hotelName": "Inter-Hotel Albi Cantepau-Test Property",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 12328,
+                        "hotelName": "Aspen Hotel Soldotna",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1222,
+                        "hotelName": "TRAVELCLICK - Icebox Test Property 2",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 72704,
+                        "hotelName": "TRAVELCLICK - New Indian Pride VAMPIRE RESORT",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1219,
+                        "hotelName": "TRAVELCLICK - PMSC Test Property 3",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1099,
+                        "hotelName": "TRAVELCLICK - Axel Bay Resort",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 71125,
+                        "hotelName": "TRAVELCLICK-Stephanie's PMS  - TEST HOTEL",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1201,
+                        "hotelName": "TRAVELCLICK - BE Test Property 1",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1010,
+                        "hotelName": "TRAVELCLICK - Dodson Hotel",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1206,
+                        "hotelName": "TRAVELCLICK - BE Test Property 6",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1208,
+                        "hotelName": "TRAVELCLICK - BE Test Property 8",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1210,
+                        "hotelName": "TRAVELCLICK - BE Test Property 10",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1212,
+                        "hotelName": "CC1",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1213,
+                        "hotelName": "CC2",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1214,
+                        "hotelName": "CC3",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 97704,
+                        "hotelName": "Riverside Hot Springs Inn",
+                        "status": "add"
+                    }
+                ]
+            },
+            "jobId": "pANm34kBrvYP_KdjymyA",
+            "jobInfo": {
+                "status": "Pending",
+                "total_hotels_count": 24,
+                "failed_hotels_count": 0,
+                "pending_hotels_count": 24,
+                "success_hotels_count": 0
+            },
+            "creationDateTime": "2023-08-10T07:23:23.000+0000",
+            "creationBy": "ihpradhan",
+            "lastUpdateDateTime": "2023-08-10T07:23:23.000+0000",
+            "lastUpdateBy": "ihpradhan",
+            "policySetting": {
+                "acceptedTender": 18,
+                "isFreeCancellation": true,
+                "isInstallmentEnabled": false,
+                "otaSetting": {
+                    "otaChargeType": ""
+                }
+            },
+            "textList": [
+                {
+                    "textType": "ONLINE_CALL_CENTER_MESSAGE",
+                    "languageTexts": [
+                        {
+                            "languageId": 1,
+                            "text": "ABC"
+                        }
+                    ]
+                },
+                {
+                    "textType": "POLICY_GDSLINE1_MSG",
+                    "languageTexts": [
+                        {
+                            "languageId": 1,
+                            "text": "ABC GDS"
+                        }
+                    ]
+                },
+                {
+                    "textType": "POLICY_GDSLINE2_MSG",
+                    "languageTexts": [
+                        {
+                            "languageId": 1,
+                            "text": "ABC GDS 2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "test Michel",
+            "policyCode": "",
+            "emPolicyTemplateId": 622351,
+            "status": "ACTIVE",
+            "policyLevel": "enterprise",
+            "chainInfo": {
+                "chainCode": "AAM",
+                "chainHotels": [
+                    {
+                        "hotelId": 11258,
+                        "hotelName": "TRAVELCLICK - PMSC_iHotelier OTA Test Property",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 11277,
+                        "hotelName": "TRAVELCLICK - PMSC_Roommaster Test Property",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 4561,
+                        "hotelName": "TRAVELCLICK - KYLE'S TEST HOTEL",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 100192,
+                        "hotelName": "Bay View Suites Paradise Island",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 11244,
+                        "hotelName": "TRAVELCLICK - PMSC_HTNG Test Property 2 Tome",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 110102,
+                        "hotelName": "Beach Park Hotel",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1221,
+                        "hotelName": "TRAVELCLICK - Icebox Test Property 1",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 5020,
+                        "hotelName": "JDV TEST PROPERTY",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 9876914,
+                        "hotelName": "Inter-Hotel Albi Cantepau-Test Property",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 12328,
+                        "hotelName": "Aspen Hotel Soldotna",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1222,
+                        "hotelName": "TRAVELCLICK - Icebox Test Property 2",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 72704,
+                        "hotelName": "TRAVELCLICK - New Indian Pride VAMPIRE RESORT",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1219,
+                        "hotelName": "TRAVELCLICK - PMSC Test Property 3",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1099,
+                        "hotelName": "TRAVELCLICK - Axel Bay Resort",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 71125,
+                        "hotelName": "TRAVELCLICK-Stephanie's PMS  - TEST HOTEL",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1201,
+                        "hotelName": "TRAVELCLICK - BE Test Property 1",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1010,
+                        "hotelName": "TRAVELCLICK - Dodson Hotel",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1206,
+                        "hotelName": "TRAVELCLICK - BE Test Property 6",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1208,
+                        "hotelName": "TRAVELCLICK - BE Test Property 8",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1210,
+                        "hotelName": "TRAVELCLICK - BE Test Property 10",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1212,
+                        "hotelName": "CC1",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1213,
+                        "hotelName": "CC2",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1214,
+                        "hotelName": "CC3",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 97704,
+                        "hotelName": "Riverside Hot Springs Inn",
+                        "status": "add"
+                    }
+                ]
+            },
+            "jobId": "LfBl2okBnrYhsPpqqacD",
+            "jobInfo": {
+                "status": "Pending",
+                "total_hotels_count": 24,
+                "failed_hotels_count": 0,
+                "pending_hotels_count": 24,
+                "success_hotels_count": 0
+            },
+            "creationDateTime": "2023-08-09T08:04:02.000+0000",
+            "creationBy": "ihmichel",
+            "lastUpdateDateTime": "2023-08-09T08:04:02.000+0000",
+            "lastUpdateBy": "ihmichel",
+            "policySetting": {
+                "acceptedTender": 17,
+                "holdTime": 15,
+                "isInstallmentEnabled": false
+            },
+            "textList": [
+                {
+                    "textType": "ONLINE_CALL_CENTER_MESSAGE",
+                    "languageTexts": [
+                        {
+                            "languageId": 1,
+                            "text": "Test Message "
+                        }
+                    ]
+                },
+                {
+                    "textType": "POLICY_GDSLINE1_MSG",
+                    "languageTexts": []
+                },
+                {
+                    "textType": "POLICY_GDSLINE2_MSG",
+                    "languageTexts": []
+                }
+            ]
+        },
+        {
+            "name": "Guarantee test Jeremy",
+            "policyCode": "ct1",
+            "emPolicyTemplateId": 621962,
+            "status": "ACTIVE",
+            "policyLevel": "enterprise",
+            "chainInfo": {
+                "chainCode": "AAM",
+                "chainHotels": [
+                    {
+                        "hotelId": 11258,
+                        "hotelName": "TRAVELCLICK - PMSC_iHotelier OTA Test Property",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 11277,
+                        "hotelName": "TRAVELCLICK - PMSC_Roommaster Test Property",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 4561,
+                        "hotelName": "TRAVELCLICK - KYLE'S TEST HOTEL",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 100192,
+                        "hotelName": "Bay View Suites Paradise Island",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 11244,
+                        "hotelName": "TRAVELCLICK - PMSC_HTNG Test Property 2 Tome",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 110102,
+                        "hotelName": "Beach Park Hotel",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1221,
+                        "hotelName": "TRAVELCLICK - Icebox Test Property 1",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 5020,
+                        "hotelName": "JDV TEST PROPERTY",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 9876914,
+                        "hotelName": "Inter-Hotel Albi Cantepau-Test Property",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 12328,
+                        "hotelName": "Aspen Hotel Soldotna",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1222,
+                        "hotelName": "TRAVELCLICK - Icebox Test Property 2",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 72704,
+                        "hotelName": "TRAVELCLICK - New Indian Pride VAMPIRE RESORT",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1219,
+                        "hotelName": "TRAVELCLICK - PMSC Test Property 3",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1099,
+                        "hotelName": "TRAVELCLICK - Axel Bay Resort",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 71125,
+                        "hotelName": "TRAVELCLICK-Stephanie's PMS  - TEST HOTEL",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1201,
+                        "hotelName": "TRAVELCLICK - BE Test Property 1",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1010,
+                        "hotelName": "TRAVELCLICK - Dodson Hotel",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1206,
+                        "hotelName": "TRAVELCLICK - BE Test Property 6",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1208,
+                        "hotelName": "TRAVELCLICK - BE Test Property 8",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1210,
+                        "hotelName": "TRAVELCLICK - BE Test Property 10",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1212,
+                        "hotelName": "CC1",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1213,
+                        "hotelName": "CC2",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1214,
+                        "hotelName": "CC3",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 97704,
+                        "hotelName": "Riverside Hot Springs Inn",
+                        "status": "add"
+                    }
+                ]
+            },
+            "jobId": "n-1StokBnrYhsPpqO_54",
+            "jobInfo": {
+                "status": "Pending",
+                "total_hotels_count": 24,
+                "failed_hotels_count": 0,
+                "pending_hotels_count": 24,
+                "success_hotels_count": 0
+            },
+            "creationDateTime": "2023-08-02T07:56:29.000+0000",
+            "creationBy": "ihmichel",
+            "lastUpdateDateTime": "2023-08-02T07:56:29.000+0000",
+            "lastUpdateBy": "ihmichel",
+            "policySetting": {
+                "acceptedTender": 17,
+                "holdTime": 15,
+                "isInstallmentEnabled": false
+            },
+            "textList": [
+                {
+                    "textType": "ONLINE_CALL_CENTER_MESSAGE",
+                    "languageTexts": [
+                        {
+                            "languageId": 1,
+                            "text": "Test Message "
+                        }
+                    ]
+                },
+                {
+                    "textType": "POLICY_GDSLINE1_MSG",
+                    "languageTexts": []
+                },
+                {
+                    "textType": "POLICY_GDSLINE2_MSG",
+                    "languageTexts": []
+                }
+            ]
+        },
+        {
+            "name": "Guarantee test Jeremy 1",
+            "policyCode": "ct1",
+            "emPolicyTemplateId": 621960,
+            "status": "ACTIVE",
+            "policyLevel": "enterprise",
+            "chainInfo": {
+                "chainCode": "AAM",
+                "chainHotels": []
+            },
+            "jobId": "FTtCtokBgwQFyDJqluUa",
+            "jobInfo": {
+                "status": "Pending",
+                "total_hotels_count": 0,
+                "failed_hotels_count": 0,
+                "pending_hotels_count": 0,
+                "success_hotels_count": 0
+            },
+            "creationDateTime": "2023-08-02T07:39:24.000+0000",
+            "creationBy": "ihmichel",
+            "lastUpdateDateTime": "2023-08-02T07:39:24.000+0000",
+            "lastUpdateBy": "ihmichel",
+            "policySetting": {
+                "acceptedTender": 17,
+                "holdTime": 15,
+                "isInstallmentEnabled": false
+            },
+            "textList": [
+                {
+                    "textType": "ONLINE_CALL_CENTER_MESSAGE",
+                    "languageTexts": [
+                        {
+                            "languageId": 1,
+                            "text": "Test Message "
+                        }
+                    ]
+                },
+                {
+                    "textType": "POLICY_GDSLINE1_MSG",
+                    "languageTexts": []
+                },
+                {
+                    "textType": "POLICY_GDSLINE2_MSG",
+                    "languageTexts": []
+                }
+            ]
+        },
+        {
+            "name": "Accepted tender CC Test IN",
+            "policyCode": "CCG",
+            "emPolicyTemplateId": 621216,
+            "status": "INACTIVE",
+            "policyLevel": "enterprise",
+            "chainInfo": {
+                "chainCode": "AAM",
+                "chainHotels": [
+                    {
+                        "hotelId": 11258,
+                        "hotelName": "TRAVELCLICK - PMSC_iHotelier OTA Test Property",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 11277,
+                        "hotelName": "TRAVELCLICK - PMSC_Roommaster Test Property",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 4561,
+                        "hotelName": "TRAVELCLICK - KYLE'S TEST HOTEL",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1098,
+                        "hotelName": "TRAVELCLICK 1098_English TOMEE UPG TEST",
+                        "status": "add"
+                    }
+                ]
+            },
+            "creationDateTime": "2023-07-12T03:12:18.000+0000",
+            "creationBy": "alaaeddine",
+            "lastUpdateDateTime": "2023-07-12T03:12:18.000+0000",
+            "lastUpdateBy": "alaaeddine",
+            "policySetting": {
+                "acceptedTender": 16,
+                "holdTime": 18,
+                "isInstallmentEnabled": false
+            },
+            "textList": [
+                {
+                    "textType": "ONLINE_CALL_CENTER_MESSAGE",
+                    "languageTexts": [
+                        {
+                            "languageId": 1,
+                            "text": "ABC CORE TEST"
+                        }
+                    ]
+                },
+                {
+                    "textType": "POLICY_GDSLINE1_MSG",
+                    "languageTexts": [
+                        {
+                            "languageId": 1,
+                            "text": "ABC GDS CORE TEST"
+                        }
+                    ]
+                },
+                {
+                    "textType": "POLICY_GDSLINE2_MSG",
+                    "languageTexts": [
+                        {
+                            "languageId": 1,
+                            "text": "ABC GDS CORE TEST"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "All PT GUARANTEE coreTest001",
+            "policyCode": "CCG",
+            "emPolicyTemplateId": 620935,
+            "status": "ACTIVE",
+            "policyLevel": "enterprise",
+            "chainInfo": {
+                "chainCode": "AAM",
+                "chainHotels": [
+                    {
+                        "hotelId": 11258,
+                        "hotelName": "TRAVELCLICK - PMSC_iHotelier OTA Test Property",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 11277,
+                        "hotelName": "TRAVELCLICK - PMSC_Roommaster Test Property",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 4561,
+                        "hotelName": "TRAVELCLICK - KYLE'S TEST HOTEL",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 100192,
+                        "hotelName": "Bay View Suites Paradise Island",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 11244,
+                        "hotelName": "TRAVELCLICK - PMSC_HTNG Test Property 2 Tome",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 110102,
+                        "hotelName": "Beach Park Hotel",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1221,
+                        "hotelName": "TRAVELCLICK - Icebox Test Property 1",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 5020,
+                        "hotelName": "JDV TEST PROPERTY",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 9876914,
+                        "hotelName": "Inter-Hotel Albi Cantepau-Test Property",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 12328,
+                        "hotelName": "Aspen Hotel Soldotna",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1222,
+                        "hotelName": "TRAVELCLICK - Icebox Test Property 2",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 72704,
+                        "hotelName": "TRAVELCLICK - New Indian Pride VAMPIRE RESORT",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1219,
+                        "hotelName": "TRAVELCLICK - PMSC Test Property 3",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1099,
+                        "hotelName": "TRAVELCLICK - Axel Bay Resort",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 71125,
+                        "hotelName": "TRAVELCLICK-Stephanie's PMS  - TEST HOTEL",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1201,
+                        "hotelName": "TRAVELCLICK - BE Test Property 1",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1010,
+                        "hotelName": "TRAVELCLICK - Dodson Hotel",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1206,
+                        "hotelName": "TRAVELCLICK - BE Test Property 6",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1208,
+                        "hotelName": "TRAVELCLICK - BE Test Property 8",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1210,
+                        "hotelName": "TRAVELCLICK - BE Test Property 10",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1212,
+                        "hotelName": "CC1",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1213,
+                        "hotelName": "CC2",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1214,
+                        "hotelName": "CC3",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 97704,
+                        "hotelName": "Riverside Hot Springs Inn",
+                        "status": "add"
+                    }
+                ]
+            },
+            "creationDateTime": "2023-07-10T06:49:56.000+0000",
+            "creationBy": "alaaeddine",
+            "lastUpdateDateTime": "2023-07-10T06:49:56.000+0000",
+            "lastUpdateBy": "alaaeddine",
+            "policySetting": {
+                "acceptedTender": 17,
+                "holdTime": 18,
+                "isInstallmentEnabled": false
+            },
+            "textList": [
+                {
+                    "textType": "ONLINE_CALL_CENTER_MESSAGE",
+                    "languageTexts": [
+                        {
+                            "languageId": 1,
+                            "text": "ABC CORE TEST"
+                        }
+                    ]
+                },
+                {
+                    "textType": "POLICY_GDSLINE1_MSG",
+                    "languageTexts": [
+                        {
+                            "languageId": 1,
+                            "text": "ABC GDS CORE TEST"
+                        }
+                    ]
+                },
+                {
+                    "textType": "POLICY_GDSLINE2_MSG",
+                    "languageTexts": [
+                        {
+                            "languageId": 1,
+                            "text": "ABC GDS CORE TEST"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "GUARANTEE PT ALL 17 CoreTest999T6",
+            "policyCode": "CCG",
+            "emPolicyTemplateId": 620795,
+            "status": "ACTIVE",
+            "policyLevel": "enterprise",
+            "chainInfo": {
+                "chainCode": "AAM",
+                "chainHotels": [
+                    {
+                        "hotelId": 11258,
+                        "hotelName": "TRAVELCLICK - PMSC_iHotelier OTA Test Property",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 11277,
+                        "hotelName": "TRAVELCLICK - PMSC_Roommaster Test Property",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 4561,
+                        "hotelName": "TRAVELCLICK - KYLE'S TEST HOTEL",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 100192,
+                        "hotelName": "Bay View Suites Paradise Island",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 11244,
+                        "hotelName": "TRAVELCLICK - PMSC_HTNG Test Property 2 Tome",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 110102,
+                        "hotelName": "Beach Park Hotel",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1221,
+                        "hotelName": "TRAVELCLICK - Icebox Test Property 1",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 5020,
+                        "hotelName": "JDV TEST PROPERTY",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 9876914,
+                        "hotelName": "Inter-Hotel Albi Cantepau-Test Property",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 12328,
+                        "hotelName": "Aspen Hotel Soldotna",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1222,
+                        "hotelName": "TRAVELCLICK - Icebox Test Property 2",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 72704,
+                        "hotelName": "TRAVELCLICK - New Indian Pride VAMPIRE RESORT",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1219,
+                        "hotelName": "TRAVELCLICK - PMSC Test Property 3",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1099,
+                        "hotelName": "TRAVELCLICK - Axel Bay Resort",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 71125,
+                        "hotelName": "TRAVELCLICK-Stephanie's PMS  - TEST HOTEL",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1201,
+                        "hotelName": "TRAVELCLICK - BE Test Property 1",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1010,
+                        "hotelName": "TRAVELCLICK - Dodson Hotel",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1206,
+                        "hotelName": "TRAVELCLICK - BE Test Property 6",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1208,
+                        "hotelName": "TRAVELCLICK - BE Test Property 8",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1210,
+                        "hotelName": "TRAVELCLICK - BE Test Property 10",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1212,
+                        "hotelName": "CC1",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1213,
+                        "hotelName": "CC2",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1214,
+                        "hotelName": "CC3",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 97704,
+                        "hotelName": "Riverside Hot Springs Inn",
+                        "status": "add"
+                    }
+                ]
+            },
+            "creationDateTime": "2023-07-09T16:41:49.000+0000",
+            "creationBy": "alaaeddine",
+            "lastUpdateDateTime": "2023-07-09T16:41:49.000+0000",
+            "lastUpdateBy": "alaaeddine",
+            "policySetting": {
+                "acceptedTender": 17,
+                "holdTime": 16,
+                "isInstallmentEnabled": false
+            },
+            "textList": [
+                {
+                    "textType": "ONLINE_CALL_CENTER_MESSAGE",
+                    "languageTexts": [
+                        {
+                            "languageId": 1,
+                            "text": "ABC CORE TEST"
+                        }
+                    ]
+                },
+                {
+                    "textType": "POLICY_GDSLINE1_MSG",
+                    "languageTexts": [
+                        {
+                            "languageId": 1,
+                            "text": "ABC GDS CORE TEST"
+                        }
+                    ]
+                },
+                {
+                    "textType": "POLICY_GDSLINE2_MSG",
+                    "languageTexts": [
+                        {
+                            "languageId": 1,
+                            "text": "ABC GDS CORE TEST"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "GUARANTEE PT ALL 17 CoreTest888T6",
+            "policyCode": "CCG",
+            "emPolicyTemplateId": 620796,
+            "status": "ACTIVE",
+            "policyLevel": "enterprise",
+            "chainInfo": {
+                "chainCode": "AAM",
+                "chainHotels": [
+                    {
+                        "hotelId": 11258,
+                        "hotelName": "TRAVELCLICK - PMSC_iHotelier OTA Test Property",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 11277,
+                        "hotelName": "TRAVELCLICK - PMSC_Roommaster Test Property",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 4561,
+                        "hotelName": "TRAVELCLICK - KYLE'S TEST HOTEL",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 100192,
+                        "hotelName": "Bay View Suites Paradise Island",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 11244,
+                        "hotelName": "TRAVELCLICK - PMSC_HTNG Test Property 2 Tome",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 110102,
+                        "hotelName": "Beach Park Hotel",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1221,
+                        "hotelName": "TRAVELCLICK - Icebox Test Property 1",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 5020,
+                        "hotelName": "JDV TEST PROPERTY",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 9876914,
+                        "hotelName": "Inter-Hotel Albi Cantepau-Test Property",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 12328,
+                        "hotelName": "Aspen Hotel Soldotna",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1222,
+                        "hotelName": "TRAVELCLICK - Icebox Test Property 2",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 72704,
+                        "hotelName": "TRAVELCLICK - New Indian Pride VAMPIRE RESORT",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1219,
+                        "hotelName": "TRAVELCLICK - PMSC Test Property 3",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1099,
+                        "hotelName": "TRAVELCLICK - Axel Bay Resort",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 71125,
+                        "hotelName": "TRAVELCLICK-Stephanie's PMS  - TEST HOTEL",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1201,
+                        "hotelName": "TRAVELCLICK - BE Test Property 1",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1010,
+                        "hotelName": "TRAVELCLICK - Dodson Hotel",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1206,
+                        "hotelName": "TRAVELCLICK - BE Test Property 6",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1208,
+                        "hotelName": "TRAVELCLICK - BE Test Property 8",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1210,
+                        "hotelName": "TRAVELCLICK - BE Test Property 10",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1212,
+                        "hotelName": "CC1",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1213,
+                        "hotelName": "CC2",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1214,
+                        "hotelName": "CC3",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 97704,
+                        "hotelName": "Riverside Hot Springs Inn",
+                        "status": "add"
+                    }
+                ]
+            },
+            "creationDateTime": "2023-07-09T16:26:54.000+0000",
+            "creationBy": "alaaeddine",
+            "lastUpdateDateTime": "2023-07-09T16:26:54.000+0000",
+            "lastUpdateBy": "alaaeddine",
+            "policySetting": {
+                "acceptedTender": 17,
+                "holdTime": 16,
+                "isInstallmentEnabled": false
+            },
+            "textList": [
+                {
+                    "textType": "ONLINE_CALL_CENTER_MESSAGE",
+                    "languageTexts": [
+                        {
+                            "languageId": 1,
+                            "text": "ABC CORE TEST"
+                        }
+                    ]
+                },
+                {
+                    "textType": "POLICY_GDSLINE1_MSG",
+                    "languageTexts": [
+                        {
+                            "languageId": 1,
+                            "text": "ABC GDS CORE TEST"
+                        }
+                    ]
+                },
+                {
+                    "textType": "POLICY_GDSLINE2_MSG",
+                    "languageTexts": [
+                        {
+                            "languageId": 1,
+                            "text": "ABC GDS CORE TEST"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "GUARANTEE PT ALL 17 CoreTest777T6",
+            "policyCode": "CCG",
+            "emPolicyTemplateId": 620817,
+            "status": "ACTIVE",
+            "policyLevel": "enterprise",
+            "chainInfo": {
+                "chainCode": "AAM",
+                "chainHotels": [
+                    {
+                        "hotelId": 11258,
+                        "hotelName": "TRAVELCLICK - PMSC_iHotelier OTA Test Property",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 11277,
+                        "hotelName": "TRAVELCLICK - PMSC_Roommaster Test Property",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 4561,
+                        "hotelName": "TRAVELCLICK - KYLE'S TEST HOTEL",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 100192,
+                        "hotelName": "Bay View Suites Paradise Island",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 11244,
+                        "hotelName": "TRAVELCLICK - PMSC_HTNG Test Property 2 Tome",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 110102,
+                        "hotelName": "Beach Park Hotel",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1221,
+                        "hotelName": "TRAVELCLICK - Icebox Test Property 1",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 5020,
+                        "hotelName": "JDV TEST PROPERTY",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 9876914,
+                        "hotelName": "Inter-Hotel Albi Cantepau-Test Property",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 12328,
+                        "hotelName": "Aspen Hotel Soldotna",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1222,
+                        "hotelName": "TRAVELCLICK - Icebox Test Property 2",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 72704,
+                        "hotelName": "TRAVELCLICK - New Indian Pride VAMPIRE RESORT",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1219,
+                        "hotelName": "TRAVELCLICK - PMSC Test Property 3",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1099,
+                        "hotelName": "TRAVELCLICK - Axel Bay Resort",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 71125,
+                        "hotelName": "TRAVELCLICK-Stephanie's PMS  - TEST HOTEL",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1201,
+                        "hotelName": "TRAVELCLICK - BE Test Property 1",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1010,
+                        "hotelName": "TRAVELCLICK - Dodson Hotel",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1206,
+                        "hotelName": "TRAVELCLICK - BE Test Property 6",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1208,
+                        "hotelName": "TRAVELCLICK - BE Test Property 8",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1210,
+                        "hotelName": "TRAVELCLICK - BE Test Property 10",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1212,
+                        "hotelName": "CC1",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1213,
+                        "hotelName": "CC2",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1214,
+                        "hotelName": "CC3",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 97704,
+                        "hotelName": "Riverside Hot Springs Inn",
+                        "status": "add"
+                    }
+                ]
+            },
+            "creationDateTime": "2023-07-09T16:08:36.000+0000",
+            "creationBy": "alaaeddine",
+            "lastUpdateDateTime": "2023-07-09T16:08:36.000+0000",
+            "lastUpdateBy": "alaaeddine",
+            "policySetting": {
+                "acceptedTender": 17,
+                "holdTime": 16,
+                "isInstallmentEnabled": false
+            },
+            "textList": [
+                {
+                    "textType": "ONLINE_CALL_CENTER_MESSAGE",
+                    "languageTexts": [
+                        {
+                            "languageId": 1,
+                            "text": "ABC CORE TEST"
+                        }
+                    ]
+                },
+                {
+                    "textType": "POLICY_GDSLINE1_MSG",
+                    "languageTexts": [
+                        {
+                            "languageId": 1,
+                            "text": "ABC GDS CORE TEST"
+                        }
+                    ]
+                },
+                {
+                    "textType": "POLICY_GDSLINE2_MSG",
+                    "languageTexts": [
+                        {
+                            "languageId": 1,
+                            "text": "ABC GDS CORE TEST"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "GUARANTEE PT IATA 8 CoreTest555T6",
+            "policyCode": "CCG",
+            "emPolicyTemplateId": 621062,
+            "status": "ACTIVE",
+            "policyLevel": "enterprise",
+            "chainInfo": {
+                "chainCode": "AAM",
+                "chainHotels": [
+                    {
+                        "hotelId": 11258,
+                        "hotelName": "TRAVELCLICK - PMSC_iHotelier OTA Test Property",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 11277,
+                        "hotelName": "TRAVELCLICK - PMSC_Roommaster Test Property",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 4561,
+                        "hotelName": "TRAVELCLICK - KYLE'S TEST HOTEL",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 100192,
+                        "hotelName": "Bay View Suites Paradise Island",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 11244,
+                        "hotelName": "TRAVELCLICK - PMSC_HTNG Test Property 2 Tome",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 110102,
+                        "hotelName": "Beach Park Hotel",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1221,
+                        "hotelName": "TRAVELCLICK - Icebox Test Property 1",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 5020,
+                        "hotelName": "JDV TEST PROPERTY",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 9876914,
+                        "hotelName": "Inter-Hotel Albi Cantepau-Test Property",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 12328,
+                        "hotelName": "Aspen Hotel Soldotna",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1222,
+                        "hotelName": "TRAVELCLICK - Icebox Test Property 2",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 72704,
+                        "hotelName": "TRAVELCLICK - New Indian Pride VAMPIRE RESORT",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1219,
+                        "hotelName": "TRAVELCLICK - PMSC Test Property 3",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1099,
+                        "hotelName": "TRAVELCLICK - Axel Bay Resort",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 71125,
+                        "hotelName": "TRAVELCLICK-Stephanie's PMS  - TEST HOTEL",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1201,
+                        "hotelName": "TRAVELCLICK - BE Test Property 1",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1010,
+                        "hotelName": "TRAVELCLICK - Dodson Hotel",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1206,
+                        "hotelName": "TRAVELCLICK - BE Test Property 6",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1208,
+                        "hotelName": "TRAVELCLICK - BE Test Property 8",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1210,
+                        "hotelName": "TRAVELCLICK - BE Test Property 10",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1212,
+                        "hotelName": "CC1",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1213,
+                        "hotelName": "CC2",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1214,
+                        "hotelName": "CC3",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 97704,
+                        "hotelName": "Riverside Hot Springs Inn",
+                        "status": "add"
+                    }
+                ]
+            },
+            "creationDateTime": "2023-07-09T15:39:35.000+0000",
+            "creationBy": "alaaeddine",
+            "lastUpdateDateTime": "2023-07-09T15:39:35.000+0000",
+            "lastUpdateBy": "alaaeddine",
+            "policySetting": {
+                "acceptedTender": 8,
+                "holdTime": 16,
+                "isInstallmentEnabled": false
+            },
+            "textList": [
+                {
+                    "textType": "ONLINE_CALL_CENTER_MESSAGE",
+                    "languageTexts": [
+                        {
+                            "languageId": 1,
+                            "text": "ABC CORE TEST"
+                        }
+                    ]
+                },
+                {
+                    "textType": "POLICY_GDSLINE1_MSG",
+                    "languageTexts": [
+                        {
+                            "languageId": 1,
+                            "text": "ABC GDS CORE TEST"
+                        }
+                    ]
+                },
+                {
+                    "textType": "POLICY_GDSLINE2_MSG",
+                    "languageTexts": [
+                        {
+                            "languageId": 1,
+                            "text": "ABC GDS CORE TEST"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "GUARANTEE PT CorpId 14 CoreTest444T6",
+            "policyCode": "CCG",
+            "emPolicyTemplateId": 621067,
+            "status": "ACTIVE",
+            "policyLevel": "enterprise",
+            "chainInfo": {
+                "chainCode": "AAM",
+                "chainHotels": [
+                    {
+                        "hotelId": 11258,
+                        "hotelName": "TRAVELCLICK - PMSC_iHotelier OTA Test Property",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 11277,
+                        "hotelName": "TRAVELCLICK - PMSC_Roommaster Test Property",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 4561,
+                        "hotelName": "TRAVELCLICK - KYLE'S TEST HOTEL",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 100192,
+                        "hotelName": "Bay View Suites Paradise Island",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 11244,
+                        "hotelName": "TRAVELCLICK - PMSC_HTNG Test Property 2 Tome",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 110102,
+                        "hotelName": "Beach Park Hotel",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1221,
+                        "hotelName": "TRAVELCLICK - Icebox Test Property 1",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 5020,
+                        "hotelName": "JDV TEST PROPERTY",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 9876914,
+                        "hotelName": "Inter-Hotel Albi Cantepau-Test Property",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 12328,
+                        "hotelName": "Aspen Hotel Soldotna",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1222,
+                        "hotelName": "TRAVELCLICK - Icebox Test Property 2",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 72704,
+                        "hotelName": "TRAVELCLICK - New Indian Pride VAMPIRE RESORT",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1219,
+                        "hotelName": "TRAVELCLICK - PMSC Test Property 3",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1099,
+                        "hotelName": "TRAVELCLICK - Axel Bay Resort",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 71125,
+                        "hotelName": "TRAVELCLICK-Stephanie's PMS  - TEST HOTEL",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1201,
+                        "hotelName": "TRAVELCLICK - BE Test Property 1",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1010,
+                        "hotelName": "TRAVELCLICK - Dodson Hotel",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1206,
+                        "hotelName": "TRAVELCLICK - BE Test Property 6",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1208,
+                        "hotelName": "TRAVELCLICK - BE Test Property 8",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1210,
+                        "hotelName": "TRAVELCLICK - BE Test Property 10",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1212,
+                        "hotelName": "CC1",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1213,
+                        "hotelName": "CC2",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1214,
+                        "hotelName": "CC3",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 97704,
+                        "hotelName": "Riverside Hot Springs Inn",
+                        "status": "add"
+                    }
+                ]
+            },
+            "creationDateTime": "2023-07-09T15:26:02.000+0000",
+            "creationBy": "alaaeddine",
+            "lastUpdateDateTime": "2023-07-09T15:26:02.000+0000",
+            "lastUpdateBy": "alaaeddine",
+            "policySetting": {
+                "acceptedTender": 14,
+                "holdTime": 16,
+                "isInstallmentEnabled": false
+            },
+            "textList": [
+                {
+                    "textType": "ONLINE_CALL_CENTER_MESSAGE",
+                    "languageTexts": [
+                        {
+                            "languageId": 1,
+                            "text": "ABC CORE TEST"
+                        }
+                    ]
+                },
+                {
+                    "textType": "POLICY_GDSLINE1_MSG",
+                    "languageTexts": [
+                        {
+                            "languageId": 1,
+                            "text": "ABC GDS CORE TEST"
+                        }
+                    ]
+                },
+                {
+                    "textType": "POLICY_GDSLINE2_MSG",
+                    "languageTexts": [
+                        {
+                            "languageId": 1,
+                            "text": "ABC GDS CORE TEST"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "GUARANTEE PT CC 16 CoreTest333T6",
+            "policyCode": "CCG",
+            "emPolicyTemplateId": 621083,
+            "status": "ACTIVE",
+            "policyLevel": "enterprise",
+            "chainInfo": {
+                "chainCode": "AAM",
+                "chainHotels": [
+                    {
+                        "hotelId": 11258,
+                        "hotelName": "TRAVELCLICK - PMSC_iHotelier OTA Test Property",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 11277,
+                        "hotelName": "TRAVELCLICK - PMSC_Roommaster Test Property",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 4561,
+                        "hotelName": "TRAVELCLICK - KYLE'S TEST HOTEL",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 100192,
+                        "hotelName": "Bay View Suites Paradise Island",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 11244,
+                        "hotelName": "TRAVELCLICK - PMSC_HTNG Test Property 2 Tome",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 110102,
+                        "hotelName": "Beach Park Hotel",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1221,
+                        "hotelName": "TRAVELCLICK - Icebox Test Property 1",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 5020,
+                        "hotelName": "JDV TEST PROPERTY",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 9876914,
+                        "hotelName": "Inter-Hotel Albi Cantepau-Test Property",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 12328,
+                        "hotelName": "Aspen Hotel Soldotna",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1222,
+                        "hotelName": "TRAVELCLICK - Icebox Test Property 2",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 72704,
+                        "hotelName": "TRAVELCLICK - New Indian Pride VAMPIRE RESORT",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1219,
+                        "hotelName": "TRAVELCLICK - PMSC Test Property 3",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1099,
+                        "hotelName": "TRAVELCLICK - Axel Bay Resort",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 71125,
+                        "hotelName": "TRAVELCLICK-Stephanie's PMS  - TEST HOTEL",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1201,
+                        "hotelName": "TRAVELCLICK - BE Test Property 1",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1010,
+                        "hotelName": "TRAVELCLICK - Dodson Hotel",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1206,
+                        "hotelName": "TRAVELCLICK - BE Test Property 6",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1208,
+                        "hotelName": "TRAVELCLICK - BE Test Property 8",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1210,
+                        "hotelName": "TRAVELCLICK - BE Test Property 10",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1212,
+                        "hotelName": "CC1",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1213,
+                        "hotelName": "CC2",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1214,
+                        "hotelName": "CC3",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 97704,
+                        "hotelName": "Riverside Hot Springs Inn",
+                        "status": "add"
+                    }
+                ]
+            },
+            "creationDateTime": "2023-07-09T15:18:21.000+0000",
+            "creationBy": "alaaeddine",
+            "lastUpdateDateTime": "2023-07-09T15:18:21.000+0000",
+            "lastUpdateBy": "alaaeddine",
+            "policySetting": {
+                "acceptedTender": 16,
+                "holdTime": 18,
+                "isInstallmentEnabled": false
+            },
+            "textList": [
+                {
+                    "textType": "ONLINE_CALL_CENTER_MESSAGE",
+                    "languageTexts": [
+                        {
+                            "languageId": 1,
+                            "text": "ABC CORE TEST"
+                        }
+                    ]
+                },
+                {
+                    "textType": "POLICY_GDSLINE1_MSG",
+                    "languageTexts": [
+                        {
+                            "languageId": 1,
+                            "text": "ABC GDS CORE TEST"
+                        }
+                    ]
+                },
+                {
+                    "textType": "POLICY_GDSLINE2_MSG",
+                    "languageTexts": [
+                        {
+                            "languageId": 1,
+                            "text": "ABC GDS CORE TEST"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "GUARANTEE PT CC 17 CoreTest222T6",
+            "policyCode": "CCG",
+            "emPolicyTemplateId": 621084,
+            "status": "ACTIVE",
+            "policyLevel": "enterprise",
+            "chainInfo": {
+                "chainCode": "AAM",
+                "chainHotels": [
+                    {
+                        "hotelId": 11258,
+                        "hotelName": "TRAVELCLICK - PMSC_iHotelier OTA Test Property",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 11277,
+                        "hotelName": "TRAVELCLICK - PMSC_Roommaster Test Property",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 4561,
+                        "hotelName": "TRAVELCLICK - KYLE'S TEST HOTEL",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 100192,
+                        "hotelName": "Bay View Suites Paradise Island",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 11244,
+                        "hotelName": "TRAVELCLICK - PMSC_HTNG Test Property 2 Tome",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 110102,
+                        "hotelName": "Beach Park Hotel",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1221,
+                        "hotelName": "TRAVELCLICK - Icebox Test Property 1",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 5020,
+                        "hotelName": "JDV TEST PROPERTY",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 9876914,
+                        "hotelName": "Inter-Hotel Albi Cantepau-Test Property",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 12328,
+                        "hotelName": "Aspen Hotel Soldotna",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1222,
+                        "hotelName": "TRAVELCLICK - Icebox Test Property 2",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 72704,
+                        "hotelName": "TRAVELCLICK - New Indian Pride VAMPIRE RESORT",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1219,
+                        "hotelName": "TRAVELCLICK - PMSC Test Property 3",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1099,
+                        "hotelName": "TRAVELCLICK - Axel Bay Resort",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 71125,
+                        "hotelName": "TRAVELCLICK-Stephanie's PMS  - TEST HOTEL",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1201,
+                        "hotelName": "TRAVELCLICK - BE Test Property 1",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1010,
+                        "hotelName": "TRAVELCLICK - Dodson Hotel",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1206,
+                        "hotelName": "TRAVELCLICK - BE Test Property 6",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1208,
+                        "hotelName": "TRAVELCLICK - BE Test Property 8",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1210,
+                        "hotelName": "TRAVELCLICK - BE Test Property 10",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1212,
+                        "hotelName": "CC1",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1213,
+                        "hotelName": "CC2",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1214,
+                        "hotelName": "CC3",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 97704,
+                        "hotelName": "Riverside Hot Springs Inn",
+                        "status": "add"
+                    }
+                ]
+            },
+            "creationDateTime": "2023-07-09T14:37:02.000+0000",
+            "creationBy": "alaaeddine",
+            "lastUpdateDateTime": "2023-07-09T14:37:02.000+0000",
+            "lastUpdateBy": "alaaeddine",
+            "policySetting": {
+                "acceptedTender": 17,
+                "holdTime": 18,
+                "isInstallmentEnabled": false
+            },
+            "textList": [
+                {
+                    "textType": "ONLINE_CALL_CENTER_MESSAGE",
+                    "languageTexts": [
+                        {
+                            "languageId": 1,
+                            "text": "ABC CORE TEST"
+                        }
+                    ]
+                },
+                {
+                    "textType": "POLICY_GDSLINE1_MSG",
+                    "languageTexts": [
+                        {
+                            "languageId": 1,
+                            "text": "ABC GDS CORE TEST"
+                        }
+                    ]
+                },
+                {
+                    "textType": "POLICY_GDSLINE2_MSG",
+                    "languageTexts": [
+                        {
+                            "languageId": 1,
+                            "text": "ABC GDS CORE TEST"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "GUARANTEE PT CC 17 CoreTest111T6",
+            "policyCode": "CCG",
+            "emPolicyTemplateId": 621085,
+            "status": "ACTIVE",
+            "policyLevel": "enterprise",
+            "chainInfo": {
+                "chainCode": "AAM",
+                "chainHotels": [
+                    {
+                        "hotelId": 11258,
+                        "hotelName": "TRAVELCLICK - PMSC_iHotelier OTA Test Property",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 11277,
+                        "hotelName": "TRAVELCLICK - PMSC_Roommaster Test Property",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 4561,
+                        "hotelName": "TRAVELCLICK - KYLE'S TEST HOTEL",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 100192,
+                        "hotelName": "Bay View Suites Paradise Island",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 11244,
+                        "hotelName": "TRAVELCLICK - PMSC_HTNG Test Property 2 Tome",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 110102,
+                        "hotelName": "Beach Park Hotel",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1221,
+                        "hotelName": "TRAVELCLICK - Icebox Test Property 1",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 5020,
+                        "hotelName": "JDV TEST PROPERTY",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 9876914,
+                        "hotelName": "Inter-Hotel Albi Cantepau-Test Property",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 12328,
+                        "hotelName": "Aspen Hotel Soldotna",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1222,
+                        "hotelName": "TRAVELCLICK - Icebox Test Property 2",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 72704,
+                        "hotelName": "TRAVELCLICK - New Indian Pride VAMPIRE RESORT",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1219,
+                        "hotelName": "TRAVELCLICK - PMSC Test Property 3",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1099,
+                        "hotelName": "TRAVELCLICK - Axel Bay Resort",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 71125,
+                        "hotelName": "TRAVELCLICK-Stephanie's PMS  - TEST HOTEL",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1201,
+                        "hotelName": "TRAVELCLICK - BE Test Property 1",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1010,
+                        "hotelName": "TRAVELCLICK - Dodson Hotel",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1206,
+                        "hotelName": "TRAVELCLICK - BE Test Property 6",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1208,
+                        "hotelName": "TRAVELCLICK - BE Test Property 8",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1210,
+                        "hotelName": "TRAVELCLICK - BE Test Property 10",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1212,
+                        "hotelName": "CC1",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1213,
+                        "hotelName": "CC2",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 1214,
+                        "hotelName": "CC3",
+                        "status": "add"
+                    },
+                    {
+                        "hotelId": 97704,
+                        "hotelName": "Riverside Hot Springs Inn",
+                        "status": "add"
+                    }
+                ]
+            },
+            "creationDateTime": "2023-07-09T13:57:01.000+0000",
+            "creationBy": "alaaeddine",
+            "lastUpdateDateTime": "2023-07-09T13:57:01.000+0000",
+            "lastUpdateBy": "alaaeddine",
+            "policySetting": {
+                "acceptedTender": 17,
+                "holdTime": 18,
+                "isInstallmentEnabled": false
+            },
+            "textList": [
+                {
+                    "textType": "ONLINE_CALL_CENTER_MESSAGE",
+                    "languageTexts": [
+                        {
+                            "languageId": 1,
+                            "text": "ABC CORE TEST"
+                        }
+                    ]
+                },
+                {
+                    "textType": "POLICY_GDSLINE1_MSG",
+                    "languageTexts": [
+                        {
+                            "languageId": 1,
+                            "text": "ABC GDS CORE TEST"
+                        }
+                    ]
+                },
+                {
+                    "textType": "POLICY_GDSLINE2_MSG",
+                    "languageTexts": [
+                        {
+                            "languageId": 1,
+                            "text": "ABC GDS CORE TEST"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "GUA_ENT_PT_AT_CC17_CORE_TEST_1001",
+            "policyCode": "GCT",
+            "emPolicyTemplateId": 620818,
+            "status": "ACTIVE",
+            "policyLevel": "enterprise",
+            "chainInfo": {
+                "chainCode": "AAM",
+                "chainHotels": [
+                    {
+                        "hotelId": 1098,
+                        "hotelName": "TRAVELCLICK 1098_English TOMEE UPG TEST",
+                        "status": "add"
+                    }
+                ]
+            },
+            "creationDateTime": "2023-07-03T06:08:38.000+0000",
+            "creationBy": "alaaeddine",
+            "lastUpdateDateTime": "2023-07-03T06:08:38.000+0000",
+            "lastUpdateBy": "alaaeddine",
+            "policySetting": {
+                "acceptedTender": 16,
+                "holdTime": 0,
+                "isInstallmentEnabled": false
+            },
+            "textList": [
+                {
+                    "textType": "ONLINE_CALL_CENTER_MESSAGE",
+                    "languageTexts": [
+                        {
+                            "languageId": 1,
+                            "text": "ABC CORE TEST"
+                        }
+                    ]
+                },
+                {
+                    "textType": "POLICY_GDSLINE1_MSG",
+                    "languageTexts": [
+                        {
+                            "languageId": 1,
+                            "text": "ABC GDS CORE TEST"
+                        }
+                    ]
+                },
+                {
+                    "textType": "POLICY_GDSLINE2_MSG",
+                    "languageTexts": [
+                        {
+                            "languageId": 1,
+                            "text": "ABC GDS CORE TEST"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "policyCode": "ccg",
+            "emPolicyTemplateId": 620629,
+            "status": "ACTIVE",
+            "policyLevel": "enterprise",
+            "chainInfo": {
+                "chainCode": "AAM",
+                "chainHotels": [
+                    {
+                        "hotelId": 1098,
+                        "hotelName": "TRAVELCLICK 1098_English TOMEE UPG TEST",
+                        "status": "add"
+                    }
+                ]
+            },
+            "creationDateTime": "2023-06-21T15:32:08.000+0000",
+            "creationBy": "alaaeddine",
+            "lastUpdateDateTime": "2023-06-21T15:32:08.000+0000",
+            "lastUpdateBy": "alaaeddine",
+            "policySetting": {
+                "acceptedTender": 17,
+                "holdTime": 18,
+                "isInstallmentEnabled": false
+            },
+            "textList": [
+                {
+                    "textType": "ONLINE_CALL_CENTER_MESSAGE",
+                    "languageTexts": [
+                        {
+                            "languageId": 1,
+                            "text": "ABC CORE TEST"
+                        }
+                    ]
+                },
+                {
+                    "textType": "POLICY_GDSLINE1_MSG",
+                    "languageTexts": [
+                        {
+                            "languageId": 1,
+                            "text": "ABC GDS CORE TEST"
+                        }
+                    ]
+                },
+                {
+                    "textType": "POLICY_GDSLINE2_MSG",
+                    "languageTexts": [
+                        {
+                            "languageId": 1,
+                            "text": "ABC GDS CORE TEST"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "policyCode": "CCG",
+            "emPolicyTemplateId": 620620,
+            "status": "ACTIVE",
+            "policyLevel": "enterprise",
+            "chainInfo": {
+                "chainCode": "AAM",
+                "chainHotels": [
+                    {
+                        "hotelId": 1098,
+                        "hotelName": "TRAVELCLICK 1098_English TOMEE UPG TEST",
+                        "status": "add"
+                    }
+                ]
+            },
+            "creationDateTime": "2023-06-20T15:45:18.000+0000",
+            "creationBy": "alaaeddine",
+            "lastUpdateDateTime": "2023-06-20T15:45:18.000+0000",
+            "lastUpdateBy": "alaaeddine",
+            "policySetting": {
+                "acceptedTender": 17,
+                "holdTime": 18,
+                "isInstallmentEnabled": false
+            },
+            "textList": [
+                {
+                    "textType": "ONLINE_CALL_CENTER_MESSAGE",
+                    "languageTexts": [
+                        {
+                            "languageId": 1,
+                            "text": "ABC CORE TEST"
+                        }
+                    ]
+                },
+                {
+                    "textType": "POLICY_GDSLINE1_MSG",
+                    "languageTexts": [
+                        {
+                            "languageId": 1,
+                            "text": "ABC GDS CORE TEST"
+                        }
+                    ]
+                },
+                {
+                    "textType": "POLICY_GDSLINE2_MSG",
+                    "languageTexts": [
+                        {
+                            "languageId": 1,
+                            "text": "ABC GDS CORE TEST"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "policyCode": "ccg",
+            "emPolicyTemplateId": 620615,
+            "status": "ACTIVE",
+            "policyLevel": "enterprise",
+            "chainInfo": {
+                "chainCode": "AAM",
+                "chainHotels": [
+                    {
+                        "hotelId": 1098,
+                        "hotelName": "TRAVELCLICK 1098_English TOMEE UPG TEST",
+                        "status": "add"
+                    }
+                ]
+            },
+            "creationDateTime": "2023-06-20T09:33:47.000+0000",
+            "creationBy": "ihSshende",
+            "lastUpdateDateTime": "2023-06-20T09:33:47.000+0000",
+            "lastUpdateBy": "ihSshende",
+            "policySetting": {
+                "acceptedTender": 17,
+                "holdTime": 18,
+                "isInstallmentEnabled": false
+            },
+            "textList": [
+                {
+                    "textType": "ONLINE_CALL_CENTER_MESSAGE",
+                    "languageTexts": [
+                        {
+                            "languageId": 1,
+                            "text": "ABC CORE TEST"
+                        }
+                    ]
+                },
+                {
+                    "textType": "POLICY_GDSLINE1_MSG",
+                    "languageTexts": [
+                        {
+                            "languageId": 1,
+                            "text": "ABC GDS CORE TEST"
+                        }
+                    ]
+                },
+                {
+                    "textType": "POLICY_GDSLINE2_MSG",
+                    "languageTexts": [
+                        {
+                            "languageId": 1,
+                            "text": "ABC GDS CORE TEST"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

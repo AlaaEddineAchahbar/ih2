@@ -1,0 +1,52 @@
+{
+    "dateRangeRuleCriteriaID": "1002",
+    "dowRuleCriteriaID": "1020",
+    "policyTemplateRuleDecisionTypeID": "1017",
+    "policyTypeRuleDecisionTypeModifierID": "1080",
+    "search": {
+        "searchRequest": {
+            "searchParameters": [
+                {
+                    "uniqueTypeID": "3",
+                    "ruleTypeID": 14,
+                    "uniqueID": "560"
+                },
+                {
+                    "uniqueTypeID": "6",
+                    "ruleTypeID": 14,
+                    "chainID": 560
+                },
+                {
+                    "uniqueTypeID": "8",
+                    "ruleTypeID": 14,
+                    "chainID": 560
+                }
+            ]
+        }
+    },
+    "searchFilters": {
+        "filterModel": {
+            "status": {
+                "filterType": "INNERSET",
+                "value": "ACTIVE",
+                "valueTo": "",
+                "values": []
+            },
+            "dateRange": {
+                "filterType": "INNERSET",
+                "value": "2023-11-17/2023-11-19",
+                "valueTo": "",
+                "values": []
+            },
+            "policyDistribution": {
+                "filterType": "EQUAL",
+                "value": "CHAIN",
+                "valueTo": "",
+                "values": []
+            }
+        },
+        "sortModel": null,
+        "maxEntries": 25,
+        "offset": 0
+    }
+}

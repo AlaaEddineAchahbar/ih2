@@ -1,0 +1,55 @@
+.policy-mgmt-date-selector {
+    .policy-mgmt-date-picker {
+        display: inline-block;
+
+        .error {
+            display: none;
+        }
+    }
+
+    img {
+        height: 20px;
+        padding-bottom: 4px;
+    }
+
+    .dow-label {
+        margin-right: 10px;
+
+        &.dow-all {
+            margin-left: 10px;
+        }
+    }
+
+    .error.tc-error-box__error {
+        margin-top: 10px;
+        font-size: 13px;
+    }
+
+    .add-another-date-range {
+        margin-left: -18px;
+    }
+
+
+    .date-range-error {
+        margin-bottom: 8px;
+    }
+
+    .dow {
+        margin-top: 10px;
+    }
+
+    .policy-mgmt-row {
+        padding-bottom: 10px;
+    }
+}
+
+.tc-date-selector__dropdown-container tc-dropdown .tc-dropdown__menu.dropdown-menu.show {
+    overflow: inherit;
+
+    li.item.form-control.disabled .tc-tooltip-holder,
+    li.item.form-control.disabled:hover,
+    li.item.form-control.disabled .tc-tooltip-holder:hover {
+        color: #c7c8c9;
+        background-color: #fff;
+    }
+}

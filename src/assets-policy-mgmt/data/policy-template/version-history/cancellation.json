@@ -1,0 +1,167 @@
+{
+    "policyTemplateId": "1229120",
+    "policyTemplateHistory": [
+        {
+            "policyTemplate": {
+                "operation": "UPDATE",
+                "revisions": [
+                    {
+                        "field": "policyCode",
+                        "operation": "UPDATE",
+                        "oldValue": null,
+                        "newValue": "Hell"
+                    }
+                ]
+            },
+            "metadata": {
+                "modifiedByUserId": "580582",
+                "modifiedByUsername": "ihsuryakant",
+                "policyTemplateHistoryId": "6771301",
+                "versionDate": "2020-12-22T07:30:58",
+                "version": 7
+            }
+        },
+        {
+            "policyTemplate": {
+                "operation": "UPDATE",
+                "revisions": [
+                    {
+                        "field": "name",
+                        "operation": "UPDATE",
+                        "oldValue": "Test KT cancellation template",
+                        "newValue": "Test KT cancellation template test"
+                    }
+                ]
+            },
+            "metadata": {
+                "modifiedByUserId": "580582",
+                "modifiedByUsername": "ihsuryakant",
+                "policyTemplateHistoryId": "6771300",
+                "versionDate": "2020-12-22T06:40:01",
+                "version": 6
+            }
+        },
+        {
+            "policyTemplate": {
+                "operation": "UPDATE",
+                "revisions": []
+            },
+            "metadata": {
+                "modifiedByUserId": "580582",
+                "modifiedByUsername": "ihsuryakant",
+                "policyTemplateHistoryId": "6771298",
+                "versionDate": "2020-12-22T06:04:23",
+                "version": 5
+            }
+        },
+        {
+            "policyTemplate": {
+                "operation": "UPDATE",
+                "revisions": [
+                    {
+                        "field": "policyCode",
+                        "operation": "UPDATE",
+                        "oldValue": "KT2212",
+                        "newValue": "KT2213"
+                    }
+                ]
+            },
+            "metadata": {
+                "modifiedByUserId": "580582",
+                "modifiedByUsername": "ihsuryakant",
+                "policyTemplateHistoryId": "6771297",
+                "versionDate": "2020-12-22T05:58:35",
+                "version": 4
+            }
+        },
+        {
+            "policyTemplate": {
+                "operation": "UPDATE",
+                "revisions": [
+                    {
+                        "field": "otaChargeNotification",
+                        "operation": "UPDATE",
+                        "oldValue": null,
+                        "newValue": "NIGHTS_ROOM_TAX"
+                    }
+                ]
+            },
+            "metadata": {
+                "modifiedByUserId": "587893",
+                "modifiedByUsername": "systemTushar",
+                "policyTemplateHistoryId": "6771248",
+                "versionDate": "2020-12-22T02:05:51",
+                "version": 3
+            }
+        },
+        {
+            "policyTemplate": {
+                "operation": "UPDATE",
+                "revisions": []
+            },
+            "metadata": {
+                "modifiedByUserId": "647429",
+                "modifiedByUsername": "prashantk",
+                "policyTemplateHistoryId": "6771246",
+                "versionDate": "2020-12-21T23:33:10",
+                "version": 2
+            }
+        },
+        {
+            "policyTemplate": {
+                "operation": "ADD",
+                "revisions": [
+                    {
+                        "field": "cancellationNotice",
+                        "operation": "ADD",
+                        "oldValue": null,
+                        "newValue": "ADVANCE_NOTICE|2|1"
+                    },
+                    {
+                        "field": "gds_message",
+                        "operation": "ADD",
+                        "oldValue": null,
+                        "newValue": "KT Cancellation template GDS message "
+                    },
+                    {
+                        "field": "isFreeCancellation",
+                        "operation": "ADD",
+                        "oldValue": null,
+                        "newValue": "true"
+                    },
+                    {
+                        "field": "name",
+                        "operation": "ADD",
+                        "oldValue": null,
+                        "newValue": "Test KT cancellation template"
+                    },
+                    {
+                        "field": "online_call_center_message_1",
+                        "operation": "ADD",
+                        "oldValue": null,
+                        "newValue": "KT Cancellation template online call center message"
+                    },
+                    {
+                        "field": "policyCode",
+                        "operation": "ADD",
+                        "oldValue": null,
+                        "newValue": "KT2212"
+                    },
+                    {
+                        "field": "status",
+                        "operation": "ADD",
+                        "oldValue": null,
+                        "newValue": "ACTIVE"
+                    }
+                ]
+            },
+            "metadata": {
+                "modifiedByUserId": "647429",
+                "modifiedByUsername": "prashantk",
+                "policyTemplateHistoryId": "6771245",
+                "versionDate": "2020-12-21T23:33:07",
+                "version": 1
+            }
+        }
+    ]
+}

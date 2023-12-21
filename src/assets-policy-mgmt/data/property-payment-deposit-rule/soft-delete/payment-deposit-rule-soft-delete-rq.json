@@ -1,0 +1,31 @@
+{
+    "depositRuleId": "84508",
+    "name": "12 32 11 % Deposit 1986",
+    "ownerType": "P",
+    "ruleInfo": [
+        {
+            "status": "ACTIVE",
+            "chargeDate": "999",
+            "chargeType": "1",
+            "chargeAmount": "0",
+            "chargePercentage": "45",
+            "percentOnEnhancement": "32"
+        },
+        {
+            "status": "ACTIVE",
+            "chargeDate": "999",
+            "chargeType": "3",
+            "chargeAmount": "0",
+            "chargePercentage": "0",
+            "percentOnEnhancement": "12"
+        },
+        {
+            "status": "ACTIVE",
+            "chargeDate": "999",
+            "chargeType": "1",
+            "chargeAmount": "22",
+            "chargePercentage": "0",
+            "percentOnEnhancement": "11"
+        }
+    ]
+}

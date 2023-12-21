@@ -1,0 +1,140 @@
+{
+    "policies": [
+        {
+            "groupName": "tr dzd",
+            "policyLevel": "EMRATECATEGORY",
+            "policyStatus": "ACTIVE",
+            "dow": "2,3,4,5,6,7,1",
+            "policyDateRange": "2023-11-30/",
+            "policyType": "DATED",
+            "policyTemplateId": "833972",
+            "policyTemplateName": "Can Act Same Day T5",
+            "lastUpdated": "2023-11-30T16:44:08",
+            "rateCatalogIds": null,
+            "emRateCategoryIds": [
+                "56002",
+                "56013"
+            ],
+            "chainCategoryIds": null,
+            "rules": [
+                {
+                    "ruleName": "tr dzd",
+                    "auxId": null,
+                    "auxType": null,
+                    "ruleDescription": null,
+                    "activeStatus": "Active",
+                    "ruleCriteriaParameters": [
+                        {
+                            "ruleCriteriaParameterValue": "2023-11-30/",
+                            "ruleCriteriaID": "1002",
+                            "ruleCriteriaMemberID": "1002",
+                            "operatorID": "1004",
+                            "ruleCriteriaParameterID": "115193292"
+                        },
+                        {
+                            "ruleCriteriaParameterValue": "2,3,4,5,6,7,1",
+                            "ruleCriteriaID": "1020",
+                            "ruleCriteriaMemberID": "1020",
+                            "operatorID": "11",
+                            "ruleCriteriaParameterID": "115193293"
+                        }
+                    ],
+                    "ruleDecisions": [
+                        {
+                            "ruleDecisionValue": "833972",
+                            "ruleDecisionModifiers": [
+                                {
+                                    "modifierValue": "ENTERPRISE",
+                                    "ruleDecisionTypeModifierID": "1079",
+                                    "ruleDecisionID": "59972955"
+                                },
+                                {
+                                    "modifierValue": "false",
+                                    "ruleDecisionTypeModifierID": "1080",
+                                    "ruleDecisionID": "59972955"
+                                }
+                            ],
+                            "ruleDecisionTypeID": "1017",
+                            "ruleDecisionID": "59972955",
+                            "ruleDecisionOrder": "1"
+                        }
+                    ],
+                    "user": "ihyannis",
+                    "uniqueID": "56002",
+                    "uniqueTypeID": "8",
+                    "ruleStartDate": "2023-11-30",
+                    "ruleEndDate": null,
+                    "rulePriority": "99",
+                    "ruleLogic": "ALL",
+                    "ruleTypeID": "14",
+                    "ruleID": "10752262",
+                    "resvCount": null,
+                    "totalRoomNights": null,
+                    "totalRoomRates": null,
+                    "advertisementIds": null,
+                    "version": "1",
+                    "lastUpdated": "2023-11-30T16:44:08Z"
+                },
+                {
+                    "ruleName": "tr dzd",
+                    "auxId": null,
+                    "auxType": null,
+                    "ruleDescription": null,
+                    "activeStatus": "Active",
+                    "ruleCriteriaParameters": [
+                        {
+                            "ruleCriteriaParameterValue": "2023-11-30/",
+                            "ruleCriteriaID": "1002",
+                            "ruleCriteriaMemberID": "1002",
+                            "operatorID": "1004",
+                            "ruleCriteriaParameterID": "115193290"
+                        },
+                        {
+                            "ruleCriteriaParameterValue": "2,3,4,5,6,7,1",
+                            "ruleCriteriaID": "1020",
+                            "ruleCriteriaMemberID": "1020",
+                            "operatorID": "11",
+                            "ruleCriteriaParameterID": "115193291"
+                        }
+                    ],
+                    "ruleDecisions": [
+                        {
+                            "ruleDecisionValue": "833972",
+                            "ruleDecisionModifiers": [
+                                {
+                                    "modifierValue": "ENTERPRISE",
+                                    "ruleDecisionTypeModifierID": "1079",
+                                    "ruleDecisionID": "59972954"
+                                },
+                                {
+                                    "modifierValue": "false",
+                                    "ruleDecisionTypeModifierID": "1080",
+                                    "ruleDecisionID": "59972954"
+                                }
+                            ],
+                            "ruleDecisionTypeID": "1017",
+                            "ruleDecisionID": "59972954",
+                            "ruleDecisionOrder": "1"
+                        }
+                    ],
+                    "user": "ihyannis",
+                    "uniqueID": "56013",
+                    "uniqueTypeID": "8",
+                    "ruleStartDate": "2023-11-30",
+                    "ruleEndDate": null,
+                    "rulePriority": "99",
+                    "ruleLogic": "ALL",
+                    "ruleTypeID": "14",
+                    "ruleID": "10752261",
+                    "resvCount": null,
+                    "totalRoomNights": null,
+                    "totalRoomRates": null,
+                    "advertisementIds": null,
+                    "version": "1",
+                    "lastUpdated": "2023-11-30T16:44:08Z"
+                }
+            ]
+        }
+    ],
+    "totalRecordCount": 1
+}

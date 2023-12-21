@@ -1,0 +1,11 @@
+.modal-holder{
+    overflow-y: auto !important;
+}
+.modal-body {
+    .create-policy-template-stepper{
+        h1,
+        .save-as-inactive{
+            display: none;
+        }
+    }
+}

@@ -1,0 +1,10 @@
+<div class="preview-label">
+  <p>
+    <span class="previewLabel">{{ translationMap['LEVEL'] | translate }}:</span>
+    <span class="previewValue">{{ translationMap[levelPreviewLabel] | translate }}</span>
+  </p>
+  <p *ngIf="checkVisibility(previewStepData.fields.policyLevel)">
+    <span class="previewLabel">{{ translationMap[ratePreviewLabel] | translate }}:</span>
+    <span class="previewValue">{{ ratePlanRateCategorySelected }}</span>
+  </p>
+</div>

@@ -1,0 +1,171 @@
+{
+    "policies": [
+        {
+            "groupName": "chainCat noEndDate",
+            "policyLevel": "ENTERPRISE",
+            "policyStatus": "ACTIVE",
+            "dow": "2,3,4,5,6,7,1",
+            "policyDateRange": "2023-11-25/",
+            "policyType": "DATED",
+            "policyTemplateId": "833973",
+            "policyTemplateName": "Can Act Non Refundable T5",
+            "lastUpdated": "2023-11-25T10:17:35",
+            "rateCatalogIds": null,
+            "emRateCategoryIds": null,
+            "chainCategoryIds": [
+                "10697"
+            ],
+            "rules": [
+                {
+                    "ruleName": "chainCat noEndDate",
+                    "auxId": null,
+                    "auxType": null,
+                    "ruleDescription": null,
+                    "activeStatus": "Active",
+                    "ruleCriteriaParameters": [
+                        {
+                            "ruleCriteriaParameterValue": "10697,5173",
+                            "ruleCriteriaID": "1060",
+                            "ruleCriteriaMemberID": "1064",
+                            "operatorID": "15",
+                            "ruleCriteriaParameterID": "115191785"
+                        },
+                        {
+                            "ruleCriteriaParameterValue": "2023-11-25/",
+                            "ruleCriteriaID": "1002",
+                            "ruleCriteriaMemberID": "1002",
+                            "operatorID": "1004",
+                            "ruleCriteriaParameterID": "115191786"
+                        },
+                        {
+                            "ruleCriteriaParameterValue": "2,3,4,5,6,7,1",
+                            "ruleCriteriaID": "1020",
+                            "ruleCriteriaMemberID": "1020",
+                            "operatorID": "11",
+                            "ruleCriteriaParameterID": "115191787"
+                        }
+                    ],
+                    "ruleDecisions": [
+                        {
+                            "ruleDecisionValue": "833973",
+                            "ruleDecisionModifiers": [
+                                {
+                                    "modifierValue": "ENTERPRISE",
+                                    "ruleDecisionTypeModifierID": "1079",
+                                    "ruleDecisionID": "59972039"
+                                },
+                                {
+                                    "modifierValue": "false",
+                                    "ruleDecisionTypeModifierID": "1080",
+                                    "ruleDecisionID": "59972039"
+                                }
+                            ],
+                            "ruleDecisionTypeID": "1017",
+                            "ruleDecisionID": "59972039",
+                            "ruleDecisionOrder": "1"
+                        }
+                    ],
+                    "user": "ihalaaeddine",
+                    "uniqueID": "560",
+                    "uniqueTypeID": "3",
+                    "ruleStartDate": "2023-11-25",
+                    "ruleEndDate": null,
+                    "rulePriority": "99",
+                    "ruleLogic": "ALL",
+                    "ruleTypeID": "14",
+                    "ruleID": "10751974",
+                    "resvCount": null,
+                    "totalRoomNights": null,
+                    "totalRoomRates": null,
+                    "advertisementIds": null,
+                    "version": "1",
+                    "lastUpdated": "2023-11-25T10:17:35Z"
+                }
+            ]
+        },
+        {
+            "groupName": "Test Sab",
+            "policyLevel": "ENTERPRISE",
+            "policyStatus": "ACTIVE",
+            "dow": "2,3,4,5,6,7,1",
+            "policyDateRange": "2023-10-20/2024-01-26",
+            "policyType": "DATED",
+            "policyTemplateId": "833974",
+            "policyTemplateName": "Can Act Non Refundable T5",
+            "lastUpdated": "2023-10-27T13:07:39",
+            "rateCatalogIds": null,
+            "emRateCategoryIds": null,
+            "chainCategoryIds": [
+                "5173"
+            ],
+            "rules": [
+                {
+                    "ruleName": "Test Sab",
+                    "auxId": null,
+                    "auxType": null,
+                    "ruleDescription": null,
+                    "activeStatus": "Active",
+                    "ruleCriteriaParameters": [
+                        {
+                            "ruleCriteriaParameterValue": "10697,5173",
+                            "ruleCriteriaID": "1060",
+                            "ruleCriteriaMemberID": "1064",
+                            "operatorID": "15",
+                            "ruleCriteriaParameterID": "115184360"
+                        },
+                        {
+                            "ruleCriteriaParameterValue": "2023-10-20/2024-01-26",
+                            "ruleCriteriaID": "1002",
+                            "ruleCriteriaMemberID": "1002",
+                            "operatorID": "1004",
+                            "ruleCriteriaParameterID": "115184361"
+                        },
+                        {
+                            "ruleCriteriaParameterValue": "2,3,4,5,6,7,1",
+                            "ruleCriteriaID": "1020",
+                            "ruleCriteriaMemberID": "1020",
+                            "operatorID": "11",
+                            "ruleCriteriaParameterID": "115184362"
+                        }
+                    ],
+                    "ruleDecisions": [
+                        {
+                            "ruleDecisionValue": "833974",
+                            "ruleDecisionModifiers": [
+                                {
+                                    "modifierValue": "ENTERPRISE",
+                                    "ruleDecisionTypeModifierID": "1079",
+                                    "ruleDecisionID": "59966681"
+                                },
+                                {
+                                    "modifierValue": "false",
+                                    "ruleDecisionTypeModifierID": "1080",
+                                    "ruleDecisionID": "59966681"
+                                }
+                            ],
+                            "ruleDecisionTypeID": "1017",
+                            "ruleDecisionID": "59966681",
+                            "ruleDecisionOrder": "1"
+                        }
+                    ],
+                    "user": "ihbibiana",
+                    "uniqueID": "560",
+                    "uniqueTypeID": "3",
+                    "ruleStartDate": "2023-10-27",
+                    "ruleEndDate": "2024-01-26",
+                    "rulePriority": "99",
+                    "ruleLogic": "ALL",
+                    "ruleTypeID": "14",
+                    "ruleID": "10749607",
+                    "resvCount": null,
+                    "totalRoomNights": null,
+                    "totalRoomRates": null,
+                    "advertisementIds": null,
+                    "version": "2",
+                    "lastUpdated": "2023-10-27T13:07:39Z"
+                }
+            ]
+        }
+    ],
+    "totalRecordCount": 2
+}

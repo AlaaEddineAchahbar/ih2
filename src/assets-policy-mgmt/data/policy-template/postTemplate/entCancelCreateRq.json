@@ -1,0 +1,133 @@
+{
+    "name": "test",
+    "policyCode": "",
+    "status": "ACTIVE",
+    "policySetting": {
+        "cancellationRule": {
+            "chargeType": "SAME_DAY",
+            "priorHours": 2,
+            "priorDays": 0
+        },
+        "otaSetting": {
+            "otaChargeType": "",
+            "otaChargeAmount": null,
+            "otaChargeNights": null,
+            "otaChargePercentage": null
+        }
+    },
+    "textList": [
+        {
+            "textType": "ONLINE_CALL_CENTER_MESSAGE",
+            "languageTexts": []
+        },
+        {
+            "textType": "POLICY_GDSLINE1_MSG",
+            "languageTexts": []
+        },
+        {
+            "textType": "POLICY_GDSLINE2_MSG",
+            "languageTexts": []
+        }
+    ],
+    "chainInfo": {
+        "chainCode": "AAM",
+        "chainHotels": [
+            {
+                "hotelId": 1206,
+                "hotelName": "TRAVELCLICK - BE Test Property 6"
+            },
+            {
+                "hotelId": 71125,
+                "hotelName": "TRAVELCLICK-Stephanie's PMS  - TEST HOTEL"
+            },
+            {
+                "hotelId": 1098,
+                "hotelName": "TRAVELCLICK 1098_English TOMEE UPG TEST"
+            },
+            {
+                "hotelId": 1213,
+                "hotelName": "CC2"
+            },
+            {
+                "hotelId": 11258,
+                "hotelName": "TRAVELCLICK - PMSC_iHotelier OTA Test Property"
+            },
+            {
+                "hotelId": 11277,
+                "hotelName": "TRAVELCLICK - PMSC_Roommaster Test Property"
+            },
+            {
+                "hotelId": 100192,
+                "hotelName": "Bay View Suites Paradise Island"
+            },
+            {
+                "hotelId": 11244,
+                "hotelName": "TRAVELCLICK - PMSC_HTNG Test Property 2 Tome"
+            },
+            {
+                "hotelId": 110102,
+                "hotelName": "Beach Park Hotel"
+            },
+            {
+                "hotelId": 1221,
+                "hotelName": "TRAVELCLICK - Icebox Test Property 1"
+            },
+            {
+                "hotelId": 5020,
+                "hotelName": "JDV TEST PROPERTY"
+            },
+            {
+                "hotelId": 9876914,
+                "hotelName": "Inter-Hotel Albi Cantepau-Test Property"
+            },
+            {
+                "hotelId": 12328,
+                "hotelName": "Aspen Hotel Soldotna"
+            },
+            {
+                "hotelId": 1222,
+                "hotelName": "TRAVELCLICK - Icebox Test Property 2"
+            },
+            {
+                "hotelId": 72704,
+                "hotelName": "TRAVELCLICK - New Indian Pride VAMPIRE RESORT"
+            },
+            {
+                "hotelId": 1099,
+                "hotelName": "TRAVELCLICK - Axel Bay Resort"
+            },
+            {
+                "hotelId": 1201,
+                "hotelName": "TRAVELCLICK - BE Test Property 1"
+            },
+            {
+                "hotelId": 1210,
+                "hotelName": "TRAVELCLICK - BE Test Property 10"
+            },
+            {
+                "hotelId": 1212,
+                "hotelName": "CC1"
+            },
+            {
+                "hotelId": 1214,
+                "hotelName": "CC3"
+            },
+            {
+                "hotelId": 97704,
+                "hotelName": "Riverside Hot Springs Inn"
+            },
+            {
+                "hotelId": 1207,
+                "hotelName": "TRAVELCLICK - BE Test Property 7"
+            },
+            {
+                "hotelId": 1218,
+                "hotelName": "TRAVELCLICK - PMSC Test Property 2(Platform)"
+            },
+            {
+                "hotelId": 4561,
+                "hotelName": "TRAVELCLICK - KYLE'S TEST HOTEL"
+            }
+        ]
+    }
+}

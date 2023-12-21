@@ -1,0 +1,125 @@
+{
+    "hotelID": "6938",
+    "type": "RateCategoryByOwnerReference",
+    "selectType": "MultiSelectNone",
+    "uidataSet": {
+      "uiData": [
+        {
+          "id": "693801",
+          "displayName": "RACK",
+          "displayOrder": 0,
+          "metaEnabled": 0,
+          "selected": false,
+          "devices": null
+        },
+        {
+          "id": "693802",
+          "displayName": "CORPORATE",
+          "displayOrder": 0,
+          "metaEnabled": 0,
+          "selected": false,
+          "devices": null
+        },
+        {
+          "id": "693806",
+          "displayName": "PACKAGE",
+          "displayOrder": 0,
+          "metaEnabled": 0,
+          "selected": false,
+          "devices": null
+        },
+        {
+          "id": "693807",
+          "displayName": "PROMOTIONAL",
+          "displayOrder": 0,
+          "metaEnabled": 0,
+          "selected": false,
+          "devices": null
+        },
+        {
+          "id": "693812",
+          "displayName": "NEGOTIATED",
+          "displayOrder": 0,
+          "metaEnabled": 0,
+          "selected": false,
+          "devices": null
+        },
+        {
+          "id": "693813",
+          "displayName": "CONSORTIA",
+          "displayOrder": 0,
+          "metaEnabled": 0,
+          "selected": false,
+          "devices": null
+        },
+        {
+          "id": "693814",
+          "displayName": "IN HOUSE",
+          "displayOrder": 0,
+          "metaEnabled": 0,
+          "selected": false,
+          "devices": null
+        },
+        {
+          "id": "693817",
+          "displayName": "DISCOUNT",
+          "displayOrder": 0,
+          "metaEnabled": 0,
+          "selected": false,
+          "devices": null
+        },
+        {
+          "id": "693818",
+          "displayName": "GROUP/CONVENTION",
+          "displayOrder": 0,
+          "metaEnabled": 0,
+          "selected": false,
+          "devices": null
+        },
+        {
+          "id": "693819",
+          "displayName": "TOUR/WHSL-FREESL",
+          "displayOrder": 0,
+          "metaEnabled": 0,
+          "selected": false,
+          "devices": null
+        },
+        {
+          "id": "693820",
+          "displayName": "TOUR/WHSL-ALLOT",
+          "displayOrder": 0,
+          "metaEnabled": 0,
+          "selected": false,
+          "devices": null
+        },
+        {
+          "id": "693821",
+          "displayName": "OTA MERCHANT",
+          "displayOrder": 0,
+          "metaEnabled": 0,
+          "selected": false,
+          "devices": null
+        },
+        {
+          "id": "693822",
+          "displayName": "CHANNEL MANAGEMENT",
+          "displayOrder": 0,
+          "metaEnabled": 0,
+          "selected": false,
+          "devices": null
+        },
+        {
+          "id": "693823",
+          "displayName": "GROUP BLOCK",
+          "displayOrder": 0,
+          "metaEnabled": 0,
+          "selected": false,
+          "devices": null
+        }
+      ],
+      "countries": null,
+      "msaList": null,
+      "pmsaList": null,
+      "taxGroups": null
+    }
+  }

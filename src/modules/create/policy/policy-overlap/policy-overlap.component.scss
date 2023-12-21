@@ -1,0 +1,67 @@
+.p-dropdown-panel {
+    z-index: 1102 !important;
+}
+
+.policy-overlap-container {
+    .export {
+        height: 34px;
+    }
+    .table-responsive {
+        padding-top: 10px;
+    }
+}
+
+.policy-overlap-modal {
+    .P-dropdown-panel {
+        z-index: 1052 !important;
+        top: 176.6px !important;
+        position: absolute !important;
+    }
+    .errorListValues {
+        padding-bottom: 5px;
+        word-break: break-word;
+    }
+    .p-table-scrollable-body {
+        overflow-y: scroll;
+    }
+    .p-table-scrollable-header-box {
+        margin-right: 17px !important;
+    }
+
+    .p-datatable .p-sortable-column .p-sortable-column-badge {
+        display: none;
+    }
+
+    .p-datatable table {
+        font-size: 14px;
+    }
+
+    .p-dropdown .p-dropdown-label {
+        font-size: 14px;
+    }
+
+    .p-datatable-scrollable .p-datatable-tbody > tr > td {
+        display: grid;
+    }
+
+    .p-datatable-wrapper {
+        max-height: 490px;
+    }
+
+    .functional-elements {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    input {
+        width: 200px;
+        display: inline;
+        font-size: 14px;
+    }
+}
+li.p-ripple.p-element.p-dropdown-item {
+    font-size: 14px;
+    font-weight: normal;
+}

@@ -1,0 +1,85 @@
+{
+    "id": "5",
+    "versionHistory": [
+        {
+            "revisionHistory": {
+                "operation": "ADD",
+                "revisions": [
+                    {
+                        "field": "DOW",
+                        "operation": "ADD",
+                        "oldValue": null,
+                        "newValue": "2=3=4=5=6=7=1"
+                    },
+                    {
+                        "field": "MultiStartDate",
+                        "operation": "ADD",
+                        "oldValue": null,
+                        "newValue": "2021-02-02"
+                    },
+                    {
+                        "field": "PolicyStatus",
+                        "operation": "ADD",
+                        "oldValue": null,
+                        "newValue": "ACTIVE"
+                    },
+                    {
+                        "field": "PolicyTemplateId",
+                        "operation": "ADD",
+                        "oldValue": null,
+                        "newValue": "1228316"
+                    },
+                    {
+                        "field": "PolicyTemplateName",
+                        "operation": "ADD",
+                        "oldValue": null,
+                        "newValue": "RatePlanCancelPolicy"
+                    },
+                    {
+                        "field": "PolicyType",
+                        "operation": "ADD",
+                        "oldValue": null,
+                        "newValue": "DATED"
+                    },
+                    {
+                        "field": "RateCategory",
+                        "operation": "ADD",
+                        "oldValue": null,
+                        "newValue": "100101"
+                    },
+                    {
+                        "field": "RuleOverride",
+                        "operation": "ADD",
+                        "oldValue": null,
+                        "newValue": "99"
+                    },
+                    {
+                        "field": "StartDate",
+                        "operation": "ADD",
+                        "oldValue": null,
+                        "newValue": "2021-02-02"
+                    },
+                    {
+                        "field": "level",
+                        "operation": "ADD",
+                        "oldValue": null,
+                        "newValue": "RATECATEGORY"
+                    },
+                    {
+                        "field": "policyName",
+                        "operation": "ADD",
+                        "oldValue": null,
+                        "newValue": "Policy Category Cancel Testing 4"
+                    }
+                ]
+            },
+            "metadata": {
+                "modifiedByUserId": "594592",
+                "modifiedByUsername": "ihsaboor",
+                "policyTemplateHistoryId": "6600598",
+                "versionDate": "2021-02-02T09:55:16",
+                "version": 1
+            }
+        }
+    ]
+}

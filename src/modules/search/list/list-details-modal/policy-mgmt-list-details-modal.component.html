@@ -1,0 +1,16 @@
+<ng-template #listDetailsModal let-c="close" let-d="dismiss" class="tc-normal-modal">
+    <div class="modal-header tc-modal__header">
+        <h1 class="modal-title tc-modal__header__title">{{ modalHeading }}</h1>
+        <button type="button" class="close" aria-label="Close" (click)="d('Cross click');close()">X</button>
+    </div>
+    <div class="modal-body">
+        <div class="table-responsive tc-table--responsive" *ngIf="listData.length > 0 ">
+            <table class="table view-list-details">
+                <tbody>
+                    <tr *ngFor="let item of listData">
+                        <td>{{item}}</td>
+                    </tr>
+            </table>
+        </div>
+    </div>
+</ng-template>

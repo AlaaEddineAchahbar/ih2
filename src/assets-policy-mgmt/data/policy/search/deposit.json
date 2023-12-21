@@ -1,0 +1,78 @@
+{
+    "policyTemplate": [
+        {
+            "hotelcode": 1010,
+            "policyTemplateType": "Cancellation",
+            "name": "My first policy template",
+            "id": 12345,
+            "status": "Active",
+            "policyCode": "A234B2",
+            "cancellationNotice": "Same Day",
+            "sameDayNoticeTime": 23,
+            "adavancedNoticeDays": 23,
+            "adavancedNoticeHours": 23,
+            "otaCancellationChargeNotification": "Percentage",
+            "cancellationAmount": 999,
+            "acceptedTender": {
+                "acceptedTenderId": 12345,
+                "acceptedTenderName": "Credit Card"
+            },
+            "gdsMessage": "This is a new GDS message",
+            "gdsPenaltyMessage": "This is a GDS penalty message",
+            "depositeRule": {
+                "depositRuleId": 12345,
+                "depositRuleName": "My Deposit Rule 1"
+            },
+            "gdsRateNotification": true,
+            "textList": [
+                {
+                    "textType": "onlineCCMessage",
+                    "languageTexts": [
+                        {
+                            "languageId": 1,
+                            "languageName": "English",
+                            "text": "Test English description"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "hotelcode": 1010,
+            "policyTemplateType": "Cancellation",
+            "name": "My second policy template",
+            "id": 12345,
+            "status": "Active",
+            "policyCode": "A234B2",
+            "cancellationNotice": "Same Day",
+            "sameDayNoticeTime": 23,
+            "adavancedNoticeDays": 23,
+            "adavancedNoticeHours": 23,
+            "otaCancellationChargeNotification": "Percentage",
+            "cancellationAmount": 999,
+            "acceptedTender": {
+                "acceptedTenderId": 12345,
+                "acceptedTenderName": "Credit Card"
+            },
+            "gdsMessage": "This is a new GDS message",
+            "gdsPenaltyMessage": "This is a GDS penalty message",
+            "depositeRule": {
+                "depositRuleId": 12345,
+                "depositRuleName": "My Deposit Rule 1"
+            },
+            "gdsRateNotification": true,
+            "textList": [
+                {
+                    "textType": "onlineCCMessage",
+                    "languageTexts": [
+                        {
+                            "languageId": 1,
+                            "languageName": "English",
+                            "text": "Test English description"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

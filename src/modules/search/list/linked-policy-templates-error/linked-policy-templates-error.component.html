@@ -1,0 +1,41 @@
+<ng-template #linkedPolicyTemplatesModal>
+  <div class="modal-header tc-modal__header">
+      <h1 class="modal-title tc-modal__header__title">{{translationMap['LINKED_POLICY_TEMPLATES'] | translate}}</h1>
+      <button type="button" class="close" aria-label="Close" (click)="closeModalPopUp()">X</button>
+  </div>
+  <div class="modal-body" style="white-space: pre-line">
+      <p>{{translationMap['LINKED_POLICY_TEMPLATES_MESSAGE'] | translate}}
+      </p>
+
+      <div class="functional-elements">
+        <input pInputText type="text" class="form-control tc-form-control" (input)="dt.filterGlobal($event.target.value, 'contains')" placeholder="Search" />
+        <button type="button" pButton pRipple (click)="dt.exportCSV()" class="btn btn-primary tc-btn tc-btn--primary"
+            pTooltip="CSV">{{translationMap['EXPORT'] | translate}}
+        </button>
+      </div>
+      <p-table #dt [columns]="columns" [value]="errorListData" [globalFilterFields]="['templateName', 'hotelName', 'hotelCode', 'context']"
+          styleClass="p-datatable-striped">
+          <ng-template pTemplate="header">
+            <tr>
+                <th *ngFor="let col of columns" [pSortableColumn]="col.field" id="col">
+                    {{col.header}}
+                    <p-sortIcon [field]="col.field"></p-sortIcon>
+                </th>
+            </tr>
+          </ng-template>
+          <ng-template pTemplate="body" let-rowData>
+            <tr>
+              <td *ngFor="let col of columns">
+                  <div class="errorListValues">
+                    {{rowData[col.field]}}
+                  </div>
+              </td>
+            </tr>
+          </ng-template>
+      </p-table>
+  </div>
+  <div class="modal-footer tc-modal__footer">
+    <button type="button" class="btn btn-primary tc-btn tc-btn--primary"
+        (click)="closeModalPopUp()">{{translationMap['OK'] | translate}}</button>
+  </div>
+</ng-template>

@@ -1,0 +1,36 @@
+<div class="preview-label preview-margin">
+    <p>
+        <span class="previewLabel">{{ translationMap['POLICY_NAME'] | translate }}:</span>
+        <span class="previewValue">{{ previewStepData.fields.policyName }}</span>
+    </p>
+    <p>
+        <span class="previewLabel">{{ translationMap['POLICY_TEMPLATE'] | translate }}:</span>
+        <span class="previewValue">{{ previewStepData.fields.policyTemplate }}</span>
+    </p>
+    <p>
+        <span class="previewLabel">{{ translationMap['POLICY_TYPE'] | translate }}:</span>
+        <span class="previewValue">{{ translationMap[previewStepData.fields.policyType] | translate}}</span>
+    </p>
+    <div *ngIf="checkVisibility(previewStepData.fields.policyType)">
+        <p>
+            <span class="previewLabel dateRangeLabel">{{translationMap['DATE_RANGES'] | translate}}:</span>
+            <span class="previewValue">
+                <ul class="preview-dated-list">
+                    <li *ngFor="let dateRange of dateRangeList">
+                        {{dateRange}}
+                    </li>
+                </ul>
+            </span>
+        </p>
+        <p>
+            <span class="previewLabel">{{ translationMap['DAY_OF_WEEK'] | translate }}:</span>
+            <span class="previewValue">{{ dowSelected }}</span>
+        </p>
+        <p>
+            <span class="previewLabel">{{ translationMap['OVERRIDE_OTHER_POLICIES'] | translate }}:</span>
+            <span class="previewValue">
+                {{ translationMap[previewStepData.fields.overridePolicies ? 'SELECTED' : 'NOT_SELECTED'] | translate}}
+            </span>
+        </p>
+    </div>
+</div>

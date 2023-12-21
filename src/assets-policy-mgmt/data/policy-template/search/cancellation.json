@@ -1,0 +1,479 @@
+{
+  "totalRecordCount": 30,
+  "policyTemplates": [
+    {
+      "name": "plkoipl",
+      "status": "ACTIVE",
+      "isEnterpriseLevel": false,
+      "hotelCode": 6938,
+      "id": 1228891,
+      "lastModified": "2020-06-02",
+      "policySetting": {
+        "cancellationRule": {
+          "chargeType": "SAME_DAY",
+          "priorHours": 21
+        },
+        "otaSetting": {
+          "otaChargeAmount": 0,
+          "otaChargeNights": 0,
+          "otaChargePercentage": 0,
+          "otaChargeType": "FLAT"
+        }
+      }
+    },
+    {
+      "name": "poiuy",
+      "status": "ACTIVE",
+      "isEnterpriseLevel": false,
+      "hotelCode": 6938,
+      "id": 1228890,
+      "lastModified": "2020-06-02",
+      "policySetting": {
+        "cancellationRule": {
+          "chargeType": "SAME_DAY",
+          "priorHours": 22
+        }
+      }
+    },
+    {
+      "name": "Test PK",
+      "status": "ACTIVE",
+      "isEnterpriseLevel": false,
+      "hotelCode": 6938,
+      "id": 1228887,
+      "lastModified": "2020-06-02",
+      "policySetting": {
+        "cancellationRule": {
+          "chargeType": "SAME_DAY",
+          "priorHours": 23
+        }
+      }
+    },
+    {
+      "name": "12233444",
+      "status": "ACTIVE",
+      "isEnterpriseLevel": false,
+      "hotelCode": 6938,
+      "id": 1228884,
+      "lastModified": "2020-06-02",
+      "policySetting": {
+        "cancellationRule": {
+          "chargeType": "SAME_DAY",
+          "priorHours": 2
+        }
+      }
+    },
+    {
+      "name": "njdjsjdfhj",
+      "status": "ACTIVE",
+      "isEnterpriseLevel": false,
+      "hotelCode": 6938,
+      "id": 1228780,
+      "lastModified": "2020-05-29",
+      "policySetting": {
+        "cancellationRule": {
+          "chargeType": "SAME_DAY",
+          "priorHours": 1
+        }
+      }
+    },
+    {
+      "name": "iwqueiueiwqueiwe",
+      "status": "ACTIVE",
+      "isEnterpriseLevel": false,
+      "hotelCode": 6938,
+      "id": 1228779,
+      "lastModified": "2020-05-29",
+      "policySetting": {
+        "cancellationRule": {
+          "chargeType": "SAME_DAY",
+          "priorHours": 23
+        }
+      }
+    },
+    {
+      "name": "ncvmvc",
+      "status": "ACTIVE",
+      "isEnterpriseLevel": false,
+      "hotelCode": 6938,
+      "id": 1228775,
+      "lastModified": "2020-05-29",
+      "policySetting": {
+        "cancellationRule": {
+          "chargeType": "SAME_DAY",
+          "priorHours": 1
+        }
+      }
+    },
+    {
+      "name": "mnmxvnmcx",
+      "status": "ACTIVE",
+      "isEnterpriseLevel": false,
+      "hotelCode": 6938,
+      "id": 1228755,
+      "lastModified": "2020-05-29",
+      "policySetting": {
+        "cancellationRule": {
+          "chargeType": "SAME_DAY",
+          "priorHours": 1
+        },
+        "otaSetting": {
+          "otaChargeType": "FLAT",
+          "otaChargeNights": 0,
+          "otaChargeAmount": 50,
+          "otaChargePercentage": 0
+        }
+      }
+    },
+    {
+      "name": "& df",
+      "status": "ACTIVE",
+      "isEnterpriseLevel": false,
+      "hotelCode": 6938,
+      "id": 1228753,
+      "lastModified": "2020-05-29",
+      "policySetting": {
+        "cancellationRule": {
+          "chargeType": "SAME_DAY",
+          "priorHours": 1
+        },
+        "otaSetting": {
+          "otaChargeType": "FLAT",
+          "otaChargeNights": 0,
+          "otaChargeAmount": 50,
+          "otaChargePercentage": 0
+        }
+      }
+    },
+    {
+      "name": "vxbcnvbncx",
+      "status": "ACTIVE",
+      "isEnterpriseLevel": false,
+      "hotelCode": 6938,
+      "id": 1228733,
+      "lastModified": "2020-05-28",
+      "policySetting": {
+        "cancellationRule": {
+          "chargeType": "SAME_DAY",
+          "priorHours": 1
+        },
+        "otaSetting": {
+          "otaChargeType": "PERCENTAGE",
+          "otaChargeNights": 0,
+          "otaChargeAmount": 0,
+          "otaChargePercentage": 10
+        }
+      }
+    },
+    {
+      "name": "cvcnmv",
+      "status": "ACTIVE",
+      "isEnterpriseLevel": false,
+      "hotelCode": 6938,
+      "id": 1228727,
+      "lastModified": "2020-05-28",
+      "policySetting": {
+        "cancellationRule": {
+          "chargeType": "SAME_DAY",
+          "priorHours": 1
+        },
+        "otaSetting": {
+          "otaChargeType": "PERCENTAGE",
+          "otaChargeNights": 0,
+          "otaChargeAmount": 0,
+          "otaChargePercentage": 10
+        }
+      }
+    },
+    {
+      "name": "$ df",
+      "status": "ACTIVE",
+      "isEnterpriseLevel": false,
+      "hotelCode": 6938,
+      "id": 1228722,
+      "lastModified": "2020-05-28",
+      "policySetting": {
+        "cancellationRule": {
+          "chargeType": "SAME_DAY",
+          "priorHours": 2
+        },
+        "otaSetting": {
+          "otaChargeType": "NUMBER_OF_NIGHTS",
+          "otaChargeNights": 5,
+          "otaChargeAmount": 0,
+          "otaChargePercentage": 0
+        }
+      }
+    },
+    {
+      "name": "mnvmnxmcv",
+      "status": "ACTIVE",
+      "isEnterpriseLevel": false,
+      "hotelCode": 6938,
+      "id": 1228717,
+      "lastModified": "2020-05-28",
+      "policySetting": {
+        "cancellationRule": {
+          "chargeType": "SAME_DAY",
+          "priorHours": 2
+        },
+        "otaSetting": {
+          "otaChargeType": "NUMBER_OF_NIGHTS",
+          "otaChargeNights": 5,
+          "otaChargeAmount": 0,
+          "otaChargePercentage": 0
+        }
+      }
+    },
+    {
+      "name": "otiotiy",
+      "status": "ACTIVE",
+      "isEnterpriseLevel": false,
+      "hotelCode": 6938,
+      "id": 1228715,
+      "lastModified": "2020-05-28",
+      "policySetting": {
+        "cancellationRule": {
+          "chargeType": "SAME_DAY",
+          "priorHours": 1
+        }
+      }
+    },
+    {
+      "name": "nkgjdfkgjkdgj",
+      "status": "ACTIVE",
+      "isEnterpriseLevel": false,
+      "hotelCode": 6938,
+      "id": 1228711,
+      "lastModified": "2020-05-28",
+      "policySetting": {
+        "cancellationRule": {
+          "chargeType": "SAME_DAY",
+          "priorHours": 1
+        }
+      }
+    },
+    {
+      "name": "55 df",
+      "status": "ACTIVE",
+      "isEnterpriseLevel": false,
+      "hotelCode": 6938,
+      "id": 1228710,
+      "lastModified": "2020-05-28",
+      "policySetting": {
+        "cancellationRule": {
+          "chargeType": "SAME_DAY",
+          "priorHours": 2
+        }
+      }
+    },
+    {
+      "name": "v,cv,cx",
+      "status": "ACTIVE",
+      "isEnterpriseLevel": false,
+      "hotelCode": 6938,
+      "id": 1228709,
+      "lastModified": "2020-05-28",
+      "policySetting": {
+        "cancellationRule": {
+          "chargeType": "SAME_DAY",
+          "priorHours": 1
+        }
+      }
+    },
+    {
+      "name": "mnmcnvm",
+      "status": "ACTIVE",
+      "isEnterpriseLevel": false,
+      "hotelCode": 6938,
+      "id": 1228693,
+      "lastModified": "2020-05-28",
+      "policySetting": {
+        "cancellationRule": {
+          "chargeType": "SAME_DAY",
+          "priorHours": 1
+        }
+      }
+    },
+    {
+      "name": "nmnmn",
+      "status": "ACTIVE",
+      "isEnterpriseLevel": false,
+      "hotelCode": 6938,
+      "id": 1228692,
+      "lastModified": "2020-05-28",
+      "policySetting": {
+        "cancellationRule": {
+          "chargeType": "SAME_DAY",
+          "priorHours": 1
+        }
+      }
+    },
+    {
+      "name": "cmxnmnc",
+      "status": "ACTIVE",
+      "isEnterpriseLevel": false,
+      "hotelCode": 6938,
+      "id": 1228687,
+      "lastModified": "2020-05-27",
+      "policySetting": {
+        "cancellationRule": {
+          "chargeType": "SAME_DAY",
+          "priorHours": 1
+        }
+      }
+    },
+    {
+      "name": "1df",
+      "status": "ACTIVE",
+      "isEnterpriseLevel": false,
+      "hotelCode": 6938,
+      "id": 1228581,
+      "lastModified": "2020-05-25",
+      "policySetting": {
+        "cancellationRule": {
+          "chargeType": "SAME_DAY",
+          "priorHours": 3
+        }
+      }
+    },
+    {
+      "name": "msmnmf",
+      "status": "ACTIVE",
+      "isEnterpriseLevel": false,
+      "hotelCode": 6938,
+      "id": 1228580,
+      "lastModified": "2020-05-25",
+      "policySetting": {
+        "cancellationRule": {
+          "chargeType": "SAME_DAY",
+          "priorHours": 8
+        }
+      }
+    },
+    {
+      "name": "plkoipl",
+      "status": "ACTIVE",
+      "isEnterpriseLevel": false,
+      "hotelCode": 6938,
+      "id": 1228891,
+      "lastModified": "2020-06-02",
+      "policySetting": {
+        "cancellationRule": {
+          "chargeType": "SAME_DAY",
+          "priorHours": 21
+        },
+        "otaSetting": {
+          "otaChargeAmount": 0,
+          "otaChargeNights": 0,
+          "otaChargePercentage": 0,
+          "otaChargeType": "FLAT"
+        }
+      }
+    },
+    {
+      "name": "poiuy",
+      "status": "ACTIVE",
+      "isEnterpriseLevel": false,
+      "hotelCode": 6938,
+      "id": 1228890,
+      "lastModified": "2020-06-02",
+      "policySetting": {
+        "cancellationRule": {
+          "chargeType": "SAME_DAY",
+          "priorHours": 22
+        }
+      }
+    },
+    {
+      "name": "Test PK",
+      "status": "ACTIVE",
+      "isEnterpriseLevel": false,
+      "hotelCode": 6938,
+      "id": 1228887,
+      "lastModified": "2020-06-02",
+      "policySetting": {
+        "cancellationRule": {
+          "chargeType": "SAME_DAY",
+          "priorHours": 23
+        }
+      }
+    },
+    {
+      "name": "12233444",
+      "status": "ACTIVE",
+      "isEnterpriseLevel": false,
+      "hotelCode": 6938,
+      "id": 1228884,
+      "lastModified": "2020-06-02",
+      "policySetting": {
+        "cancellationRule": {
+          "chargeType": "SAME_DAY",
+          "priorHours": 2
+        }
+      }
+    },
+    {
+      "name": "njdjsjdfhj",
+      "status": "ACTIVE",
+      "isEnterpriseLevel": false,
+      "hotelCode": 6938,
+      "id": 1228780,
+      "lastModified": "2020-05-29",
+      "policySetting": {
+        "cancellationRule": {
+          "chargeType": "SAME_DAY",
+          "priorHours": 1
+        }
+      }
+    },
+    {
+      "name": "iwqueiueiwqueiwe",
+      "status": "ACTIVE",
+      "isEnterpriseLevel": false,
+      "hotelCode": 6938,
+      "id": 1228779,
+      "lastModified": "2020-05-29",
+      "policySetting": {
+        "cancellationRule": {
+          "chargeType": "SAME_DAY",
+          "priorHours": 23
+        }
+      }
+    },
+    {
+      "name": "ncvmvc",
+      "status": "ACTIVE",
+      "isEnterpriseLevel": false,
+      "hotelCode": 6938,
+      "id": 1228775,
+      "lastModified": "2020-05-29",
+      "policySetting": {
+        "cancellationRule": {
+          "chargeType": "SAME_DAY",
+          "priorHours": 1
+        }
+      }
+    },
+    {
+      "name": "mnmxvnmcx",
+      "status": "ACTIVE",
+      "isEnterpriseLevel": false,
+      "hotelCode": 6938,
+      "id": 1228755,
+      "lastModified": "2020-05-29",
+      "policySetting": {
+        "cancellationRule": {
+          "chargeType": "SAME_DAY",
+          "priorHours": 1
+        },
+        "otaSetting": {
+          "otaChargeType": "FLAT",
+          "otaChargeNights": 0,
+          "otaChargeAmount": 50,
+          "otaChargePercentage": 0
+        }
+      }
+    }
+  ]
+}

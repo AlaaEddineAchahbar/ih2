@@ -1,0 +1,121 @@
+@import '~tc-styles/dist/scss/helpers/_colors.scss';
+
+.policy-template-detail-container {
+    &__cancellation-policy-option-container {
+        display: flex;
+        fieldset {
+            display: inline-block;
+        }
+        input{
+            width: 50px;
+            display: inline;
+        }
+        .tc-dropdown {
+            width: 60%;
+        }
+        label{
+            vertical-align: middle;
+        }
+        .radio-button-content {
+            -webkit-box-flex: 0;
+            margin-top: 5px;
+            -ms-flex: 0 0 19.333333%;
+            flex: 1 0 12.333333%;
+            max-width: 280px;
+            width: 25%;
+            padding: 0px;
+            &.tc-dropdown {
+                width: 60%;
+            }
+        }
+        .advance-notice-container{
+            max-width: none;
+        }
+    }
+
+    &__btn-radio {
+        section .tc-dropdown {
+            width: 42%;
+        }
+        .tc-radio label {
+            padding-left: 25px;
+            padding-right: 15px;
+        }
+        .radio.tc-radio {
+            margin-top: 6px;
+            display: inline-block;
+            padding: 0px;
+        }
+        .radio.tc-radio.cancellation-notice-options , .radio.tc-radio.ota-cancellation-options {
+            width: 280px;
+        }
+        .ota-cancellation-notification, .free-cancellation {
+            margin-top: 5px;
+            margin-right: 5px;
+        }
+        [class*="tc-icon"].icon-lg {
+            font-size: 21px;
+            top: -8px;
+            position: relative;
+        }
+        .tc-popover ngb-popover-window {
+            padding: 5px;
+            top: 0px;
+            left: -84px;
+            min-width: 250px;
+        }
+    }
+}
+.template-panel-content {
+    padding-left: 15px;
+    background: $white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.deposit-rule tc-dropdown {
+    padding-left: 0;
+}
+
+.label-spacing {
+    margin-left: 5px;
+}
+
+.ota-info {
+    margin-left: 5px;
+    margin-bottom: 18px;
+}
+
+.late-arrival-container {
+	[class*="tc-icon"].icon-lg {
+		font-size: 21px;
+		top: -8px;
+		position: relative;
+	}
+	.tc-popover ngb-popover-window {
+		padding: 5px;
+		top: 0px;
+		left: -84px;
+		min-width: 150px;
+	}
+	.late-arrival-time {
+		margin-top: 5px;
+	}
+	.late-arrival-list {
+        margin-top: 5px;
+		.tc-dropdown {
+			width: 20%;
+		}
+		.hold-until {
+			padding-right: 7px;
+		}
+	}    
+}
+.enabledInstallmentContainer [class*=tc-icon].icon-lg {
+    font-size: 21px;
+    margin-top: -17px;
+    margin-left: 10px;
+}
+
+.tc-popover ngb-popover-window{
+    padding: 5px;
+}

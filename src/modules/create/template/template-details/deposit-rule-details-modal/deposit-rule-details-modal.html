@@ -1,0 +1,60 @@
+<ng-template #depositRuleDetailsModal let-c="close" let-d="dismiss" class="tc-normal-modal">
+  <div class="modal-header tc-modal__header">
+    <h1 class="modal-title tc-modal__header__title">{{ translationMap.DEPOSIT_RULE_CONFIGURATION_DETAILS | translate }}
+    </h1>
+    <button type="button" class="close" aria-label="Close" (click)="d('Cross click');close()">X</button>
+  </div>
+  <div class="modal-body">
+    <div class="label-name">
+      <label class="label-margin" for="name">{{ translationMap.DEPOSIT_CONFIGURATION_NAME | translate }}: </label>
+      <span>{{depositRuleDetails.name}}</span>
+    </div>
+    <div class="table-responsive tc-table--responsive" *ngIf="depositRuleDetails.ruleInfo.length > 0 ">
+      <table class="table">
+        <thead>
+          <th>{{ translationMap.CHARGE_DATE | translate }}</th>
+          <th>{{ translationMap.ACTION | translate }}</th>
+          <th>{{ translationMap.TYPE | translate }}</th>
+          <th>{{ translationMap.AMOUNT | translate }}</th>
+          <th>{{ translationMap.ENHANCEMENT_AND_OPTION_CHARGES | translate }}</th>
+        </thead>
+        <tbody>
+          <tr *ngFor="let ruleInfoData of depositRuleDetails.ruleInfo">
+            <td>
+              {{ translationMap[ruleInfoData.chargeDate] | translate}}
+            </td>
+            <td>
+              {{ translationMap[ruleInfoData.action] | translate }}
+            </td>
+            <td>
+              {{ translationMap[ruleInfoData.chargeType] | translate}}
+            </td>
+            <td>
+              <span *ngIf="ruleInfoData.chargeType === 'ARRIVAL_DAY_CHARGE'">
+                --
+              </span>
+              <span *ngIf="ruleInfoData.chargeType === 'PERCENTAGE'">
+                {{ruleInfoData.chargePercentage}}
+              </span>
+              <span *ngIf="ruleInfoData.chargeType === 'FLAT'">
+                {{ruleInfoData.chargeAmount}}
+              </span>
+            </td>
+            <td>
+              <span *ngIf="ruleInfoData.percentOnEnhancement !== ''">
+                {{ruleInfoData.percentOnEnhancement}}%
+              </span>
+              <span *ngIf="ruleInfoData.percentOnEnhancement ===''">
+                0%
+              </span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="tc-error-box__error" *ngIf="depositRuleDetails.ruleInfo.length === 0">
+      <span class="p-0">{{ translationMap.PAYMENT_DEPOSIT_RULE_DETAIL_NOT_CREATED | translate }}
+      </span>
+    </div>
+  </div>
+</ng-template>
